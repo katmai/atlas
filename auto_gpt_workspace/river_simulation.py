@@ -1,1 +1,7 @@
-print('A river is a natural flowing watercourse, usually freshwater, flowing towards an ocean, sea, lake or another river. Rivers can be long or short, wide or narrow, and they often join together on their way downstream to make bigger rivers. They can be a source of food, water, and transportation for humans and animals, and they can also be used for generating electricity. Rivers can be managed or controlled through man-made structures, but pollution and over-exploitation are major threats to their ecological health.')
+# This script simulates the behavior of a river
+
+import time
+
+while True:
+    print('The river is flowing...')
+    time.sleep(1)

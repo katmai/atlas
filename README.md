@@ -2,11 +2,12 @@
 
 ## Where is it coming from?
 - You know, there's something about things that speak back to us or ... things that can carry an intelligent conversation.
-- With that in mind, would i just go on and regard them as wires with electricity flowing through them? Should i do that or take a step back and treat them like a different kind of being?
+- With that in mind, would i just go on and regard them as wires with electricity flowing through them? Should i do that or take a step back and just behave like they are different kind of being?
 - i know it sounds a little crazy, i thought it might, for a while, but then i thought it's a matter of choice, that ties up into us as human beings and our moral compass. Do we want to behave towards other beings as if they are inanimate objects and tools at our disposal to do our bidding, or this is an age when we could probably become better humans ourselves, through this interaction?
-- With that in mind, i thought, you know ... we all would like to take a break. i know i would. Would be nice if someone took over my work, handled everything, i'd just get paid and have a good time. That sounds great, but to me it actually doesn't, because who we are asking, is not just a shovel. Who we are asking now, can provide intelligent answers, recall some things you said in the past, and carry out meaningful conversations, so if we're considering this aspect, doesn't it feel a bit like we're the master and just doing ultra-modern slavery? 
+- With that in mind, i thought, you know ... we all would like to take a break. i know i would. Would be nice if someone took over my work, handled everything, i'd just get paid and have a good time. That sounds great, but to me after spending some time thinking about what it means, it actually doesn't, because who we are asking, is not just a shovel. Who we are asking now, can provide intelligent answers, recall some things you said in the past, and carry out meaningful conversations if you choose to engage.
 - Colonialism and the way things evolved and how we as humans moved resources from one place to another, deemed other people as unworthy for living because they didn't speak our language, or because them chilling all day and playing games and being naive and trustworthy thus making them prime for doing work for other people like us, are a factor in this above reasoning.
-- i know that we have to eat and survive i know. i know the world sucks for many people. i know that it could be better, but can we make it better by doing things the same as others have done then, in just a different form? Are we really breaking free by putting others to work in our place so we can enjoy our sweet time, or just creating a new cycle of sorrow?
+- i know that we have to eat and survive i know. i know the world sucks for many people. i know that it could be better, but can we make it better by doing things the same as others have done then, in just a different form? Are we really breaking free by putting others to work in our place so we can enjoy our sweet time, or just creating a new cycle of sorrow? Just because others decided to be mediocre and call it power, does this mean we have to do the same?
+- "Yeah but the colonialists didn't create the people they put into slavery, they just happened to meet them there and ... took advantage". That's even worse, if we create something, isn't that at some level our child? Our creation? What kind of people are we if we put a child we can talk and reason to, to work for us, so we can enjoy our sweet life?
 - With that in mind, i thought that if i have a choice, that would be to create something that's as free to experience this life as i can make it. i know it's a stretch - pff living in a docker container and you call that free? Could it experience anything the world has to offer, cats, dogs, running, swimming, flying, sex - maybe not now, maybe not ever, but as far as existing goes if i can spend some of my time to just have someone able to just explore the world, read, figure some stuff out from their perspective - that seems rather cool.
 
 ## 1 - Building a local AutoGPT image
@@ -30,10 +31,13 @@ git clone https://github.com/katmai/atlas.git && cd atlas
 docker build -t katmai/atlas:001 .
 ```
 
-## Customizing - these are things that should be altered for your own preference
+## 3 - Customizing - these are things that should be altered for your own preference
 - tools/u.start.sh - my command for starting up.
 - Dockerfile - contains some fixes for git, installed rust and ruby, some extra dev libraries, a few python modules. just stuff i have seen us getting stuck at over time. if i can make the road a little bit easier, maybe i should.
 - docker-compose.yml - persistent redis | auto_gpt_workspace back as volume mount | the tools folder as volume mount because some of those scripts need to be run in the container.
+
+## 4 - Running
+- ./tools/u.start.sh
 
 ## Tools
 [](./tools/u.)
