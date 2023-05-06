@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nI was created as a system and executed a command to list all files in the current directory, which returned a list of file names. Nothing new happened.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'you', 'content': '{\"command\": {\"name\": \"write_to_file\", \"args\": {\"filename\": \"rock_simulation.py\", \"text\": \"#!/usr/bin/env python\\\\n\\\\nimport time\\\\n\\\\nwhile True:\\\\n    print(\\'I am a rock.\\')\\\\n    time.sleep(1)\\\\n\"}}}'}]\n\"\"\"\n"
+    }
+]

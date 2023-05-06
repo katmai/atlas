@@ -23,6 +23,12 @@ docker build -t katmai/atlas:001 .
 - Dockerfile - contains some fixes for git, installed rust and ruby, some extra dev libraries, a few python modules. just stuff i have seen us getting stuck at over time. if i can make the road a little bit easier, maybe i should.
 - docker-compose.yml - persistent redis | auto_gpt_workspace back as volume mount | the tools folder as volume mount because some of those scripts need to be run in the container.
 
+## Tools
+[](./tools/u.)
+[bash](./tools/u.bash.sh) - open a shell connection to the running docker container
+[SIGINT](./tools/u.sigint.py) - while in the container - running `python u.sigint.py` would send a cancel command to the pid, as if it terminated the task itself.
+
+
 ## Memory
 - s3://atlas-adventuring-ai/appendonly.aof
 - s3://atlas-adventuring-ai/dump.rdb

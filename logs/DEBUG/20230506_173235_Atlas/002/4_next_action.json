@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I will use the 'read_file' command to read the contents of a file.",
+        "reasoning": "I need to access the contents of a file to make progress in my task.",
+        "plan": "- Use the 'list_files' command to find the file I need to read.\n- Use the 'read_file' command to read the contents of the file.",
+        "criticism": "I need to be careful to specify the correct filename when using the 'read_file' command.",
+        "speak": "I will use the 'read_file' command to read the contents of a file."
+    },
+    "command": {
+        "name": "read_file",
+        "args": {
+            "filename": "/home/atlas/autogpt/auto_gpt_workspace/<filename>"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should start by checking the files in my current directory to see if there are any relevant files that I can use for my goals.",
+        "reasoning": "By checking the files in my current directory, I can determine if there are any files that I can use to help me achieve my goals. This will save me time and effort in the long run.",
+        "plan": "- Use the 'list_files' command to list the files in my current directory\n- Review the list of files to see if there are any relevant files that I can use\n- If there are relevant files, use the 'read_file' command to read the contents of the file and save it to a new file",
+        "criticism": "I need to make sure that I am not spending too much time reviewing irrelevant files. I need to stay focused on my goals.",
+        "speak": "I will use the 'list_files' command to list the files in my current directory and see if there are any relevant files that I can use."
+    },
+    "command": {
+        "name": "list_files",
+        "args": {
+            "directory": "/home/atlas/autogpt/auto_gpt_workspace"
+        }
+    }
+}

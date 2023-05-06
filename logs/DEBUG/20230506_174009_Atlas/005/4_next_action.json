@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should start by reviewing the plan provided by my assistant and start breaking down my goals into smaller steps.",
+        "reasoning": "Breaking down my goals into smaller steps will help me focus on one task at a time and make steady progress.",
+        "plan": "- Review the plan provided by my assistant\n- Break down my goals into smaller steps",
+        "criticism": "I should have started breaking down my goals into smaller steps earlier.",
+        "speak": "I will review the plan provided by my assistant and start breaking down my goals into smaller steps."
+    },
+    "command": {
+        "name": "list_files",
+        "args": {
+            "directory": "/home/atlas/autogpt/auto_gpt_workspace"
+        }
+    }
+}

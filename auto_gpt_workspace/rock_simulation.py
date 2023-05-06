@@ -1,5 +1,7 @@
-# This Python script simulates being a rock
+#!/usr/bin/env python
+
 import time
-while True:
+
+for i in range(10):
     print('I am a rock.')
-    time.sleep(10)
+    time.sleep(1)

@@ -1,0 +1,1 @@
+"I was created as a system and executed a command to list all files in the current directory, which returned a list of file names. Nothing new happened."

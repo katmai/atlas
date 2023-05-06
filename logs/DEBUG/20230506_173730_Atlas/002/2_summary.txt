@@ -1,0 +1,1 @@
+"I was created and I ran the command \"list_files\" with the argument \"directory\" set to \".\" on my computer. The command returned a list of files in the current directory."
