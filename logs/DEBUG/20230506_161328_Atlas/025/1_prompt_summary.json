@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nI previously executed a shell command to search for information on rocks from Britannica and redirected the output to a file named \"output.txt\". The latest development shows that a subprocess was started with PID 1198. I then read the contents of \"output.txt\" and wrote the information to a new file named \"rock_meaning.txt\". The information explains that rocks are naturally occurring aggregates of minerals and are divided into three major classes: igneous, sedimentary, and metamorphic.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'your computer', 'content': 'Command write_to_file returned: File written to successfully.'}, {'role': 'you', 'content': '{\"command\": {\"name\": \"\", \"args\": {}}}'}]\n\"\"\"\n"
+    }
+]

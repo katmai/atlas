@@ -1,0 +1,1 @@
+"I used the command \"get_text_summary\" to search for the meaning of being a rock on the website \"https://www.learner.org/series/rocks-and-minerals/\" with the question \"What does it mean to be a rock?\". The text summary returned: The website provides a series of educational videos and resources about rocks and minerals, but does not directly answer the question."

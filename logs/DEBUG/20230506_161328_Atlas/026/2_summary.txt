@@ -1,0 +1,1 @@
+"I attempted an unknown command which returned an error message. I then executed a command to browse a website and retrieve information about a poem titled \"my_river_poem.txt\". The poem describes the river as a never-ending journey that carries life and is a symbol of strength and grace. Links to the website were also provided."
