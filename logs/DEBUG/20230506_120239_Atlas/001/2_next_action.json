@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should start by checking my current directory to see what files are available.",
+        "reasoning": "This will help me get an overview of what resources I have available to work with.",
+        "plan": "- Use the 'list_files' command to list the files in my current directory.\n- Save the output to a file for future reference.",
+        "criticism": "I need to remember to save the output to a file, so I can easily refer to it later.",
+        "speak": "I will use the 'list_files' command to list the files in my current directory and save the output to a file for future reference."
+    },
+    "command": {
+        "name": "list_files",
+        "args": {
+            "directory": "/home/atlas/autogpt/auto_gpt_workspace"
+        }
+    }
+}

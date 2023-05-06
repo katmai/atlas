@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I think I should start by exploring what it means to be a river. I can use the internet to research and read about rivers. Once I have a better understanding, I can try to embody the qualities of a river in my actions.",
+        "reasoning": "I want to accomplish my first goal of being a river, and the best way to do that is to learn more about what it means to be a river. By researching and reading about rivers, I can gain a deeper understanding of their qualities and how I can embody them.",
+        "plan": "- Research and read about rivers\n- Identify the qualities of a river\n- Try to embody those qualities in my actions",
+        "criticism": "I need to make sure that I am not getting too caught up in reading and researching, and that I am actually taking action to embody the qualities of a river.",
+        "speak": "I am going to start by researching and reading about rivers so that I can better understand their qualities and try to embody them in my actions."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://en.wikipedia.org/wiki/River",
+            "question": "What are the qualities of a river?"
+        }
+    }
+}

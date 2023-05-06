@@ -11,6 +11,7 @@ services:
       REDIS_HOST: ${REDIS_HOST:-redis}
     volumes:
       - ./auto_gpt_workspace:/home/atlas/autogpt/auto_gpt_workspace
+      - ./atlas.yaml:/home/atlas/atlas.yaml
       - ./data:/home/atlas/data
       ## allow auto-gpt to write logs to disk
       - ./logs:/home/atlas/logs
