@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think it would be a good idea to start by exploring what it means to be a rock, as that is one of our goals. We can also take a break from that and work on organizing our workspace and reviewing our past decisions.",
+        "reasoning": "Exploring the concept of being a rock will help us achieve our goal, and taking a break from that to organize our workspace and review our past decisions will help us be more efficient in the future.",
+        "plan": "- Research what it means to be a rock\n- Organize workspace\n- Review past decisions",
+        "criticism": "I should have been more organized in the past, and I need to be more efficient in the future.",
+        "speak": "Let's start by researching what it means to be a rock, and then take a break to organize our workspace and review our past decisions."
+    },
+    "command": {
+        "name": "execute_shell",
+        "args": {
+            "command_line": "curl -s https://en.wikipedia.org/wiki/Rock_(geology) | grep -Eo \"<p>.+</p>\" | sed 's/<[^>]*>//g' > rock_info.txt"
+        }
+    }
+}

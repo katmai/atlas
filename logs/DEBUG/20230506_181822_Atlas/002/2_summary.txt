@@ -1,0 +1,1 @@
+"I was created and I ran the command \"list_files\" in the current directory, which returned a list of file names."

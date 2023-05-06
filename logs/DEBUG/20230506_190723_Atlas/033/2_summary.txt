@@ -1,0 +1,1 @@
+"I attempted to browse a reputable news outlet for an article about the US debt ceiling, but received an error due to an invalid URL format. I then executed a shell command to ping google.com, but received an error that ping was not found. I then executed a shell command to curl google.com, which returned a HTML document indicating that the website has moved."

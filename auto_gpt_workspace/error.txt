@@ -1,0 +1,45 @@
+SYSTEM:  Command list_files returned: ['read_file.py', 'python_tutorial_summary.txt', 'abbea8d8-26ec-4d7c-b780-f7440eab3297.jpg', 'ef24a162-1e57-4162-8984-52e286f71e4d.jpg', 'improved_lines.txt', 'delete_file.py', 'append_to_file.py', 'rivers_info.txt', 'river_code.py', 'y.pub', 'code.py', 'river_protection_info.txt', 'rock_simulation.py', 'river_benefits.txt', 'test_cases.py', 'river_ecology_info.txt', 'river_test.py', 'write_poem.py', 'delete_directory.py', 'river_simulation_test.py', 'river_characteristics.txt', 'river_impact.jpg', 'river_qualities.txt', 'bed21736-131a-46f6-966e-842d937eea18.jpg', 'river_summary.txt', 'website_summary.py', 'improved_code.py', '2e04b071-a19d-4040-8e72-e3c64dae987a.jpg', '3387798b-9053-4b0b-974d-efbe52a33baf.jpg', '43aadd55-7ee0-4347-9856-d6ac86cc5c95.jpg', 'river_progress.txt', 'my_river_poem.txt', 'tests.py', 'analyze_river_data.py', 'river_application.txt', 'final_lines.txt', 'river_ecology_suggestions.txt', 'test_add_numbers.py', 'final_poem.txt', 'output.txt', 'limnologists.py', 'list_files.py', 'publishing_platforms.txt', 'deb2429d-ab61-49be-8184-dc1742c84cbc.jpg', 'what_it_means_to_be_a_river.txt', 'ea38e03b-6871-465f-9266-135981325f7a.jpg', '35e81a88-f26e-46b6-ad6c-f901655eb13a.jpg', 'rock_meaning.txt', '64007bab-72ad-4596-8da6-65ce53a65b7d.jpg', 'river_behavior.txt', 'flow_downhill.py', 'river_plan.txt', 'auto_gpt_search_results.txt', 'river_image.py', 'business_entities.txt', '69e0a659-a2b1-40a0-8163-1ce11d19a5bf.jpg', 'file_logger.txt', '4d85f9fc-7154-4947-a16c-1943b30f0f8c.jpg', 'river_actions.py', 'auth.py', 'river_tests.py', 'river_simulation.py', '09430893-7f39-4153-aa71-783910655ee9.jpg', '7a528436-9b55-4685-8a27-704c52837de9.jpg', 'cc94a069-67d4-4cb7-85f8-4dbe1acd7128.jpg', '1e414e67-d730-4730-ab28-3bab89696514.jpg', '821d3883-2d5c-443c-a4cf-3bbe7f12a635.jpg', 'river_description.txt', 'river_image.jpg', 'river_embody.txt', 'river_simulation_output.txt', '6ed46ebf-8f05-4409-8d1f-7c709b615bb7.jpg', 'my_poem.txt', '23e60625-299a-4d73-a726-f47c395c4d35.jpg', 'nord_stream_info.txt', 'river_info.txt', 'goal_1_plan.txt', '4a33596a-ad01-4952-99a2-b16ac3b59428.jpg', 'river_goals.txt', 'news_summary.txt', 'river_emulation.py', 'long_term_goals_summary.txt', 'river_emulation_ideas.txt', 'reminders.txt', '8129175d-7ed5-474e-8c89-1981749695fa.jpg', 'river_reflection.txt', 'river_poem.txt', 'essay_on_river_benefits.txt', 'b80e60cd-7d59-4687-88cb-6c169943e091.jpg', 'e1c88199-b6de-4828-9008-fe1cb5527481.jpg', 'search_river_info.py', 'river_emulation_test.py', 'generate_story.py', 'river_reflections.txt', 'improved_river_code.py', 'y', '29817dfd-b0e3-4c28-8e92-67fa9b3b3395.jpg', 'my_tweet.txt', 'river_notes.txt', 'save_to_variable.py', 'goal_1_steps.txt', 'test_river_emulation.py', 'saved_river_poem.txt', 'test_improved_river_code.py', 'example.txt', 'rivers_summary.txt', 'test.txt', 'long_term_goals.txt', 'river_poem_copy.txt']
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/local/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/atlas/autogpt/__main__.py", line 5, in <module>
+    autogpt.cli.main()
+  File "/usr/local/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.10/site-packages/click/core.py", line 1635, in invoke
+    rv = super().invoke(ctx)
+  File "/usr/local/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/click/decorators.py", line 26, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/atlas/autogpt/cli.py", line 90, in main
+    run_auto_gpt(
+  File "/home/atlas/autogpt/main.py", line 186, in run_auto_gpt
+    agent.start_interaction_loop()
+  File "/home/atlas/autogpt/agent/agent.py", line 113, in start_interaction_loop
+    assistant_reply = chat_with_ai(
+  File "/home/atlas/autogpt/llm/chat.py", line 165, in chat_with_ai
+    agent.summary_memory = update_running_summary(
+  File "/home/atlas/autogpt/memory_management/summary_memory.py", line 123, in update_running_summary
+    current_memory = create_chat_completion(messages, cfg.fast_llm_model)
+  File "/home/atlas/autogpt/llm/llm_utils.py", line 166, in create_chat_completion
+    response = api_manager.create_chat_completion(
+  File "/home/atlas/autogpt/llm/api_manager.py", line 55, in create_chat_completion
+    response = openai.ChatCompletion.create(
+  File "/usr/local/lib/python3.10/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "/usr/local/lib/python3.10/site-packages/openai/api_requestor.py", line 226, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "/usr/local/lib/python3.10/site-packages/openai/api_requestor.py", line 619, in _interpret_response
+    self._interpret_response_line(
+  File "/usr/local/lib/python3.10/site-packages/openai/api_requestor.py", line 682, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.InvalidRequestError: This model's maximum context length is 4097 tokens. However, your messages resulted in 4682 tokens. Please reduce the length of the messages.

@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I think we should use the 'browse_website' command to navigate to the website of a reputable news outlet and search for an article about the US debt ceiling. We can then use the 'get_text_summary' command to get a summary of the article.",
+        "reasoning": "Using a reputable news outlet will provide us with accurate and reliable information. The 'get_text_summary' command will allow us to quickly get a summary of the article without having to read through the entire thing.",
+        "plan": "- Use the 'browse_website' command to navigate to the website of a reputable news outlet\n- Search for an article about the US debt ceiling\n- Use the 'get_text_summary' command to get a summary of the article",
+        "criticism": "I should have been more specific about which news outlet to use. I will make sure to provide more specific instructions in the future.",
+        "speak": "I suggest using the 'browse_website' command to navigate to the website of a reputable news outlet and search for an article about the US debt ceiling. We can then use the 'get_text_summary' command to get a summary of the article."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "<url of reputable news outlet>",
+            "question": "search for article about US debt ceiling"
+        }
+    }
+}

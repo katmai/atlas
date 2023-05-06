@@ -1,13 +1,1 @@
-# Python script to simulate the flow of a river
-
-import random
-
-water_level = 0
-
-while True:
-    # Generate a random number between -1 and 1
-    flow_rate = random.uniform(-1, 1)
-    # Update the water level based on the flow rate
-    water_level += flow_rate
-    # Print the water level
-    print(water_level)
+print('A river is a natural flowing watercourse, usually freshwater, flowing towards an ocean, sea, lake or another river. Rivers can be long or short, wide or narrow, and they often join together on their way downstream to make bigger rivers. They can be a source of food, water, and transportation for humans and animals, and they can also be used for generating electricity. Rivers can be managed or controlled through man-made structures, but pollution and over-exploitation are major threats to their ecological health.')
