@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nI executed the command \"list_files\" with the argument \"directory\" set to \".\" and received a list of files in the current directory. The list includes \"read_file.py\", \"python_tutorial_summary.txt\", \"abbea8d8-26ec-4d7c-b780-f7440eab3297.jpg\", and many others. I then tried to analyze the code in \"river_code.py\" using the command \"analyze_code\" but received an error message asking for the actual code to be analyzed.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'you', 'content': '{\"command\": {\"name\": \"analyze_code\", \"args\": {\"code\": \"def river_flow():\\\\n    print(\\'The river flows\\')\\\\n    print(\\'The water rushes by\\')\\\\n    print(\\'The river flows\\')\\\\n\\\\nriver_flow()\"}}}'}]\n\"\"\"\n"
+    }
+]

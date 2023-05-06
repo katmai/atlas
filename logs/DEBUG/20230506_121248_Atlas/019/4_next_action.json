@@ -1,0 +1,12 @@
+{
+    "thoughts": {
+        "text": "The repository could not be cloned because it was not found. We should double-check the URL to make sure it is correct and that we have permission to access the repository.",
+        "reasoning": "The repository could not be cloned because it was not found. There could be a few reasons for this, such as a typo in the URL or a lack of permission to access the repository. We should double-check the URL to make sure it is correct and that we have permission to access the repository.",
+        "plan": "- Double-check the URL\n- Check if we have permission to access the repository",
+        "criticism": "I need to make sure that we are using the correct URL for the repository and that we have the necessary permissions to access it.",
+        "speak": "The repository could not be cloned because it was not found. We should double-check the URL to make sure it is correct and that we have permission to access the repository."
+    },
+    "command": {
+        "name": "None"
+    }
+}

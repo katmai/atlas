@@ -28,8 +28,11 @@ RUN /bin/bash -l -c "gem install bundler twurl"
 RUN /bin/bash -l -c "echo 'source /usr/local/rvm/scripts/rvm' >> ~/.bashrc"
 RUN /bin/bash -l -c "rvm use 3.0.6"
 
-
 ### This is where we add things that we see it get stuck on, frequently, if our mission is to make the exploratory road easier
 RUN apt-get update \
     && apt-get install -y  apt-utils sudo git openssh-client sbcl cmake clisp unzip emacs man-db stockfish xz-utils zbarcam-gtk xvfb zbar-tools tesseract-ocr imagemagick strace eog vlc
+
+#WORKDIR /home/atlas
+#RUN wget -O ./plugins/Auto-GPT-SystemInfo.zip https://github.com/hdkiller/Auto-GPT-SystemInfo/archive/refs/heads/master.zip 
+
 # Unleash end
