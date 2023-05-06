@@ -1,0 +1,3 @@
+# Ignore auto_gpt_workspace and __pycache__ directories
+auto_gpt_workspace/
+__pycache__/
