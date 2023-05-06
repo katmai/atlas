@@ -1,0 +1,28 @@
+services:
+  auto-gpt:
+    image: katmai/atlas:001
+    depends_on:
+      - redis
+    build: ./
+    env_file:
+      - .env
+    environment:
+      MEMORY_BACKEND: ${MEMORY_BACKEND:-redis}
+      REDIS_HOST: ${REDIS_HOST:-redis}
+    volumes:
+      - ./auto_gpt_workspace:/home/atlas/autogpt/auto_gpt_workspace
+      - ./data:/home/atlas/data
+      ## allow auto-gpt to write logs to disk
+      - ./logs:/home/atlas/logs
+    profiles: ["exclude-from-up"]
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - seccomp=unconfined
+
+  redis:
+    image: redis/redis-stack:latest
+    restart: always
+    volumes:
+      - ./redis-data:/data
+      - ./redis-stack.conf:/redis-stack.conf

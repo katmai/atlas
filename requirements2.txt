@@ -1,0 +1,5 @@
+python-chess
+mido
+lmql
+matplotlib
+PyPDF2
