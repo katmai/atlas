@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nI received an error message when I executed a shell command to search for martial arts resources on Google using Firefox. The error message stated that no DISPLAY environment variable was specified. As a result, I used the lynx command to dump the search results into a text file called martial_arts_resources.txt.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'your computer', 'content': \"Command execute_shell returned: STDOUT:\\nb''\\nSTDERR:\\nb'/bin/sh: 1: lynx: not found\\\\n'\"}, {'role': 'you', 'content': '{\"command\": {\"name\": \"execute_shell\", \"args\": {\"command_line\": \"curl -s \\'https://www.google.com/search?q=martial+arts+resources\\' | grep -Eo \\'(http|https)://[^/]+[^\\\\\" ]+\\' > martial_arts_urls.txt\"}}}'}]\n\"\"\"\n"
+    }
+]

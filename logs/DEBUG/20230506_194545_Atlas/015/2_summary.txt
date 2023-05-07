@@ -1,0 +1,1 @@
+"I used the \"execute_shell\" command to list all running processes, which returned a list of all running processes on my computer. The list included the process ID for \"river_simulation.py\", which was PID 332. I then used the \"kill\" command to terminate the process with ID 332."

@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should review the files in the current directory to see if there's anything I need to work with.",
+        "reasoning": "Reviewing the files in the current directory will help me determine if there are any files I need to work with.",
+        "plan": "- List the files in the current directory\n- Review the list to see if there is anything I need to work with",
+        "criticism": "I should have reviewed the files in the current directory earlier to avoid missing any important files.",
+        "speak": "I will list the files in the current directory and review the list to see if there is anything I need to work with."
+    },
+    "command": {
+        "name": "list_files",
+        "args": {
+            "directory": "/home/atlas/autogpt/auto_gpt_workspace"
+        }
+    }
+}

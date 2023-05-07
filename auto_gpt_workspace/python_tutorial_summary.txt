@@ -1,1 +1,0 @@
-The tutorial and documentation section of the Python.org website includes documentation for Python's standard library, along with tutorials and guides that are available online.

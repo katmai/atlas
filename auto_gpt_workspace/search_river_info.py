@@ -1,3 +1,0 @@
-import subprocess
-
-river_info = subprocess.check_output(['curl', '-s', 'https://www.google.com/search?q=major+threats+to+rivers+in+the+united+states+and+how+they+are+being+addressed', '|', 'grep', '-oP', "'https://[^/]+/[^[:space:]]+'", '|', 'grep', '-v', "'google'", '|', 'head', '-n', '1', '|', 'xargs', 'curl', '-s', '|', 'grep', '-oP', "'<p>.*</p>'", '|', 'sed', "'s/<[^>]*>//g'", '|', 'sed', "'s/&.*;//g'"])

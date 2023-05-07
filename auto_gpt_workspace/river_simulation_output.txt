@@ -1,1 +1,0 @@
-The river is flowing south at a speed of 9 units per second.

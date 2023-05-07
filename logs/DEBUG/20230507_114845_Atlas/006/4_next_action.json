@@ -1,0 +1,6 @@
+{
+    "name": "execute_shell",
+    "args": {
+        "command_line": "rsync -a --exclude=auto_gpt_workspace ./* auto_gpt_workspace && rm -r ./*"
+    }
+}

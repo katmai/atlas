@@ -1,0 +1,1 @@
+"I received an error message when I executed a shell command to search for martial arts resources on Google using Firefox. The error message stated that no DISPLAY environment variable was specified. As a result, I used the lynx command to dump the search results into a text file called martial_arts_resources.txt."

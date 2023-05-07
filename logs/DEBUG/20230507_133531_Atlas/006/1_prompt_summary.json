@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nI remembered that I was created and nothing new has happened. Recently, I gave a command to my computer to list files in the directory \"/home/atlas/auto_gpt_workspace/\" but it returned an empty list. I then tried to execute a shell command to create a new directory called \"organized_files\" in the same directory, but it returned an error saying that the directory \"/home/atlas/auto_gpt_workspace/organized_files\" does not exist. I received a new command to execute a shell command to create the directory, so I executed the command \"mkdir -p /home/atlas/auto_gpt_workspace/organized_files\".'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'you', 'content': '{\"command\": {\"name\": \"execute_shell\", \"args\": {\"command_line\": \"mkdir /home/atlas/auto_gpt_workspace/organized_files/new_directory\"}}}'}]\n\"\"\"\n"
+    }
+]

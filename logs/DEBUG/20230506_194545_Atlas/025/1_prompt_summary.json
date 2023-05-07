@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nI used the \"execute_python_file\" command with the argument \"river_simulation.py\" to run the script. However, the command returned an error due to a keyboard interrupt in the script. The error message showed that the error was caused by a keyboard interrupt in line 9 of the script. My latest action was to send the command {\"command\": {\"name\": \"execute_python_file\", \"args\": {\"filename\": \"river_simulation.py\"}}}. I have just received a command {\"command\": {\"name\": \"execute_python_file\", \"args\": {\"filename\": \"river_simulation.py\"}}}.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\nNothing new happened.\n\"\"\"\n"
+    }
+]

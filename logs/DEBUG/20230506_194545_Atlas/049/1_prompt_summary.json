@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': \"This reminds you of these events from your past: \\nI executed the 'river_simulation.py' script and successfully used the 'write_to_file' command. Now, I received a command to read the same file, which returned a message stating that the code runs forever and there is an updated version of the script available. The updated version is located at '/home/atlas/autogpt/auto_gpt_workspace/river_simulation_2023-05-07.py'. I then executed the 'execute_python_file' command with the filename 'river_simulation.py'.\"}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'your computer', 'content': 'Command execute_python_file returned: Error: Terminated\\n'}, {'role': 'you', 'content': '{\"command\": {\"name\": \"read_file\", \"args\": {\"filename\": \"river_simulation.py\"}}}'}]\n\"\"\"\n"
+    }
+]

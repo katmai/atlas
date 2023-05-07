@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "The 'kill' command did not work because the process was not running. I will now use the 'execute_shell' command to check if the 'river_simulation.py' script is still running. ",
+        "reasoning": "The 'kill' command did not work because the process was not running. I will now use the 'execute_shell' command to check if the 'river_simulation.py' script is still running. ",
+        "plan": "- Use the 'execute_shell' command to check if the 'river_simulation.py' script is still running. ",
+        "criticism": "I should have included a time limit in the 'river_simulation.py' script to avoid it running indefinitely. I will remember to do this in the future. ",
+        "speak": "The 'kill' command did not work because the process was not running. I will now use the 'execute_shell' command to check if the 'river_simulation.py' script is still running. "
+    },
+    "command": {
+        "name": "execute_shell",
+        "args": {
+            "command_line": "pgrep -f 'python river_simulation.py'"
+        }
+    }
+}

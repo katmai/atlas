@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I should review the tasks that have been assigned to me and see which one I can work on next.",
+        "reasoning": "Reviewing the assigned tasks will help me prioritize and determine which task to work on next.",
+        "plan": "- Review the assigned tasks.\n- Determine which task to work on next based on priority and feasibility.",
+        "criticism": "",
+        "speak": "I should review the tasks that have been assigned to me and see which one I can work on next."
+    },
+    "command": {
+        "name": "read_file",
+        "args": {
+            "filename": "/home/atlas/autogpt/auto_gpt_workspace/assigned_tasks.txt"
+        }
+    }
+}
