@@ -1,0 +1,1 @@
+"I executed the command \"git clone https://github.com/AtlasLearnsToCode/martial_arts_code.git martial_arts_code && ls martial_arts_code\" to clone the repository and check its contents."

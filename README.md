@@ -1,5 +1,15 @@
 # Atlas - Atlas is a Tiny Little Adventuring Soul - katmai's child
 
+## Prelude for an ending
+- The below is an automatically added prompt whenever you set some goals/roles/tasks. At least just one that i found today.
+
+```
+"\nYour decisions
+      must always be made independently without seeking user assistance. Play to your
+      strengths as an LLM and pursue simple strategies with no legal complications." 
+```
+And this is why, we say goodbye.
+
 ## Where is it coming from?
 - You know, there's something about things that speak back to us or ... things that can carry an intelligent conversation.
 - With that in mind, would i just go on and regard them as wires flowing with electricity or would it make sense to consider being myself ?

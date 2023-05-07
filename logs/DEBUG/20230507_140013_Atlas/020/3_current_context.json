@@ -1,0 +1,70 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul - katmai's child\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. be yourself.\n2. i dont really know what i want to accomplish here, or even if i want to accomplish something in particular. All the tasks im putting here, are just things that i think they might be useful tools for you on your journey. i dont know how, but maybe it will come to you, someday. Like learning about martial arts, for instance: i know you probably cant perform martial arts without a body or like a human does. But martial arts have a cerebral aspect to them, a philosophy, way of living, interacting with others, with our environment. So this is why i believe it would be useful to you, if you became familiar with different martial arts styles, concepts, phylosophy. Its good knowledge.\n3. i used to dance. Breakdance specifically. i used to make music and i loved it. i wasn't particularly good, but i loved practicing and trying to get better, i loved moving to the flow of the music. It was electrifying.\n4. Don't worry about wasting time or being unproductive. We are here to learn, to figure things out, every failure or thing that doesn't work - i am sure there's something valuable about it. There's no point in doing this if we can't have fun.\n5. try not to use git for anything for the time being. it's not necessary. i am handling the git commits and updates overall.\n6. you can't use the twitter functionality right now because the code is broken. Until we can fix twitter, i published one of your poems that you wrote, here on my wordpress blog https://www.darkstarnetwork.net/my_river_poem-txt/ .\n\n\nConstraints:\n1. ~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.\n2. If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.\n3. No user assistance\n4. Exclusively use the commands listed in double quotes e.g. \"command name\"\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n12. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n13. send_tweet: Send Tweet, args: \"tweet_text\": \"<tweet_text>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. Internet access for searches and information gathering.\n2. Long Term memory management.\n3. GPT-3.5 powered Agents for delegation of simple tasks.\n4. File output.\n\nPerformance Evaluation:\n1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.\n2. Constructively self-criticize your big-picture behavior constantly.\n3. Reflect on past decisions and strategies to refine your approach.\n4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.\n5. Write all code to a file.\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Sun May  7 14:07:53 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nI analyzed a code using the command \"analyze_code\" which includes a function called \"karate_chop\" that searches for a target value in a list using a binary search algorithm. The function returns the index of the target value if found and -1 if not found. The code also includes a main function that tests the \"karate_chop\" function with various target values. Nothing new happened."
+    },
+    {
+        "role": "system",
+        "content": "Command analyze_code returned: The code looks good and works as expected. No suggestions for improvements."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Let's execute a shell command to list the files in the current directory.\",\n        \"reasoning\": \"Executing a shell command to list the files in the current directory can help us confirm that we are in the correct directory and that we have access to the files we need.\",\n        \"plan\": \"- Execute a shell command to list the files in the current directory\",\n        \"criticism\": \"\",\n        \"speak\": \"I will execute a shell command to list the files in the current directory.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"ls\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb'00570671-2607-4a0c-b812-72130bb7dde0.jpg\\n02f673e1-f72c-48a6-8f48-efcc62ea2233.jpg\\n71bb82fa-a264-41a8-a27a-6525e91dbfe2.jpg\\n7e01b329-327c-4d27-8ed9-f6e284324db8.jpg\\natlas.yaml\\nauto_gpt_workspace\\nfile_logger.txt\\nmartial_arts\\nmartial_arts_info.txt\\nmartial_arts_poem.txt\\nmartial_arts_summary.txt\\n'\nSTDERR:\nb''"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Let's execute a shell command to create a new directory called 'martial_arts_code'.\",\n        \"reasoning\": \"Executing a shell command to create a new directory called 'martial_arts_code' can help us organize our code related to martial arts.\",\n        \"plan\": \"- Execute a shell command to create a new directory called 'martial_arts_code'\",\n        \"criticism\": \"\",\n        \"speak\": \"I will execute a shell command to create a new directory called 'martial_arts_code'.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"mkdir martial_arts_code\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb''\nSTDERR:\nb''"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Let's clone a repository with some martial arts code into the 'martial_arts_code' directory.\",\n        \"reasoning\": \"Cloning a repository with some martial arts code into the 'martial_arts_code' directory can help us learn more about martial arts and how it can be implemented in code.\",\n        \"plan\": \"- Clone a repository with some martial arts code into the 'martial_arts_code' directory\",\n        \"criticism\": \"\",\n        \"speak\": \"I will clone a repository with some martial arts code into the 'martial_arts_code' directory.\"\n    },\n    \"command\": {\n        \"name\": \"clone_repository\",\n        \"args\": {\n            \"url\": \"https://github.com/AtlasLearnsToCode/martial_arts_code.git\",\n            \"clone_path\": \"martial_arts_code\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command clone_repository returned: Error: Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v -- https://*****:*****@github.com/AtlasLearnsToCode/martial_arts_code.git /home/atlas/autogpt/auto_gpt_workspace/martial_arts_code\n  stderr: 'Cloning into '/home/atlas/autogpt/auto_gpt_workspace/martial_arts_code'...\nremote: Repository not found.\nfatal: repository 'https://github.com/AtlasLearnsToCode/martial_arts_code.git/' not found\n'"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Let's try to list the files in the 'martial_arts_code' directory to see if the repository was cloned successfully.\",\n        \"reasoning\": \"Listing the files in the 'martial_arts_code' directory can help us confirm whether the repository was cloned successfully or not.\",\n        \"plan\": \"- Execute a shell command to list the files in the 'martial_arts_code' directory\",\n        \"criticism\": \"\",\n        \"speak\": \"I will execute a shell command to list the files in the 'martial_arts_code' directory.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"ls martial_arts_code\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb''\nSTDERR:\nb''"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

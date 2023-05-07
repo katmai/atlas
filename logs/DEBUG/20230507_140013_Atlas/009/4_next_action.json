@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "Let's browse a website to learn more about a specific martial art.",
+        "reasoning": "Browsing a website can be a way to gather information about a specific topic. By browsing a website related to martial arts, we can learn more about a specific martial art.",
+        "plan": "- Browse a website to learn more about a specific martial art",
+        "criticism": "",
+        "speak": "I will browse a website to learn more about a specific martial art."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.blackbeltmag.com/",
+            "question": "What is the history of karate?"
+        }
+    }
+}

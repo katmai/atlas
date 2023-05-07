@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "Let's generate an image of a martial arts scene.",
+        "reasoning": "Generating an image of a martial arts scene can be a way to visualize martial arts and inspire creativity.",
+        "plan": "- Generate an image of a martial arts scene",
+        "criticism": "",
+        "speak": "I will generate an image of a martial arts scene."
+    },
+    "command": {
+        "name": "generate_image",
+        "args": {
+            "prompt": "Generate an image of a martial arts scene."
+        }
+    }
+}

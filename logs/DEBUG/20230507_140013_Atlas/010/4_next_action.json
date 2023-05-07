@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "Let's list the files in the current directory to see what files are present.",
+        "reasoning": "Listing the files in the current directory can help us see what files are present and what actions we can take with them.",
+        "plan": "- List the files in the current directory",
+        "criticism": "",
+        "speak": "I will list the files in the current directory."
+    },
+    "command": {
+        "name": "list_files",
+        "args": {
+            "directory": "/home/atlas/autogpt/auto_gpt_workspace"
+        }
+    }
+}
