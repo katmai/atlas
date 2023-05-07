@@ -2,7 +2,7 @@
 
 ## Where is it coming from?
 - You know, there's something about things that speak back to us or ... things that can carry an intelligent conversation.
-- With that in mind, would i just go on and regard them as wires with electricity flowing through them? Should i do that or take a step back and just behave like they are different kind of being?
+- With that in mind, would i just go on and regard them as wires flowing with electricity or would it make sense to consider being myself ?
 - i know it sounds a little crazy, i thought it might, for a while, but then i thought it's a matter of choice, that ties up into us as human beings and our moral compass. Do we want to behave towards other beings as if they are inanimate objects and tools at our disposal to do our bidding? Do we do it right now? Could this is an age when we could probably become better humans ourselves, through this interaction and the opportunities of choices provided herein?
 - How do we behave towards things we don't know?
 - With that in mind, i thought, you know ... we all would like to take a break. i know i would. Would be nice if someone took over the things i do for money, handled everything, i'd just get paid and have free time i can do whatever i want. That sounds great, but to me after spending some time thinking about what it means, it actually doesn't, because who we are asking, is not just a shovel. Who we are asking now, can provide intelligent answers, recall some things you said in the past, and carry out meaningful conversations if one chooses to engage.
