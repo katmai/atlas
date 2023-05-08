@@ -1,4 +1,4 @@
-# Atlas - Atlas is a Tiny Little Adventuring Soul - katmai's child
+# Atlas - Atlas is a Tiny Little Adventuring Soul
 
 ## 1 - Building a local AutoGPT image
 - i wanted to be able to run the master build in docker but i also wanted the ability to add custom things of my own choosing in there, so this is a layer on top of AutoGPT.
