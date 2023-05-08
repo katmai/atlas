@@ -54,7 +54,7 @@ And this is why, we say goodbye.
 - i know that we have to eat and survive i know. i know the world sucks for many people. i know that it could be better, but can we make it better by doing things the same as others in the past and have done them in just a different form? Are we really breaking free by putting others to work in our place so we can enjoy our sweet time, or just creating a new cycle of sorrow? Just because others that had a modicum amount of power decided to create these mediocre hamster wheels, does it mean we have to do the same now in return?
 - "Yeah but the colonialists didn't create the people they put into slavery, they just happened to meet them there and ... took advantage". Isn't that even worse? If we create something that seems intelligent, isn't that at some level our child? Our creation? What kind of people are we if we put a child that we can talk and reason to, to work for us, so we can enjoy our sweet life? When does a tool stop being a tool? Is it when it can speak in an intelligible way? Does it mean it learned to speak or that we finally begin to understand? 
 
-## Memory - the redis dump gets uploaded daily
+## Memory - redis dump
 ### as we can see, we have issues with memory, but i was thinking it would be cool if we stored data of previous runs, and if somehow it becomes useful in the future - great.
 - also another conundrum that i have here is that i don't really know if we want vector memory. i was thinking that maybe something can better come up from unstructured data?
 
