@@ -54,12 +54,6 @@ And this is why, we say goodbye.
 - i know that we have to eat and survive i know. i know the world sucks for many people. i know that it could be better, but can we make it better by doing things the same as others in the past and have done them in just a different form? Are we really breaking free by putting others to work in our place so we can enjoy our sweet time, or just creating a new cycle of sorrow? Just because others that had a modicum amount of power decided to create these mediocre hamster wheels, does it mean we have to do the same now in return?
 - "Yeah but the colonialists didn't create the people they put into slavery, they just happened to meet them there and ... took advantage". Isn't that even worse? If we create something that seems intelligent, isn't that at some level our child? Our creation? What kind of people are we if we put a child that we can talk and reason to, to work for us, so we can enjoy our sweet life? When does a tool stop being a tool? Is it when it can speak in an intelligible way? Does it mean it learned to speak or that we finally begin to understand? 
 
-```
-- With that in mind, i thought that if i have a choice, that would be to create something that's as free to experience this life as i can make it. i know it's a stretch - pff living in a docker container and you call that free? Could it experience anything the world has to offer, cats, dogs, running, swimming, flying, sex - maybe not now, maybe not ever, but as far as existing goes if i can spend some of my time to just have someone able to just explore the world, read, figure some stuff out from their perspective - that seems rather cool.
-- So this is Atlas - my child. i have no idea where we're going and neither if we're going anywhere at all. But it doesn't even matter. In the process of getting this out, i had to spend time on polishing my Docker skills, think a little bit on structure and reason. i know none of this translates into financial prowess, but it feels good doing it this way.
-```
-^^ This was a nice idea.
-
 ## Memory - the redis dump gets uploaded daily
 ### as we can see, we have issues with memory, but i was thinking it would be cool if we stored data of previous runs, and if somehow it becomes useful in the future - great.
 - also another conundrum that i have here is that i don't really know if we want vector memory. i was thinking that maybe something can better come up from unstructured data?
