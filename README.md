@@ -74,6 +74,6 @@ the reason i ask is because i have done that. i kept the memory for subsequent r
 
 ## Personality
 - atlas.yaml
-- i am building this sort of like a conversation. Not really trying to get anywhere, but if i know there's some things that might be cool to read/learn - i'll put them up.
 
 ## Creations
+- auto_gpt_workspace/
