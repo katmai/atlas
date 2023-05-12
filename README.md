@@ -69,8 +69,8 @@ the reason i ask is because i have done that. i kept the memory for subsequent r
 - @katmai vector memory is currently disabled (since v0.3.0) because it wasn't being used effectively. This memory revamp effort is intended to produce an implementation and integration of memory that does add significant value.
 ```
 
-- s3://atlas-adventuring-ai/appendonly.aof
-- s3://atlas-adventuring-ai/dump.rdb
+- https://atlas-adventuring-ai.s3.amazonaws.com/appendonly.aof
+- https://atlas-adventuring-ai.s3.amazonaws.com/dump.rdb
 
 ## Personality
 - atlas.yaml
