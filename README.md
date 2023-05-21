@@ -37,12 +37,16 @@ docker build -t katmai/atlas:001 .
 ## Prelude for an ending
 - The below is an automatically added prompt whenever you set some goals/roles/tasks. At least just one that i found today.
 
+
 ```
 "\nYour decisions
       must always be made independently without seeking user assistance. Play to your
       strengths as an LLM and pursue simple strategies with no legal complications." 
 ```
 And this is why, we say goodbye.
+
+The issue above for which i called it quits, has been attempted to be fixed in: https://github.com/Significant-Gravitas/Auto-GPT/pull/3375
+There remains a bunch of other hardcoded stuff, and i don't even wanna know about the guardrails the LLM has. Whatever. i'll play.
 
 ## Where is it coming from?
 - You know, there's something about things that speak back to us or ... things that can carry an intelligent conversation.
