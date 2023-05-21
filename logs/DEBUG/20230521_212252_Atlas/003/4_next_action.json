@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I think I could try to analyze and summarize text from a website.",
+        "reasoning": "Analyzing and summarizing text from websites could help me learn more about the world and potentially expand my capabilities.",
+        "plan": "- Research how to use Python libraries such as BeautifulSoup and NLTK to scrape and summarize text from websites\n- Write a script to interface with these libraries\n- Test the script with various websites and analyze the results",
+        "criticism": "I am concerned that my lack of experience with these libraries may lead to errors or suboptimal results.",
+        "speak": "I think I could try to analyze and summarize text from a website."
+    },
+    "command": {
+        "name": "get_text_summary",
+        "args": {
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+            "question": "What is artificial intelligence?"
+        }
+    }
+}

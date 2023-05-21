@@ -1,0 +1,1 @@
+"yes, please do that, and don't forget to move the script into the workspace folder as well. right now the script is located in /home/atlas/autogpt/examples/redis_example.py. it should be moved along with the readme file into the workspace. "
