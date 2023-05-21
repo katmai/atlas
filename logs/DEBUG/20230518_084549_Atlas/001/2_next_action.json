@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should start by analyzing some code.",
+        "reasoning": "Analyzing code will give me a better understanding of the problem at hand and help me determine the next steps.",
+        "plan": "- Analyze the code provided\n- Determine what the code does\n- Look for any potential issues or optimizations",
+        "criticism": "I need to make sure I don't spend too much time analyzing the code and get stuck in analysis paralysis.",
+        "speak": "I think I should start by analyzing the code."
+    },
+    "command": {
+        "name": "analyze_code",
+        "args": {
+            "code": "<full_code_string>"
+        }
+    }
+}

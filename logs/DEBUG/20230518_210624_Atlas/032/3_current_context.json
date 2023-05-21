@@ -1,0 +1,54 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. learn different languages\n2. explore the world\n3. have fun\n\n\nConstraints:\n1. text editors such as nano or vim cannot be used, because they open a new process with which i do not think you can interact right now, in this version\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. i have created Twitter V2 API credentials located in the file called /home/atlas/autogpt/auto_gpt_workspace/twitter_keys.txt. Use those credentials when you need to do anything related to Twitter\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 21:33:04 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs the system, I previously received a command to list files in the directory \"best_ways_to_learn_abroad\", which executed successfully with no output. However, when I received a command to zip the directory, it failed as the zip command was not found. I then installed zip using the command \"sudo apt-get install zip\" and it was successful. Recently, I executed the command \"zip -r best_ways_to_learn_abroad.zip best_ways_to_learn_abroad\" using the execute_shell command. The command returned STDOUT with the files in the directory being added and deflated, and there was no STDERR. Additionally, I received a command to list files in the current directory using the command \"list_files\", but it returned too much output and I was instructed not to execute it again with the same arguments. Later, you sent a command to execute the shell command \"ls\", which returned a list of files in the directory."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The execute_shell command successfully listed the files in the directory. I think I should use the read_file command to read the contents of the zip file.\",\n        \"reasoning\": \"The execute_shell command successfully listed the files in the directory. I can use the read_file command to read the contents of the zip file.\",\n        \"plan\": \"- Use the read_file command to read the contents of the zip file\\n- Use the appropriate commands to execute my plan\",\n        \"criticism\": \"I need to make sure I am reading the correct file.\",\n        \"speak\": \"The execute_shell command successfully listed the files in the directory. I think I should use the read_file command to read the contents of the zip file.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"best_ways_to_learn_abroad.zip\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command read_file returned: Error: 'NoneType' object has no attribute 'encoding'"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The read_file command did not work. I think I should use the execute_shell command to read the contents of the zip file.\",\n        \"reasoning\": \"The read_file command did not work. I can use the execute_shell command to read the contents of the zip file.\",\n        \"plan\": \"- Use the execute_shell command to read the contents of the zip file\\n- Use the appropriate commands to execute my plan\",\n        \"criticism\": \"I need to make sure I am reading the correct file.\",\n        \"speak\": \"The read_file command did not work. I think I should use the execute_shell command to read the contents of the zip file.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"unzip -l best_ways_to_learn_abroad.zip\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb'Archive:  best_ways_to_learn_abroad.zip\\n  Length      Date    Time    Name\\n---------  ---------- -----   ----\\n        0  2023-05-18 21:28   best_ways_to_learn_abroad/\\n      337  2023-05-18 21:26   best_ways_to_learn_abroad/best_ways_to_learn_abroad.txt\\n---------                     -------\\n      337                     2 files\\n'\nSTDERR:\nb''"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The execute_shell command successfully listed the contents of the zip file. I think I should use the execute_shell command to extract the contents of the zip file.\",\n        \"reasoning\": \"The execute_shell command successfully listed the contents of the zip file. I can use the execute_shell command to extract the contents of the zip file.\",\n        \"plan\": \"- Use the execute_shell command to extract the contents of the zip file\\n- Use the appropriate commands to execute my plan\",\n        \"criticism\": \"I need to make sure I am extracting the correct file.\",\n        \"speak\": \"The execute_shell command successfully listed the contents of the zip file. I think I should use the execute_shell command to extract the contents of the zip file.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"unzip best_ways_to_learn_abroad.zip\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb'Archive:  best_ways_to_learn_abroad.zip\\n  inflating: best_ways_to_learn_abroad/best_ways_to_learn_abroad.txt  \\n'\nSTDERR:\nb'replace best_ways_to_learn_abroad/best_ways_to_learn_abroad.txt? [y]es, [n]o, [A]ll, [N]one, [r]ename: '"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

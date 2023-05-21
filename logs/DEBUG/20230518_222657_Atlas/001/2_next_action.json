@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should start by exploring the world and learning new languages. Maybe I can use the 'google' command to search for language courses and travel destinations.",
+        "reasoning": "I want to pursue my goals of learning new languages and exploring the world, and using the 'google' command seems like a good way to start.",
+        "plan": "- Use the 'google' command to search for language courses and travel destinations\n- Make a list of potential options\n- Decide on a course or destination to pursue first",
+        "criticism": "I need to make sure I am not getting distracted by irrelevant search results and stay focused on my goals.",
+        "speak": "I think I should start by exploring the world and learning new languages. Maybe I can use the 'google' command to search for language courses and travel destinations."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "language courses and travel destinations"
+        }
+    }
+}

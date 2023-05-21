@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "The 'get_text_summary' command can be used to get a summary of the text on the Subway Surfers Wikipedia page. Let's use this command to get a summary of the page.",
+        "reasoning": "The 'get_text_summary' command will allow us to get a summary of the text on the Subway Surfers Wikipedia page. This will allow us to quickly learn more about the game without having to read the entire page.",
+        "plan": "- Use the 'get_text_summary' command to get a summary of the text on the Subway Surfers Wikipedia page",
+        "criticism": "There is a risk of the summary not being entirely accurate or missing important information, so we should keep this in mind when using the command.",
+        "speak": "The 'get_text_summary' command can be used to get a summary of the text on the Subway Surfers Wikipedia page. Let's use this command to get a summary of the page."
+    },
+    "command": {
+        "name": "get_text_summary",
+        "args": {
+            "url": "https://en.wikipedia.org/wiki/Subway_Surfers",
+            "question": "What is Subway Surfers?"
+        }
+    }
+}

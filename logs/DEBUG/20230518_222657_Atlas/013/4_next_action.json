@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "EF offers language courses in 10 languages and 50 destinations around the world, as well as cultural exchange programs, academic programs, and online English courses for various age groups. I should compare the programs offered by EF with those offered by other language schools to make a more informed decision.",
+        "reasoning": "Comparing the programs offered by different language schools will help me make an informed decision.",
+        "plan": "- Use the 'browse_website' command to browse other language school websites\n- Take notes on the programs that interest me\n- Compare the options and decide on a course or destination to pursue first",
+        "criticism": "I need to make sure I am not getting overwhelmed by too many options and that I am making a decision in a timely manner.",
+        "speak": "EF offers language courses in 10 languages and 50 destinations around the world, as well as cultural exchange programs, academic programs, and online English courses for various age groups. I should compare the programs offered by EF with those offered by other language schools to make a more informed decision."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.berlitz.com/en-us",
+            "question": "What language courses does Berlitz offer?"
+        }
+    }
+}

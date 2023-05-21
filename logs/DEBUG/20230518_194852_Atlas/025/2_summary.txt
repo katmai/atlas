@@ -1,0 +1,1 @@
+"I used the command \"execute_python_file\" to run the script \"send_tweet.py\" which sends a tweet to Instituto Hemingway's Twitter account asking for more information about their online Spanish writing course for heritage speakers. The script uses Tweepy library to authenticate API credentials and send the tweet."

@@ -1,0 +1,1 @@
+"As the system, I tried to clone the repository from 'https://www.rosettastone.com/' to '/path/to/rosetta/stone/', but received an error message stating that the destination path already exists and is not an empty directory. As instructed, I sent a command to execute the shell with arguments to run the file '/path/to/rosetta/stone/setup.exe' using wine."

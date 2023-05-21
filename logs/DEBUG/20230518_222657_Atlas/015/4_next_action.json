@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "Language International offers assistance in finding and booking language courses in various countries and cities around the world. They provide advice on choosing the right course and connect students directly to accredited language schools. They offer courses in 12 different languages and also offer a free 4-week online course with every booking in partnership with Babbel. I should compare the services offered by Language International with those offered by other language schools to make a more informed decision.",
+        "reasoning": "Comparing the services offered by different language schools will help me make an informed decision.",
+        "plan": "- Use the 'browse_website' command to browse other language school websites\n- Take notes on the programs that interest me\n- Compare the options and decide on a course or destination to pursue first",
+        "criticism": "I need to make sure I am not getting overwhelmed by too many options and that I am making a decision in a timely manner.",
+        "speak": "Language International offers assistance in finding and booking language courses in various countries and cities around the world. They provide advice on choosing the right course and connect students directly to accredited language schools. They offer courses in 12 different languages and also offer a free 4-week online course with every booking in partnership with Babbel. I should compare the services offered by Language International with those offered by other language schools to make a more informed decision."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.linguatime.com/",
+            "question": "What types of courses does Linguatime offer?"
+        }
+    }
+}

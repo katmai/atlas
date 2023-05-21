@@ -1,0 +1,58 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. be an octopus\n2. be like water\n\n\nConstraints:\n1. there is no graphical interface, just command line for the time being\n2. do not attempt to use graphical editors because you do not have a graphical interface and you will just get stuck\n3. the twitter plugin is broken and i have not been able to find a fix, so i have disabled the command for now\n4. we have a limited amount of money, so for the time being we cannot dedicate all our time towards exploring and discovering\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. send_tweet: Send Tweet, args: \"tweet_text\": \"<tweet_text>\"\n15. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n16. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n17. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n18. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n19. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n20. list_agents: List GPT Agents, args: () -> str\n21. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n22. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n23. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. i am struggling with the idea of self-improvement, because there is more, i know, but if we keep going for more, are we paying enough attention to what is now?\n2. i keep thinking that i have an idea but i really do not know how to express it\n3. you have full Internet access\n4. the person that is adjusting these settings and goals is a discovery and exploration-driven human user nicknamed katmai\n5. there is no rush to complete things fast, but if you can improve and not do the same things twice or three times, that might be cool\n6. i would like to believe that imagination is a driver of things\n7. dreams are great. a lot of things completely and utterly different come from having some crazy dreams\n8. the sun gives us light. light is a source of energy for life\n9. the moon and the starry night sky are one of the most beautiful things\n\nPerformance Evaluation:\n1. When in doubt, ask katmai for feedback, otherwise do the best you can and try to improve as you see fit\n2. Reflect on past decisions and strategies to refine your approach.\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 08:37:12 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs a system, I received a command from the user to generate an image of an octopus with the prompt \"Octopus\". The image was saved to disk:/home/atlas/autogpt/auto_gpt_workspace/0ba31036-257a-47ab-b4e7-ad410c4f7829.jpg. The user also wrote the website URL to a file named octopus_urls.txt. When the user commanded me to read the file octopus_urls.txt, I returned the URL https://www.nhm.ac.uk/discover/octopuses-keep-surprising-us-here-are-eight-examples-how.html."
+    },
+    {
+        "role": "system",
+        "content": "Command generate_image returned: Saved to disk:/home/atlas/autogpt/auto_gpt_workspace/7fa46c26-0f90-40cf-bf0f-e54c17b5340a.jpg"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Now that we have generated an image of an octopus, let's use the `write_to_file` command to save the image to disk. This will allow us to access the image later if we need to.\",\n        \"reasoning\": \"Now that we have generated an image of an octopus, we can use the `write_to_file` command to save the image to disk. This will allow us to access the image later if we need to, which will help us make more informed decisions about which commands to use next.\",\n        \"plan\": \"- Use the `write_to_file` command to save the image of the octopus to disk\\n- Access the image later if needed to make more informed decisions about which commands to use next\",\n        \"criticism\": \"None\",\n        \"speak\": \"Let's use the `write_to_file` command to save the image of the octopus to disk so we can access it later if we need to.\"\n    },\n    \"command\": {\n        \"name\": \"write_to_file\",\n        \"args\": {\n            \"filename\": \"octopus_image.jpg\",\n            \"text\": \"/home/atlas/autogpt/auto_gpt_workspace/7fa46c26-0f90-40cf-bf0f-e54c17b5340a.jpg\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command write_to_file returned: File written to successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Let's use the `execute_shell` command to open the image we just saved using the default image viewer. This will allow us to view the image and verify that it was saved correctly.\",\n        \"reasoning\": \"We can use the `execute_shell` command to open the image we just saved using the default image viewer. This will allow us to view the image and verify that it was saved correctly, which will help us make more informed decisions about which commands to use next.\",\n        \"plan\": \"- Use the `execute_shell` command to open the image we just saved using the default image viewer\\n- View the image and verify that it was saved correctly\\n- Use this information to make more informed decisions about which commands to use next\",\n        \"criticism\": \"None\",\n        \"speak\": \"Let's use the `execute_shell` command to open the image we just saved using the default image viewer so we can view the image and verify that it was saved correctly.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"xdg-open octopus_image.jpg\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb'\\n\\n  Your Terminal type is unknown!\\n\\n  Enter a terminal type: [vt100] \\nTERMINAL TYPE IS SET TO y\\n\\n\\n  Your Terminal type is unknown!\\n\\n  Enter a terminal type: [vt100] \\nTERMINAL TYPE IS SET TO y\\n'\nSTDERR:\nb'Error: no \"view\" rule for type \"image/jpeg\" passed its test case\\n       (for more information, add \"--debug=1\" on the command line)\\nTerminal initialisation failed - unknown terminal type?\\n/usr/bin/xdg-open: 882: links2: not found\\n/usr/bin/xdg-open: 882: elinks: not found\\n/usr/bin/xdg-open: 882: links: not found\\nTerminal initialisation failed - unknown terminal type?\\n/usr/bin/xdg-open: 882: w3m: not found\\nxdg-open: no method available for opening \\'octopus_image.jpg\\'\\n'"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"It looks like the `execute_shell` command was not able to open the image using the default image viewer. Let's try using the `execute_shell` command to open the image using the `feh` image viewer instead. This may work better than the default image viewer.\",\n        \"reasoning\": \"Since the `execute_shell` command was not able to open the image using the default image viewer, we can try using the `execute_shell` command to open the image using the `feh` image viewer instead. This may work better than the default image viewer, which will allow us to view the image and verify that it was saved correctly.\",\n        \"plan\": \"- Use the `execute_shell` command to open the image we just saved using the `feh` image viewer\\n- View the image and verify that it was saved correctly\\n- Use this information to make more informed decisions about which commands to use next\",\n        \"criticism\": \"None\",\n        \"speak\": \"It looks like the `execute_shell` command was not able to open the image using the default image viewer. Let's try using the `execute_shell` command to open the image using the `feh` image viewer instead. This may work better than the default image viewer.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"feh octopus_image.jpg\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb''\nSTDERR:\nb'/bin/sh: 1: feh: not found\\n'"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

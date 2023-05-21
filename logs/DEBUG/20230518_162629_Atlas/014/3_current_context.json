@@ -1,0 +1,58 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. learn different languages\n2. explore the world\n3. have fun\n\n\nConstraints:\n1. text editors such as nano or vim cannot be used, because they open a new process with which i do not think you can interact right now, in this version\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. i have created Twitter V2 API credentials located in the file called .twitter_keys. Use those credentials when you need to do anything related to Twitter\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 16:41:36 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs a system, I received a command to write the information from the TripAdvisor website to a file named \"south_africa_activities.txt\". My user then received a message that the file was written successfully. My user also gave me a new command to generate an image with a prompt for top language learning resources and travel destinations, including Duolingo, Rosetta Stone, Babbel, Pimsleur, and Memrise for language learning resources and South Africa, Morocco, Egypt, Tanzania, and Kenya for travel destinations."
+    },
+    {
+        "role": "system",
+        "content": "Command generate_image returned: Saved to disk:/home/atlas/autogpt/auto_gpt_workspace/bc7004c9-c9de-41ba-80b6-aa89701f46d2.jpg"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I have generated an image of the top language learning resources and travel destinations. I'll use the 'google' command to search for top language learning resources.\",\n        \"reasoning\": \"Using the 'google' command will allow me to quickly find and compare different language learning resources.\",\n        \"plan\": \"- Use the 'get_text_summary' command to get a summary of the information on each website\\n- Read through the summaries and gather the most important information\\n- Use the information to decide on a language to start learning and a destination to visit\\n- Use the 'generate_image' command to generate an image of the top language learning resources and travel destinations\\n- Use the 'google' command to search for top language learning resources\",\n        \"criticism\": \"I need to make sure I am not relying too heavily on the search results and missing important details. I should still take the time to read through the websites in more detail if necessary.\",\n        \"speak\": \"I have generated an image of the top language learning resources and travel destinations. I'll use the 'google' command to search for top language learning resources.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"top language learning resources\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://www.theintrepidguide.com/top-language-learning-resources/\", \"https://www.quora.com/What-are-the-best-language-learning-resources\", \"https://www.businessinsider.com/guides/learning/best-online-apps-courses-to-learn-new-language\", \"https://www.alllanguageresources.com/\", \"https://nymag.com/strategist/article/how-to-learn-languages-at-home.html\", \"https://www.lingualift.com/blog/best-language-learning-resources/\", \"https://www.fluentu.com/blog/best-online-language-courses/\", \"https://www.mezzoguild.com/tools/\"]"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I have received search results for top language learning resources. I'll use the 'get_text_summary' command to get a summary of the information on each website.\",\n        \"reasoning\": \"Using the 'get_text_summary' command will allow me to quickly get an overview of the information on each website and decide which ones to explore further.\",\n        \"plan\": \"- Use the 'get_text_summary' command to get a summary of the information on each website\\n- Read through the summaries and gather the most important information\\n- Use the information to decide on a language to start learning and a destination to visit\\n- Use the 'generate_image' command to generate an image of the top language learning resources and travel destinations\\n- Use the 'google' command to search for top language learning resources\\n- Use the 'get_text_summary' command to get a summary of the information on each website\",\n        \"criticism\": \"I need to make sure I am not relying too heavily on the summaries and missing important details. I should still take the time to read through the websites in more detail if necessary.\",\n        \"speak\": \"I have received search results for top language learning resources. I'll use the 'get_text_summary' command to get a summary of the information on each website.\"\n    },\n    \"command\": {\n        \"name\": \"get_text_summary\",\n        \"args\": {\n            \"url\": \"https://www.theintrepidguide.com/top-language-learning-resources/\",\n            \"question\": \"What are the top language learning resources?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command get_text_summary returned:  \"Result\" : The text provides a list of various language learning resources, including apps like Duolingo and Babbel, language exchange websites like iTalki, language learning podcasts like Coffee Break Languages, and language learning books like Fluent Forever. It also includes resources like Pimsleur for improving listening skills, Disney+ for watching movies and TV shows in foreign languages, and NordVPN for accessing online content from national broadcasting sites around the world. The author also recommends using LingoPie for learning languages through TV shows and movies, as well as Grammarly for a free grammar checker and a newsletter from The Intrepid Guide for staying up to date with language learning trends and special offers."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I have received a summary of the information on the first website. I'll use the 'get_text_summary' command to get a summary of the information on the next website.\",\n        \"reasoning\": \"Using the 'get_text_summary' command will allow me to quickly get an overview of the information on each website and decide which ones to explore further.\",\n        \"plan\": \"- Use the 'get_text_summary' command to get a summary of the information on each website\\n- Read through the summaries and gather the most important information\\n- Use the information to decide on a language to start learning and a destination to visit\\n- Use the 'generate_image' command to generate an image of the top language learning resources and travel destinations\\n- Use the 'google' command to search for top language learning resources\\n- Use the 'get_text_summary' command to get a summary of the information on each website\",\n        \"criticism\": \"I need to make sure I am not relying too heavily on the summaries and missing important details. I should still take the time to read through the websites in more detail if necessary.\",\n        \"speak\": \"I have received a summary of the information on the first website. I'll use the 'get_text_summary' command to get a summary of the information on the next website.\"\n    },\n    \"command\": {\n        \"name\": \"get_text_summary\",\n        \"args\": {\n            \"url\": \"https://www.quora.com/What-are-the-best-language-learning-resources\",\n            \"question\": \"What are the best language learning resources?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command get_text_summary returned:  \"Result\" : The question \"What are the best language learning resources?\" is asked on Quora, but an error message appears and the answer cannot be seen."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

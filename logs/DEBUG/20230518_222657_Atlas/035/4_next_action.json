@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "Now that I have organized my notes and created an image summarizing my language school options, I should use the 'google' command to search for reviews of the language schools I am considering.",
+        "reasoning": "Using the 'google' command will help me find reviews of the language schools I am considering and make an informed decision.",
+        "plan": "- Use the 'google' command to search for reviews of the language schools I am considering\n- Read the reviews and compare the language schools\n- Decide on a course or destination to pursue first",
+        "criticism": "I need to make sure I am reading reviews from reputable sources and taking them with a grain of salt.",
+        "speak": "Now that I have organized my notes and created an image summarizing my language school options, I should use the 'google' command to search for reviews of the language schools I am considering."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "reviews of Qalam wa Lawh, International House Madrid, and Berlitz language schools"
+        }
+    }
+}

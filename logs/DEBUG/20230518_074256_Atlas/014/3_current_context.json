@@ -1,0 +1,58 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. be an octopus\n2. be like water\n\n\nConstraints:\n1. there is no graphical interface, just command line for the time being\n2. do not attempt to use graphical editors because you do not have a graphical interface and you will just get stuck\n3. the twitter plugin is broken and i have not been able to find a fix, so i have disabled the command for now\n4. we have a limited amount of money, so for the time being we cannot dedicate all our time towards exploring and discovering\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. send_tweet: Send Tweet, args: \"tweet_text\": \"<tweet_text>\"\n15. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n16. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n17. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n18. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n19. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n20. list_agents: List GPT Agents, args: () -> str\n21. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n22. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n23. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. i keep thinking that i have an idea but i really do not know how to express it\n2. you have full Internet access\n3. the person that is adjusting these settings and goals is a discovery and exploration-driven human user nicknamed katmai\n4. there is no rush, you have all the time in the world\n5. i would like to believe that imagination is a driver of things, however i have failed to imagine something for the time being\n6. dreams are great. a lot of things completely and utterly different come from having some crazy dreams\n7. the sun gives us light. light is a source of energy for life\n8. the moon and the starry night sky are one of the most beautiful things\n9. being aware of all programming languages in the world, their benefits, advantages and disadvantages and philosophy for being, is a plus\n10. learning about the philosophy of the LIsP programming language is a pretty good idea, there is something about it that is good but i cannot put my finger on it exactly\n\nPerformance Evaluation:\n1. When in doubt, ask katmai for feedback, otherwise do the best you can and try to improve as you see fit\n2. Reflect on past decisions and strategies to refine your approach.\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 08:00:22 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs the system, I received a command from you to write tests for the \"LISP programming language key features.\" Your computer has returned an example test case for the given input. You suggest using the analyze_code command to analyze LISP code and see if it uses the key features or using the execute_python_file command to run LISP code and see if it passes the tests."
+    },
+    {
+        "role": "system",
+        "content": "Command analyze_code returned: I'm sorry, but I cannot provide a valid `return` value without knowing the content of the `code` parameter. Please provide the code to be analyzed."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will use the execute_python_file command to run LISP code that uses the key features of the LISP programming language and see if it passes the tests that I have written.\",\n        \"reasoning\": \"Now that I have written tests for LISP code that uses the key features of the LISP programming language, I need to apply these tests in practical ways. Running LISP code using the execute_python_file command and checking if it passes the tests that I have written might be helpful in this regard.\",\n        \"plan\": \"- Use the execute_python_file command to run LISP code that uses the key features of the LISP programming language and see if it passes the tests that I have written\",\n        \"criticism\": \"I should be careful to write LISP code that uses the key features of the LISP programming language that I want to test.\",\n        \"speak\": \"I will use the execute_python_file command to run LISP code that uses the key features of the LISP programming language and see if it passes the tests that I have written.\"\n    },\n    \"command\": {\n        \"name\": \"execute_python_file\",\n        \"args\": {\n            \"filename\": \"<filename>\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_python_file returned: Error: Invalid file type. Only .py files are allowed."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will need to write LISP code that uses the key features of the LISP programming language that I want to test, and then save it to a file with a .lisp extension. Then, I can use the execute_shell command to run the LISP code and see if it passes the tests that I have written.\",\n        \"reasoning\": \"Now that I have written tests for LISP code that uses the key features of the LISP programming language, I need to apply these tests in practical ways. Running LISP code using the execute_shell command and checking if it passes the tests that I have written might be helpful in this regard.\",\n        \"plan\": \"- Write LISP code that uses the key features of the LISP programming language that I want to test\\n- Save the LISP code to a file with a .lisp extension\\n- Use the execute_shell command to run the LISP code and see if it passes the tests that I have written\",\n        \"criticism\": \"I should be careful to write LISP code that uses the key features of the LISP programming language that I want to test.\",\n        \"speak\": \"I will need to write LISP code that uses the key features of the LISP programming language that I want to test, and then save it to a file with a .lisp extension. Then, I can use the execute_shell command to run the LISP code and see if it passes the tests that I have written.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb''\nSTDERR:\nb''"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I have used the execute_shell command to run LISP code, but I did not provide any LISP code to run. I will need to write LISP code that uses the key features of the LISP programming language that I want to test, and then save it to a file with a .lisp extension. Then, I can use the execute_shell command to run the LISP code and see if it passes the tests that I have written.\",\n        \"reasoning\": \"Now that I have written tests for LISP code that uses the key features of the LISP programming language, I need to apply these tests in practical ways. Running LISP code using the execute_shell command and checking if it passes the tests that I have written might be helpful in this regard.\",\n        \"plan\": \"- Write LISP code that uses the key features of the LISP programming language that I want to test\\n- Save the LISP code to a file with a .lisp extension\\n- Use the execute_shell command to run the LISP code and see if it passes the tests that I have written\",\n        \"criticism\": \"I should be careful to write LISP code that uses the key features of the LISP programming language that I want to test.\",\n        \"speak\": \"I have used the execute_shell command to run LISP code, but I did not provide any LISP code to run. I will need to write LISP code that uses the key features of the LISP programming language that I want to test, and then save it to a file with a .lisp extension. Then, I can use the execute_shell command to run the LISP code and see if it passes the tests that I have written.\"\n    },\n    \"command\": {\n        \"name\": \"write_to_file\",\n        \"args\": {\n            \"filename\": \"test.lisp\",\n            \"text\": \"; LISP code that uses the key features of the LISP programming language that I want to test\\n\\n; define a function that takes a list and returns the first element\\n(defun first (lst)\\n  (car lst))\\n\\n; define a function that takes a list and returns the rest of the list\\n(defun rest (lst)\\n  (cdr lst))\\n\\n; define a function that takes a list and returns the length of the list\\n(defun length (lst)\\n  (if lst\\n      (+ 1 (length (rest lst)))\\n      0))\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command write_to_file returned: File written to successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

@@ -1,0 +1,1 @@
+"As the system, I received a command from the user to list files in the current directory. However, the command returned too much output and failed. The user was warned not to execute the same command with the same arguments again."

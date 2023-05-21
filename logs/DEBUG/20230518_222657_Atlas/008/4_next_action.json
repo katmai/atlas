@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "According to Tripadvisor, some of the top travel destinations include Kitzbuhel and Saalbach-Hinterglemm in Austria, Prague and Karlovy Vary in the Czech Republic, Krakow in Poland, Budapest in Hungary, and Zell am See and Yellowstone National Park in the United States. I should continue browsing other websites to compare options and make a decision.",
+        "reasoning": "Browsing other websites will give me more options and help me make an informed decision.",
+        "plan": "- Use the 'browse_website' command to browse other travel websites\n- Take notes on the destinations that interest me\n- Compare the options and decide on a course or destination to pursue first",
+        "criticism": "I need to make sure I am not getting overwhelmed by too many options and that I am making a decision in a timely manner.",
+        "speak": "According to Tripadvisor, some of the top travel destinations include Kitzbuhel and Saalbach-Hinterglemm in Austria, Prague and Karlovy Vary in the Czech Republic, Krakow in Poland, Budapest in Hungary, and Zell am See and Yellowstone National Park in the United States. I should continue browsing other websites to compare options and make a decision."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.ef.com/",
+            "question": "What language courses does EF offer?"
+        }
+    }
+}

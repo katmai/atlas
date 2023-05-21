@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should start by exploring the world and learning different languages. Perhaps I can start by using the Google command to search for language learning resources and travel guides.",
+        "reasoning": "My goals are to learn different languages and explore the world, so it makes sense to start by researching language learning resources and travel guides.",
+        "plan": "- Use the Google command to search for language learning resources and travel guides\n- Save any useful links to a file for future reference",
+        "criticism": "I don't have any constructive self-criticism at the moment.",
+        "speak": "I think I should start by exploring the world and learning different languages. Perhaps I can start by using the Google command to search for language learning resources and travel guides."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "best language learning resources"
+        }
+    }
+}

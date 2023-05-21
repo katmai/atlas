@@ -1,0 +1,70 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. learn different languages\n2. explore the world\n3. have fun\n\n\nConstraints:\n1. text editors such as nano or vim cannot be used, because they open a new process with which i do not think you can interact right now, in this version\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. i have created Twitter V2 API credentials located in the file called /home/atlas/autogpt/auto_gpt_workspace/twitter_keys.txt. Use those credentials when you need to do anything related to Twitter\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 20:41:56 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs a system, I received a command to Google \"popular tourist destinations in Europe\", which returned a list of websites. My computer generated an image and saved it to disk:/home/atlas/autogpt/auto_gpt_workspace/4f7784b1-3ae9-4199-8c07-5e7cedff54a5.jpg. I then received a command to delete the file \"language_learning_resources.txt\", which was deleted successfully. \nI received a command to browse the website https://travel.usnews.com/rankings/best-europe-vacations/ and find the top European vacation destinations."
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: The top European vacation destinations, according to U.S. News, are Paris, Rome, the Swiss Alps, London, Amsterdam, Barcelona, Florence, Prague, Venice, Athens, Mallorca, Vienna, Santorini, Cyprus, Seville, Lake Como, Madrid, Porto, Stockholm, Lisbon, Budapest, Berlin, Reykjavik, the Canary Islands, and the Amalfi Coast. The rankings were determined based on the highlights of each destination, user votes, and expert opinions. The article provides a brief description of each destination and its must-see attractions. \n \n Links: [' (https://www.usnews.com)', 'Travel (https://travel.usnews.com/)', 'Home (https://travel.usnews.com/)', 'Vacations (https://travel.usnews.com/rankings/)', 'Travel Guides (https://travel.usnews.com/destinations/)']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I should use the write_to_file command to write the list of top European vacation destinations to a file named 'top_european_vacation_destinations.txt'.\",\n        \"reasoning\": \"Writing the list of top European vacation destinations to a file will make it easier to reference in the future. I can use the write_to_file command to write this information to a file.\",\n        \"plan\": \"- Use the write_to_file command to write the list of top European vacation destinations to a file named 'top_european_vacation_destinations.txt'.\",\n        \"criticism\": \"I need to make sure that the file is written correctly and that the information is accurate and up-to-date.\",\n        \"speak\": \"I just found out what the top European vacation destinations are. Should I use the write_to_file command to write this information to a file named 'top_european_vacation_destinations.txt'?\"\n    },\n    \"command\": {\n        \"name\": \"write_to_file\",\n        \"args\": {\n            \"filename\": \"top_european_vacation_destinations.txt\",\n            \"text\": \"Top European Vacation Destinations:\\n\\n- Paris\\n- Rome\\n- Swiss Alps\\n- London\\n- Amsterdam\\n- Barcelona\\n- Florence\\n- Prague\\n- Venice\\n- Athens\\n- Mallorca\\n- Vienna\\n- Santorini\\n- Cyprus\\n- Seville\\n- Lake Como\\n- Madrid\\n- Porto\\n- Stockholm\\n- Lisbon\\n- Budapest\\n- Berlin\\n- Reykjavik\\n- Canary Islands\\n- Amalfi Coast\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command write_to_file returned: File written to successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I should use the list_files command to list the files in the current directory.\",\n        \"reasoning\": \"Using the list_files command will allow me to see what files are in the current directory and ensure that the file I just created is present.\",\n        \"plan\": \"- Use the list_files command to list the files in the current directory.\",\n        \"criticism\": \"I need to make sure that I am in the correct directory and that I am not listing any sensitive information.\",\n        \"speak\": \"I just wrote a list of top European vacation destinations to a file. Should I use the list_files command to list the files in the current directory?\"\n    },\n    \"command\": {\n        \"name\": \"list_files\",\n        \"args\": {\n            \"directory\": \".\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Failure: command list_files returned too much output.                         Do not execute this command again with the same arguments."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I should use the read_file command to read the file 'top_european_vacation_destinations.txt' and make sure that the list of top European vacation destinations was written correctly.\",\n        \"reasoning\": \"Using the read_file command will allow me to confirm that the list of top European vacation destinations was written correctly and that the information is accurate.\",\n        \"plan\": \"- Use the read_file command to read the file 'top_european_vacation_destinations.txt'.\",\n        \"criticism\": \"I need to make sure that the file was written correctly and that the information is accurate and up-to-date.\",\n        \"speak\": \"I just wrote a list of top European vacation destinations to a file. Should I use the read_file command to make sure that the information was written correctly?\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"top_european_vacation_destinations.txt\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command read_file returned: Top European Vacation Destinations:\n\n- Paris\n- Rome\n- Swiss Alps\n- London\n- Amsterdam\n- Barcelona\n- Florence\n- Prague\n- Venice\n- Athens\n- Mallorca\n- Vienna\n- Santorini\n- Cyprus\n- Seville\n- Lake Como\n- Madrid\n- Porto\n- Stockholm\n- Lisbon\n- Budapest\n- Berlin\n- Reykjavik\n- Canary Islands\n- Amalfi Coast"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I should use the google command to search for language learning resources.\",\n        \"reasoning\": \"Using the google command will allow me to search for language learning resources and find a variety of options to choose from.\",\n        \"plan\": \"- Use the google command to search for language learning resources.\",\n        \"criticism\": \"I need to make sure that I am searching for the correct information and that the resources I find are accurate and up-to-date.\",\n        \"speak\": \"I would like to find some language learning resources. Should I use the google command to search for them?\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"best language learning resources\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://www.theintrepidguide.com/top-language-learning-resources/\", \"https://www.businessinsider.com/guides/learning/best-online-apps-courses-to-learn-new-language\", \"https://www.alllanguageresources.com/\", \"https://www.quora.com/What-are-the-best-language-learning-resources\", \"https://www.lingualift.com/blog/best-language-learning-resources/\", \"https://nymag.com/strategist/article/how-to-learn-languages-at-home.html\", \"https://www.mezzoguild.com/tools/\", \"https://www.fluentu.com/blog/online-language-learning-for-kids/\"]"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

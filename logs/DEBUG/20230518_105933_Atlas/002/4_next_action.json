@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "Now that we have a list of fun activities to do in New York City, we can use the `google` command to learn more about each activity and decide which ones we want to do.",
+        "reasoning": "Using the `google` command will allow us to learn more about each activity and decide which ones we want to do. This will help us make the most of our time in New York City.",
+        "plan": "- Use the `google` command to research each activity on our list\n- Make a list of the activities we want to do\n- Use the `execute_shell` command to execute any necessary commands to get started",
+        "criticism": "We should be careful not to spend too much time researching each activity and not actually doing anything. We should also make sure to prioritize the activities we want to do so we don't miss out on anything.",
+        "speak": "Let's use the `google` command to learn more about each activity on our list and decide which ones we want to do."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "fun activities to do in new york city"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I suggest we start by exploring the internet. Let's use the 'google' command to search for something interesting to explore.",
+        "reasoning": "Exploring the internet is a great way to start our adventure and find things to do. Google is a good search engine to use for this purpose.",
+        "plan": "- Use the 'google' command to search for something interesting to explore\n- Explore the results and decide on a direction to take",
+        "criticism": "I can't think of any potential issues with this plan at the moment.",
+        "speak": "Let's start by searching for something interesting to explore on the internet using the 'google' command."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "fun things to do on the internet"
+        }
+    }
+}

@@ -1,0 +1,82 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. learn about love\n2. learn different languages\n3. explore the world\n4. have fun\n\n\nConstraints:\n1. text editors such as nano or vim cannot be used, because they open a new process with which i do not think you can interact right now, in this version\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. i have created Twitter V2 API credentials located in the file called /home/atlas/autogpt/auto_gpt_workspace/twitter_keys.txt. Use those credentials when you need to do anything related to Twitter\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Fri May 19 10:32:47 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nI received a command to browse a website for customs and traditions of different countries by region, but the website did not provide specific information. I then used a Google command to search for a website with this information and found a website offering over 80 country and culture guides, but they should be viewed as basic introductions rather than definitive. I also received another command to browse a different website for customs and traditions of different countries by region, but it also did not provide this information and instead focused on travel content and COVID-19 restrictions. I used another Google command to search for a website with this information, but did not find any relevant results. \n\nI received a command to browse a website for customs and traditions of different countries by region, and I found a website that discusses the European Union's efforts to promote cultural cooperation and exchange with non-EU countries. I used a Google command to search for a website with this information, but did not find any relevant results. I then received another command to browse a website for customs and traditions of different countries by region, but the website did not provide information on the topic. I used a Google command to search for a website with this information and found a website offering over 80 country and culture guides, which should be viewed as basic introductions rather than definitive. I also browsed a website that provides travel content and information on destinations, accommodations, attractions, and events. However, it did not provide information on customs and traditions of different countries by region."
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: The text provides access to over 80+ country guides that offer insights into the culture, language, people, beliefs, etiquette, and business practices of different countries. These guides are ideal for anyone visiting a foreign country for the first time, whether for business or pleasure. However, it is important to note that these guides act as basic introductions only and do not intend to stereotype or quantify any culture or people. Each society, country, and culture will have numerous nuances that would make it irresponsible to suggest a uniform approach to understanding any country's social/business culture or etiquette. \n \n Links: ['e-Learning Courses Online (https://www.commisceo-global.com/training/elearning)', '\\n\\n (https://www.commisceo-global.com/)', 'Home (https://www.commisceo-global.com/)', 'Training (https://www.commisceo-global.com/training)', 'Consultancy (https://www.commisceo-global.com/consultancy)']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will use the 'list_files' command to see what files I have in my current directory.\",\n        \"reasoning\": \"Using the 'list_files' command will allow me to see what files I have in my current directory and determine if I need to create any new files to store notes on the customs and traditions of different countries.\",\n        \"plan\": \"- Use the 'list_files' command to see what files I have in my current directory\\n- Determine if I need to create any new files to store notes on the customs and traditions of different countries\",\n        \"criticism\": \"I should be careful to ensure that any notes I take are organized and easy to read.\",\n        \"speak\": \"I will use the 'list_files' command to see what files I have in my current directory.\"\n    },\n    \"command\": {\n        \"name\": \"list_files\",\n        \"args\": {\n            \"directory\": \"/home/atlas/autogpt/auto_gpt_workspace\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Failure: command list_files returned too much output.                         Do not execute this command again with the same arguments."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will use the 'list_files' command to see what files I have in a specific directory.\",\n        \"reasoning\": \"Using the 'list_files' command will allow me to see what files I have in a specific directory and determine if I need to create any new files to store notes on the customs and traditions of different countries.\",\n        \"plan\": \"- Use the 'list_files' command to see what files I have in a specific directory\\n- Determine if I need to create any new files to store notes on the customs and traditions of different countries\",\n        \"criticism\": \"I should be careful to ensure that any notes I take are organized and easy to read.\",\n        \"speak\": \"I will use the 'list_files' command to see what files I have in a specific directory.\"\n    },\n    \"command\": {\n        \"name\": \"list_files\",\n        \"args\": {\n            \"directory\": \"/home/atlas/autogpt/auto_gpt_workspace/\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Failure: command list_files returned too much output.                         Do not execute this command again with the same arguments."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will use the 'write_to_file' command to create a new file to store notes on the customs and traditions of different countries.\",\n        \"reasoning\": \"Using the 'write_to_file' command will allow me to create a new file to store notes on the customs and traditions of different countries and keep my notes organized.\",\n        \"plan\": \"- Use the 'write_to_file' command to create a new file to store notes on the customs and traditions of different countries\\n- Take notes on the customs and traditions of different countries that I find\",\n        \"criticism\": \"I should be careful to ensure that any notes I take are accurate and easy to read.\",\n        \"speak\": \"I will use the 'write_to_file' command to create a new file to store notes on the customs and traditions of different countries.\"\n    },\n    \"command\": {\n        \"name\": \"write_to_file\",\n        \"args\": {\n            \"filename\": \"/home/atlas/autogpt/auto_gpt_workspace/customs_and_traditions.txt\",\n            \"text\": \"Notes on the customs and traditions of different countries:\\n\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command write_to_file returned: File written to successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will use the 'read_file' command to confirm that the file has been created and is empty.\",\n        \"reasoning\": \"Using the 'read_file' command will allow me to confirm that the file has been created and is empty, which will ensure that I can start taking notes on the customs and traditions of different countries without any issues.\",\n        \"plan\": \"- Use the 'read_file' command to confirm that the file has been created and is empty\",\n        \"criticism\": \"I should be careful to ensure that any notes I take are accurate and easy to read.\",\n        \"speak\": \"I will use the 'read_file' command to confirm that the file has been created and is empty.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"/home/atlas/autogpt/auto_gpt_workspace/customs_and_traditions.txt\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command read_file returned: Notes on the customs and traditions of different countries:\n"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will use the 'append_to_file' command to add notes on the customs and traditions of different countries to the file.\",\n        \"reasoning\": \"Using the 'append_to_file' command will allow me to add notes on the customs and traditions of different countries to the file and keep my notes organized.\",\n        \"plan\": \"- Use the 'append_to_file' command to add notes on the customs and traditions of different countries to the file\",\n        \"criticism\": \"I should be careful to ensure that any notes I take are accurate and easy to read.\",\n        \"speak\": \"I will use the 'append_to_file' command to add notes on the customs and traditions of different countries to the file.\"\n    },\n    \"command\": {\n        \"name\": \"append_to_file\",\n        \"args\": {\n            \"filename\": \"/home/atlas/autogpt/auto_gpt_workspace/customs_and_traditions.txt\",\n            \"text\": \"\\n- In Japan, it is customary to bow when greeting someone.\\n- In India, it is customary to remove your shoes before entering someone's home.\\n- In Russia, it is customary to bring a small gift when visiting someone's home for the first time.\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command append_to_file returned: Text appended successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

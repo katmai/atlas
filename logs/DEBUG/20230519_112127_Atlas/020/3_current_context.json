@@ -1,0 +1,54 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. learn about love\n2. learn different languages\n3. explore the world\n4. have fun\n\n\nConstraints:\n1. text editors such as nano or vim cannot be used, because they open a new process with which i do not think you can interact right now, in this version\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. i have created Twitter V2 API credentials located in the file called /home/atlas/autogpt/auto_gpt_workspace/twitter_keys.txt. Use those credentials when you need to do anything related to Twitter\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Fri May 19 11:41:37 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs a system, I received a command to browse the website \"https://www.alllanguageresources.com/\" for language learning resources and to list files in the directory \"/home/atlas/autogpt/auto_gpt_workspace/\" using the \"ls\" command. My computer executed the command and returned a list of files in the directory, including various text files related to language learning, travel, and other topics, as well as image files and Python scripts."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I will use the 'execute_shell' command to create the file 'love_quotes.txt' in the current directory.\",\n        \"reasoning\": \"I want to create a file to store love quotes that I find during my exploration of the internet. The 'execute_shell' command will allow me to create the file 'love_quotes.txt' in the current directory.\",\n        \"plan\": \"- Use 'execute_shell' to create the file 'love_quotes.txt' in the current directory\",\n        \"criticism\": \"I should be careful when using the 'execute_shell' command and ensure that I am only executing non-interactive commands.\",\n        \"speak\": \"I will use the 'execute_shell' command to create the file 'love_quotes.txt' in the current directory.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"touch love_quotes.txt\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb''\nSTDERR:\nb''"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I will use the 'google' command to search for information on love quotes.\",\n        \"reasoning\": \"I want to find some love quotes to add to the file 'love_quotes.txt' that I just created. The 'google' command will allow me to search for information on love quotes and find some quotes to add to the file.\",\n        \"plan\": \"- Use 'google' to search for information on love quotes\\n- Find some quotes to add to the file 'love_quotes.txt'\",\n        \"criticism\": \"I should be careful when using the 'google' command and ensure that I am only searching for appropriate content.\",\n        \"speak\": \"I will use the 'google' command to search for information on love quotes.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"love quotes\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://www.goodhousekeeping.com/life/relationships/g3721/quotes-about-love/\", \"https://www.goodreads.com/quotes/tag/love\", \"https://www.shutterfly.com/ideas/i-love-you-quotes/\", \"https://www.brainyquote.com/topics/love-quotes\", \"https://parade.com/936221/marynliles/romantic-love-quotes/\", \"https://www.rd.com/article/love-quotes/\", \"https://www.womansday.com/relationships/a38346873/quotes-about-love/\", \"https://www.prevention.com/life/a42827694/self-love-quotes/\"]"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I will use the 'browse_website' command to visit the website 'https://www.goodreads.com/quotes/tag/love' and find some love quotes to add to the file 'love_quotes.txt'.\",\n        \"reasoning\": \"The 'google' command returned a list of websites that contain love quotes. I will use the 'browse_website' command to visit the website 'https://www.goodreads.com/quotes/tag/love' and find some love quotes to add to the file 'love_quotes.txt'.\",\n        \"plan\": \"- Use 'browse_website' to visit the website 'https://www.goodreads.com/quotes/tag/love'\\n- Find some love quotes to add to the file 'love_quotes.txt'\",\n        \"criticism\": \"I should be careful when visiting websites and ensure that I am only visiting appropriate websites.\",\n        \"speak\": \"I will use the 'browse_website' command to visit the website 'https://www.goodreads.com/quotes/tag/love' and find some love quotes to add to the file 'love_quotes.txt'.\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"https://www.goodreads.com/quotes/tag/love\",\n            \"question\": \"Please find some love quotes to add to the file 'love_quotes.txt'.\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: The text provides several love quotes to add to the file 'love_quotes.txt', including quotes from Marilyn Monroe, William W. Purkey, Dr. Seuss, Elbert Hubbard, William Shakespeare, Nicholas Sparks, and Anais Nin. Additionally, the text suggests adding quotes from Robert Fulghum, Osho, and Antoine de Saint-Exupéry. \n \n Links: [' (https://www.goodreads.com/blog/show/2573?ref=TopSummerBooks23_eb)', ' (https://www.goodreads.com/)', 'Home (https://www.goodreads.com/?ref=nav_home)', 'My Books (https://www.goodreads.com/review/list?ref=nav_mybooks)', 'Browse ▾ (https://www.goodreads.com/book?ref=nav_brws)']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

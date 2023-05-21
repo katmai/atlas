@@ -1,0 +1,1 @@
+"As the user, I received confirmation that the command to write to a file was successful."

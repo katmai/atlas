@@ -1,0 +1,14 @@
+[
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think it would be fun to explore the world and learn different languages. Perhaps I can start by using the Google command to search for language learning resources and travel guides.\",\n        \"reasoning\": \"I want to pursue my goals of learning different languages and exploring the world, and using Google to search for resources seems like a good first step.\",\n        \"plan\": \"- Use the Google command to search for language learning resources and travel guides\\n- Explore the search results and make note of any useful resources\\n- Begin learning a new language and planning a trip to a new location\",\n        \"criticism\": \"I should be careful not to spend too much time searching for resources and instead focus on taking action towards my goals.\",\n        \"speak\": \"I think I should start by using the Google command to search for language learning resources and travel guides. Would you like me to do that?\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"best language learning resources\",\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command None returned: Error: 'NoneType' object has no attribute 'lower'"
+    }
+]

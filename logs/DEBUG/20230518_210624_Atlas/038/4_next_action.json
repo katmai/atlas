@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should use the google command to search for the best language schools in Spain again, but this time with a more specific query.",
+        "reasoning": "Since the browse_website command did not provide the information I was looking for, I can use the google command to search for the best language schools in Spain again, but this time with a more specific query.",
+        "plan": "- Use the google command to search for the best language schools in Spain again, but with a more specific query\n- Use the appropriate commands to execute my plan",
+        "criticism": "I need to make sure I am searching for the correct information.",
+        "speak": "I think I should use the google command to search for the best language schools in Spain again, but this time with a more specific query."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "best spanish language schools in spain accredited by the Instituto Cervantes and members of FEDELE"
+        }
+    }
+}

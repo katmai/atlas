@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I should use the generate_image command to create an image that displays the list of language learning resources.",
+        "reasoning": "Creating an image that displays the list of language learning resources will make it easier to read and reference in the future. I can use the generate_image command to create this image.",
+        "plan": "- Use the generate_image command to create an image that displays the list of language learning resources.",
+        "criticism": "I need to make sure that the image I create is clear and easy to read.",
+        "speak": "Creating an image that displays the list of language learning resources will make it easier to read and reference in the future. Should I use the generate_image command to create this image?"
+    },
+    "command": {
+        "name": "generate_image",
+        "args": {
+            "prompt": "The Intrepid Guide's Top Language Learning Resources:\n\n- Mondly\n- uTalk\n- Glossika\n- Busuu\n- Duolingo\n- Memrise\n- LingQ\n- Babbel\n- LinguaLift\n- Tandem\n- Michel Thomas\n- Pimsleur\n- Coffee Break Languages\n- Bite-Size Immersive Audio Courses by Actual Fluency\n- italki\n- LanguaTalk"
+        }
+    }
+}

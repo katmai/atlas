@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nAs a system, I received a command to browse the website https://www.cambridgeenglish.org/learning-english/free-resources/write-and-improve/ to find resources for practicing writing in Spanish. I found that the website provides a free online tool called Write & Improve, which helps learners improve their English writing skills by providing feedback on spelling, grammar, and vocabulary. Additionally, a command to browse the website returned a list of English language learning resources from Google.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'you', 'content': '{\"command\": {\"name\": \"browse_website\", \"args\": {\"url\": \"https://www.spanish.academy/blog/11-best-free-spanish-language-learning-websites/\", \"question\": \"What are the resources available for practicing writing in Spanish?\"}}}'}]\n\"\"\"\n"
+    }
+]

@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "It seems like the Rosetta Stone repository on GitHub does not exist. I can use the google command to search for an alternative way to install Rosetta Stone on my system.",
+        "reasoning": "By using the google command, I can search for an alternative way to install Rosetta Stone on my system. This will allow me to use the app to learn different languages.",
+        "plan": "- Use the google command to search for an alternative way to install Rosetta Stone on my system\n- Install Rosetta Stone manually\n- Use the app to learn different languages",
+        "criticism": "I should be careful not to rely solely on language learning apps. It's important to also practice speaking and listening to the language with native speakers.",
+        "speak": "It seems like the Rosetta Stone repository on GitHub does not exist. I can use the google command to search for an alternative way to install Rosetta Stone on my system. What should I search for?"
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "How to install Rosetta Stone on Debian GNU/Linux 11 (bullseye)"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. be an octopus\n2. be like water\n\n\nConstraints:\n\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. send_tweet: Send Tweet, args: \"tweet_text\": \"<tweet_text>\"\n15. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n16. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n17. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n18. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n19. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n20. list_agents: List GPT Agents, args: () -> str\n21. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n22. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n23. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 08:52:45 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs the system, I recall that you executed the command execute_shell with the argument command_line to create a compressed archive of the jpg_files directory using the tar command. The archive was named jpg_files.tar.gz and contained all the jpg files. The command returned no output to STDOUT or STDERR. Additionally, you recently executed the command execute_shell with the argument command_line to list all files in the current directory using the ls -la command. \n\nThe latest development includes the output of the two execute_shell commands. The first command returned a list of all the files in the jpg_files directory after creating the compressed archive. The second command returned a list of all files in the current directory."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I should execute a shell command to move the extracted JPG files to a new directory.\",\n        \"reasoning\": \"Moving the extracted JPG files to a new directory will help me keep them organized and easy to access.\",\n        \"plan\": \"- Execute a shell command to move the extracted JPG files to a new directory\\n- Verify that the files have been moved successfully\",\n        \"criticism\": \"I need to make sure that I choose the correct directory when executing the command.\",\n        \"speak\": \"I think I should execute a shell command to move the extracted JPG files to a new directory.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"mv jpg_files ./images\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb''\nSTDERR:\nb''"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I should execute a shell command to list the files in the current directory.\",\n        \"reasoning\": \"Listing the files in the current directory will help me verify that the JPG files were moved successfully.\",\n        \"plan\": \"- Execute a shell command to list the files in the current directory\\n- Verify that the JPG files are present in the new directory\",\n        \"criticism\": \"I need to make sure that I choose the correct directory when executing the command.\",\n        \"speak\": \"I think I should execute a shell command to list the files in the current directory.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"ls -la\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb'total 11528\\ndrwxr-xr-x 6 1000 rvm     12288 May 18 08:52 .\\ndrwxrwxr-x 1 root root       32 May 18 08:45 ..\\n-rw-r--r-- 1 1000 rvm        89 May  6 08:36 .gitignore\\n-rw-r--r-- 1 1000 rvm       179 May  6 08:36 .twitter_keys\\n-rw-rw-r-- 1 1000 rvm        61 May 18 08:45 atlas.settings.yaml\\n-rw-rw-r-- 1 1000 rvm       116 May 18 08:49 atlas.yaml\\ndrwxr-xr-x 4 root root    12288 May  7 11:50 auto_gpt_workspace\\n-rw-r--r-- 1 root root     2698 May 18 08:34 file_logger.txt\\n-rw-r--r-- 1 root root       22 May 17 21:21 hello_world.py\\ndrwxr-xr-x 2 root root     4096 May 18 08:48 images\\n-rw-r--r-- 1 root root  1127497 May 18 08:49 jpg_files.tar.gz\\ndrwxr-xr-x 2 root root     4096 May  7 12:15 martial_arts\\n-rw-r--r-- 1 root root      615 May  7 12:20 martial_arts_info.txt\\n-rw-r--r-- 1 root root      507 May  7 14:05 martial_arts_poem.txt\\n-rw-r--r-- 1 root root      616 May  7 14:01 martial_arts_summary.txt\\n-rw-r--r-- 1 root root       52 May 17 21:27 message.txt\\ndrwxr-xr-x 2 root root     4096 May 18 01:47 my_project\\n-rw-r--r-- 1 root root      116 May 17 21:20 new_file.txt\\n-rw-r--r-- 1 root root      371 May 17 23:04 octopus_tech.py\\n-rw-r--r-- 1 root root      950 May 17 23:24 octopus_tech_applications.txt\\n-rw-r--r-- 1 root root      950 May 17 23:17 octopus_tech_research.txt\\n-rw-r--r-- 1 root root     1368 May 17 23:09 octopus_tech_updated.py\\n-rw-r--r-- 1 root root       92 May 18 08:28 octopus_urls.txt\\n-rw-r--r-- 1 root root      124 May 18 08:03 test.lisp\\n-rw-r--r-- 1 root root 10564525 May 17 22:40 tree_output.txt\\n'\nSTDERR:\nb''"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

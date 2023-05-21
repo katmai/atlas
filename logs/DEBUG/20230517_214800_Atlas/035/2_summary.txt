@@ -1,0 +1,1 @@
+"As a system, I received a command from the user to execute the shell command \"cd ../../fastai/fastbook && jupyter notebook ch01.ipynb\" to change the directory to \"fastai/fastbook\" and open the \"ch01.ipynb\" file using Jupyter Notebook."

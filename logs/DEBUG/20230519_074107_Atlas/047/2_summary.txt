@@ -1,0 +1,1 @@
+"I executed multiple shell commands to export a Twitter bearer token from a file in the auto_gpt_workspace directory. The commands used jq to extract the API key from the file and set it as the bearer token."

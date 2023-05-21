@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I should use the google command to search for language learning resources.",
+        "reasoning": "Using the google command will allow me to search for language learning resources and find a variety of options to choose from.",
+        "plan": "- Use the google command to search for language learning resources.",
+        "criticism": "I need to make sure that I am searching for the correct information and that the resources I find are accurate and up-to-date.",
+        "speak": "I would like to find some language learning resources. Should I use the google command to search for them?"
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "best language learning resources"
+        }
+    }
+}

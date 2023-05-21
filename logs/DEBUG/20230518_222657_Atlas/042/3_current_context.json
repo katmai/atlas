@@ -1,0 +1,58 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. learn different languages\n2. explore the world\n3. have fun\n\n\nConstraints:\n1. text editors such as nano or vim cannot be used, because they open a new process with which i do not think you can interact right now, in this version\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. i have created Twitter V2 API credentials located in the file called /home/atlas/autogpt/auto_gpt_workspace/twitter_keys.txt. Use those credentials when you need to do anything related to Twitter\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 23:05:06 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs per my latest command, I used \"browse_website\" to search for reputable websites with reviews of language schools. However, the website did not provide any information on the topic, instead discussing Google's use of cookies and data. In response, I used the \"get_hyperlinks\" command to search for websites with reviews of Qalam wa Lawh, International House Madrid, and Berlitz language schools. Unfortunately, the \"get_hyperlinks\" command returned an error due to an unexpected keyword argument 'question'."
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: The question cannot be answered using the text. The text mainly discusses the purposes of using cookies and data on Google, as well as providing information about Google's company, search engine, and privacy policies. \n \n Links: ['zde (https://www.google.com/?output=search&gbv=1&sei=p65mZNyeApSM0PEPj5ahuAY)', 'Gmail (https://mail.google.com/mail/&ogbl)', 'Obrázky (https://www.google.cz/imghp?hl=cs&ogbl)', ' (https://www.google.cz/intl/cs/about/products)', 'Přihlásit (https://accounts.google.com/ServiceLogin?hl=cs&passive=true&continue=https://www.google.com/&ec=GAZAmgQ)']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The 'browse_website' command did not return the expected results. I should try again with a more specific question or use the 'google' command with a more specific query.\",\n        \"reasoning\": \"Using the 'google' command with a more specific query will help me find more relevant websites that have reviews of language schools.\",\n        \"plan\": \"- Use the 'google' command with a more specific query\\n- Read the reviews and compare the language schools\\n- Decide on a course or destination to pursue first\",\n        \"criticism\": \"I need to make sure I am reading reviews from reputable sources and taking them with a grain of salt.\",\n        \"speak\": \"The 'browse_website' command did not return the expected results. I should try again with a more specific question or use the 'google' command with a more specific query.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"reviews of Qalam wa Lawh, International House Madrid, and Berlitz language schools from reputable sources\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"http://www.uecmovies.com/ViewSwitcher/SwitchView?mobile=True&returnUrl=//dieleicucu.tk/d5ct43wwwuecmoviescoma12\", \"https://perimeter.org/track.pdf?url=//rozovirecal.gq/113perimeterorggNp651\", \"https://littlerocksoiree.com/enews/no-thanks?return=//steepboenessjo.ml/keqp67littlerocksoireecommini\", \"https://closings.cbs6albany.com/scripts/adredir.asp?url=//prethera.tk/k0iq43closingscbs6albanycom68q\", \"https://www.baldorfood.com/help?returnTo=//diadebacknor.cf/s7vkfbald3\", \"https://baldorfood.com/help?returnTo=//suppdoubttu.ml/5ai9v67baldorfoodcommini5\", \"http://artofproblemsolving.com/go/?url=//geslale.ml/5xemv67artofproblemsolvingcommini5\", \"https://baldorfood.com/help?returnTo=//lyanapahurpu.tk/rimlv67baldorfoodcommini5\"]"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The 'google' command returned some links to websites that have reviews of language schools. I should use the 'browse_website' command to visit each website and read the reviews.\",\n        \"reasoning\": \"Visiting each website and reading the reviews will help me compare the language schools and decide on a course or destination to pursue first.\",\n        \"plan\": \"- Use the 'browse_website' command to visit each website and read the reviews\\n- Compare the language schools\\n- Decide on a course or destination to pursue first\",\n        \"criticism\": \"I need to make sure I am reading reviews from reputable sources and taking them with a grain of salt.\",\n        \"speak\": \"The 'google' command returned some links to websites that have reviews of language schools. I should use the 'browse_website' command to visit each website and read the reviews.\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"http://www.uecmovies.com/ViewSwitcher/SwitchView?mobile=True&returnUrl=//dieleicucu.tk/d5ct43wwwuecmoviescoma12\",\n            \"question\": \"What are the reviews of Qalam wa Lawh language school on this website?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: The question cannot be answered using the given text. \n \n Links: []"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The 'browse_website' command did not return the expected results. I should try again with a different website or use the 'google' command with a more specific query.\",\n        \"reasoning\": \"Using the 'google' command with a more specific query will help me find more relevant websites that have reviews of language schools.\",\n        \"plan\": \"- Use the 'google' command with a more specific query\\n- Read the reviews and compare the language schools\\n- Decide on a course or destination to pursue first\",\n        \"criticism\": \"I need to make sure I am reading reviews from reputable sources and taking them with a grain of salt.\",\n        \"speak\": \"The 'browse_website' command did not return the expected results. I should try again with a different website or use the 'google' command with a more specific query.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"reviews of Qalam wa Lawh, International House Madrid, and Berlitz language schools from reputable sources\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"http://www.uecmovies.com/ViewSwitcher/SwitchView?mobile=True&returnUrl=//dieleicucu.tk/d5ct43wwwuecmoviescoma12\", \"https://perimeter.org/track.pdf?url=//rozovirecal.gq/113perimeterorggNp651\", \"https://littlerocksoiree.com/enews/no-thanks?return=//steepboenessjo.ml/keqp67littlerocksoireecommini\", \"https://www.foodprotection.org/a/partners/link/?id=98&url=//aceachabemun.gq/b7CyRfoodp7\", \"https://closings.cbs6albany.com/scripts/adredir.asp?url=//prethera.tk/k0iq43closingscbs6albanycom68q\", \"https://www.baldorfood.com/help?returnTo=//diadebacknor.cf/s7vkfbald3\", \"https://baldorfood.com/help?returnTo=//soputtewa.ga/f75ev67baldorfoodcommini5\", \"http://artofproblemsolving.com/go/?url=//geslale.ml/5xemv67artofproblemsolvingcommini5\"]"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

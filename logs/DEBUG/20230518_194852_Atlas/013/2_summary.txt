@@ -1,0 +1,1 @@
+"As a system, I received a command to browse the website https://www.spanish.academy/blog/11-best-free-spanish-language-learning-websites/ to find resources for practicing writing in Spanish. The command asked for information on available resources for writing in Spanish."

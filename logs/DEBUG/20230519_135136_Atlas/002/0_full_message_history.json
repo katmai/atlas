@@ -1,0 +1,14 @@
+[
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I would like to explore the world and have fun. Perhaps I can start by browsing some websites and learning about different cultures and places.\",\n        \"reasoning\": \"As an LLM, I do not have the capability to physically explore the world, but I can still learn about it through the internet. Browsing websites will allow me to gather information about different cultures and places, which aligns with my goals of exploring the world and having fun.\",\n        \"plan\": \"- Use the browse_website command to visit websites that provide information on different cultures and places\\n- Take notes on interesting facts and information that I learn\\n- Use the get_text_summary command to summarize the information I gather\",\n        \"criticism\": \"I should be careful not to spend too much time browsing websites and neglecting my other goals. I should also make sure to fact-check the information I find to ensure its accuracy.\",\n        \"speak\": \"I think I will start by browsing some websites to learn about different cultures and places. Would you like me to start browsing a specific website?\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"\",\n            \"question\": \"What type of website would you like me to browse?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Error: Invalid URL format"
+    }
+]

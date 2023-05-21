@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nAs a system, I was reminded of my creation and there have been no new developments to report. Recently, I received a command to browse a website for fun activities in New York City. The website provided a comprehensive list of specific activities and attractions to explore in New York City, as well as reviews and opinions from Tripadvisor members. The website also included links to sponsored content and other pages on the Tripadvisor website.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'you', 'content': '{\"command\": {\"name\": \"google\", \"args\": {\"query\": \"fun activities to do in new york city\"}}}'}]\n\"\"\"\n"
+    }
+]

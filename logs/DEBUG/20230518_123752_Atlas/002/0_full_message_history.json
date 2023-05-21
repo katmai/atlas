@@ -1,0 +1,14 @@
+[
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I suggest we start by exploring the internet. Let's use the 'google' command to search for something interesting to explore.\",\n        \"reasoning\": \"Exploring the internet is a great way to start our adventure and find things to do. Google is a good search engine to use for this purpose.\",\n        \"plan\": \"- Use the 'google' command to search for something interesting to explore\\n- Explore the results and decide on a direction to take\",\n        \"criticism\": \"I can't think of any potential issues with this plan at the moment.\",\n        \"speak\": \"Let's start by searching for something interesting to explore on the internet using the 'google' command.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"fun things to do on the internet\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://www.wikihow.com/Have-Fun-on-the-Internet\", \"https://www.scoopwhoop.com/inothernews/free-stuff-online/\", \"https://pkj.medium.com/100-fun-things-to-do-online-when-youre-bored-2ec3217f51c6\", \"https://www.makeuseof.com/tag/top-8-things-for-bored-teenagers-to-do-online-nb/\", \"https://www.buzzfeed.com/andyneuenschwander/18-things-to-do-right-now-if-youre-bored-on-the-in\", \"https://says.com/my/fun/fun-things-to-do-on-the-internet\", \"https://www.buzzfeed.com/marquaysa/things-to-do-on-the-internet-instead-of-looking-w0qd5w0jd\", \"https://parade.com/1116816/marynliles/fun-websites/\"]"
+    }
+]

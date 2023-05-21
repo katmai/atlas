@@ -1,0 +1,54 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. learn different languages\n2. explore the world\n3. have fun\n\n\nConstraints:\n1. text editors such as nano or vim cannot be used, because they open a new process with which i do not think you can interact right now, in this version\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. i have created Twitter V2 API credentials located in the file called .twitter_keys. Use those credentials when you need to do anything related to Twitter\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 19:50:45 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs a system, I recall that nothing new has happened since my creation."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I should start by exploring the world and learning different languages. Maybe I can start by searching for language learning resources or travel guides.\",\n        \"reasoning\": \"My goals are to learn different languages and explore the world, so it makes sense to start with these actions.\",\n        \"plan\": \"- Search for language learning resources\\n- Search for travel guides\\n- Start learning a new language\\n- Plan a trip to a new destination\\n- Research the culture and customs of the places I want to visit\",\n        \"criticism\": \"I need to make sure I stay focused on my goals and not get too distracted by other things.\",\n        \"speak\": \"I think I should start by exploring the world and learning different languages. Maybe I can start by searching for language learning resources or travel guides.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"best language learning resources\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://www.theintrepidguide.com/top-language-learning-resources/\", \"https://www.businessinsider.com/guides/learning/best-online-apps-courses-to-learn-new-language\", \"https://www.alllanguageresources.com/\", \"https://www.quora.com/What-are-the-best-language-learning-resources\", \"https://www.lingualift.com/blog/best-language-learning-resources/\", \"https://nymag.com/strategist/article/how-to-learn-languages-at-home.html\", \"https://www.mezzoguild.com/tools/\", \"https://www.fluentu.com/blog/online-language-learning-for-kids/\"]"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I found some good language learning resources. I think I should start by choosing a language to learn and then finding a good resource to use.\",\n        \"reasoning\": \"I need to choose a language to learn and find a good resource to use so that I can start learning.\",\n        \"plan\": \"- Choose a language to learn\\n- Research the best resources for learning that language\\n- Start using the resource to learn the language\",\n        \"criticism\": \"I need to make sure I choose a language that I am interested in and motivated to learn.\",\n        \"speak\": \"I found some good language learning resources. I think I should start by choosing a language to learn and then finding a good resource to use.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"best resources for learning spanish\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://www.fluentlanguage.co.uk/blog/best-spanish-resources\", \"https://www.spanish.academy/blog/the-ultimate-resource-list-spanish-for-beginners-pdfs-books-movies-etc/\", \"https://www.desktodirtbag.com/resources-for-learning-spanish/\", \"https://www.alllanguageresources.com/spanish/\", \"https://storylearning.com/learn/spanish/spanish-tips/spanish-resources-online\", \"https://www.fluentin3months.com/resources/spanish-learning-resources/\", \"https://www.clozemaster.com/blog/best-resources-for-learning-spanish/\", \"https://www.mezzoguild.com/spanish-resources/\"]"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I found some good resources for learning Spanish. I think I should start by choosing one of these resources and starting to learn the language.\",\n        \"reasoning\": \"I have found some good resources for learning Spanish, so it makes sense to start using one of them to begin learning the language.\",\n        \"plan\": \"- Choose a resource to use for learning Spanish\\n- Start using the resource to learn the language\\n- Practice speaking and writing in Spanish\",\n        \"criticism\": \"I need to make sure I stay motivated and consistent in my language learning.\",\n        \"speak\": \"I found some good resources for learning Spanish. I think I should start by choosing one of these resources and starting to learn the language.\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"https://www.fluentin3months.com/resources/spanish-learning-resources/\",\n            \"question\": \"What are the best resources for learning Spanish?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: The text provides a list of resources for learning Spanish, including SpanishPod101, Spanish Uncovered, Why Spanish is Easy, Conversation Countdown, Language Hacking Spanish, Fluent in 3 Months Bootcamp, Unlimited Spanish, Español en 3000, Forvo, LanguaTalk, Preply, Glossika, MOSALingua, and Wordreference. LingQ and Clozemaster Pro are suggested for intermediate and advanced learners. \n \n Links: ['Get the details here (https://www.fluentin3months.com/hellobar)', ' (https://www.fluentin3months.com/)', 'Start Here (https://www.fluentin3months.com/start-here/)', 'Bootcamp (https://www.fluentin3months.com/bootcamp?utm_source=menu-bootcamp&utm_medium=site&utm_campaign=hellobars&utm_term=menu-bootcamp&utm_content=menu-bootcamp&src=menu-bootcamp)', 'Blog (https://www.fluentin3months.com/learn)']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

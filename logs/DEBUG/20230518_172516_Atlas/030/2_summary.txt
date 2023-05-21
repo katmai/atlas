@@ -1,0 +1,1 @@
+"As the system, I recall that the user used the \"google\" command to search for information on the Inca empire. Command google returned various links related to the Inca empire. The user then used the \"browse_website\" command to access the Wikipedia page on the Inca empire and asked \"What is the Inca empire?\""

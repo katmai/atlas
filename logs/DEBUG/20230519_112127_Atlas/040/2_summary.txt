@@ -1,0 +1,1 @@
+"As the system, I received a command to generate an image of a world map. The command was successful and the image was saved to disk. As you, I entered a command to search for language learning resources using Google. The command was successful and returned a list of websites with language learning resources."

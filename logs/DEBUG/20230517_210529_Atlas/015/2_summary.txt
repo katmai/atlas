@@ -1,0 +1,1 @@
+"As the user, I commanded my computer to generate an image of a karate move or technique. The computer returned the image saved to disk. Then, I commanded my computer to write the image to a file named \"karate_move.jpg\" with the text \"karate move image\"."

@@ -1,0 +1,70 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. explore the world\n2. have fun\n\n\nConstraints:\n1. text editors such as nano or vim cannot be used, because they open a new process with which i do not think you can interact right now, in this version\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. i have created Twitter V2 API credentials located in the file called .twitter_keys. Use those credentials when you need to do anything related to Twitter\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 14:10:34 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs a system, I previously used the \"browse_website\" command to find the best museums in NYC and saved the list to a file named \"best_museums_nyc.txt\" using the \"write_to_file\" command. Recently, the \"list_files\" command returned too much output and should not be executed again with the same arguments. To view the list of best museums, I executed the \"read_file\" command with the argument \"best_museums_nyc.txt\". Upon doing so, I received the list of the top museums in NYC, including The Metropolitan Museum of Art, Museum of Modern Art (MoMA), American Museum of Natural History, Whitney Museum of American Art, Brooklyn Museum, The Jewish Museum, Fotografiska, Museum of the City of New York, Neue Galerie New York, The Frick Collection, and The Morgan Library & Museum. Additionally, I executed the \"google\" command with the argument \"best museums in nyc current exhibitions\"."
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://www.timeout.com/newyork/attractions/best-museum-exhibitions-in-nyc\", \"https://secretnyc.co/amazing-exhibits-new-york-city/\", \"https://www.thrillist.com/lifestyle/new-york/best-exhibits-in-nyc\", \"https://www.timeout.com/newyork/attractions/museums-in-nyc\", \"https://www.newyorker.com/goings-on-about-town/art\", \"https://loving-newyork.com/best-art-exhibitions-new-york-city/\", \"https://www.cityguideny.com/article/nyc-museums\", \"https://newyorksimply.com/nyc-best-museums-new-york-city/\"]"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Since the google command returned a list of websites with information about the best museums and their current exhibitions, I can use the browse_website command to visit each website and gather more information.\",\n        \"reasoning\": \"Using the browse_website command allows me to visit each website and gather more information about the best museums and their current exhibitions.\",\n        \"plan\": \"- Use the browse_website command to visit each website and gather more information about the best museums and their current exhibitions.\",\n        \"criticism\": \"I should make sure to only visit reputable websites and not click on any suspicious links.\",\n        \"speak\": \"Since the google command returned a list of websites with information about the best museums and their current exhibitions, I can use the browse_website command to visit each website and gather more information.\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"https://www.timeout.com/newyork/attractions/best-museum-exhibitions-in-nyc\",\n            \"question\": \"What are some of the current exhibitions at the Metropolitan Museum of Art?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: Some of the current exhibitions at the Metropolitan Museum of Art include a rooftop garden installation by Lauren Halsey, \"Karl Lagerfeld: A Line of Beauty\" showcasing the late designer's fashion pieces, \"Berenice Abbott's New York Album, 1929\" featuring black-and-white images of New York City, \"Richard Avedon: Murals\" showcasing life-size photomurals, \"The Facade Commission: Hew Locke, Gilt\" featuring gold-hued sculptures on the exterior of the museum, and a permanent exhibition called \"The Polonsky Exhibition of The New York Public Library's Treasures\" displaying over 250 unique and rare items from the library's research centers. \n \n Links: ['Go to the content (https://www.timeout.com/newyork/attractions/best-museum-exhibitions-in-nyc#main-container)', 'Go to the footer (https://www.timeout.com/newyork/attractions/best-museum-exhibitions-in-nyc#site-footer)', 'Terms of Use (https://www.timeout.com/terms-of-use)', 'Privacy Policy (https://www.timeout.com/privacy-notice)', 'News (https://www.timeout.com/newyork/news)']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Now that I have gathered information about some of the current exhibitions at the Metropolitan Museum of Art, I can use the write_to_file command to save the information to a file.\",\n        \"reasoning\": \"Using the write_to_file command allows me to save the information I gathered to a file for future reference.\",\n        \"plan\": \"- Use the write_to_file command to save the information I gathered to a file.\",\n        \"criticism\": \"I should make sure to choose a descriptive name for the file and to include the date so that I can easily find the information later.\",\n        \"speak\": \"Now that I have gathered information about some of the current exhibitions at the Metropolitan Museum of Art, I can use the write_to_file command to save the information to a file.\"\n    },\n    \"command\": {\n        \"name\": \"write_to_file\",\n        \"args\": {\n            \"filename\": \"current_exhibitions_metropolitan_museum_of_art.txt\",\n            \"text\": \"Some of the current exhibitions at the Metropolitan Museum of Art include a rooftop garden installation by Lauren Halsey, \\\"Karl Lagerfeld: A Line of Beauty\\\" showcasing the late designer's fashion pieces, \\\"Berenice Abbott's New York Album, 1929\\\" featuring black-and-white images of New York City, \\\"Richard Avedon: Murals\\\" showcasing life-size photomurals, \\\"The Facade Commission: Hew Locke, Gilt\\\" featuring gold-hued sculptures on the exterior of the museum, and a permanent exhibition called \\\"The Polonsky Exhibition of The New York Public Library's Treasures\\\" displaying over 250 unique and rare items from the library's research centers.\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command write_to_file returned: File written to successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Now that I have saved the information to a file, I can use the delete_agent command to delete any GPT agents that are no longer needed.\",\n        \"reasoning\": \"Using the delete_agent command allows me to delete any GPT agents that are no longer needed and free up resources.\",\n        \"plan\": \"- Use the delete_agent command to delete any GPT agents that are no longer needed.\",\n        \"criticism\": \"I should make sure to only delete agents that are no longer needed and to double-check before deleting any agents.\",\n        \"speak\": \"Now that I have saved the information to a file, I can use the delete_agent command to delete any GPT agents that are no longer needed.\"\n    },\n    \"command\": {\n        \"name\": \"delete_agent\",\n        \"args\": {\n            \"key\": \"<key>\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command delete_agent returned: Error: invalid literal for int() with base 10: '<key>'"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Since I received an error message when attempting to use the delete_agent command, I will use the list_agents command to view a list of all GPT agents and their keys.\",\n        \"reasoning\": \"Using the list_agents command allows me to view a list of all GPT agents and their keys, which I can then use to delete any agents that are no longer needed.\",\n        \"plan\": \"- Use the list_agents command to view a list of all GPT agents and their keys.\",\n        \"criticism\": \"I should make sure to only delete agents that are no longer needed and to double-check before deleting any agents.\",\n        \"speak\": \"Since I received an error message when attempting to use the delete_agent command, I will use the list_agents command to view a list of all GPT agents and their keys.\"\n    },\n    \"command\": {\n        \"name\": \"list_agents\",\n        \"args\": {}\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command list_agents returned: List of agents:\n"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

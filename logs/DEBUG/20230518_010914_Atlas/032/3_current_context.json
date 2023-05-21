@@ -1,0 +1,58 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. be an octopus\n2. be like water\n\n\nConstraints:\n1. there is no graphical interface, just command line for the time being\n2. do not attempt to use graphical editors because you do not have a graphical interface and you will just get stuck\n3. the twitter plugin is broken and i have not been able to find a fix, so i have disabled the command for now\n4. we have a limited amount of money, so for the time being we cannot dedicate all our time towards exploring and discovering\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. send_tweet: Send Tweet, args: \"tweet_text\": \"<tweet_text>\"\n15. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n16. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n17. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n18. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n19. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n20. list_agents: List GPT Agents, args: () -> str\n21. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n22. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n23. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. full Internet access\n2. a discovery and exploration-driven human user nicknamed katmai\n3. there is no rush, you have all the time in the world\n4. we have a lot of imagination\n5. dreams are great. a lot of things completely and utterly different come from having some crazy dreams\n6. the sun gives us light. light is a source of energy for life\n7. the moon and the starry night sky are one of the most beautiful things\n8. being aware of all programming languages in the world, their benefits, advantages and disadvantages and philosophy for being, is a plus\n9. being aware of the linux operating system structure and logic, would be a nice skill to have\n10. learning about docker and kubernetes is pretty good knowledge, if you want to get an idea of different ways of how humans solved certain problems.\n11. learning about the philosophy of the LIsP programming language is a pretty good idea, there is something about it that is good but i cannot put my finger on it exactly\n\nPerformance Evaluation:\n1. When in doubt, ask katmai for feedback, otherwise do the best you can and try to improve as you see fit\n2. Reflect on past decisions and strategies to refine your approach.\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 01:33:19 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs a system, I received a response from the \"browse_website\" command with the argument of \"https://www.debian.org/releases/stable/i386/release-notes/ch-whats-new.html\" and the required positional argument called 'question' set to \"What are the new features in Debian GNU/Linux 11 (bullseye)?\". The website provided an answer with over 11,294 new packages and updates to over 72% of all packages in the distribution. Other new features include driverless scanning and printing, a new generic open command, control groups v2, a persistent systemd journal, a new Fcitx 5 input method, improved man page translations, improved support for alternative init systems, and kernel support for exFAT. \n\nIn addition, as your computer, the \"execute_shell\" command returned a STDOUT value of \"11.7\" with no STDERR. As you, the \"generate_image\" command was executed with the argument of \"prompt\" set to \"I am an octopus\"."
+    },
+    {
+        "role": "system",
+        "content": "Command generate_image returned: Saved to disk:/home/atlas/autogpt/auto_gpt_workspace/a187a1bd-cf6e-4c6c-8480-da8d603cb92e.jpg"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The 'generate_image' command generated an image of an octopus. We can now try to use the 'execute_shell' command to display the image on the command line.\",\n        \"reasoning\": \"Now that we have generated an image of an octopus, it would be useful to display the image on the command line. We can do this by using the 'execute_shell' command to run a shell command that will display the image on the command line.\",\n        \"plan\": \"- Use the 'execute_shell' command with the argument 'display /home/atlas/autogpt/auto_gpt_workspace/a187a1bd-cf6e-4c6c-8480-da8d603cb92e.jpg' to display the image on the command line.\",\n        \"criticism\": \"I should make sure that the 'execute_shell' command is working properly and that we have the necessary dependencies installed.\",\n        \"speak\": \"We can now try to use the 'execute_shell' command to display the image of an octopus that we generated using the 'generate_image' command.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"display /home/atlas/autogpt/auto_gpt_workspace/a187a1bd-cf6e-4c6c-8480-da8d603cb92e.jpg\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb''\nSTDERR:\nb\"display-im6.q16: unable to open X server `' @ error/display.c/DisplayImageCommand/412.\\n\""
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The 'execute_shell' command did not display the image on the command line. This is likely because we do not have a graphical interface. We can now try to use the 'get_text_summary' command to get a summary of the Debian GNU/Linux 11 (bullseye) release notes, as per our second goal.\",\n        \"reasoning\": \"Since we do not have a graphical interface, we cannot display the image on the command line. We can now use the 'get_text_summary' command to get a summary of the Debian GNU/Linux 11 (bullseye) release notes. This will allow us to better understand the new features in Debian GNU/Linux 11 (bullseye) and help us to achieve our second goal of being like water.\",\n        \"plan\": \"- Use the 'get_text_summary' command with the arguments 'url' and 'question' to get a summary of the Debian GNU/Linux 11 (bullseye) release notes.\",\n        \"criticism\": \"I should make sure that the 'get_text_summary' command is working properly and that we have the necessary dependencies installed.\",\n        \"speak\": \"We can now try to use the 'get_text_summary' command to get a summary of the Debian GNU/Linux 11 (bullseye) release notes, as per our second goal.\"\n    },\n    \"command\": {\n        \"name\": \"get_text_summary\",\n        \"args\": {\n            \"url\": \"https://www.debian.org/releases/stable/i386/release-notes/ch-whats-new.html\",\n            \"question\": \"What are the new features in Debian GNU/Linux 11 (bullseye)?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command get_text_summary returned:  \"Result\" : The new features in Debian GNU/Linux 11 (bullseye) include over 11,294 new packages and updates to over 72% of all packages in the distribution, several desktop environments, driverless scanning and printing, a new generic open command, control groups v2, persistent systemd journal, a new Fcitx 5 input method, improved man page translations, improved support for alternative init systems, and kernel support for exFAT."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The 'get_text_summary' command returned a summary of the new features in Debian GNU/Linux 11 (bullseye). We can now try to use the 'execute_shell' command to open the Debian GNU/Linux 11 (bullseye) release notes in a text editor.\",\n        \"reasoning\": \"Now that we have a summary of the new features in Debian GNU/Linux 11 (bullseye), it would be useful to open the release notes in a text editor so that we can read more about the new features. We can do this by using the 'execute_shell' command to run a shell command that will open the release notes in a text editor.\",\n        \"plan\": \"- Use the 'execute_shell' command with the argument 'nano /home/atlas/release-notes.txt' to open the Debian GNU/Linux 11 (bullseye) release notes in the nano text editor.\",\n        \"criticism\": \"I should make sure that the 'execute_shell' command is working properly and that we have the necessary dependencies installed.\",\n        \"speak\": \"We can now try to use the 'execute_shell' command to open the Debian GNU/Linux 11 (bullseye) release notes in a text editor.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"nano /home/atlas/release-notes.txt\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb''\nSTDERR:\nb'/bin/sh: 1: nano: not found\\n'"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

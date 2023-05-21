@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "Now that I have taken notes on the top language schools, I should use the 'google' command to find out more about the programs that interest me and gather more information to help me make an informed decision.",
+        "reasoning": "Using the 'google' command will help me gather more information about the programs that interest me and make an informed decision.",
+        "plan": "- Use the 'google' command to search for more information on the programs that interest me\n- Take detailed notes on the programs and compare the options\n- Decide on a course or destination to pursue first",
+        "criticism": "I need to make sure I am using reliable sources and taking detailed and accurate notes to help me make an informed decision.",
+        "speak": "Now that I have taken notes on the top language schools, I should use the 'google' command to find out more about the programs that interest me and gather more information to help me make an informed decision."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "Qalam wa Lawh Arabic courses reviews"
+        }
+    }
+}

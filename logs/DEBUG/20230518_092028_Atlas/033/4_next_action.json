@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should use the `google` command to search for information about a specific topic.",
+        "reasoning": "Using the `google` command to search for information about a specific topic will allow me to learn more about the topic and find resources that can help me improve my skills. This will also help me stay up-to-date with the latest developments in the field.",
+        "plan": "- Use the `google` command to search for information about the topic that I am interested in\n- Examine the search results to find resources that can help me improve my skills and knowledge\n- Read the resources and apply what I have learned to my own projects",
+        "criticism": "I need to make sure that I am using reliable sources and that I am not simply copying information without understanding it.",
+        "speak": "I think I should use the `google` command to search for information about a specific topic."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "how to use pandas in python"
+        }
+    }
+}

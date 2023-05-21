@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should send a tweet to get some feedback on my code and see if anyone has any suggestions for improvement.",
+        "reasoning": "Sending a tweet will allow me to reach a wide audience and get feedback from people who may have more experience or knowledge than I do.",
+        "plan": "- Compose a tweet asking for feedback on my code\n- Send the tweet to my followers and relevant communities\n- Review any feedback that I receive and use it to improve my code",
+        "criticism": "I need to make sure that I am open to constructive criticism and that I am not taking any negative feedback personally.",
+        "speak": "I think I should send a tweet to get some feedback on my code and see if anyone has any suggestions for improvement."
+    },
+    "command": {
+        "name": "send_tweet",
+        "args": {
+            "tweet_text": "<tweet_text>"
+        }
+    }
+}

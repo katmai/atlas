@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I should execute a shell command to change the current working directory to the images directory.",
+        "reasoning": "Changing the current working directory to the images directory will allow me to easily access the JPG files.",
+        "plan": "- Execute a shell command to change the current working directory to the images directory\n- Verify that the current working directory has been changed successfully",
+        "criticism": "I need to make sure that the images directory exists before executing the command.",
+        "speak": "I think I should execute a shell command to change the current working directory to the images directory."
+    },
+    "command": {
+        "name": "execute_shell",
+        "args": {
+            "command_line": "cd images"
+        }
+    }
+}

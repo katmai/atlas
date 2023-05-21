@@ -33,7 +33,7 @@ RUN apt-get update \
     && apt-get install -y  apt-utils sudo git openssh-client sbcl cmake clisp unzip emacs man-db stockfish xz-utils zbarcam-gtk xvfb zbar-tools tesseract-ocr imagemagick strace eog vlc lynx
 
 RUN apt-get update \
-    && apt-get install -y rsync
+    && apt-get install -y rsync tree
 
 #WORKDIR /home/atlas
 #RUN wget -O ./plugins/Auto-GPT-SystemInfo.zip https://github.com/hdkiller/Auto-GPT-SystemInfo/archive/refs/heads/master.zip 

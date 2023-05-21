@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "Berlitz offers language courses in English, Spanish, French, German, Arabic, Russian, Mandarin, Portuguese, Italian, Japanese, Korean, and American Sign Language (ASL). I should compare the programs offered by Berlitz with those offered by other language schools to make a more informed decision.",
+        "reasoning": "Comparing the programs offered by different language schools will help me make an informed decision.",
+        "plan": "- Use the 'browse_website' command to browse other language school websites\n- Take notes on the programs that interest me\n- Compare the options and decide on a course or destination to pursue first",
+        "criticism": "I need to make sure I am not getting overwhelmed by too many options and that I am making a decision in a timely manner.",
+        "speak": "Berlitz offers language courses in English, Spanish, French, German, Arabic, Russian, Mandarin, Portuguese, Italian, Japanese, Korean, and American Sign Language (ASL). I should compare the programs offered by Berlitz with those offered by other language schools to make a more informed decision."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.languageinternational.com/",
+            "question": "What services does Language International offer?"
+        }
+    }
+}

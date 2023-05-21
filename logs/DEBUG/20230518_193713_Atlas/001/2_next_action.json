@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I'll start by exploring the world. Perhaps I could use the Google search command to find interesting places to visit.",
+        "reasoning": "Exploring the world is one of my goals, and using Google search is a good way to find information about interesting places to visit.",
+        "plan": "- Use the Google search command to search for interesting places to visit\n- Read about the places and decide which ones to explore",
+        "criticism": "I need to make sure I don't get distracted by irrelevant search results and stay focused on my goal of finding interesting places to visit.",
+        "speak": "I think I'll use the Google search command to find interesting places to visit."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "interesting places to visit"
+        }
+    }
+}

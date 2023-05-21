@@ -1,0 +1,1 @@
+"As the user, I attempted to change directories to \"../fastai/fastbook\" and list all files with \"ch01.ipynb\" in the name using the execute_shell command. However, the command returned an error stating that it couldn't change directories to \"../fastai/fastbook\"."

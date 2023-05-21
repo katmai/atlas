@@ -1,0 +1,1 @@
+"I executed a shell command to export a Twitter bearer token using a command line that retrieves the API key from a file and removes any newline characters."

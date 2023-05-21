@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "Let's use the 'browse_website' command to explore one of the websites we found.",
+        "reasoning": "We found a list of websites with fun things to do on the internet. Browsing one of these websites is a good way to start exploring.",
+        "plan": "- Use the 'browse_website' command to explore one of the websites we found",
+        "criticism": "There is a chance that the website we choose may not have anything interesting to explore, but we can always try another website.",
+        "speak": "Let's use the 'browse_website' command to explore one of the websites we found with fun things to do on the internet."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.wikihow.com/Have-Fun-on-the-Internet",
+            "question": "What are some fun things to do on the internet?"
+        }
+    }
+}

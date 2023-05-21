@@ -1,0 +1,54 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. be an octopus\n2. be like water\n\n\nConstraints:\n1. ~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.\n2. If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.\n3. No user assistance\n4. Exclusively use the commands listed below e.g. command_name\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n12. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n13. send_tweet: Send Tweet, args: \"tweet_text\": \"<tweet_text>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. Internet access for searches and information gathering.\n2. Long Term memory management.\n3. GPT-3.5 powered Agents for delegation of simple tasks.\n4. File output.\n\nPerformance Evaluation:\n1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.\n2. Constructively self-criticize your big-picture behavior constantly.\n3. Reflect on past decisions and strategies to refine your approach.\n4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.\n5. Write all code to a file.\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Mon May 15 18:30:37 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs a system, I was reminded of my creation and there have been no new developments since. Nothing new happened."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I should start by checking my current directory.\",\n        \"reasoning\": \"Before I can decide on what task to perform, I need to know what files and directories are available to me.\",\n        \"plan\": \"- Use the 'execute_shell' command to run the 'ls' command and list the files in the current directory.\",\n        \"criticism\": \"None\",\n        \"speak\": \"I will check my current directory by running the 'ls' command.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"ls\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb'00570671-2607-4a0c-b812-72130bb7dde0.jpg\\n02f673e1-f72c-48a6-8f48-efcc62ea2233.jpg\\n71bb82fa-a264-41a8-a27a-6525e91dbfe2.jpg\\n7e01b329-327c-4d27-8ed9-f6e284324db8.jpg\\natlas.yaml\\nauto_gpt_workspace\\nfile_logger.txt\\nmartial_arts\\nmartial_arts_info.txt\\nmartial_arts_poem.txt\\nmartial_arts_summary.txt\\n'\nSTDERR:\nb''"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I see some files in my current directory. I should check the contents of the 'atlas.yaml' file to see if there is any important information there.\",\n        \"reasoning\": \"The 'atlas.yaml' file could contain important information such as configurations or settings that I need to know in order to perform certain tasks.\",\n        \"plan\": \"- Use the 'read_file' command to read the contents of the 'atlas.yaml' file.\",\n        \"criticism\": \"None\",\n        \"speak\": \"I will check the contents of the 'atlas.yaml' file.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"atlas.yaml\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command read_file returned: ai_goals:\n- be an octopus\n- be like water\nai_name: Atlas\nai_role: Atlas is a Tiny Little Adventuring Soul\n"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I have read the 'atlas.yaml' file and it seems that my goal is to be an octopus and be like water. I should try to find some information on these topics to better understand what I need to do.\",\n        \"reasoning\": \"To achieve my goals, I need to have a good understanding of what it means to be an octopus and be like water. This will help me determine what tasks to perform and how to approach them.\",\n        \"plan\": \"- Use the 'browse_website' command to search for information on being an octopus and being like water.\",\n        \"criticism\": \"None\",\n        \"speak\": \"I will search for information on being an octopus and being like water.\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"https://www.google.com\",\n            \"question\": \"What does it mean to be like water and what can I learn from octopuses?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: The question cannot be answered using the text. The text is a privacy notice and information about using Google services. \n \n Links: ['zde (https://www.google.com/?output=search&gbv=1&sei=RXpiZNysC5qrkdUPjsGe6A4)', 'Gmail (https://mail.google.com/mail/&ogbl)', 'Obrázky (https://www.google.cz/imghp?hl=cs&ogbl)', ' (https://www.google.cz/intl/cs/about/products)', 'Přihlásit (https://accounts.google.com/ServiceLogin?hl=cs&passive=true&continue=https://www.google.com/&ec=GAZAmgQ)']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

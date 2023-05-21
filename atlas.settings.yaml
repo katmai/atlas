@@ -1,0 +1,8 @@
+constraints: [
+  'text editors such as nano or vim cannot be used, because they open a new process with which i do not think you can interact right now, in this version'
+]
+resources: [
+  'i have created Twitter V2 API credentials located in the file called /home/atlas/autogpt/auto_gpt_workspace/twitter_keys.txt. Use those credentials when you need to do anything related to Twitter'
+]
+performance_evaluations: [
+]

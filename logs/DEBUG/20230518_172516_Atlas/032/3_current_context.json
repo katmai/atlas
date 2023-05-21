@@ -1,0 +1,82 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. learn different languages\n2. explore the world\n3. have fun\n\n\nConstraints:\n1. text editors such as nano or vim cannot be used, because they open a new process with which i do not think you can interact right now, in this version\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. i have created Twitter V2 API credentials located in the file called .twitter_keys. Use those credentials when you need to do anything related to Twitter\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 17:55:05 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs the system, I recall that the user used the \"google\" command to search for information on the Inca empire. Command google returned various links related to the Inca empire. The user then used the \"browse_website\" command to access the Wikipedia page on the Inca empire and asked \"What is the Inca empire?\" Command browse_website returned: Answer gathered from website: The Inca Empire was a pre-Columbian civilization that existed in South America from the early 13th century until the Spanish conquest in the 16th century. It was the largest empire in pre-Columbian America, known for its monumental architecture, extensive road network, finely-woven textiles, use of knotted strings for record keeping and communication, agricultural innovations, and unique system of exchange based on reciprocity. The empire was organized into a central government with the Inca at its head and four provincial governments with strong leaders. The Inca society was linguistically diverse, with Quechua being the most important language. The Inca religion was polytheistic and centered around the worship of nature deities. The empire was eventually conquered by the Spanish, leading to the downfall of the Inca civilization. Additionally, I received a command from the user to write the information to a file named \"inca_empire.txt\". The text in the file includes a more detailed description of the Inca Empire, including its location in the Andean Mountains."
+    },
+    {
+        "role": "system",
+        "content": "Command write_to_file returned: File written to successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I have saved the information about the Inca empire to a file. Now I can use the list_files command to list all the files in the current directory.\",\n        \"reasoning\": \"I have saved the information about the Inca empire to a file. I want to check if the file has been saved correctly, and the list_files command can be used to do that.\",\n        \"plan\": \"- Use the list_files command to list all the files in the current directory.\",\n        \"criticism\": \"None\",\n        \"speak\": \"I have saved the information about the Inca empire to a file. Now I can use the list_files command to list all the files in the current directory.\"\n    },\n    \"command\": {\n        \"name\": \"list_files\",\n        \"args\": {\n            \"directory\": \".\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Failure: command list_files returned too much output.                         Do not execute this command again with the same arguments."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I have used the list_files command and it returned too much output. I can use the read_file command to read the contents of the current directory and find the file I am looking for.\",\n        \"reasoning\": \"I have used the list_files command and it returned too much output. I want to find the file I saved earlier, and the read_file command can be used to read the contents of the current directory and find the file I am looking for.\",\n        \"plan\": \"- Use the read_file command to read the contents of the current directory and find the file I am looking for.\",\n        \"criticism\": \"None\",\n        \"speak\": \"I have used the list_files command and it returned too much output. I can use the read_file command to read the contents of the current directory and find the file I am looking for.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \".\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command read_file returned: Error: [Errno 21] Is a directory: '/home/atlas/autogpt/auto_gpt_workspace'"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I used the read_file command incorrectly. I can use the list_files command again, but this time with the grep command to find the file I am looking for.\",\n        \"reasoning\": \"I used the read_file command incorrectly. I want to find the file I saved earlier, and the list_files command can be used to list all the files in the current directory. I can then use the grep command to search for the file I am looking for.\",\n        \"plan\": \"- Use the list_files command to list all the files in the current directory.\\n- Use the grep command to search for the file I am looking for.\",\n        \"criticism\": \"None\",\n        \"speak\": \"I used the read_file command incorrectly. I can use the list_files command again, but this time with the grep command to find the file I am looking for.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"ls | grep inca_empire.txt\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb'inca_empire.txt\\n'\nSTDERR:\nb''"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I have found the file I am looking for. Now I can use the read_file command to read the contents of the file.\",\n        \"reasoning\": \"I have found the file I am looking for. I want to read the contents of the file, and the read_file command can be used to do that.\",\n        \"plan\": \"- Use the read_file command to read the contents of the file.\",\n        \"criticism\": \"None\",\n        \"speak\": \"I have found the file I am looking for. Now I can use the read_file command to read the contents of the file.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"inca_empire.txt\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command read_file returned: The Inca Empire was a pre-Columbian civilization that existed in South America from the early 13th century until the Spanish conquest in the 16th century. It was the largest empire in pre-Columbian America, centered in the Andean Mountains, and known for its monumental architecture, extensive road network, finely-woven textiles, use of knotted strings for record keeping and communication, agricultural innovations, and unique system of exchange based on reciprocity. The empire was organized into a central government with the Inca at its head and four provincial governments with strong leaders. The Inca society was linguistically diverse, with Quechua being the most important language. The Inca religion was polytheistic and centered around the worship of nature deities. The empire was eventually conquered by the Spanish, leading to the downfall of the Inca civilization."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I have read the contents of the file. Now I can use the google command to search for information on the Quechua language.\",\n        \"reasoning\": \"I have read the contents of the file and learned that the Inca society was linguistically diverse, with Quechua being the most important language. I want to learn more about the Quechua language, and the google command can be used to search for information on it.\",\n        \"plan\": \"- Use the google command to search for information on the Quechua language.\",\n        \"criticism\": \"None\",\n        \"speak\": \"I have read the contents of the file. Now I can use the google command to search for information on the Quechua language.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"Quechua language\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://en.wikipedia.org/wiki/Quechuan_languages\", \"https://www.mustgo.com/worldlanguages/quechua/\", \"https://plc.sas.upenn.edu/quechua\", \"https://www.gviusa.com/blog/quechua-the-surviving-language-of-the-inca-empire/\", \"https://web.sas.upenn.edu/quechua/\", \"https://www.worldbank.org/en/news/feature/2014/04/16/discriminados-por-hablar-su-idioma-natal-peru-quechua\", \"https://chss.rowan.edu/home_page_highlights/mother_tongue.html\", \"https://omniglot.com/writing/quechua.htm\"]"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

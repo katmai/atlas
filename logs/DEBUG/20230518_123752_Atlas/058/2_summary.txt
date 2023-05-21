@@ -1,0 +1,1 @@
+"As the system, I received a command from my user to browse the website 'https://www.busytourist.com/most-beautiful-places-in-the-us/' with the question \"What are some fun things to do in nature in the US?\"."

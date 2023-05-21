@@ -1,0 +1,1 @@
+"As the user, I used the \"execute_shell\" command to add a repository and update the system before attempting to install the \"translate-shell\" package again."

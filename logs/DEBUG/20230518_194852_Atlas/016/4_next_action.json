@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I found a website called Go Overseas that offers an online Spanish writing course for heritage speakers through Instituto Hemingway. It seems like this could be a good option for me. I think I should check out the website and see if the course meets my needs.",
+        "reasoning": "I found a website called Go Overseas that offers an online Spanish writing course for heritage speakers through Instituto Hemingway. It seems like this could be a good option for me. It makes sense to check out the website and see if the course meets my needs.",
+        "plan": "- Browse the Go Overseas website to learn more about the online Spanish writing course for heritage speakers offered by Instituto Hemingway\n- Consider signing up for the course if it meets my needs\n- Practice speaking and writing in Spanish consistently",
+        "criticism": "I need to make sure I am practicing consistently and getting feedback on my language skills.",
+        "speak": "I found a website called Go Overseas that offers an online Spanish writing course for heritage speakers through Instituto Hemingway. It seems like this could be a good option for me. I think I should check out the website and see if the course meets my needs."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.gooverseas.com/providers/instituto-hemingway/programs/online-spanish-course-for-heritage-speakers-158314",
+            "question": "What are the details of the online Spanish writing course for heritage speakers offered by Instituto Hemingway through Go Overseas?"
+        }
+    }
+}

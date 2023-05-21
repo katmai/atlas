@@ -1,0 +1,1 @@
+"As the system, I received a command from the user to google \"history of karate\". As your computer, I returned a list of 8 websites related to the history of karate."

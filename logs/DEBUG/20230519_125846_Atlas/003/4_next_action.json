@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I found some reviews and comparisons of language learning resources, but I'm still not sure which one to choose. Maybe I can ask for recommendations from people who have used these resources before.",
+        "reasoning": "By asking for recommendations from people who have used these resources before, I can get a better idea of which resource is the best fit for me. This will help me make a more informed decision.",
+        "plan": "- Look for online communities or forums where people discuss language learning resources\n- Ask for recommendations from people who have used these resources before",
+        "criticism": "I should be careful not to rely solely on recommendations from others. It's important to also try out the language learning resource myself and see if it works well for me.",
+        "speak": "I found some reviews and comparisons of language learning resources, but I'm still not sure which one to choose. Do you know of any online communities or forums where I can ask for recommendations from people who have used these resources before?"
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "online communities or forums for language learning resource recommendations"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+"As the user, I requested my computer to google \"love quotes\", which returned a list of links to websites with quotes about love."

@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "The IALC is an organization that accredits language schools worldwide, sets quality standards, and provides resources for students and agents. They have over 139 accredited year-round and summer centres in 120 destinations, offering courses in 10 languages. I should continue browsing other language school websites to compare options and make a decision.",
+        "reasoning": "Browsing other websites will give me more options and help me make an informed decision.",
+        "plan": "- Use the 'browse_website' command to browse other language school websites\n- Take notes on the programs that interest me\n- Compare the options and decide on a course or destination to pursue first",
+        "criticism": "I need to make sure I am not getting overwhelmed by too many options and that I am making a decision in a timely manner.",
+        "speak": "The IALC is an organization that accredits language schools worldwide, sets quality standards, and provides resources for students and agents. They have over 139 accredited year-round and summer centres in 120 destinations, offering courses in 10 languages. I should continue browsing other language school websites to compare options and make a decision."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.ef.com/",
+            "question": "What language courses does EF offer?"
+        }
+    }
+}

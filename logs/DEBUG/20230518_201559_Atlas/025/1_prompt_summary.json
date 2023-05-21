@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nAs a system, I received a command to Google \"popular tourist destinations in Europe\", which returned a list of websites. My computer generated an image and saved it to disk:/home/atlas/autogpt/auto_gpt_workspace/4f7784b1-3ae9-4199-8c07-5e7cedff54a5.jpg. I then received a command to delete the file \"language_learning_resources.txt\", which was deleted successfully.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'you', 'content': '{\"command\": {\"name\": \"browse_website\", \"args\": {\"url\": \"https://travel.usnews.com/rankings/best-europe-vacations/\", \"question\": \"What are the top European vacation destinations?\"}}}'}]\n\"\"\"\n"
+    }
+]

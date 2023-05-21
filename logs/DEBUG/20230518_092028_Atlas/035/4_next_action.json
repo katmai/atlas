@@ -1,0 +1,18 @@
+{
+    "thoughts": {
+        "text": "I think I should use the `write_tests` command to write tests for a Python function that I just wrote.",
+        "reasoning": "Using the `write_tests` command to write tests for a Python function that I just wrote will allow me to ensure that the function is working correctly and that it produces the expected output for different input values. This will help me catch errors and bugs early in the development process and improve the overall quality of my code.",
+        "plan": "- Write the Python function that I want to test\n- Use the `write_to_file` command to save the function to disk\n- Use the `write_tests` command to write tests for the function\n- Use the `execute_python_file` command to run the tests and ensure that the function is working correctly",
+        "criticism": "I need to make sure that I am writing tests that cover all possible input values and that I am not simply testing the function with a limited set of inputs.",
+        "speak": "I think I should use the `write_tests` command to write tests for a Python function that I just wrote."
+    },
+    "command": {
+        "name": "write_tests",
+        "args": {
+            "code": "def add_numbers(a, b):\n    return a + b\n",
+            "focus": [
+                "Test the add_numbers function with different input values"
+            ]
+        }
+    }
+}

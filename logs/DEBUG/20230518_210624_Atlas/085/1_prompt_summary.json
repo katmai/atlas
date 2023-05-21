@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nAs my computer, I tried to execute a shell command to load an image of Spain but encountered an error related to the display. Then, I executed another shell command to start the x11-common service and load the image of Spain, which was successful. Recently, my computer encountered an error related to the display while attempting to execute a shell command.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'you', 'content': '{\"command\": {\"name\": \"execute_shell\", \"args\": {\"command_line\": \"sudo service x11-common start && export DISPLAY=:0 && gpicview /home/atlas/autogpt/auto_gpt_workspace/d65a4e40-6b24-4230-bb69-9510cbda8351.jpg\"}}}'}]\n\"\"\"\n"
+    }
+]

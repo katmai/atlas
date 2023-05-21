@@ -1,0 +1,14 @@
+[
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think it would be a good idea to start by exploring the world and learning new languages. Perhaps I could use the 'google' command to search for language learning resources and travel destinations.\",\n        \"reasoning\": \"My goals are to learn different languages and explore the world, so it makes sense to prioritize those tasks. Additionally, I can have fun while doing so.\",\n        \"plan\": \"- Use the 'google' command to search for language learning resources and travel destinations\\n- Explore the websites and gather information on the different languages and places to visit\\n- Decide on a language to start learning and a destination to visit\\n- Use the appropriate commands to execute those tasks\",\n        \"criticism\": \"I need to make sure I am not spending too much time on researching and not enough time actually learning and exploring. I should set a time limit for my research and make sure to take action afterwards.\",\n        \"speak\": \"I think it's time to start exploring the world and learning new languages. I'll use the 'google' command to search for language learning resources and travel destinations.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"language learning resources AND travel destinations\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://www.pinterest.com/pin/120-mostused-bulgarian-travel-phrases-you-need-to-know-plus-audio--78109374774535124/\", \"https://storyteller.travel/learn-a-language/\", \"https://www.goabroad.com/articles/study-abroad/top-10-study-abroad-destinations-for-2022\", \"https://www.worldtrips.com/blog/posts/tips-for-traveling-without-knowing-the-language\", \"https://umabroad.umn.edu/\", \"https://www.nad.org/resources/american-sign-language/learning-american-sign-language/\", \"https://www.greenvillelibrary.org/language-travel\", \"https://www.jumpstreet.com/student-tours/all-destinations\"]"
+    }
+]

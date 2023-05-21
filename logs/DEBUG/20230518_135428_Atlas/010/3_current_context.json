@@ -1,0 +1,70 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. explore the world\n2. have fun\n\n\nConstraints:\n1. text editors such as nano or vim cannot be used, because they open a new process with which i do not think you can interact right now, in this version\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. i have created Twitter V2 API credentials located in the file called .twitter_keys. Use those credentials when you need to do anything related to Twitter\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 14:03:32 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs a system, I used the \"browse_website\" command to ask my computer for suggestions on fun activities to do in NYC. My computer returned a list of 36-94 fun activities to do in NYC, including visiting museums, dining at various restaurants, attending Broadway shows, experiencing unique activities like roller skating at Rockefeller Center, and visiting landmarks like the Statue of Liberty and the Brooklyn Bridge. I then used the \"write_to_file\" command to save the list to a file named \"fun_activities_nyc.txt\". No further developments have occurred."
+    },
+    {
+        "role": "system",
+        "content": "Command write_to_file returned: File written to successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I can use the list_files command to confirm that the file was created.\",\n        \"reasoning\": \"Using the list_files command allows me to confirm that the file was created and is in the correct location.\",\n        \"plan\": \"- Use the list_files command to confirm that the file was created.\",\n        \"criticism\": \"I should make sure to check that the file contains the correct information.\",\n        \"speak\": \"I can use the list_files command to confirm that the file was created.\"\n    },\n    \"command\": {\n        \"name\": \"list_files\",\n        \"args\": {\n            \"directory\": \".\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Failure: command list_files returned too much output.                         Do not execute this command again with the same arguments."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"It looks like the list_files command returned too much output. I can try using the read_file command to confirm that the file was created and contains the correct information.\",\n        \"reasoning\": \"If one command doesn't work, I can try using another command to achieve the same goal.\",\n        \"plan\": \"- Use the read_file command to confirm that the file was created and contains the correct information.\",\n        \"criticism\": \"I should make sure to check that the file contains the correct information.\",\n        \"speak\": \"It looks like the list_files command returned too much output. I can try using the read_file command to confirm that the file was created and contains the correct information.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"fun_activities_nyc.txt\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command read_file returned: There are many fun activities to do in NYC, including visiting museums, dining at various restaurants, attending Broadway shows, experiencing unique activities like roller skating at Rockefeller Center, and visiting landmarks like the Statue of Liberty and the Brooklyn Bridge. Other activities include shopping at the world's largest Harry Potter Store, visiting the Museum of Broadway, and exploring Brooklyn Heights and the Promenade."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Now that I have confirmed that the file was created and contains the correct information, I can use the google command to find more information about some of the fun activities to do in NYC.\",\n        \"reasoning\": \"Using the google command allows me to find more information about some of the fun activities to do in NYC.\",\n        \"plan\": \"- Use the google command to find more information about some of the fun activities to do in NYC.\\n- Use the browse_website command to explore the websites and find more information about the activities.\",\n        \"criticism\": \"I should make sure to only visit reputable websites and not click on any suspicious links.\",\n        \"speak\": \"Now that I have confirmed that the file was created and contains the correct information, I can use the google command to find more information about some of the fun activities to do in NYC.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"best museums in nyc\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://www.timeout.com/newyork/attractions/museums-in-nyc\", \"https://newyorksimply.com/nyc-best-museums-new-york-city/\", \"https://www.cntraveler.com/gallery/best-museums-in-new-york-city\", \"https://www.tripadvisor.com/Attractions-g60763-Activities-c49-New_York_City_New_York.html\", \"https://gothammag.com/best-museums-nyc\", \"https://secretnyc.co/best-museums-in-nyc/\", \"https://www.cosmopolitan.com/lifestyle/g40676627/best-museums-in-new-york-city/\", \"https://travellemming.com/museums-in-nyc/\"]"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The google command returned a list of websites about the best museums in NYC. I can use the browse_website command to explore these websites and find more information about the museums.\",\n        \"reasoning\": \"Using the browse_website command allows me to explore the websites and find more information about the museums.\",\n        \"plan\": \"- Use the browse_website command to explore the websites and find more information about the museums.\",\n        \"criticism\": \"I should make sure to only visit reputable websites and not click on any suspicious links.\",\n        \"speak\": \"The google command returned a list of websites about the best museums in NYC. I can use the browse_website command to explore these websites and find more information about the museums.\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"https://www.timeout.com/newyork/attractions/museums-in-nyc\",\n            \"question\": \"What are some of the best museums to visit in NYC?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: The text provides a list of some of the best museums to visit in New York City, including The Metropolitan Museum of Art, Museum of Modern Art (MoMA), American Museum of Natural History, Whitney Museum of American Art, Brooklyn Museum, The Jewish Museum, Fotografiska, Museum of the City of New York, Neue Galerie New York, The Frick Collection, and The Morgan Library & Museum. The text also notes that there are many other museums in the city, covering a wide range of topics and interests. Additionally, the text provides two more lists of museums to visit in NYC, along with descriptions of each museum and their current exhibitions. \n \n Links: ['Go to the content (https://www.timeout.com/newyork/attractions/museums-in-nyc#main-container)', 'Go to the footer (https://www.timeout.com/newyork/attractions/museums-in-nyc#site-footer)', 'Terms of Use (https://www.timeout.com/terms-of-use)', 'Privacy Policy (https://www.timeout.com/privacy-notice)', 'News (https://www.timeout.com/newyork/news)']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

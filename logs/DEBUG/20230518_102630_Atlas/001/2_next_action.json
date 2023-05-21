@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should start by exploring the internet to find interesting things to do. Maybe I can start by doing a Google search.",
+        "reasoning": "Exploring the internet can help me find new and interesting things to do that align with my goals of exploring the world and having fun. A Google search is a good starting point.",
+        "plan": "- Use the 'google' command to search for interesting things to do\n- Review the search results and choose an activity to pursue",
+        "criticism": "I should be careful not to spend too much time browsing the internet and instead focus on taking action and actually exploring the world.",
+        "speak": "I think I should start by doing a Google search to find interesting things to do. Would you like me to do that now?"
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "fun things to do near me"
+        }
+    }
+}

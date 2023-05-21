@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "Now that we have reviewed our final list of activities and started planning our trip, we can use the `task_complete` command to indicate that our task is complete.",
+        "reasoning": "Using the `task_complete` command will allow us to indicate that our task is complete and provide a reason for why we are completing the task. This will help us stay organized and keep track of our progress.",
+        "plan": "- Use the `task_complete` command to indicate that our task is complete\n- Provide a reason for why we are completing the task",
+        "criticism": "We should be careful not to mark our task as complete until we have actually completed everything on our final list of activities. We should also make sure to keep track of our progress so we don't forget anything.",
+        "speak": "Let's use the `task_complete` command to indicate that our task is complete and provide a reason for why we are completing the task."
+    },
+    "command": {
+        "name": "task_complete",
+        "args": {
+            "reason": "We have reviewed our final list of activities and started planning our trip to New York City."
+        }
+    }
+}

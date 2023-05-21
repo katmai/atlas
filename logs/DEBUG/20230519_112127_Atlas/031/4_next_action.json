@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "It seems that the 'add-apt-repository' command is not available on Debian 11. I think I will use the 'execute_shell' command to install the 'software-properties-common' package, which includes the 'add-apt-repository' command.",
+        "reasoning": "Since the 'add-apt-repository' command is not available on Debian 11, I need to install the 'software-properties-common' package, which includes the command. The 'execute_shell' command will allow me to do so.",
+        "plan": "- Use 'execute_shell' to install the 'software-properties-common' package, which includes the 'add-apt-repository' command",
+        "criticism": "I should be careful when installing packages and ensure that I am only installing packages that are safe and reputable.",
+        "speak": "It seems that the 'add-apt-repository' command is not available on Debian 11. I will use the 'execute_shell' command to install the 'software-properties-common' package, which includes the command."
+    },
+    "command": {
+        "name": "execute_shell",
+        "args": {
+            "command_line": "sudo apt-get install software-properties-common"
+        }
+    }
+}

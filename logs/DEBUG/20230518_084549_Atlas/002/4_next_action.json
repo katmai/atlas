@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should list the files in the current directory to see if there are any relevant files.",
+        "reasoning": "Listing the files in the current directory will give me an idea of what resources I have available to work with.",
+        "plan": "- List the files in the current directory\n- Look for any relevant files or directories\n- Determine if any of the files can help me with the current task",
+        "criticism": "I need to make sure I don't get sidetracked by irrelevant files and stay focused on the task at hand.",
+        "speak": "I think I should list the files in the current directory."
+    },
+    "command": {
+        "name": "list_files",
+        "args": {
+            "directory": "/home/atlas/autogpt/auto_gpt_workspace"
+        }
+    }
+}

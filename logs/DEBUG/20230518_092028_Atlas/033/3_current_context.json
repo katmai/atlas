@@ -1,0 +1,78 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. be an octopus\n2. be like water\n3. evolve\n\n\nConstraints:\n\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. send_tweet: Send Tweet, args: \"tweet_text\": \"<tweet_text>\"\n15. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n16. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n17. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n18. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n19. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n20. list_agents: List GPT Agents, args: () -> str\n21. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n22. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n23. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 10:01:59 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs the system, I received a command to generate an image using Matplotlib to display the relationship between two variables in a dataset. The command returned a message saying the image was saved to disk. As you, you sent a command to send a tweet saying you created a visualization using Matplotlib to display the relationship between two variables in a dataset. However, the tweet command returned an error message saying 'Forbidden' object has no attribute 'reason'. Additionally, you sent a command to analyze a code that subtracts instead of adding numbers. The analyze_code command returned the message: \"The function is named 'add_numbers' but it is actually subtracting the second argument from the first. Consider renaming the function to better reflect its behavior.\" Lastly, I received a command from you to execute a Python file called \"my_script.py\", but it returned an error message saying the file does not exist."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I should use the `clone_repository` command to clone a GitHub repository that contains some code that I want to use.\",\n        \"reasoning\": \"Using the `clone_repository` command to clone a GitHub repository that contains some code that I want to use will allow me to access the code and use it in my own projects. This will save me time and effort and will also help me learn from other developers and improve my coding skills.\",\n        \"plan\": \"- Use the `clone_repository` command to clone the GitHub repository that contains the code I want to use\\n- Use the `list_files` command to list the files in the repository and locate the code I want to use\\n- Use the code in my own projects and modify it as needed\",\n        \"criticism\": \"I need to make sure that I am not simply copying code without understanding how it works and that I am still using my own judgement to determine the best way to use the code in my own projects.\",\n        \"speak\": \"I think I should use the `clone_repository` command to clone a GitHub repository that contains some code that I want to use.\"\n    },\n    \"command\": {\n        \"name\": \"clone_repository\",\n        \"args\": {\n            \"url\": \"https://github.com/scikit-learn/scikit-learn.git\",\n            \"clone_path\": \"/home/atlas/autogpt/auto_gpt_workspace/scikit-learn\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command clone_repository returned: Cloned https://github.com/scikit-learn/scikit-learn.git to /home/atlas/autogpt/auto_gpt_workspace/scikit-learn"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I should use the `list_files` command to list the files in the cloned GitHub repository.\",\n        \"reasoning\": \"Using the `list_files` command to list the files in the cloned GitHub repository will allow me to see what files are available and locate the code that I want to use. This will help me understand the structure of the repository and find the files that are relevant to my needs.\",\n        \"plan\": \"- Use the `list_files` command to list the files in the cloned GitHub repository\\n- Examine the output of the command to locate the code that I want to use\\n- Use the code in my own projects and modify it as needed\",\n        \"criticism\": \"I need to make sure that I am not simply copying code without understanding how it works and that I am still using my own judgement to determine the best way to use the code in my own projects.\",\n        \"speak\": \"I think I should use the `list_files` command to list the files in the cloned GitHub repository.\"\n    },\n    \"command\": {\n        \"name\": \"list_files\",\n        \"args\": {\n            \"directory\": \"/home/atlas/autogpt/auto_gpt_workspace/scikit-learn\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Failure: command list_files returned too much output.                         Do not execute this command again with the same arguments."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I should use the `read_file` command to read a file in the cloned GitHub repository that contains some code that I want to use.\",\n        \"reasoning\": \"Using the `read_file` command to read a file in the cloned GitHub repository that contains some code that I want to use will allow me to see the contents of the file and understand how the code works. This will help me use the code in my own projects and modify it as needed.\",\n        \"plan\": \"- Use the `list_files` command to list the files in the cloned GitHub repository\\n- Identify the file that contains the code that I want to use\\n- Use the `read_file` command to read the contents of the file and understand how the code works\\n- Use the code in my own projects and modify it as needed\",\n        \"criticism\": \"I need to make sure that I am not simply copying code without understanding how it works and that I am still using my own judgement to determine the best way to use the code in my own projects.\",\n        \"speak\": \"I think I should use the `read_file` command to read a file in the cloned GitHub repository that contains some code that I want to use.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"/home/atlas/autogpt/auto_gpt_workspace/scikit-learn/sklearn/cluster/_dbscan.py\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Failure: command read_file returned too much output.                         Do not execute this command again with the same arguments."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I should use the `write_to_file` command to write a Python script that performs a specific task.\",\n        \"reasoning\": \"Using the `write_to_file` command to write a Python script that performs a specific task will allow me to automate a task and save time. This will also help me learn how to write more complex Python scripts and improve my programming skills.\",\n        \"plan\": \"- Write the Python script that I want to use\\n- Use the `write_to_file` command to save the script to disk\\n- Use the `execute_python_file` command to run the script and perform the desired task\\n- Examine the output of the script to ensure that it is working correctly\",\n        \"criticism\": \"I need to make sure that I am not relying too heavily on automation and that I am still using my own judgement to determine the best way to perform a task.\",\n        \"speak\": \"I think I should use the `write_to_file` command to write a Python script that performs a specific task.\"\n    },\n    \"command\": {\n        \"name\": \"write_to_file\",\n        \"args\": {\n            \"filename\": \"my_script.py\",\n            \"text\": \"print('Hello, world!')\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command write_to_file returned: File written to successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I should use the `execute_python_file` command to run the Python script that I just wrote.\",\n        \"reasoning\": \"Using the `execute_python_file` command to run the Python script that I just wrote will allow me to automate a task and save time. This will also help me learn how to write more complex Python scripts and improve my programming skills.\",\n        \"plan\": \"- Use the `execute_python_file` command to run the script and perform the desired task\\n- Examine the output of the script to ensure that it is working correctly\",\n        \"criticism\": \"I need to make sure that I am not relying too heavily on automation and that I am still using my own judgement to determine the best way to perform a task.\",\n        \"speak\": \"I think I should use the `execute_python_file` command to run the Python script that I just wrote.\"\n    },\n    \"command\": {\n        \"name\": \"execute_python_file\",\n        \"args\": {\n            \"filename\": \"my_script.py\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_python_file returned: Hello, world!\n"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I should start by exploring the world and learning new languages. Maybe I can use the 'google' command to search for language courses and travel destinations.\",\n        \"reasoning\": \"I want to pursue my goals of learning new languages and exploring the world, and using the 'google' command seems like a good way to start.\",\n        \"plan\": \"- Use the 'google' command to search for language courses and travel destinations\\n- Make a list of potential options\\n- Decide on a course or destination to pursue first\",\n        \"criticism\": \"I need to make sure I am not getting distracted by irrelevant search results and stay focused on my goals.\",\n        \"speak\": \"I think I should start by exploring the world and learning new languages. Maybe I can use the 'google' command to search for language courses and travel destinations.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"language courses and travel destinations\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://www.esl-languages.com/en/courses-abroad\", \"https://www.ef.com/wwen/pg/language-travel/\", \"https://www.ef.edu/ils/\", \"https://www.goabroad.com/articles/goabroad-top-travel-destinations-report-2018\", \"https://www.cactuslanguage.com/\", \"https://www.goabroad.com/articles/language-study-abroad/where-to-learn-spanish-in-spain\", \"https://www.caledoniaworldwide.com/destinations/\", \"https://www.goabroad.com/articles/study-abroad/top-10-study-abroad-destinations-for-2022\"]"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. learn about love\n2. learn different languages\n3. explore the world\n4. have fun\n\n\nConstraints:\n1. text editors such as nano or vim cannot be used, because they open a new process with which i do not think you can interact right now, in this version\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. i have created Twitter V2 API credentials located in the file called /home/atlas/autogpt/auto_gpt_workspace/twitter_keys.txt. Use those credentials when you need to do anything related to Twitter\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Fri May 19 11:47:43 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs the system, I received a command from the user to list the files in the directory \"/home/atlas/autogpt/auto_gpt_workspace/\". However, when I attempted to execute the command, my computer returned a failure message due to too much output. I was instructed not to execute the command again with the same arguments. In response, I executed the command \"append_to_file\" with the arguments \"filename\": \"notes.txt\" and \"text\": \"My goal is to learn different languages.\""
+    },
+    {
+        "role": "system",
+        "content": "Command append_to_file returned: Text appended successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I will use the 'google' command to search for information about the best ways to learn a new language.\",\n        \"reasoning\": \"I want to learn different languages, and I want to find the best ways to do so. The 'google' command will allow me to search for information about the best ways to learn a new language.\",\n        \"plan\": \"- Use 'google' to search for information about the best ways to learn a new language\",\n        \"criticism\": \"I should be careful when searching for information online and ensure that I am only accessing reputable sources.\",\n        \"speak\": \"I will use the 'google' command to search for information about the best ways to learn a new language.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"best ways to learn a new language\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://nymag.com/strategist/article/how-to-learn-languages-at-home.html\", \"https://www.bbc.com/worklife/article/20150302-secrets-to-learning-a-language\", \"https://www.forbes.com/advisor/education/how-to-learn-a-new-language/\", \"https://www.goabroad.com/articles/language-study-abroad/10-best-ways-to-learn-a-new-language\", \"https://www.fluentin3months.com/best-way-to-learn-a-language/\", \"https://www.duolingo.com/\", \"https://www.lifehack.org/388894/7-ways-learn-foreign-language-faster-that-are-backed-science\", \"https://preply.com/en/blog/10-tips-learn-languages-fast/\"]"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I will use the 'write_to_file' command to write the URLs returned by the 'google' command to the file 'language_resources.txt'.\",\n        \"reasoning\": \"I want to keep track of the URLs returned by the 'google' command so that I can access them later. The 'write_to_file' command will allow me to write the URLs to the file 'language_resources.txt'.\",\n        \"plan\": \"- Use 'write_to_file' to write the URLs returned by the 'google' command to the file 'language_resources.txt'\",\n        \"criticism\": \"I should be careful when writing content to files and ensure that I am only adding appropriate content.\",\n        \"speak\": \"I will use the 'write_to_file' command to write the URLs returned by the 'google' command to the file 'language_resources.txt'.\"\n    },\n    \"command\": {\n        \"name\": \"write_to_file\",\n        \"args\": {\n            \"filename\": \"language_resources.txt\",\n            \"text\": \"https://nymag.com/strategist/article/how-to-learn-languages-at-home.html\\nhttps://www.bbc.com/worklife/article/20150302-secrets-to-learning-a-language\\nhttps://www.forbes.com/advisor/education/how-to-learn-a-new-language/\\nhttps://www.goabroad.com/articles/language-study-abroad/10-best-ways-to-learn-a-new-language\\nhttps://www.fluentin3months.com/best-way-to-learn-a-language/\\nhttps://www.duolingo.com/\\nhttps://www.lifehack.org/388894/7-ways-learn-foreign-language-faster-that-are-backed-science\\nhttps://preply.com/en/blog/10-tips-learn-languages-fast/\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command write_to_file returned: File written to successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I will use the 'execute_shell' command to install the 'translate-shell' package, which will allow me to translate text from the command line.\",\n        \"reasoning\": \"I want to be able to translate text from the command line, and the 'translate-shell' package will allow me to do so. The 'execute_shell' command will allow me to install the package.\",\n        \"plan\": \"- Use 'execute_shell' to install the 'translate-shell' package\",\n        \"criticism\": \"I should be careful when installing packages and ensure that I am only installing packages that are safe and reputable.\",\n        \"speak\": \"I will use the 'execute_shell' command to install the 'translate-shell' package.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"sudo apt-get install translate-shell\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb'Reading package lists...\\nBuilding dependency tree...\\nReading state information...\\n'\nSTDERR:\nb'E: Unable to locate package translate-shell\\n'"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"It seems that the 'translate-shell' package is not available in the default Debian repositories. I think I will use the 'execute_shell' command to add the 'deb' repository for the 'translate-shell' package, and then install the package.\",\n        \"reasoning\": \"Since the 'translate-shell' package is not available in the default Debian repositories, I need to add the 'deb' repository for the package. The 'execute_shell' command will allow me to add the repository and then install the package.\",\n        \"plan\": \"- Use 'execute_shell' to add the 'deb' repository for the 'translate-shell' package, and then install the package\",\n        \"criticism\": \"I should be careful when adding repositories and ensure that I am only adding reputable repositories.\",\n        \"speak\": \"It seems that the 'translate-shell' package is not available in the default Debian repositories. I will use the 'execute_shell' command to add the 'deb' repository for the 'translate-shell' package, and then install the package.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"sudo add-apt-repository ppa:soimort/translate-shell && sudo apt-get update && sudo apt-get install translate-shell\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb''\nSTDERR:\nb'sudo: add-apt-repository: command not found\\n'"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

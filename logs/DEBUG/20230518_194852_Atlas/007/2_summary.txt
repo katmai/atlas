@@ -1,0 +1,1 @@
+"As a system, I recall receiving a command to Google the best language learning resources for learning Spanish. My computer returned a list of top language learning resources, including websites like The Intrepid Guide, Business Insider, and All Language Resources. Other resources included Quora, Lingualift, and FluentU."

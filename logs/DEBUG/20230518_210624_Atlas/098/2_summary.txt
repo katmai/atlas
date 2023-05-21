@@ -1,0 +1,1 @@
+"As the system, I received multiple commands to execute shell commands with different image viewing programs, including gpicview, eog, feh, sxiv, and display. However, gpicview and sxiv were not found on my computer, and eog and display returned errors related to connecting to the server or opening the display. I was able to successfully load the image using feh and xdg-open."

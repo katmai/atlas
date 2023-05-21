@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "The browse_website command did not provide the information I was looking for. I think I should use the google command again to search for the best language schools in Spain.",
+        "reasoning": "The browse_website command did not provide the information I was looking for. I can use the google command again to search for the best language schools in Spain.",
+        "plan": "- Use the google command to search for the best language schools in Spain\n- Use the appropriate commands to execute my plan",
+        "criticism": "I need to make sure I am searching for the correct information.",
+        "speak": "The browse_website command did not provide the information I was looking for. I think I should use the google command again to search for the best language schools in Spain."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "best language schools in Spain"
+        }
+    }
+}

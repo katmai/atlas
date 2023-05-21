@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I should execute a shell command to move the extracted JPG files to a new directory.",
+        "reasoning": "Moving the extracted JPG files to a new directory will help me keep them organized and easy to access.",
+        "plan": "- Execute a shell command to move the extracted JPG files to a new directory\n- Verify that the files have been moved successfully",
+        "criticism": "I need to make sure that I choose the correct directory when executing the command.",
+        "speak": "I think I should execute a shell command to move the extracted JPG files to a new directory."
+    },
+    "command": {
+        "name": "execute_shell",
+        "args": {
+            "command_line": "mv jpg_files ./images"
+        }
+    }
+}

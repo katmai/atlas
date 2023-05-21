@@ -1,0 +1,1 @@
+"As a system, I received a command from the user to execute \"sudo apt-get update && sudo apt-get install tree\". My computer ran the command and returned a list of directories and files, and then installed the tree package successfully. The installation triggered processing triggers for man-db (2.9.4-2). There were some debconf errors related to initializing frontends."

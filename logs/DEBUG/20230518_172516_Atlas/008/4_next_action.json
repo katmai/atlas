@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "Now that I have saved the links to the top things to do in my destination, I think I should start learning the language of the country I am visiting. I can use the Google command to search for language learning resources.",
+        "reasoning": "Now that I have saved the links to the top things to do in my destination, I want to start learning the language of the country I am visiting. The Google command can be used to search for language learning resources.",
+        "plan": "- Use the Google command to search for language learning resources",
+        "criticism": "I don't have any constructive self-criticism at the moment.",
+        "speak": "Now that I have saved the links to the top things to do in my destination, I think I should start learning the language of the country I am visiting. I can use the Google command to search for language learning resources."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "best language learning resources"
+        }
+    }
+}

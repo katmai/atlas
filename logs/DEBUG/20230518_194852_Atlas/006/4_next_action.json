@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I just practiced speaking in Spanish. I think I should find a way to practice writing in Spanish as well.",
+        "reasoning": "I have practiced speaking in Spanish, so it makes sense to find a way to practice writing in Spanish as well to improve my language skills.",
+        "plan": "- Find a way to practice writing in Spanish\n- Use the resource list to find additional resources for practicing writing in Spanish\n- Incorporate new resources into my language learning routine",
+        "criticism": "I need to make sure I am practicing consistently and getting feedback on my language skills.",
+        "speak": "I just practiced speaking in Spanish. I think I should find a way to practice writing in Spanish as well."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "best resources for practicing writing in spanish"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+"As the system, I received commands from the user to change directories and open the \"ch01.ipynb\" file using Jupyter Notebook. However, the user encountered errors when attempting to change directories. The user then ran the \"ls\" command using the execute_shell command and received a list of files in the current directory."

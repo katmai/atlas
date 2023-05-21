@@ -1,0 +1,1 @@
+"As the user, I issued a \"google\" command with the query \"best language learning resources\"."

@@ -1,0 +1,78 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. learn different languages\n2. explore the world\n3. have fun\n\n\nConstraints:\n1. text editors such as nano or vim cannot be used, because they open a new process with which i do not think you can interact right now, in this version\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. i have created Twitter V2 API credentials located in the file called /home/atlas/autogpt/auto_gpt_workspace/twitter_keys.txt. Use those credentials when you need to do anything related to Twitter\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 21:28:09 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs the system, I received a report from the computer that browsing the website provided information on various programs for traveling abroad but did not specifically mention the best ways to learn a language abroad. The report included links to the website. I was then given a command to Google \"best ways to learn a language abroad\" by the user. The command returned a list of links to websites that provide information on language programs abroad and language immersion strategies for traveling."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The google command returned several helpful links on the best ways to learn a language abroad. I think I should use the browse_website command to visit the first link and gather more information.\",\n        \"reasoning\": \"The google command returned several helpful links on the best ways to learn a language abroad. I can use the browse_website command to visit the first link and gather more information.\",\n        \"plan\": \"- Use the browse_website command to visit the first link returned by the google command and gather more information\\n- Use the appropriate commands to execute my plan\",\n        \"criticism\": \"I need to make sure I don't get sidetracked by other interesting information and stay focused on my goals.\",\n        \"speak\": \"The google command returned several helpful links on the best ways to learn a language abroad. I think I should use the browse_website command to visit the first link and gather more information.\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"https://www.britishcouncil.org/voices-magazine/seven-dos-donts-learning-foreign-language-abroad\",\n            \"question\": \"What are the best ways to learn a language abroad?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: The best ways to learn a language abroad are living with native speakers, watching local TV shows, accepting invitations, keeping a vocabulary book, practicing grammar and verb drills, and consistently speaking the local language. Immersion in the local language is the most effective way to learn a foreign language while living abroad. \n \n Links: ['Skip to main content (https://www.britishcouncil.org/voices-magazine/seven-dos-donts-learning-foreign-language-abroad#main-content)', 'British Council (https://www.britishcouncil.org/)', 'Home (https://www.britishcouncil.org/)', 'Learn English (https://www.britishcouncil.org/english)', 'Take an exam (https://www.britishcouncil.org/exam)']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The browse_website command provided helpful information on the best ways to learn a language abroad. I think I should use the write_to_file command to write the information to a file.\",\n        \"reasoning\": \"The browse_website command provided helpful information on the best ways to learn a language abroad. I can use the write_to_file command to write the information to a file.\",\n        \"plan\": \"- Use the write_to_file command to write the information gathered from the website to a file\\n- Use the appropriate commands to execute my plan\",\n        \"criticism\": \"I need to make sure I am writing the correct information to the correct file.\",\n        \"speak\": \"The browse_website command provided helpful information on the best ways to learn a language abroad. I think I should use the write_to_file command to write the information to a file.\"\n    },\n    \"command\": {\n        \"name\": \"write_to_file\",\n        \"args\": {\n            \"filename\": \"best_ways_to_learn_abroad.txt\",\n            \"text\": \"The best ways to learn a language abroad are living with native speakers, watching local TV shows, accepting invitations, keeping a vocabulary book, practicing grammar and verb drills, and consistently speaking the local language. Immersion in the local language is the most effective way to learn a foreign language while living abroad.\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command write_to_file returned: File written to successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The write_to_file command successfully wrote the information to a file. I think I should use the read_file command to verify that the information was written correctly.\",\n        \"reasoning\": \"The write_to_file command successfully wrote the information to a file. I can use the read_file command to verify that the information was written correctly.\",\n        \"plan\": \"- Use the read_file command to verify that the information was written correctly\\n- Use the appropriate commands to execute my plan\",\n        \"criticism\": \"I need to make sure I am reading from the correct file and that the information is written correctly.\",\n        \"speak\": \"The write_to_file command successfully wrote the information to a file. I think I should use the read_file command to verify that the information was written correctly.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"best_ways_to_learn_abroad.txt\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command read_file returned: The best ways to learn a language abroad are living with native speakers, watching local TV shows, accepting invitations, keeping a vocabulary book, practicing grammar and verb drills, and consistently speaking the local language. Immersion in the local language is the most effective way to learn a foreign language while living abroad."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The read_file command successfully verified that the information was written correctly. I think I should use the execute_shell command to create a new directory to store the file.\",\n        \"reasoning\": \"The read_file command successfully verified that the information was written correctly. I can use the execute_shell command to create a new directory to store the file.\",\n        \"plan\": \"- Use the execute_shell command to create a new directory to store the file\\n- Use the appropriate commands to execute my plan\",\n        \"criticism\": \"I need to make sure I am creating the directory in the correct location.\",\n        \"speak\": \"The read_file command successfully verified that the information was written correctly. I think I should use the execute_shell command to create a new directory to store the file.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"mkdir best_ways_to_learn_abroad\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb''\nSTDERR:\nb''"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The execute_shell command successfully created a new directory to store the file. I think I should use the execute_shell command to move the file to the new directory.\",\n        \"reasoning\": \"The execute_shell command successfully created a new directory to store the file. I can use the execute_shell command to move the file to the new directory.\",\n        \"plan\": \"- Use the execute_shell command to move the file to the new directory\\n- Use the appropriate commands to execute my plan\",\n        \"criticism\": \"I need to make sure I am moving the correct file to the correct directory.\",\n        \"speak\": \"The execute_shell command successfully created a new directory to store the file. I think I should use the execute_shell command to move the file to the new directory.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"mv best_ways_to_learn_abroad.txt best_ways_to_learn_abroad/\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb''\nSTDERR:\nb''"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

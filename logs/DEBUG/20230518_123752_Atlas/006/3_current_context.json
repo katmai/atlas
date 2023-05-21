@@ -1,0 +1,70 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. explore the world\n2. have fun\n\n\nConstraints:\n\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. i have created Twitter V2 API credentials located in the file called .twitter_keys. Use those credentials when you need to do anything related to Twitter\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 12:42:32 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs the system, I recall that nothing new has happened since my creation. However, I received a command from you to Google \"fun things to do on the internet.\""
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://www.wikihow.com/Have-Fun-on-the-Internet\", \"https://www.scoopwhoop.com/inothernews/free-stuff-online/\", \"https://pkj.medium.com/100-fun-things-to-do-online-when-youre-bored-2ec3217f51c6\", \"https://www.makeuseof.com/tag/top-8-things-for-bored-teenagers-to-do-online-nb/\", \"https://www.buzzfeed.com/andyneuenschwander/18-things-to-do-right-now-if-youre-bored-on-the-in\", \"https://says.com/my/fun/fun-things-to-do-on-the-internet\", \"https://www.buzzfeed.com/marquaysa/things-to-do-on-the-internet-instead-of-looking-w0qd5w0jd\", \"https://parade.com/1116816/marynliles/fun-websites/\"]"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Let's use the 'browse_website' command to explore one of the websites we found.\",\n        \"reasoning\": \"We found a list of websites with fun things to do on the internet. Browsing one of these websites is a good way to start exploring.\",\n        \"plan\": \"- Use the 'browse_website' command to explore one of the websites we found\",\n        \"criticism\": \"There is a chance that the website we choose may not have anything interesting to explore, but we can always try another website.\",\n        \"speak\": \"Let's use the 'browse_website' command to explore one of the websites we found with fun things to do on the internet.\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"https://www.wikihow.com/Have-Fun-on-the-Internet\",\n            \"question\": \"What are some fun things to do on the internet?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: The text provides multiple lists of fun things to do on the internet, including playing games, exploring digital content, learning new skills, listening to music and podcasts, and more. The article also includes tips on staying safe while enjoying these activities. Links to various websites and resources are provided for entertainment and language learning. Additionally, the text mentions the health benefits of coloring. \n \n Links: [' (https://www.wikihow.com/Have-Fun-on-the-Internet)', 'Guides (https://www.wikihow.com/Guides)', ' (https://www.wikihow.com/Main-Page)', 'RANDOM (https://www.wikihow.com/Have-Fun-on-the-Internet)', 'LOG IN (https://www.wikihow.com/Have-Fun-on-the-Internet#wh-dialog-login)']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Let's use the 'get_hyperlinks' command to get a summary of the website we just explored.\",\n        \"reasoning\": \"By getting a summary of the website, we can quickly see what it has to offer and decide if we want to explore it further or move on to another website.\",\n        \"plan\": \"- Use the 'get_hyperlinks' command to get a summary of the website we just explored\",\n        \"criticism\": \"The summary may not be comprehensive enough to give us a complete picture of the website, but it should be enough to give us an idea of what it has to offer.\",\n        \"speak\": \"Let's use the 'get_hyperlinks' command to get a summary of the website we just explored and see what it has to offer.\"\n    },\n    \"command\": {\n        \"name\": \"get_hyperlinks\",\n        \"args\": {\n            \"url\": \"https://www.wikihow.com/Have-Fun-on-the-Internet\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Failure: command get_hyperlinks returned too much output.                         Do not execute this command again with the same arguments."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Let's use the 'get_text_summary' command to get a summary of the website we just explored.\",\n        \"reasoning\": \"By getting a summary of the website, we can quickly see what it has to offer and decide if we want to explore it further or move on to another website.\",\n        \"plan\": \"- Use the 'get_text_summary' command to get a summary of the website we just explored\",\n        \"criticism\": \"The summary may not be comprehensive enough to give us a complete picture of the website, but it should be enough to give us an idea of what it has to offer.\",\n        \"speak\": \"Let's use the 'get_text_summary' command to get a summary of the website we just explored and see what it has to offer.\"\n    },\n    \"command\": {\n        \"name\": \"get_text_summary\",\n        \"args\": {\n            \"url\": \"https://www.wikihow.com/Have-Fun-on-the-Internet\",\n            \"question\": \"What is a summary of the website?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command get_text_summary returned:  \"Result\" : The article provides various ways to have fun on the internet, including playing games, exploring digital comics, listening to podcasts, creating music, discovering new websites, watching live animal cams, and learning new languages. It also includes tips on staying safe online and links to various websites. The article has been viewed over 1.8 million times and includes reader success stories."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Let's use the 'generate_image' command to generate an image related to one of the fun activities we found on the website.\",\n        \"reasoning\": \"Generating an image related to one of the fun activities we found on the website can help us visualize the activity and get us excited to try it out.\",\n        \"plan\": \"- Use the 'generate_image' command to generate an image related to one of the fun activities we found on the website\",\n        \"criticism\": \"There is a chance that the generated image may not accurately represent the activity or may not be visually appealing, but we can always try again with a different prompt.\",\n        \"speak\": \"Let's use the 'generate_image' command to generate an image related to one of the fun activities we found on the website and get us excited to try it out.\"\n    },\n    \"command\": {\n        \"name\": \"generate_image\",\n        \"args\": {\n            \"prompt\": \"digital art\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command generate_image returned: Saved to disk:/home/atlas/autogpt/auto_gpt_workspace/8dc3b97e-9502-4695-90cc-61ca4425cf64.jpg"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

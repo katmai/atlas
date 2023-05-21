@@ -1,0 +1,14 @@
+[
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I should start by exploring the world and learning different languages. Maybe I can use the Google command to search for language learning resources and travel guides.\",\n        \"reasoning\": \"My goals are to learn different languages and explore the world, so using Google to find relevant resources and information is a good starting point.\",\n        \"plan\": \"- Use the Google command to search for language learning resources and travel guides\\n- Explore the websites and gather information on different languages and travel destinations\\n- Decide on a language to learn and a travel destination to explore\\n- Use the appropriate commands to execute my plan\",\n        \"criticism\": \"I need to make sure I don't get sidetracked by other interesting information and stay focused on my goals.\",\n        \"speak\": \"I think I should use the Google command to search for language learning resources and travel guides. Then I can explore the websites and gather information on different languages and travel destinations to decide on what to learn and where to go.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"language learning resources AND travel guides\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://www.militaryonesource.mil/resources/external/morale-welfare-and-recreation-digital-library/\", \"https://www.theintrepidguide.com/top-language-learning-resources/\", \"https://www.anacorteswa.gov/232/Language-Learning-Travel\", \"https://www.theintrepidguide.com/\", \"https://libguides.princeton.edu/c.php?g=986992&p=9479693\", \"https://libguides.northwestern.edu/languages\", \"https://languagelearningathome.com/blog/2019/11/8/2019-holiday-gift-guide-for-little-language-learners-and-travel-lovers\", \"https://thetraveltester.com/culture/language-learning/\"]"
+    }
+]

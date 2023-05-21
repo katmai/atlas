@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "The 'google' command can be used to search for new updates or events happening in the Subway Surfers game. Let's use this command to search for any new updates or events.",
+        "reasoning": "Since we were not able to find any new updates or events on the official Subway Surfers website, we can use the 'google' command to search for any new updates or events happening in the game. This will allow us to stay up-to-date with the latest news about the game.",
+        "plan": "- Use the 'google' command to search for any new updates or events happening in the Subway Surfers game",
+        "criticism": "There is a risk of getting sidetracked or spending too much time reading about the game, so we should be mindful of our time and responsibilities.",
+        "speak": "The 'google' command can be used to search for new updates or events happening in the Subway Surfers game. Let's use this command to search for any new updates or events."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "Subway Surfers new updates or events"
+        }
+    }
+}

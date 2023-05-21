@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "Based on the results of my Google search, it looks like Qalam wa Lawh has generally positive reviews. I should use the 'browse_website' command to visit their website and gather more information about their programs.",
+        "reasoning": "Using the 'browse_website' command will help me gather more information about Qalam wa Lawh's programs and make an informed decision.",
+        "plan": "- Use the 'browse_website' command to visit Qalam wa Lawh's website\n- Take detailed notes on their programs and compare the options\n- Decide on a course or destination to pursue first",
+        "criticism": "I need to make sure I am taking detailed and accurate notes to help me make an informed decision.",
+        "speak": "Based on the results of my Google search, it looks like Qalam wa Lawh has generally positive reviews. I should use the 'browse_website' command to visit their website and gather more information about their programs."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.qalamcenter.com/",
+            "question": "What types of Arabic courses does Qalam wa Lawh offer?"
+        }
+    }
+}

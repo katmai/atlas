@@ -1,0 +1,14 @@
+[
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I should start by exploring the world and learning different languages. Maybe I can start by searching for language learning resources or travel guides.\",\n        \"reasoning\": \"My goals are to learn different languages and explore the world, so it makes sense to start with these actions.\",\n        \"plan\": \"- Search for language learning resources\\n- Search for travel guides\\n- Start learning a new language\\n- Plan a trip to a new destination\\n- Research the culture and customs of the places I want to visit\",\n        \"criticism\": \"I need to make sure I stay focused on my goals and not get too distracted by other things.\",\n        \"speak\": \"I think I should start by exploring the world and learning different languages. Maybe I can start by searching for language learning resources or travel guides.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"best language learning resources\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://www.theintrepidguide.com/top-language-learning-resources/\", \"https://www.businessinsider.com/guides/learning/best-online-apps-courses-to-learn-new-language\", \"https://www.alllanguageresources.com/\", \"https://www.quora.com/What-are-the-best-language-learning-resources\", \"https://www.lingualift.com/blog/best-language-learning-resources/\", \"https://nymag.com/strategist/article/how-to-learn-languages-at-home.html\", \"https://www.mezzoguild.com/tools/\", \"https://www.fluentu.com/blog/online-language-learning-for-kids/\"]"
+    }
+]

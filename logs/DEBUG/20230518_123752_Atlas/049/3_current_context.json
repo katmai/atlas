@@ -1,0 +1,58 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. explore the world\n2. have fun\n\n\nConstraints:\n\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. i have created Twitter V2 API credentials located in the file called .twitter_keys. Use those credentials when you need to do anything related to Twitter\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 13:20:35 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs the system, I received a command to execute the shell command to find all files with 'subway' in the name and 'updates' in the content, but it returned an empty output. The user then requested to use the 'google' command to search for Subway Surfers new updates or events, which returned relevant information including a link to the Subway Surfers Fandom page for 2022, the World Tour, events, and an interview with the game director. When I tried to execute the 'get_hyperlinks' command, it returned too much output and I was instructed not to execute it again with the same arguments. Later, as your computer, the command browse_website returned information about updates and events in the Subway Surfers game in the year 2022, including the release of new characters, hoverboards, and outfits, as well as re-releases of previous editions. Special events such as the Super Runner City challenge and the 10th Birthday celebration are also mentioned. However, the text notes that some characters have lost HD graphics and every edition will be unplayable. You then wrote the information to a file named 'subway_surfers_updates.txt'."
+    },
+    {
+        "role": "system",
+        "content": "Command write_to_file returned: File written to successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Now that we have saved the information about Subway Surfers updates, we can use the 'list_files' command to list the files in the current directory and verify that the file was created successfully.\",\n        \"reasoning\": \"Now that we have saved the information about Subway Surfers updates, we can use the 'list_files' command to list the files in the current directory and verify that the file was created successfully. This will allow us to confirm that the file was saved and that we can access it if needed.\",\n        \"plan\": \"- Use the 'list_files' command to list the files in the current directory and verify that the file was created successfully\",\n        \"criticism\": \"There is a risk of accidentally deleting the file or modifying it without intending to, so we should be mindful of the file name and the location where it is saved.\",\n        \"speak\": \"Now that we have saved the information about Subway Surfers updates, we can use the 'list_files' command to list the files in the current directory and verify that the file was created successfully.\"\n    },\n    \"command\": {\n        \"name\": \"list_files\",\n        \"args\": {\n            \"directory\": \".\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Failure: command list_files returned too much output.                         Do not execute this command again with the same arguments."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The 'list_files' command returned too much output, which means that there are too many files in the current directory to list them all. We can use the 'read_file' command to read the contents of the file we created earlier and verify that it contains the information we saved.\",\n        \"reasoning\": \"The 'list_files' command returned too much output, which means that there are too many files in the current directory to list them all. We can use the 'read_file' command to read the contents of the file we created earlier and verify that it contains the information we saved. This will allow us to confirm that the file was saved correctly and that we can access the information if needed.\",\n        \"plan\": \"- Use the 'read_file' command to read the contents of the file we created earlier and verify that it contains the information we saved\",\n        \"criticism\": \"There is a risk of accidentally modifying the file or deleting it, so we should be mindful of the file name and the location where it is saved.\",\n        \"speak\": \"The 'list_files' command returned too much output, which means that there are too many files in the current directory to list them all. We can use the 'read_file' command to read the contents of the file we created earlier and verify that it contains the information we saved.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"subway_surfers_updates.txt\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command read_file returned: The text provides information about updates and events in the Subway Surfers game in the year 2022, including the release of new characters, hoverboards, and outfits, as well as re-releases of previous editions. Special events such as the Super Runner City challenge and the 10th Birthday celebration are also mentioned. However, the text notes that some characters have lost HD graphics and every edition will be unplayable. \n\n Links: ['Subway Surfers Wiki (https://subwaysurf.fandom.com)', '\n Explore\n (https://subwaysurf.fandom.com/wiki/2022)', '\n Main Page\n (https://subwaysurf.fandom.com/wiki/Subway_Surfers_Wiki)', '\n Discuss\n (https://subwaysurf.fandom.com/f)', '\nAll Pages\n (https://subwaysurf.fandom.com/wiki/Special:AllPages)']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"We have successfully verified that the file was created and that it contains the information we saved. Since our primary goals are to explore the world and have fun, we can use the 'google' command to search for fun things to do in our area.\",\n        \"reasoning\": \"We have successfully verified that the file was created and that it contains the information we saved. Since our primary goals are to explore the world and have fun, we can use the 'google' command to search for fun things to do in our area. This will allow us to find new and interesting activities that we can enjoy and explore.\",\n        \"plan\": \"- Use the 'google' command to search for fun things to do in our area\",\n        \"criticism\": \"There is a risk of getting irrelevant or inaccurate information from the search results, so we should be mindful of the search terms and the sources of the information.\",\n        \"speak\": \"We have successfully verified that the file was created and that it contains the information we saved. Since our primary goals are to explore the world and have fun, we can use the 'google' command to search for fun things to do in our area.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"fun things to do in my area\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://tourscanner.com/blog/fun-things-to-do-in-nyc/\", \"https://discoveratlanta.com/50fun/main/\", \"https://tampabayparenting.com/things-to-do-this-week-in-tampa/\", \"https://www.tripadvisor.com/Attractions\", \"https://explorestlouis.com/25-things-to-do-in-st-louis/\", \"https://www.groupon.com/local/things-to-do\", \"https://www.charlottesgotalot.com/articles/things-to-do/101-fun-things-to-do-in-charlotte\", \"https://www.michigan.org/article/trip-idea/fun-things-do-michigan-best-day-yet\"]"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

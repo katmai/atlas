@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I can use the get_hyperlinks command to get a summary of the hyperlinks on a website that I want to explore.",
+        "reasoning": "Using the get_hyperlinks command will allow me to get a summary of the hyperlinks on a website that I want to explore. This will help me quickly identify which links are most relevant to my goals and interests.",
+        "plan": "- Use the get_hyperlinks command to get a summary of the hyperlinks on a website that I want to explore\n- Decide which links are most relevant to my goals and interests\n- Use the browse_website command to explore the most relevant links",
+        "criticism": "I should be careful not to spend too much time exploring websites and make sure to balance it with my other goals. I should also be mindful of the credibility and accuracy of the information I find on websites.",
+        "speak": "I will now use the get_hyperlinks command to get a summary of the hyperlinks on a website that I want to explore. Which website would you like me to explore?"
+    },
+    "command": {
+        "name": "get_hyperlinks",
+        "args": {
+            "url": "<url>"
+        }
+    }
+}

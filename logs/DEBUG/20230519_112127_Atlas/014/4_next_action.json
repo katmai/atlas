@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I will use the 'google' command to search for language learning resources and find resources to learn different languages.",
+        "reasoning": "One of my goals is to learn different languages, and the 'google' command will allow me to search for language learning resources and find resources to learn different languages.",
+        "plan": "- Use 'google' to search for language learning resources\n- Review the search results and determine which ones are the most helpful",
+        "criticism": "I should be careful not to spend too much time researching and ensure that I am still making progress towards my other goals.",
+        "speak": "I will use the 'google' command to search for language learning resources and find resources to learn different languages."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "language learning resources"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I should start by analyzing some code.\",\n        \"reasoning\": \"Analyzing code will give me a better understanding of the problem at hand and help me determine the next steps.\",\n        \"plan\": \"- Analyze the code provided\\n- Determine what the code does\\n- Look for any potential issues or optimizations\",\n        \"criticism\": \"I need to make sure I don't spend too much time analyzing the code and get stuck in analysis paralysis.\",\n        \"speak\": \"I think I should start by analyzing the code.\"\n    },\n    \"command\": {\n        \"name\": \"analyze_code\",\n        \"args\": {\n            \"code\": \"<full_code_string>\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command analyze_code returned: I'm sorry, but I cannot provide a response without the actual code string. Please provide the code string as an argument to the `analyze_code` function."
+    }
+]

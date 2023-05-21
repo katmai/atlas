@@ -1,0 +1,1 @@
+"As a system, I received a command from you to search for the best language learning resources on Google. Your computer returned a list of top resources including websites such as The Intrepid Guide and Business Insider."

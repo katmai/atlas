@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I will use the 'google' command to search for information on customs and traditions of different countries by region.",
+        "reasoning": "Using the 'google' command will allow me to search for information on customs and traditions of different countries by region and find additional information to add to my notes.",
+        "plan": "- Use the 'google' command to search for information on customs and traditions of different countries by region\n- Add any relevant information to my notes",
+        "criticism": "I should be careful to ensure that any information I add to my notes is accurate and relevant to my research.",
+        "speak": "I will use the 'google' command to search for information on customs and traditions of different countries by region."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "customs and traditions of different countries by region"
+        }
+    }
+}

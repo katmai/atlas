@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "EF offers language courses for people of all ages, including 10-14 year olds, 14-18 year olds, 18-25 year olds, and adults 25+. They also offer a language year abroad program, high school abroad program, and university abroad program. I should continue browsing other language school websites to compare options and make a decision.",
+        "reasoning": "Browsing other websites will give me more options and help me make an informed decision.",
+        "plan": "- Use the 'browse_website' command to browse other language school websites\n- Take notes on the programs that interest me\n- Compare the options and decide on a course or destination to pursue first",
+        "criticism": "I need to make sure I am not getting overwhelmed by too many options and that I am making a decision in a timely manner.",
+        "speak": "EF offers language courses for people of all ages, including 10-14 year olds, 14-18 year olds, 18-25 year olds, and adults 25+. They also offer a language year abroad program, high school abroad program, and university abroad program. I should continue browsing other language school websites to compare options and make a decision."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.cactuslanguage.com/",
+            "question": "What language courses does Cactus Language offer?"
+        }
+    }
+}

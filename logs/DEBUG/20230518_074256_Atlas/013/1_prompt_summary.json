@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nAs the system, I received a response from the Google command for Lisp key features, which provided several links to websites with information on Lisp. I gave a command to browse one of the links, geeksforgeeks.org, with the question \"What are the key features of the Lisp programming language?\" However, the computer returned a terminal initialization error. Later, my computer returned an answer gathered from the geeksforgeeks.org website, which provided information about the key features of the LISP programming language. The website also listed several links for further learning.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'you', 'content': '{\"command\": {\"name\": \"write_tests\", \"args\": {\"code\": \"\", \"focus\": [\"LISP programming language key features\"]}}}'}]\n\"\"\"\n"
+    }
+]

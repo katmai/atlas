@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nAs the user, I commanded my computer to generate an image of a karate move or technique. The computer returned the image saved to disk. Then, I commanded my computer to write the image to a file named \"karate_move.jpg\" with the text \"karate move image\".'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'your computer', 'content': 'Command write_to_file returned: File written to successfully.'}, {'role': 'you', 'content': '{\"command\": {\"name\": \"list_files\", \"args\": {\"directory\": \".\"}}}'}]\n\"\"\"\n"
+    }
+]

@@ -1,0 +1,1 @@
+"As a system, I have not seen any new events since the user executed the same shell command multiple times to export the Twitter bearer token. The user executed the shell command twice to export the Twitter bearer token."

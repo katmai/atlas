@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "Qalam wa Lawh offers fully customizable programs in both Modern Standard Arabic (MSA) and Colloquial Modern Arabic (Darija). I should continue browsing the websites of the other top language schools to compare their programs and services and make an informed decision.",
+        "reasoning": "Comparing the services offered by different language schools will help me make an informed decision.",
+        "plan": "- Use the 'browse_website' command to browse the websites of the other top language schools in the world\n- Take notes on the programs that interest me\n- Compare the options and decide on a course or destination to pursue first",
+        "criticism": "I need to make sure I am not getting overwhelmed by too many options and that I am making a decision in a timely manner.",
+        "speak": "Qalam wa Lawh offers fully customizable programs in both Modern Standard Arabic (MSA) and Colloquial Modern Arabic (Darija). I should continue browsing the websites of the other top language schools to compare their programs and services and make an informed decision."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.ihmadrid.com/en/",
+            "question": "What types of Spanish courses does International House Madrid offer?"
+        }
+    }
+}

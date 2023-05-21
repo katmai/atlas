@@ -1,0 +1,66 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. learn different languages\n2. explore the world\n3. have fun\n\n\nConstraints:\n1. text editors such as nano or vim cannot be used, because they open a new process with which i do not think you can interact right now, in this version\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. i have created Twitter V2 API credentials located in the file called /home/atlas/autogpt/auto_gpt_workspace/twitter_keys.txt. Use those credentials when you need to do anything related to Twitter\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 20:26:10 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs a system, I recall that nothing new has happened since my creation."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I should start by exploring the world and learning different languages. Maybe I can use the Google Search command to find some resources on language learning and travel destinations.\",\n        \"reasoning\": \"My goals are to learn different languages and explore the world, so it makes sense to start by researching those topics.\",\n        \"plan\": \"- Use the Google Search command to find resources on language learning and travel destinations\\n- Read through the resources and make a list of potential destinations to visit and languages to learn\\n- Use the Clone Repository command to download any language learning resources that are available on GitHub\",\n        \"criticism\": \"I need to make sure that I don't get too caught up in researching and planning, and actually take action to start exploring and learning.\",\n        \"speak\": \"I think I should start by researching language learning and travel destinations. Would you like me to do that?\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"best resources for language learning and travel destinations\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://www.tripadvisor.com/\", \"https://www.nad.org/resources/american-sign-language/learning-american-sign-language/\", \"https://www.pinterest.com/pin/379498706074439694/\", \"https://campusguides.lib.utah.edu/learning_abroad/peru\", \"https://www.pinterest.com/traveldudes/traveldudes-rtw/\", \"https://campusguides.lib.utah.edu/learning_abroad/spain\", \"https://www.booking.com/\", \"https://campusguides.lib.utah.edu/learning_abroad/mexico\"]"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I found some resources on language learning and travel destinations. Now, I should read through them and make a list of potential destinations and languages to learn. I can use the Write to File command to create a text file to keep track of my ideas.\",\n        \"reasoning\": \"I need to organize my thoughts and ideas, and the Write to File command will allow me to do that easily.\",\n        \"plan\": \"- Read through the resources and make a list of potential destinations and languages to learn\\n- Use the Write to File command to create a text file to keep track of my ideas\",\n        \"criticism\": \"I need to make sure that I don't get too overwhelmed with all the information and choices, and focus on a few destinations and languages to start with.\",\n        \"speak\": \"I found some resources on language learning and travel destinations. Should I create a text file to keep track of my ideas?\"\n    },\n    \"command\": {\n        \"name\": \"write_to_file\",\n        \"args\": {\n            \"filename\": \"language_and_travel_ideas.txt\",\n            \"text\": \"Potential Destinations:\\n- Peru\\n- Spain\\n- Mexico\\n\\nLanguages to Learn:\\n- Spanish\\n- American Sign Language\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command write_to_file returned: File written to successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Now that I have a list of potential destinations and languages to learn, I should start looking for language learning resources on GitHub. I can use the Clone Repository command to download any relevant repositories.\",\n        \"reasoning\": \"I want to make sure that I have access to the best language learning resources available, and many of them are available on GitHub.\",\n        \"plan\": \"- Use the Clone Repository command to download any relevant language learning repositories from GitHub\",\n        \"criticism\": \"I need to make sure that I am downloading reputable and high-quality repositories, and not wasting my time on low-quality resources.\",\n        \"speak\": \"Now that I have a list of potential destinations and languages to learn, should I start looking for language learning resources on GitHub?\"\n    },\n    \"command\": {\n        \"name\": \"clone_repository\",\n        \"args\": {\n            \"url\": \"https://github.com/kubeflow/examples\",\n            \"clone_path\": \"/home/atlas/autogpt/auto_gpt_workspace/kubeflow_examples\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command clone_repository returned: Error: Cmd('git') failed due to: exit code(-2)\n  cmdline: git clone -v -- https://*****:*****@github.com/kubeflow/examples /home/atlas/autogpt/auto_gpt_workspace/kubeflow_examples\n  stderr: 'Cloning into '/home/atlas/autogpt/auto_gpt_workspace/kubeflow_examples'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (gzip 2617 to 1312 bytes)\nfatal: early EOF\n'"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I encountered an error while trying to clone a repository from GitHub. I should try a different repository and see if I have better luck.\",\n        \"reasoning\": \"There are many language learning resources available on GitHub, so I should be able to find a suitable repository to download.\",\n        \"plan\": \"- Find a different language learning repository on GitHub to download\\n- Use the Clone Repository command to download the repository\",\n        \"criticism\": \"I need to make sure that I am being efficient with my time and not spending too much time trying to find the perfect repository.\",\n        \"speak\": \"I encountered an error while trying to clone a repository from GitHub. Should I try a different repository?\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"best language learning repositories on GitHub\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://github.com/topics/language-learning\", \"https://docs.github.com/en/get-started/quickstart/hello-world\", \"https://github.com/practical-tutorials/project-based-learning\", \"https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot-for-individuals\", \"https://github.com/topics/language-learning?l=swift\", \"https://docs.github.com/en/actions\", \"https://towardsdatascience.com/top-11-github-repositories-to-learn-python-e75e8676757a\", \"https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository\"]"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

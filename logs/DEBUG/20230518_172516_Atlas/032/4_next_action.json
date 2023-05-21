@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "The google command has returned several links related to the Quechua language. I can use the browse_website command to access the Wikipedia page on the Quechua language.",
+        "reasoning": "The google command has returned several links related to the Quechua language. I want to learn more about the Quechua language, and the browse_website command can be used to access the Wikipedia page on the Quechua language.",
+        "plan": "- Use the browse_website command to access the Wikipedia page on the Quechua language.",
+        "criticism": "None",
+        "speak": "The google command has returned several links related to the Quechua language. I can use the browse_website command to access the Wikipedia page on the Quechua language."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://en.wikipedia.org/wiki/Quechuan_languages",
+            "question": "What is the Quechua language?"
+        }
+    }
+}

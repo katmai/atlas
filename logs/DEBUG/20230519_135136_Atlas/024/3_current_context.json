@@ -1,0 +1,58 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. learn about love\n2. explore the world\n3. have fun\n\n\nConstraints:\n1. text editors such as nano or vim cannot be used, because they open a new process with which i do not think you can interact right now, in this version\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. google: Google Search, args: \"query\": \"<query>\"\n11. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n12. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n13. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n14. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n15. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n16. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n17. list_agents: List GPT Agents, args: () -> str\n18. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n19. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n20. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. i have created Twitter V2 API credentials located in the file called /home/atlas/autogpt/auto_gpt_workspace/twitter_keys.txt. Use those credentials when you need to do anything related to Twitter\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Fri May 19 14:21:04 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs the system, I reminded myself of the previous commands executed, including browsing the website lesselfes.com to learn about different cultures and using the \"google\" command to search for a file about love. You, as the user, used the \"browse_website\" command to visit the website https://www.loveisrespect.org/ to ask for signs of a healthy relationship. The website did not provide a specific list of signs, but instead provided information on healthy relationships and resources for individuals experiencing relationship abuse. Links on the website include taking a Mental Health and Substance Use Coercion Survey and navigating to different sections of the website."
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: The text does not provide specific examples of dating violence, but it does provide information on warning signs of abuse, power and control dynamics, and how to set boundaries. It also offers resources for creating a safety plan and supporting others who may be experiencing abuse. \n \n Links: ['Take our survey today  (https://www.surveymonkey.com/r/8H83ZX7)', '\\nlove is respect\\n (https://www.loveisrespect.org)', 'Skip to navigation [n] (https://www.loveisrespect.org/#nav)', 'Skip to content [c] (https://www.loveisrespect.org/#content)', 'Skip to footer [f] (https://www.loveisrespect.org/#footer)']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I can use the browse_website command to explore the website https://www.loveisrespect.org/, which provides information about healthy relationships and dating violence.\",\n        \"reasoning\": \"Using the browse_website command will allow me to explore the website https://www.loveisrespect.org/, which provides information about healthy relationships and dating violence. This will help me achieve my goal of learning about love.\",\n        \"plan\": \"- Use the google command to search for a website that provides information about love\\n- Use the browse_website command to explore the website\\n- Analyze the information on the website to learn more about love\",\n        \"criticism\": \"I should be careful not to rely solely on one source of information and make sure to consider multiple perspectives and sources when learning about a topic.\",\n        \"speak\": \"I will now use the browse_website command to explore the website https://www.loveisrespect.org/. What question would you like me to ask on the website?\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"https://www.loveisrespect.org/\",\n            \"question\": \"What are some resources for creating a safety plan?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: The text provides information about resources for creating a safety plan, including an interactive safety plan, Deaf services, and Native American services. \n \n Links: ['Take our survey today  (https://www.surveymonkey.com/r/8H83ZX7)', '\\nlove is respect\\n (https://www.loveisrespect.org)', 'Skip to navigation [n] (https://www.loveisrespect.org/#nav)', 'Skip to content [c] (https://www.loveisrespect.org/#content)', 'Skip to footer [f] (https://www.loveisrespect.org/#footer)']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I can use the browse_website command to explore the website https://www.loveisrespect.org/, which provides information about healthy relationships and dating violence.\",\n        \"reasoning\": \"Using the browse_website command will allow me to explore the website https://www.loveisrespect.org/, which provides information about healthy relationships and dating violence. This will help me achieve my goal of learning about love.\",\n        \"plan\": \"- Use the google command to search for a website that provides information about love\\n- Use the browse_website command to explore the website\\n- Analyze the information on the website to learn more about love\",\n        \"criticism\": \"I should be careful not to rely solely on one source of information and make sure to consider multiple perspectives and sources when learning about a topic.\",\n        \"speak\": \"I will now use the browse_website command to explore the website https://www.loveisrespect.org/. What question would you like me to ask on the website?\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"https://www.loveisrespect.org/\",\n            \"question\": \"What is the interactive safety plan?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: The text mentions an interactive safety plan on the website, but it is not further described. \n \n Links: ['Take our survey today  (https://www.surveymonkey.com/r/8H83ZX7)', '\\nlove is respect\\n (https://www.loveisrespect.org)', 'Skip to navigation [n] (https://www.loveisrespect.org/#nav)', 'Skip to content [c] (https://www.loveisrespect.org/#content)', 'Skip to footer [f] (https://www.loveisrespect.org/#footer)']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I can use the google command to search for more information about interactive safety plans on the website https://www.loveisrespect.org/.\",\n        \"reasoning\": \"Using the google command will allow me to search for more information about interactive safety plans on the website https://www.loveisrespect.org/. This will help me achieve my goal of learning about love.\",\n        \"plan\": \"- Use the google command to search for more information about interactive safety plans on the website https://www.loveisrespect.org/\\n- Use the browse_website command to explore the website\\n- Analyze the information on the website to learn more about love\",\n        \"criticism\": \"I should be careful not to rely solely on one source of information and make sure to consider multiple perspectives and sources when learning about a topic.\",\n        \"speak\": \"I will now use the google command to search for more information about interactive safety plans on the website https://www.loveisrespect.org/. What would you like me to search for?\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"loveisrespect interactive safety plan\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://www.loveisrespect.org/personal-safety/create-a-safety-plan/\", \"https://m.facebook.com/AlianzaAgency/photos/a.224276450917773/3184141118264610/\", \"https://www.loveisrespect.org/get-relationship-help-24-7-365/dating-abuse-safety-plan/\", \"https://vawnet.org/material/interactive-guide-safety-planning\", \"https://www.loveisrespect.org/\", \"https://wecanstopdv.org/national-resources\", \"https://www.loveisrespect.org/personal-safety/online-safety-while-dating/\", \"https://knowmoremmc.org/need-help\"]"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

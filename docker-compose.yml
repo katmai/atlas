@@ -13,8 +13,12 @@ services:
       - ./auto_gpt_workspace:/home/atlas/autogpt/auto_gpt_workspace
       - ./atlas.yaml:/home/atlas/atlas.yaml
       - ./atlas.yaml:/home/atlas/autogpt/auto_gpt_workspace/atlas.yaml
+      - ./atlas.settings.yaml:/home/atlas/atlas.settings.yaml
+      - ./atlas.settings.yaml:/home/atlas/autogpt/auto_gpt_workspace/atlas.settings.yaml
       - ./tools:/home/atlas/tools
       - ./data:/home/atlas/data
+      ## twitter?
+      - ./custom/commands/twitter.py:/home/atlas/autogpt/commands/twitter.py
       ## allow auto-gpt to write logs to disk
       - ./logs:/home/atlas/logs
     profiles: ["exclude-from-up"]

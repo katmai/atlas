@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I have found some resources for practicing writing in Spanish. I think I should start using one of these resources to practice writing in Spanish.",
+        "reasoning": "I have found a list of resources for practicing writing in Spanish, so it makes sense to choose one of them and start using it to practice writing in Spanish.",
+        "plan": "- Choose a resource to use for practicing writing in Spanish\n- Start using the resource to practice writing in Spanish\n- Practice speaking and writing in Spanish consistently",
+        "criticism": "I need to make sure I am practicing consistently and getting feedback on my language skills.",
+        "speak": "I have found some resources for practicing writing in Spanish. I think I should start using one of these resources to practice writing in Spanish."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.cambridgeenglish.org/learning-english/free-resources/write-and-improve/",
+            "question": "What are the resources available for practicing writing in Spanish?"
+        }
+    }
+}

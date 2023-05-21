@@ -1,0 +1,1 @@
+"As the system, I received a command from you to google interesting places to visit. Your computer returned a list of URLs for top travel destinations, and you used the browse_website command to visit the Forbes article on the top 50 places in the world."

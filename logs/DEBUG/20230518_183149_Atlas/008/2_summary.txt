@@ -1,0 +1,1 @@
+"As the user, I used the 'google' command with the query \"popular travel destinations\" to gather more information."

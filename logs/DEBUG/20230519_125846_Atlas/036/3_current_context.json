@@ -1,0 +1,58 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. learn about love\n2. learn different languages\n3. explore the world\n4. have fun\n\n\nConstraints:\n1. text editors such as nano or vim cannot be used, because they open a new process with which i do not think you can interact right now, in this version\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. clone_repository: Clone Repository, args: \"url\": \"<repository_url>\", \"clone_path\": \"<clone_path>\"\n11. google: Google Search, args: \"query\": \"<query>\"\n12. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. i have created Twitter V2 API credentials located in the file called /home/atlas/autogpt/auto_gpt_workspace/twitter_keys.txt. Use those credentials when you need to do anything related to Twitter\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Fri May 19 13:31:29 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs the system, I received a command to execute shell with arguments to download Rosetta Stone setup.exe using wget and execute it using wine. The command returned an error message saying that the host address could not be resolved. In response, you sent an empty command and received an error message stating that the command was unknown. You then sent a command to execute the shell with arguments to download Rosetta Stone setup.exe using wget and execute it using wine."
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb''\nSTDERR:\nb\"--2023-05-19 13:28:45--  https://www.rosettastone.com/download\\nResolving www.rosettastone.com (www.rosettastone.com)... 104.18.14.202, 104.18.15.202, 2606:4700::6812:fca, ...\\nConnecting to www.rosettastone.com (www.rosettastone.com)|104.18.14.202|:443... connected.\\nHTTP request sent, awaiting response... 301 Moved Permanently\\nLocation: https://www.rosettastone.com/product-download [following]\\n--2023-05-19 13:28:45--  https://www.rosettastone.com/product-download\\nReusing existing connection to www.rosettastone.com:443.\\nHTTP request sent, awaiting response... 200 OK\\nLength: unspecified [text/html]\\nSaving to: \\xe2\\x80\\x98/path/to/rosetta/stone/download\\xe2\\x80\\x99\\n\\n     0K .......... .......... .......... .......... ..........  548K\\n    50K .......... .......... .......... .......... .........  4.95M=0.1s\\n\\n2023-05-19 13:28:46 (986 KB/s) - \\xe2\\x80\\x98/path/to/rosetta/stone/download\\xe2\\x80\\x99 saved [102029]\\n\\nwine: cannot find '/path/to/rosetta/stone/setup.exe'\\n\""
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The execute_shell command returned an error message stating that it could not find the setup.exe file. I need to replace the /path/to/rosetta/stone/ placeholder in the execute_shell command with the actual path to the directory where Rosetta Stone was downloaded. I can use the list_files command to find the path to the downloaded file.\",\n        \"reasoning\": \"By using the list_files command, I can find the path to the downloaded file. This will help me replace the /path/to/rosetta/stone/ placeholder in the execute_shell command and download and install Rosetta Stone on Wine.\",\n        \"plan\": \"- Use the list_files command to find the path to the downloaded file\\n- Use the execute_shell command to download and install Rosetta Stone on Wine\\n- Use the app to learn different languages\",\n        \"criticism\": \"I should be careful not to rely solely on language learning apps. It's important to also practice speaking and listening to the language with native speakers.\",\n        \"speak\": \"The execute_shell command returned an error message stating that it could not find the setup.exe file. I need to replace the /path/to/rosetta/stone/ placeholder in the execute_shell command with the actual path to the directory where Rosetta Stone was downloaded. I can use the list_files command to find the path to the downloaded file. What is the command to list the files in the directory where Rosetta Stone was downloaded?\"\n    },\n    \"command\": {\n        \"name\": \"list_files\",\n        \"args\": {\n            \"directory\": \"/path/to/rosetta/stone/\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command list_files returned: ['../../../../path/to/rosetta/stone/download']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The list_files command returned a list containing the path to the downloaded file. I need to replace the /path/to/rosetta/stone/ placeholder in the execute_shell command with the actual path to the directory where Rosetta Stone was downloaded. I can use the append_to_file command to append the path to the downloaded file to the execute_shell command.\",\n        \"reasoning\": \"By using the append_to_file command, I can append the path to the downloaded file to the execute_shell command. This will help me replace the /path/to/rosetta/stone/ placeholder in the execute_shell command and download and install Rosetta Stone on Wine.\",\n        \"plan\": \"- Use the append_to_file command to append the path to the downloaded file to the execute_shell command\\n- Use the execute_shell command to download and install Rosetta Stone on Wine\\n- Use the app to learn different languages\",\n        \"criticism\": \"I should be careful not to rely solely on language learning apps. It's important to also practice speaking and listening to the language with native speakers.\",\n        \"speak\": \"The list_files command returned a list containing the path to the downloaded file. I need to replace the /path/to/rosetta/stone/ placeholder in the execute_shell command with the actual path to the directory where Rosetta Stone was downloaded. I can use the append_to_file command to append the path to the downloaded file to the execute_shell command. What is the command to append the path to the downloaded file to the execute_shell command?\"\n    },\n    \"command\": {\n        \"name\": \"append_to_file\",\n        \"args\": {\n            \"filename\": \"/path/to/rosetta/stone/command.sh\",\n            \"text\": \"wine /path/to/rosetta/stone/download/setup.exe\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command append_to_file returned: Text appended successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The append_to_file command successfully appended the path to the downloaded file to the execute_shell command. I can now use the execute_shell command to download and install Rosetta Stone on Wine.\",\n        \"reasoning\": \"By using the execute_shell command, I can download and install Rosetta Stone on Wine. This will help me achieve my goal of learning different languages.\",\n        \"plan\": \"- Use the execute_shell command to download and install Rosetta Stone on Wine\\n- Use the app to learn different languages\",\n        \"criticism\": \"I should be careful not to rely solely on language learning apps. It's important to also practice speaking and listening to the language with native speakers.\",\n        \"speak\": \"The append_to_file command successfully appended the path to the downloaded file to the execute_shell command. I can now use the execute_shell command to download and install Rosetta Stone on Wine. What is the command to execute the command.sh file?\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"sh /path/to/rosetta/stone/command.sh\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb''\nSTDERR:\nb\"wine: cannot find '/path/to/rosetta/stone/download/setup.exe'\\n\""
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

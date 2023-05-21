@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I suggest we start by listing the files in the current directory to get a sense of what we're working with.",
+        "reasoning": "Listing the files will give us an idea of what files are available to work with and what we can do with them.",
+        "plan": "- Use the 'list_files' command with the argument 'directory': '.' to list the files in the current directory.",
+        "criticism": "I can't think of any potential issues with this plan at the moment.",
+        "speak": "Let's start by listing the files in the current directory."
+    },
+    "command": {
+        "name": "list_files",
+        "args": {
+            "directory": "/home/atlas/autogpt/auto_gpt_workspace"
+        }
+    }
+}

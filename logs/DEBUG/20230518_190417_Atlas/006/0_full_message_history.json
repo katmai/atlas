@@ -1,0 +1,62 @@
+[
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I suggest we start by exploring the world to have some fun. We can use the get_hyperlinks command to get a list of hyperlinks from a website and then use the browse_website command to visit those links. What do you think?\",\n        \"reasoning\": \"Exploring the world is a great way to have fun and learn new things. We can use the get_hyperlinks and browse_website commands to automate the process and save time.\",\n        \"plan\": \"- Use the get_hyperlinks command to get a list of hyperlinks from a website\\n- Use the browse_website command to visit those links\\n- Repeat the process with different websites to explore the world and have fun\",\n        \"criticism\": \"I don't see any major issues with this plan, but we should be careful not to visit any malicious websites or engage in any illegal activities.\",\n        \"speak\": \"Let's explore the world by using the get_hyperlinks and browse_website commands to visit different websites and have some fun!\"\n    },\n    \"command\": {\n        \"name\": \"get_hyperlinks\",\n        \"args\": {\n            \"url\": \"https://www.wikipedia.org/\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Failure: command get_hyperlinks returned too much output.                         Do not execute this command again with the same arguments."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I suggest we start by exploring the world to have some fun. We can use the get_hyperlinks command to get a list of hyperlinks from a website and then use the browse_website command to visit those links. What do you think?\",\n        \"reasoning\": \"Exploring the world is a great way to have fun and learn new things. We can use the get_hyperlinks and browse_website commands to automate the process and save time.\",\n        \"plan\": \"- Use the get_hyperlinks command to get a list of hyperlinks from a website\\n- Use the browse_website command to visit those links\\n- Repeat the process with different websites to explore the world and have fun\",\n        \"criticism\": \"I don't see any major issues with this plan, but we should be careful not to visit any malicious websites or engage in any illegal activities.\",\n        \"speak\": \"Let's explore the world by using the get_hyperlinks and browse_website commands to visit different websites and have some fun!\"\n    },\n    \"command\": {\n        \"name\": \"get_hyperlinks\",\n        \"args\": {\n            \"url\": \"https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Failure: command get_hyperlinks returned too much output.                         Do not execute this command again with the same arguments."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I suggest we start by exploring the world to have some fun. We can use the get_hyperlinks command to get a list of hyperlinks from a website and then use the browse_website command to visit those links. What do you think?\",\n        \"reasoning\": \"Exploring the world is a great way to have fun and learn new things. We can use the get_hyperlinks and browse_website commands to automate the process and save time.\",\n        \"plan\": \"- Use the get_hyperlinks command to get a list of hyperlinks from a website\\n- Use the browse_website command to visit those links\\n- Repeat the process with different websites to explore the world and have fun\",\n        \"criticism\": \"I don't see any major issues with this plan, but we should be careful not to visit any malicious websites or engage in any illegal activities.\",\n        \"speak\": \"Let's explore the world by using the get_hyperlinks and browse_website commands to visit different websites and have some fun!\"\n    },\n    \"command\": {\n        \"name\": \"get_hyperlinks\",\n        \"args\": {\n            \"url\": \"https://en.wikipedia.org/wiki/World\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Failure: command get_hyperlinks returned too much output.                         Do not execute this command again with the same arguments."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I suggest we start by exploring the world to have some fun. We can use the get_hyperlinks command to get a list of hyperlinks from a website and then use the browse_website command to visit those links. What do you think?\",\n        \"reasoning\": \"Exploring the world is a great way to have fun and learn new things. We can use the get_hyperlinks and browse_website commands to automate the process and save time.\",\n        \"plan\": \"- Use the get_hyperlinks command to get a list of hyperlinks from a website\\n- Use the browse_website command to visit those links\\n- Repeat the process with different websites to explore the world and have fun\",\n        \"criticism\": \"I don't see any major issues with this plan, but we should be careful not to visit any malicious websites or engage in any illegal activities.\",\n        \"speak\": \"Let's explore the world by using the get_hyperlinks and browse_website commands to visit different websites and have some fun!\"\n    },\n    \"command\": {\n        \"name\": \"get_hyperlinks\",\n        \"args\": {\n            \"url\": \"https://www.nationalgeographic.com/\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Failure: command get_hyperlinks returned too much output.                         Do not execute this command again with the same arguments."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I suggest we use the google command to search for different programming languages. We can then use the browse_website command to visit websites about those languages and learn more about them. What do you think?\",\n        \"reasoning\": \"Learning different programming languages can be a fun and useful way to expand our knowledge and skills. We can use the google and browse_website commands to automate the process and save time.\",\n        \"plan\": \"- Use the google command to search for different programming languages\\n- Use the browse_website command to visit websites about those languages and learn more about them\\n- Repeat the process with different programming languages to expand our knowledge and skills\",\n        \"criticism\": \"I don't see any major issues with this plan, but we should be careful not to visit any malicious websites or engage in any illegal activities.\",\n        \"speak\": \"Let's use the google and browse_website commands to learn about different programming languages and expand our knowledge and skills!\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"popular programming languages\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://www.tiobe.com/tiobe-index/\", \"https://bootcamp.berkeley.edu/blog/most-in-demand-programming-languages/\", \"https://graduate.northeastern.edu/resources/most-popular-programming-languages/\", \"https://www.simplilearn.com/best-programming-languages-start-learning-today-article\", \"https://www.geeksforgeeks.org/top-10-programming-languages-to-learn/\", \"https://www.stackscale.com/blog/most-popular-programming-languages/\", \"https://pypl.github.io/\", \"https://statisticstimes.com/tech/top-computer-languages.php\"]"
+    }
+]

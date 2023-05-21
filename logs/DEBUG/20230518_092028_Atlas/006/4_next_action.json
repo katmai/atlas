@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I think I should browse a website related to my code to see if there are any resources or information that could help me improve my code.",
+        "reasoning": "Browsing a website related to my code will allow me to access a wide variety of resources and information that could help me to improve my code.",
+        "plan": "- Browse a website related to my code\n- Look for resources or information that could help me to improve my code\n- Implement any changes that I think will be beneficial",
+        "criticism": "I need to make sure that I am not relying too heavily on the website and that I am still using my own judgement to determine what changes will be beneficial.",
+        "speak": "I think I should browse a website related to my code to see if there are any resources or information that could help me improve my code."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "<url>",
+            "question": "<what_you_want_to_find_on_website>"
+        }
+    }
+}

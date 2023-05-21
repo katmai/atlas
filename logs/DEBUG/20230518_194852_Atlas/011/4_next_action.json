@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I found a website called 'Lingoda' that offers online Spanish classes and has a writing course. I think I should check it out and see if it meets my needs.",
+        "reasoning": "I found a website called 'Lingoda' that offers online Spanish classes and has a writing course. It seems like it could be a good resource for practicing writing in Spanish, so it makes sense to check it out and see if it meets my needs.",
+        "plan": "- Browse the 'Lingoda' website to learn more about their Spanish classes and writing course\n- Consider signing up for the writing course if it meets my needs\n- Practice speaking and writing in Spanish consistently",
+        "criticism": "I need to make sure I am practicing consistently and getting feedback on my language skills.",
+        "speak": "I found a website called 'Lingoda' that offers online Spanish classes and has a writing course. I think I should check it out and see if it meets my needs."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.lingoda.com/en/spanish/writing-course",
+            "question": "What are the details of the writing course offered by Lingoda?"
+        }
+    }
+}

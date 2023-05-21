@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nNothing new happened. (No changes to the existing summary.)'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'you', 'content': '{\"command\": {\"name\": \"execute_shell\", \"args\": {\"command_line\": \"export TWITTER_BEARER_TOKEN=AAAAAAAAAAAAAAAAAAAAAOZzKQEAAAAA1%2BzJ1r6z7UH8pZzVU5k6%2B%2FwLzv8%3DyLk8rM5L1vqWqf0cKlLQX5x5j3c5VZUzWUZIjGvzR5zRQ8pTq\"}}}'}, {'role': 'you', 'content': '{\"command\": {\"name\": \"execute_shell\", \"args\": {\"command_line\": \"export TWITTER_BEARER_TOKEN=AAAAAAAAAAAAAAAAAAAAAOZzKQEAAAAA1%2BzJ1r6z7UH8pZzVU5k6%2B%2FwLzv8%3DyLk8rM5L1vqWqf0cKlLQX5x5j3c5VZUzWUZIjGvzR5zRQ8pTq\"}}}'}]\n\"\"\"\n"
+    }
+]
