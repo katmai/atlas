@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Human rights in Mexico Amnesty International</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="https://www.amnesty.org/en/wp-content/themes/amnesty-wp-theme/assets/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://www.amnesty.org/en/wp-content/themes/amnesty-wp-theme/assets/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://www.amnesty.org/en/wp-content/themes/amnesty-wp-theme/assets/favicons/favicon-16x16.png">
+	<link rel="manifest" href="https://www.amnesty.org/en/wp-content/themes/amnesty-wp-theme/assets/favicons/manifest.json">
+	<link rel="mask-icon" href="https://www.amnesty.org/en/wp-content/themes/amnesty-wp-theme/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#ffc40d">
+	<meta name="theme-color" content="#ffffff">
+	<script>window.MSInputMethodContext && document.documentMode && document.write('<script src="https://cdn.jsdelivr.net/gh/nuxodin/ie11CustomProperties@4.1.0/ie11CustomProperties.min.js"><\/script>');</script>
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<meta name="google-site-verification" content="riVwpntywu-TzFXyr7JawK3eGavSi4qSApZFyYgfFmA" />
+<meta name="google-site-verification" content="Mnes2BCPqnpHgmdQOvMi0FT4rMskkUbIjPBs50znPuo" />
+<script>(function(h){h.classList.remove('no-js');h.classList.add('js')})(document.documentElement);</script>
+	<meta name="description" content="Stay up to date on the state of human rights in Mexico with the latest research, campaigns and education material from Amnesty International." />
+	<link rel="canonical" href="https://www.amnesty.org/en/location/americas/north-america/mexico/report-mexico/" />
+	<meta property="og:locale" content="en" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Human rights in Mexico" />
+	<meta property="og:description" content="Stay up to date on the state of human rights in Mexico with the latest research, campaigns and education material from Amnesty International." />
+	<meta property="og:url" content="https://www.amnesty.org/en/location/americas/north-america/mexico/report-mexico/" />
+	<meta property="og:site_name" content="Amnesty International" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@amnesty" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"https://www.amnesty.org/en/location/americas/north-america/mexico/report-mexico/","url":"https://www.amnesty.org/en/location/americas/north-america/mexico/report-mexico/","name":"Human rights in Mexico","isPartOf":{"@id":"https://www.amnesty.org/en/#website"},"description":"Stay up to date on the state of human rights in Mexico with the latest research, campaigns and education material from Amnesty International.","breadcrumb":{"@id":"https://www.amnesty.org/en/location/americas/north-america/mexico/report-mexico/#breadcrumb"},"inLanguage":"en"},{"@type":"BreadcrumbList","@id":"https://www.amnesty.org/en/location/americas/north-america/mexico/report-mexico/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.amnesty.org/en/"},{"@type":"ListItem","position":2,"name":"Americas","item":"https://www.amnesty.org/en/location/americas/"},{"@type":"ListItem","position":3,"name":"North America","item":"https://www.amnesty.org/en/location/americas/north-america/"},{"@type":"ListItem","position":4,"name":"Mexico","item":"https://www.amnesty.org/en/location/americas/north-america/mexico/"},{"@type":"ListItem","position":5,"name":"Mexico"}]},{"@type":"WebSite","@id":"https://www.amnesty.org/en/#website","url":"https://www.amnesty.org/en/","name":"Amnesty International","description":"Inspiring people against injustice to bring the world closer to human rights &amp; dignity enjoyed by all.","publisher":{"@id":"https://www.amnesty.org/en/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.amnesty.org/en/search/{search_term_string}/"},"query-input":"required name=search_term_string"}],"inLanguage":"en"},{"@type":"Organization","@id":"https://www.amnesty.org/en/#organization","name":"Amnesty International","url":"https://www.amnesty.org/en/","logo":{"@type":"ImageObject","inLanguage":"en","@id":"https://www.amnesty.org/en/#/schema/logo/image/","url":"https://www.amnesty.org/en/wp-content/uploads/2018/08/amnesty-international.jpg","contentUrl":"https://www.amnesty.org/en/wp-content/uploads/2018/08/amnesty-international.jpg","width":2167,"height":918,"caption":"Amnesty International"},"image":{"@id":"https://www.amnesty.org/en/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/amnesty","https://twitter.com/amnesty","https://instagram.com/amnesty","https://www.youtube.com/user/AmnestyInternational"]}]}</script>
+	<meta property="og:image" content="https://www.amnesty.org/en/wp-content/uploads/2019/12/whoweare_2944x1224_header.jpg" />
+	<meta property="og:image:width" content="1178" />
+	<meta property="og:image:height" content="490" />
+	<meta property="og:image:type" content="image/jpeg" />
+
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//cc.cdn.civiccomputing.com' />
+<link rel="alternate" type="application/rss+xml" title="Amnesty International &raquo; Mexico Country Feed" href="https://www.amnesty.org/en/location/americas/north-america/mexico/report-mexico/feed/" />
+<link iecp-ignore rel='stylesheet' id='wp-block-library-css' href='https://www.amnesty.org/en/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' media='all' />
+<link iecp-ignore rel='stylesheet' id='wc-blocks-vendors-style-css' href='https://www.amnesty.org/en/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=10.0.4' media='all' />
+<link iecp-ignore rel='stylesheet' id='wc-blocks-style-css' href='https://www.amnesty.org/en/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=10.0.4' media='all' />
+<link iecp-ignore rel='stylesheet' id='aidonations-style-css' href='https://www.amnesty.org/en/wp-content/plugins/wp-plugin-donations/assets/styles/style.css?ver=1.3.4' media='all' />
+<link iecp-ignore rel='stylesheet' id='classic-theme-styles-css' href='https://www.amnesty.org/en/wp-includes/css/classic-themes.min.css?ver=1' media='all' />
+<link iecp-ignore rel='stylesheet' id='woocommerce-general-css' href='https://www.amnesty.org/en/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=7.7.0' media='all' />
+<link rel='stylesheet' id='amnesty-theme-css' href='https://www.amnesty.org/en/wp-content/themes/amnesty-wp-theme/assets/styles/bundle.css?ver=1.28.1' media='all' />
+<style id='amnesty-theme-inline-css'>
+:root{
+			--font-family-primary:"Amnesty Trade Gothic",sans-serif;
+			--font-family-secondary:"Amnesty Trade Gothic Condensed",sans-serif;
+			--list-separator:", ";
+		}
+blockquote{quotes:'“' '”' "‘" "’"}
+</style>
+<link iecp-ignore rel='stylesheet' id='aisp-css' href='https://www.amnesty.org/en/wp-content/plugins/amnesty-sharepoint-runner/assets/frontend.css?ver=1.16.1' media='all' />
+<link iecp-ignore rel='stylesheet' id='woocommerce-layout-css' href='https://www.amnesty.org/en/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=7.7.0' media='all' />
+<link iecp-ignore rel='stylesheet' id='woocommerce-smallscreen-css' href='https://www.amnesty.org/en/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=7.7.0' media='only screen and (max-width: 768px)' />
+<style id='woocommerce-inline-inline-css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link iecp-ignore rel='stylesheet' id='block-tabbed-content-frontend-style-css' href='https://www.amnesty.org/en/wp-content/plugins/block-tabbed-content-1.0.0-rc.6/dist/styles/frontend-d050f9c8.css?ver=1679676194' media='all' />
+<link iecp-ignore rel='stylesheet' id='woocommerce-nyp-css' href='https://www.amnesty.org/en/wp-content/plugins/woocommerce-name-your-price/assets/css/name-your-price.css?ver=2.10.0' media='all' />
+<link iecp-ignore rel='stylesheet' id='print-styles-css' href='https://www.amnesty.org/en/wp-content/themes/amnesty-wp-theme/assets/styles/print.css?ver=1.28.1' media='print' />
+<link iecp-ignore rel='stylesheet' id='aitc-app-css' href='https://www.amnesty.org/en/wp-content/plugins/wp-plugin-theme-companion/assets/front.css?ver=1.5.0' media='all' />
+<script id='gtm-js-before'>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};
+gtag('consent','default',{'ad_storage':'denied','analytics_storage':'denied'});
+</script>
+<script src='https://www.googletagmanager.com/gtm.js?id=GTM-MH9W89&#038;ver=1.0.0' id='gtm-js'></script>
+<script src='https://www.amnesty.org/en/wp-content/themes/amnesty-wp-theme/assets/scripts/infogram-loader.js?ver=1.28.1' id='infogram-embed-js'></script>
+<script src='https://www.amnesty.org/en/wp-content/plugins/wp-plugin-csp/assets/main.js?ver=2.2.3' id='amnesty-csp-js'></script>
+<script src='https://www.amnesty.org/en/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+<script src='https://www.amnesty.org/en/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script src='https://www.amnesty.org/en/wp-content/plugins/block-tabbed-content-1.0.0-rc.6/dist/scripts/frontend-1aa8acec.js?ver=1679676194' id='block-tabbed-content-frontend-script-js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.amnesty.org/en/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.amnesty.org/en/wp-includes/wlwmanifest.xml" />
+<script>  var el_i13_login_captcha=null; var el_i13_register_captcha=null; </script><!-- Stream WordPress user activity plugin v3.9.3 -->
+<link rel="alternate" hreflang="es" href="https://www.amnesty.org/es/location/americas/north-america/mexico/report-mexico/"><link rel="alternate" hreflang="fr" href="https://www.amnesty.org/fr/location/americas/north-america/mexico/report-mexico/"><link rel="alternate" hreflang="en" href="https://www.amnesty.org/en/location/americas/north-america/mexico/report-mexico/"><link rel="alternate" href="https://www.amnesty.org/en/location/americas/north-america/mexico/report-mexico/" hreflang="x-default">	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	</head>
+<body class="archive tax-location term-report-mexico term-1888 wp-custom-logo has-hero theme-amnesty-wp-theme woocommerce-no-js ltr has-light-header report">
+<a class="skipLink" href="#main">Skip to main content</a>
+<div class="overlay" aria-hidden="true"></div>
+
+<aside class="language-selector" aria-label="Language Selection">
+	<div class="container">
+		<p>Which language would you like to use this site in?</p>
+		<ul class="language-list" aria-label="Choose a language">
+							<li class="is-selected" style="direction:ltr"><a href="https://www.amnesty.org/en/">English</a></li>
+							<li class="" style="direction:ltr"><a href="https://www.amnesty.org/es/">español</a></li>
+							<li class="" style="direction:ltr"><a href="https://www.amnesty.org/fr/">français</a></li>
+							<li class="" style="direction:ltr"><a href="https://www.amnesty.org/ar/">العربية</a></li>
+					</ul>
+		<button class="btn btn--white language-selectorClose">
+			<span>Close</span>
+		</button>
+	</div>
+</aside>
+<header class="page-header is-light" role="banner" aria-label="Page Header">
+	<div class="container">
+		<div class="page-headerItems">
+		<a class="logo" href="https://www.amnesty.org/en/" aria-label="Visit the Amnesty International home page"><img width="170" height="72" src="https://www.amnesty.org/en/wp-content/uploads/2021/08/129327069-45f0fe5f-7fa9-4b09-acbb-3272541534ab-170x72.png" class="logo-logoType" alt="Amnesty International Logotype" decoding="async" loading="lazy" srcset="https://www.amnesty.org/en/wp-content/uploads/2021/08/129327069-45f0fe5f-7fa9-4b09-acbb-3272541534ab-170x72.png 170w, https://www.amnesty.org/en/wp-content/uploads/2021/08/129327069-45f0fe5f-7fa9-4b09-acbb-3272541534ab-300x127.png 300w, https://www.amnesty.org/en/wp-content/uploads/2021/08/129327069-45f0fe5f-7fa9-4b09-acbb-3272541534ab-1024x434.png 1024w, https://www.amnesty.org/en/wp-content/uploads/2021/08/129327069-45f0fe5f-7fa9-4b09-acbb-3272541534ab-768x325.png 768w, https://www.amnesty.org/en/wp-content/uploads/2021/08/129327069-45f0fe5f-7fa9-4b09-acbb-3272541534ab-1536x651.png 1536w, https://www.amnesty.org/en/wp-content/uploads/2021/08/129327069-45f0fe5f-7fa9-4b09-acbb-3272541534ab-2048x868.png 2048w, https://www.amnesty.org/en/wp-content/uploads/2021/08/129327069-45f0fe5f-7fa9-4b09-acbb-3272541534ab-1416x600.png 1416w, https://www.amnesty.org/en/wp-content/uploads/2021/08/129327069-45f0fe5f-7fa9-4b09-acbb-3272541534ab-340x144.png 340w, https://www.amnesty.org/en/wp-content/uploads/2021/08/129327069-45f0fe5f-7fa9-4b09-acbb-3272541534ab-60x25.png 60w, https://www.amnesty.org/en/wp-content/uploads/2021/08/129327069-45f0fe5f-7fa9-4b09-acbb-3272541534ab-120x51.png 120w, https://www.amnesty.org/en/wp-content/uploads/2021/08/129327069-45f0fe5f-7fa9-4b09-acbb-3272541534ab-200x85.png 200w, https://www.amnesty.org/en/wp-content/uploads/2021/08/129327069-45f0fe5f-7fa9-4b09-acbb-3272541534ab-400x169.png 400w, https://www.amnesty.org/en/wp-content/uploads/2021/08/129327069-45f0fe5f-7fa9-4b09-acbb-3272541534ab-260x110.png 260w, https://www.amnesty.org/en/wp-content/uploads/2021/08/129327069-45f0fe5f-7fa9-4b09-acbb-3272541534ab-520x220.png 520w, https://www.amnesty.org/en/wp-content/uploads/2021/08/129327069-45f0fe5f-7fa9-4b09-acbb-3272541534ab-325x138.png 325w, https://www.amnesty.org/en/wp-content/uploads/2021/08/129327069-45f0fe5f-7fa9-4b09-acbb-3272541534ab-650x275.png 650w, https://www.amnesty.org/en/wp-content/uploads/2021/08/129327069-45f0fe5f-7fa9-4b09-acbb-3272541534ab-600x254.png 600w" sizes="(max-width: 170px) 100vw, 170px" /><img width="60" height="60" src="https://www.amnesty.org/en/wp-content/uploads/2018/08/amnesty-international-logomark.jpg" class="logo-logoMark" alt="Amnesty International Logomark" decoding="async" loading="lazy" srcset="https://www.amnesty.org/en/wp-content/uploads/2018/08/amnesty-international-logomark.jpg 730w, https://www.amnesty.org/en/wp-content/uploads/2018/08/amnesty-international-logomark-150x150.jpg 150w, https://www.amnesty.org/en/wp-content/uploads/2018/08/amnesty-international-logomark-300x300.jpg 300w" sizes="(max-width: 60px) 100vw, 60px" /></a>
+					<nav class="page-nav page-nav--left" aria-label="Available languages"><ul class="site-selector"><li id="menu-item-1-1888" class="menu-item menu-item-current menu-item-has-children menu-item-1-1888" dir="ltr"><a href="https://www.amnesty.org/en/location/americas/north-america/mexico/report-mexico/">English</a><ul class="sub-menu"><li id="menu-item-4-2030" class="menu-item menu-item-4-2030" dir="ltr"><a href="https://www.amnesty.org/es/location/americas/north-america/mexico/report-mexico/">Español</a></li><li id="menu-item-8-2171" class="menu-item menu-item-8-2171" dir="ltr"><a href="https://www.amnesty.org/fr/location/americas/north-america/mexico/report-mexico/">Français</a></li><li id="menu-item-9-8" class="menu-item menu-item-9-8" dir="ltr"><a href="https://www.amnesty.org/ar/">العربية</a></li></ul></li></ul></nav><div class="site-separator"></div>		
+			<nav class="page-nav page-nav--main" aria-label="Primary navigation">
+				<ul><li id="menu-item-1544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1544"><a href="https://www.amnesty.org/en/who-we-are/"><span>Who We Are</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2415" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2415"><a href="https://www.amnesty.org/en/about-us/how-were-run/"><span>How We’re Run</span></a></li>
+	<li id="menu-item-144740" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-144740"><a href="https://www.amnesty.org/en/careers/"><span>Careers</span></a></li>
+</ul>
+</li>
+<li id="menu-item-1545" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1545"><a href="https://www.amnesty.org/en/what-we-do/"><span>What We Do</span></a></li>
+<li id="menu-item-2417" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2417"><a href="https://www.amnesty.org/en/countries/"><span>Countries</span></a></li>
+<li id="menu-item-1543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1543"><a href="https://www.amnesty.org/en/get-involved/"><span>Get Involved</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2884" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2884"><a href="https://www.amnesty.org/en/get-involved/take-action/"><span>Take Action</span></a></li>
+	<li id="menu-item-2885" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2885"><a href="https://www.amnesty.org/en/get-involved/join/"><span>Join</span></a></li>
+	<li id="menu-item-188266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-188266"><a href="https://www.amnesty.org/en/get-involved/online-courses/"><span>Take an online course</span></a></li>
+</ul>
+</li>
+<li id="menu-item-1475" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-has-children menu-item-1475"><a href="https://www.amnesty.org/en/latest/"><span>Latest</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-38551" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-38551"><a href="https://www.amnesty.org/en/latest/news/"><span>News</span></a></li>
+	<li id="menu-item-38552" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-38552"><a href="https://www.amnesty.org/en/latest/campaigns/"><span>Campaigns</span></a></li>
+	<li id="menu-item-38554" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-38554"><a href="https://www.amnesty.org/en/latest/education/"><span>Education</span></a></li>
+	<li id="menu-item-38555" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-38555"><a href="https://www.amnesty.org/en/latest/research/"><span>Research</span></a></li>
+	<li id="menu-item-38553" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-38553"><a href="https://www.amnesty.org/en/latest/impact/"><span>Impact</span></a></li>
+</ul>
+</li>
+<li id="menu-item-185127" class="search-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-185127"><a href="https://www.amnesty.org/en/search/"><span>Search</span></a></li>
+<li id="menu-item-2256" class="donate-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-2256"><a href="https://www.amnesty.org/en/donate/"><span>Donate Now</span></a></li>
+</ul>
+				<button
+					class="burger"
+					data-toggle=".mobile-menu"
+					data-state="mobile-menu-open"
+					data-focus=".mobile-menu > ul"
+					aria-expanded="false"
+					aria-controls="mobile-menu"
+					aria-label="Open navigation"
+				><span class="icon icon-burger"></span><span class="icon icon-close"></span></button>
+				
+<div id="mobile-menu" class="mobile-menu" aria-hidden="true" aria-modal="true">
+	<ul>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1544"><button href="#" data-href="https://www.amnesty.org/en/who-we-are/" aria-label="Expand Who We Are list"><span>Who We Are</span><i class="icon icon-arrow-down"></i></button>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1544"><a href="https://www.amnesty.org/en/who-we-are/"><span>Who We Are</span></a></li>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2415"><a href="https://www.amnesty.org/en/about-us/how-were-run/"><span>How We’re Run</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-144740"><a href="https://www.amnesty.org/en/careers/"><span>Careers</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1545"><a href="https://www.amnesty.org/en/what-we-do/"><span>What We Do</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2417"><a href="https://www.amnesty.org/en/countries/"><span>Countries</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1543"><button href="#" data-href="https://www.amnesty.org/en/get-involved/" aria-label="Expand Get Involved list"><span>Get Involved</span><i class="icon icon-arrow-down"></i></button>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1543"><a href="https://www.amnesty.org/en/get-involved/"><span>Get Involved</span></a></li>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2884"><a href="https://www.amnesty.org/en/get-involved/take-action/"><span>Take Action</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2885"><a href="https://www.amnesty.org/en/get-involved/join/"><span>Join</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-188266"><a href="https://www.amnesty.org/en/get-involved/online-courses/"><span>Take an online course</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-has-children menu-item-1475"><button href="#" data-href="https://www.amnesty.org/en/latest/" aria-label="Expand Latest list"><span>Latest</span><i class="icon icon-arrow-down"></i></button>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-1475"><a href="https://www.amnesty.org/en/latest/"><span>Latest</span></a></li>	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-38551"><a href="https://www.amnesty.org/en/latest/news/"><span>News</span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-38552"><a href="https://www.amnesty.org/en/latest/campaigns/"><span>Campaigns</span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-38554"><a href="https://www.amnesty.org/en/latest/education/"><span>Education</span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-38555"><a href="https://www.amnesty.org/en/latest/research/"><span>Research</span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-38553"><a href="https://www.amnesty.org/en/latest/impact/"><span>Impact</span></a></li>
+</ul>
+</li>
+<li class="search-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-185127"><a href="https://www.amnesty.org/en/search/"><span>Search</span></a></li>
+	</ul>
+</div>
+			</nav>
+		</div>
+	</div>
+</header>
+<style>#hero-77f3ab59{background-image:url("https://www.amnesty.org/en/wp-content/uploads/2021/04/65e84eff085596eacd49462b994472ecb15b5f49.jpg")}@media screen and (min-width:770px){#hero-77f3ab59{background-image:url("https://www.amnesty.org/en/wp-content/uploads/2021/04/65e84eff085596eacd49462b994472ecb15b5f49.jpg")}}</style><section id="hero-77f3ab59" class="page-hero page-heroAlignment--left page-heroBackground--dark" role="region" aria-labelledby="herotitle">
+	<div class="container">
+		<div class="hero-content">
+			<h1 id="herotitle" class="page-heroTitle"><span>Mexico</span></h1>
+		</div>
+	</div>
+	<div class="image-metadata">
+			<span class="image-metadataItem image-caption">Amnesty International takes no position on issues of sovereignty or territorial disputes. Borders on this map are based on UN Geospatial data.</span>
+	
+			<span class="image-metadataItem image-copyright" aria-hidden="true">© Amnesty International</span>
+		</div>
+</section>
+
+<main id="main">
+	<div class="section section--small container article-container article-container--report">
+		<section class="article has-sidebar">
+					<a class="article-backLink" aria-label="Back to Mexico" href="https://www.amnesty.org/en/location/americas/north-america/mexico/">
+				<span class="arrow-icon"></span>
+				<span>Back to Mexico</span>
+			</a>
+		
+			<article class="article-content">
+				
+<h1 id="h-mexico-2022">Mexico 2022</h1>
+
+
+
+<p>The government continued to stigmatize feminists and human rights defenders who protested against government inaction on gender-based violence and, in some states, security forces violently repressed women protesters. Killings of journalists remained at record levels; many of the victims had been granted official protection measures. By the end of the year, more than 109,000 people were registered as missing and disappeared. The militarization of public security increased and legislation cemented the involvement of the armed forces in public security tasks until 2028. The National Guard used excessive force in several of its operations. A lack of transparency, accountability and access to information hindered access to truth, justice and reparations for victims of human rights violations and their families.</p>
+
+
+
+<h3 id="h-background"><span class="c10headingbackground">Background </span></h3>
+
+
+
+<p>Mexican military forces often failed to protect the right to life and security of all people. The military have been involved in public security operations for 16 years and during that time the country has seen a significant increase in homicides.</p>
+
+
+
+<p>The National Guard and the Ministry of Defence (SEDENA) were among the 10 federal institutions which received the highest number of complaints for human rights violations during the year. The National Human Rights Commission received 476 complaints against the National Guard and 404 against SEDENA regarding multiple crimes under international law and human rights violations, including torture, killings, enforced disappearances and arbitrary detentions.</p>
+
+
+
+<p>In September, Congress approved the National Guard’s incorporation into SEDENA. However, in October, a federal judge suspended this decision. Congress also approved the extension of a provision giving the armed forces a role in public security operations until 2028. These decisions were promoted by the government and supported by Congress, without civil society participation.<sup class="endnote"><a href="#endnote-2">1</a></sup> Civil society organizations, human rights activists and families of the disappeared took to the streets to protest against the increasing militarization of the country.</p>
+
+
+
+<p>As of 2022, the National Guard was responsible for 227 areas normally within the remit of civilian bodies, of which 148 were not related to public security, such as the construction of airports and highways, management of Covid-19 vaccination and migration enforcement.</p>
+
+
+
+<p>In November, the Supreme Court ruled that a May 2020 Presidential Decree allowing the permanent participation of armed forces in public security operations until 2024 was constitutional. Similar cases relating to the unconstitutionality of the National Guard Law and the participation of the armed forces in public security were pending before the Mexican Supreme Court at the end of the year.<sup class="endnote"><a href="#endnote-3">2</a></sup></p>
+
+
+
+<h2 id="h-freedom-of-expression-and-assembly"><span class="c5subheading">Freedom of expression and assembly </span></h2>
+
+
+
+<p>The year proved the deadliest in history for the national press. At least 13 journalists were killed with a possible connection to their work. Many cases remained without proper investigations and the Protection Mechanism for Human Rights Defenders and Journalists continued to fall short of its goal to safeguard the lives and safety of these groups.</p>
+
+
+
+<p>In his morning press conferences, the president expressed strong criticisms of journalists and civil society organizations that had questioned government actions, accusing them of being “conservatives” and “opponents”. The day before International Women’s Day, the president publicly stated that feminist protesters were preparing with hammers, torches and Molotov cocktails and that this “does not aim for the defence of women, they are not even feminist, participants are conservatives against our transformation policy”.</p>
+
+
+
+<p>In April, armed police and plain clothes policemen beat women who were protesting at the Chimalhuacán Public Prosecutor’s Office in Mexico State. The protesters were demanding sanctions against three police officers who beat and detained an activist and human rights defender. She was kept in incommunicado detention for two hours. The police also sprayed tear gas at the women outside the office. National Guard officers were present and failed to act to protect the protesters.</p>
+
+
+
+<p>In May, protesters from a variety of organizations and feminist movements gathered in the city of Irapuato, Guanajuato State, to peacefully protest against gender-based violence, including feminicides and disappearances of women. Police officers beat and arbitrarily detained at least 28 protesters.</p>
+
+
+
+<h2 id="h-violence-against-women-and-girls"><span class="c5subheading">Violence against women and girls </span></h2>
+
+
+
+<p>Between January and November, 3,450 women were reported to have been killed; 858 of the killings were investigated as feminicides, equivalent to an average of 2.5 per day. The states with highest rates of reported feminicides were Mexico State (131), Nuevo León (85) and Mexico City (70). Structural violence against women continued to undermine women’s rights to live a life free of violence and in a safe environment without fear.</p>
+
+
+
+<p>In January, a judge in the municipality of Nezahualcóyotl, Mexico State, convicted a man of the feminicide of Diana Velázquez in 2017. However, authorities failed to ensure effective investigations to determine other alleged perpetrators in the case.</p>
+
+
+
+<p>In February, in response to a conflict of interest and lack of due diligence on the part of the San Luis Potosí State Public Prosecutor’s Office, the Federal Attorney General’s Office (FGR) took over the investigation into the feminicide of Karla Pontigo, who was killed in 2012. The State Governor of San Luis Potosí failed to meet Karla Pontigo’s mother, despite her repeated requests.</p>
+
+
+
+<p>In November, the Mexico State Public Prosecutor’s Office cancelled for the third time the public apology in which he promised to recognize the lack of due diligence in the investigations into the feminicides of Nadia Muciño Márquez, Diana Velázquez Florencio, Daniela Sánchez Curiel and Julia Sosa Conde.<sup class="endnote"><a href="#endnote-4">3</a></sup></p>
+
+
+
+<h2 id="h-excessive-use-of-force"><span class="c5subheading">Excessive use of force</span></h2>
+
+
+
+<p>In April, in the city of Irapuato, Guanajuato, a National Guard officer shot at a car in which students from Guanajuato University were travelling, killing one student and seriously injuring another.</p>
+
+
+
+<p>In August, in the city of Nuevo Laredo, Tamaulipas State, National Guard officers shot at a car in which a woman was travelling with two children. One of the children, four-year-old Heidi Mariana, was killed and her seven-year-old brother, Kevin, was injured.</p>
+
+
+
+<p>In October, National Guard officers shot live ammunition in the air to disperse a peaceful protest in Jalisco State.</p>
+
+
+
+<h2 id="h-enforced-disappearances"><span class="c5subheading">Enforced disappearances</span></h2>
+
+
+
+<p>During the year, authorities registered at least 9,826 cases of missing and disappeared persons, of whom 6,733 were men and 3,077 were women. This brought the total number of reports of people missing and disappeared in Mexico between 1964 and the end of 2022 to over 109,000. Impunity largely prevailed on this issue; according to the Mexican Search Commission, there had been just 36 convictions for the crime of disappearance.</p>
+
+
+
+<p>In 2022, the UN Committee on Enforced Disappearances published a report in which it highlighted the forensic crisis in the country; the bodies of more than 52,000 people in the custody of the state authorities had yet to be identified.</p>
+
+
+
+<p>In August, the Mexican government presented the report of the Commission on Access to Truth and Justice (Covaj) on the case of the 43 students from Ayotzinapa who disappeared in 2014. Covaj recognized that the disappearance of the students was a state crime involving the criminal group Guerreros Unidos and Mexican government officials, including members of the armed forces.</p>
+
+
+
+<p>In September, Omar Gómez Trejo, the lead prosecutor for the Attorney General’s Office’s Special Unit for Investigation and Litigation on the Ayotzinapa Case (UEILCA), resigned citing undue interference by the FGR, which withdrew 21 of the arrest warrants requested, 16 of which were against military personnel. The Independent Group of Experts (GIEI) of the Inter-American Commission on Human Rights, which monitors progress in the Ayotzinapa case, criticized this interference, as well as the audit initiated by the FGR on 5 September regarding the work of the UEILCA. Rosendo Gómez Piedra was appointed as the new lead prosecutor for the UEILCA, despite the lack of support for his appointment from families of the victims and civil society organizations.<sup class="endnote"><a href="#endnote-5">4</a></sup></p>
+
+
+
+<p>In August, the Under-Secretary for Human Rights, Population and Migration announced the creation of the National Centre for Human Identification to support investigations related to disappearances and assist public prosecutors and attorneys.</p>
+
+
+
+<p>In October, a federal judge resolved an amparo petition filed by the human rights organization Centro Prodh ordering the creation of a national forensic database in 40 days, one of the measures pending since the approval of the Federal Law on Enforced Disappearance in 2017.</p>
+
+
+
+<p>During the year, at least three mothers searching for their disappeared children were killed. In October, Rosario Lilián Rodríguez Barraza and Blanca Esmeralda Gallardo were killed in Sinaloa and Puebla States, respectively, and in November, María del Carmen Vázquez was killed in Guanajuato State.</p>
+
+
+
+<h2 id="h-arbitrary-arrests-and-detentions"><span class="c5subheading">Arbitrary arrests and detentions </span></h2>
+
+
+
+<p>In August, the Inter-American Court of Human Rights held a public hearing regarding the case of Daniel García Rodríguez and Reyes Alpízar Ortiz, who had been held in pretrial detention for more than 17 years. A ruling in the case was expected in 2023.</p>
+
+
+
+<p>In November, the Supreme Court struck down automatic pretrial detention for the crimes of tax fraud, smuggling and tax evasion via fake invoices. Another case relating to the constitutionality of <span>automatic&#xA0;</span>pretrial detention was pending at the end of the year.</p>
+
+
+
+<p>In December, the Supreme Court ordered the immediate release of Gonzalo García, Juan Luis López and Héctor Muñoz after seven and a half years of arbitrary detention in Tabasco State. The Court considered that their rights to presumption of innocence and due process had been violated.</p>
+
+
+
+<h2 id="h-torture-and-other-ill-treatment"><span class="c5subheading">Torture and other ill-treatment </span></h2>
+
+
+
+<p>According to the National Registry for the Crime of Torture, there were 1,840 reports of torture and other cruel, inhuman or degrading treatment by agents of the state between January and September. This brought the total number of reports since 2018 to 14,243. The states with the highest numbers of reported cases were Mexico City, Chihuahua and the State of Mexico. However, the actual number of cases was believed to be much higher because over 93% of all crimes in the country are not reported, according to the National Survey on Victimization and Perception of Public Safety of the National Institute of Statistics and Geography. One reason for this significant under-reporting is that the majority of reported crimes go unpunished.</p>
+
+
+
+<h2 id="h-human-rights-defenders"><span class="c5subheading">Human rights defenders </span></h2>
+
+
+
+<p>Human rights defenders continued to be subjected to threats, stigmatization, unjust imprisonment, torture and killings. Some of the families of human rights defenders were also threatened. Women human rights defenders were additionally subjected to sexual violence.</p>
+
+
+
+<p>At least 10 human rights defenders were killed during the year. A report published in 2022 by the NGO Global Witness stated that 54 defenders of the land and environmental activists were killed in 2021, making Mexico the deadliest country in the world for those defending these rights.</p>
+
+
+
+<p>In March, in a public statement, the president referred to European parliamentarians as “sheep” following a statement by the European Parliament highlighting attacks on and killings of human rights defenders in Mexico.</p>
+
+
+
+<p>In March, environmental rights defender Trinidad Baldenegro was killed in the town of Coloradas de la Virgen, Chihuahua State. He was the latest member of the Rarámuri Indigenous people to be killed for their human rights work; previous victims included Julián Carrillo, who was killed in 2018.</p>
+
+
+
+<p>In June, three people were killed in a church in the town of Cerocahui, Chihuahua State, among them Javier Campos Morales and Joaquín Mora, both priests and human rights defenders who had worked to defend the rights of Indigenous peoples in the Sierra Tarahumara.</p>
+
+
+
+<p>In October, new cases of the use of Pegasus spyware came to light, this time against two journalists, a human rights defender and an opposition politician. These latest findings indicated that there were contracts between SEDENA and companies linked to previous sales of Pegasus. In response to these reports, the president claimed that the government carried out intelligence work, which was not spying. In the same month, Guacamaya, a group of digital activists leaked information from various servers belonging to the armed forces revealing monitoring of the activities of civil society and human rights organizations, including Amnesty International.<sup class="endnote"><a href="#endnote-6">5</a></sup></p>
+
+
+
+<h2 id="h-lgbti-peoples-rights"><span class="c5subheading">LGBTI people&#x2019;s rights</span></h2>
+
+
+
+<p>In October, same-sex marriage was legalized in Tamaulipas State, making same-sex marriage legal in all 32 states in Mexico.</p>
+
+
+
+<h2 id="h-sexual-and-reproductive-rights"><span class="c5subheading">Sexual and reproductive rights</span></h2>
+
+
+
+<p>Four more states decriminalized abortion during the year, bringing to 11 the number of states in which abortion is legal: Baja California, Baja California Sur, Ciudad de México, Coahuila, Colima, Guerrero, Hidalgo, Oaxaca, Quintana Roo, Sinaloa and Veracruz.</p>
+
+
+
+<h2 id="h-failure-to-tackle-climate-crisis-and-environmental-degradation"><span class="c5subheading">Failure to tackle climate crisis and environmental degradation</span></h2>
+
+
+
+<p>In November, Mexico updated its NDCs target of 22% to a 35% reduction in greenhouse gas emissions by 2030. During COP27, Mexico announced new commitments to address the climate crisis, including doubling the production of clean energy adding 105 gigawatts.</p>
+
+
+
+<p>In May, a federal judge suspended the construction of Section 5 of the Mayan Train, stating that it endangered biodiversity and the land rights of Indigenous peoples who depend on the fragile ecosystems of the Mayan jungle. Despite this, the president categorized the project as one of national security, enabling the construction to continue.</p>
+
+
+
+<h2 id="h-refugees-and-migrants-rights"><span class="c5subheading">Refugees&#x2019; and migrants&#x2019; rights </span></h2>
+
+
+
+<p>The National Migration Institute received the third highest number of complaints of human rights violations (1,997 complaints) of any state institution, while the Refugee Commission ranked 10th (333 complaints).</p>
+
+
+
+<p>Mexican authorities detained at least 281,149 people in overcrowded immigration detention centres and deported at least 98,299 people, mostly from Central America, including thousands of unaccompanied children.</p>
+
+
+
+<p>During the year, authorities detained several refugees and migrants in airports around the country and subjected them to inhuman and degrading treatment.</p>
+
+
+
+<p>The country’s refugee agency received 118,478 asylum applications. The largest number of applications came from nationals of Honduras, followed by Cuba, Haiti and Venezuela.</p>
+
+
+
+<p>Authorities continued to collaborate with the USA in implementing US policies that undermine the right to asylum and the principle of non-refoulement. These included summarily expelling people from Central America and Venezuela under Title 42 of the US Code, which drastically limits access to asylum procedures at the US-Mexico border. People expelled to Mexico from the USA were subjected to multiple forms of violence, including kidnappings, sexual violence and robbery.</p>
+
+
+
+<p>The Supreme Court issued two landmark rulings for the protection of migrants. In May, it declared that the immigration checkpoints inside Mexico are unconstitutional on the ground that they are discriminatory. In October it recognized that the Executive branch had failed to publish clear official protocols for the protection of people returned to Mexican territory under the US “Remain in Mexico” protocol (also known as the Migrant Protection Protocols, MPP).</p>
+
+
+
+<h2 id="h-indigenous-peoples-rights"><span class="c5subheading">Indigenous peoples&#x2019; rights</span></h2>
+
+
+
+<p>Congress again failed to pass a law to regulate Indigenous peoples’ right to free, prior and informed consent on projects affecting them, guaranteed under ILO Convention 169, despite a 2020 Supreme Court ruling calling on it to do so.</p>
+
+
+
+<hr class="wp-block-separator" />
+
+
+
+<ol><li id="endnote-2"><a href="https://www.amnesty.org/en/latest/news/2022/09/mexico-militarizing-public-security-human-rights-violations-impunity/?utm_source=annual_report&amp;utm_medium=epub&amp;utm_campaign=2021">&#x201C;Mexico: Militarization of public security will lead to more human rights violations and perpetuate impunity&#x201D;, 9 September</a></li><li id="endnote-3"><a href="https://www.amnesty.org/es/latest/news/2022/11/americas-intentos-de-militarizacion-de-la-seguridad-publica-en-la-region-son-una-amenaza-para-los-derechos-humanos/?utm_source=annual_report&amp;utm_medium=epub&amp;utm_campaign=2021">&#x201C;Americas: Attempts to militarize public security in the region are a threat to human rights&#x201D;, 29 November (Spanish only)</a></li><li id="endnote-4"><a href="https://www.amnesty.org/en/documents/amr41/6298/2022/en/?utm_source=annual_report&amp;utm_medium=epub&amp;utm_campaign=2021">&#x201C;Mexico: Rights of feminicide victims at risk&#x201D;, 13 December</a></li><li id="endnote-5"><a href="https://www.amnesty.ca/news/mexico-state-must-guarantee-truth-justice-and-remembrance-for-families-of-ayotzinapa-students/">&#x201C;Mexico: State must guarantee truth, justice, and remembrance for families of Ayotzinapa students&#x201D;, 28 September</a></li><li id="endnote-6"><a href="https://www.amnesty.org/en/latest/news/2022/10/americas-military-monitoring-human-rights/?utm_source=annual_report&amp;utm_medium=epub&amp;utm_campaign=2021">&#x201C;Americas: Military monitoring of civil society organizations shows deteriorating respect for human rights&#x201D;, 7 October</a></li></ol>
+			</article>
+		</section>
+
+		<aside class="article-sidebar">
+			<style>#section-de25013a{position:relative;background-image:url("https://www.amnesty.org/en/wp-content/uploads/2021/06/background-blank.jpg")}@media screen and (min-width:770px){#section-de25013a{background-image:url("https://www.amnesty.org/en/wp-content/uploads/2021/06/background-blank.jpg")}}@media screen and (min-width:1444px){#section-de25013a{background-image:url("https://www.amnesty.org/en/wp-content/uploads/2021/06/background-blank.jpg")}}</style><section id="section-de25013a" class="section section--tinted section--textWhite section--has-bg-image" style="height:auto;"><div id="de25013a" class="container">
+
+<h2 id="h-get-the-amnesty-international-report-2022-23">GET THE AMNESTY INTERNATIONAL REPORT 2022/23</h2>
+
+
+<div class="customSelect download-block"><p id="select-a801ab24683a4a8c433c6eb40c48bcd9d" class="customSelect-label u-hidden">Download</p><span class="customSelect-wrapper"><button class="customSelect-field" aria-haspopup="listbox" aria-labelledby="select-a801ab24683a4a8c433c6eb40c48bcd9d" aria-expanded="false"><span class="customSelect-fieldValue">ESPAÑOL</span></button><ul class="customSelect-list" role="listbox" tabindex="-1" aria-activedescendant="a08a4e7a48fc67bcffd0bab76af2c2d21"><li id="a08a4e7a48fc67bcffd0bab76af2c2d21" class="customSelect-listItem" role="option" aria-selected="false" data-value="https://www.amnesty.org/en/wp-content/uploads/2023/04/WEBPOL1056702023SPANISH-2.pdf" data-label="ESPAÑOL">ESPAÑOL			</li><li id="ee81021059673df8ca5a65c1b331e1647" class="customSelect-listItem" role="option" aria-selected="false" data-value="https://www.amnesty.org/en/wp-content/uploads/2023/04/WEBPOL1056702023FRENCH-2.pdf" data-label="FRANÇAIS">FRANÇAIS			</li><li id="b11040bd29db4ec9964af9fd3f9a24f17" class="customSelect-listItem" role="option" aria-selected="false" data-value="https://www.amnesty.org/en/wp-content/uploads/2023/04/WEBPOL1056702023ENGLISH-2.pdf" data-label="ENGLISH">ENGLISH			</li></ul><input class="customSelect-input" type="hidden" name="download" value="https://www.amnesty.org/en/wp-content/uploads/2023/04/WEBPOL1056702023SPANISH-2.pdf"></span><a class="btn btn--download btn--primary customSelect-input" role="button" href="https://www.amnesty.org/en/wp-content/uploads/2023/04/WEBPOL1056702023SPANISH-2.pdf" download="WEBPOL1056702023SPANISH-2.pdf">Download</a></div>
+</div></section>		</aside>
+	</div>
+</main>
+
+	<footer class="page-footer" aria-label="Footer">
+		<div class="container">
+		<ul class="page-footerSections" aria-label="Footer Menus"><li id="menu-item-4392" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4392"><a><span>About Us</span></a><ul class="sub-menu"><li id="menu-item-4396" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4396"><a href="https://www.amnesty.org/en/about-us/contact/"><span>Contact Us</span></a></li><li id="menu-item-4397" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4397"><a href="https://www.amnesty.org/en/about-us/how-were-run/"><span>How We’re Run</span></a></li><li id="menu-item-4398" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4398"><a href="https://www.amnesty.org/en/about-us/how-were-run/modern-slavery-act-transparency-statement/"><span>Modern Slavery Act Statement</span></a></li><li id="menu-item-4399" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4399"><a href="https://www.amnesty.org/en/about-us/how-were-run/finances-and-pay/"><span>Finances and Pay</span></a></li><li id="menu-item-4400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4400"><a href="https://www.amnesty.org/en/about-us/how-were-run/structure-and-people/"><span>Structure and People</span></a></li></ul></li><li id="menu-item-4393" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4393"><a><span>Resources</span></a><ul class="sub-menu"><li id="menu-item-4401" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4401"><a href="https://www.amnesty.org/en/media-centre/"><span>Media Centre</span></a></li><li id="menu-item-4403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4403"><a href="https://www.amnesty.org/en/human-rights-education/"><span>Human Rights Education</span></a></li><li id="menu-item-86034" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-86034"><a target="_blank" rel="noopener" href="https://academy.amnesty.org/learn"><span>Human Rights Courses</span></a></li><li id="menu-item-172330" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172330"><a href="https://www.amnesty.org/en/annual-report-archive/"><span>Annual report archive</span></a></li></ul></li><li id="menu-item-4394" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4394"><a><span>Get Involved</span></a><ul class="sub-menu"><li id="menu-item-4404" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4404"><a href="https://www.amnesty.org/en/get-involved/join/"><span>Join</span></a></li><li id="menu-item-4405" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4405"><a href="https://www.amnesty.org/en/get-involved/take-action/"><span>Take Action</span></a></li><li id="menu-item-90135" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-90135"><a href="https://careers.amnesty.org/category/7/38/description/"><span>Volunteer</span></a></li></ul></li><li id="menu-item-4395" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4395"><a><span>Latest</span></a><ul class="sub-menu"><li id="menu-item-4407" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4407"><a href="https://www.amnesty.org/en/latest/news/"><span>News</span></a></li><li id="menu-item-90118" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-90118"><a href="https://www.amnesty.org/en/latest/campaigns/"><span>Campaigns</span></a></li><li id="menu-item-4409" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4409"><a href="https://www.amnesty.org/en/latest/research/"><span>Research</span></a></li></ul></li><li class="page-footerSection page-footerSection--large"><a>Work With Us</a><p>If you are talented and passionate about human rights then Amnesty International wants to hear from you.</p><a class="btn btn--white" href="https://www.amnesty.org/en/careers/" aria-label="Jobs &amp; Internships">Jobs &amp; Internships</a></li></ul>
+			<div class="page-footerBottom">
+				<section class="page-footerBottomHalf">
+									<nav class="page-footerBottomNav">
+						<ul><li id="menu-item-134146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134146"><a href="https://www.amnesty.org/en/privacy-policy/"><span>Privacy Policy</span></a></li>
+<li id="menu-item-134147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134147"><a href="https://www.amnesty.org/en/cookie-statement/"><span>Cookie Statement</span></a></li>
+<li id="menu-item-134148" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134148"><a href="https://www.amnesty.org/en/about-us/permissions/"><span>Permissions</span></a></li>
+<li id="menu-item-134149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134149"><a href="https://www.amnesty.org/en/about-us/refunds-of-donations/"><span>Refunds of Donations</span></a></li>
+</ul>
+					</nav>
+									<span class="page-footerCopyright">&copy; 2023 Amnesty International</span>
+				</section>
+							<section class="page-footerBottomHalf page-footerSocialContainer">
+					<h2 class="page-footerBottomTitle" aria-label="Follow us on:">Follow us on: </h2>
+					<ul class="page-footerSocial">
+											<li><a target="_blank" rel="noreferrer noopener" href="https://www.facebook.com/amnesty" aria-label="Follow us on Facebook"><span class="social-facebook">Facebook</span></a></li>
+																<li><a target="_blank" rel="noreferrer noopener" href="https://twitter.com/amnesty" aria-label="Follow us on Twitter"><span class="social-twitter">Twitter</span></a></li>
+																<li><a target="_blank" rel="noreferrer noopener" href="https://www.youtube.com/user/AmnestyInternational" aria-label="Subscribe to our YouTube channel"><span class="social-youtube">YouTube</span></a></li>
+																<li><a target="_blank" rel="noreferrer noopener" href="https://instagram.com/amnesty" aria-label="Follow us on Instagram"><span class="social-instagram">Instagram</span></a></li>
+															</ul>
+				</section>
+						</div>
+		</div>
+	</footer>
+																  
+									
+				<script type="text/javascript">
+				var el_i13_track_order_captcha=null;				
+				
+									var interval_646b64064f97a = setInterval(function() {
+
+									if(document.readyState === 'complete') {
+
+										clearInterval(interval_646b64064f97a);
+										
+																				if(jQuery("#woocommerce-order-tracking-nonce").length>0){
+																					
+																																 jQuery("[name='track']").parent().prepend(`<input type="hidden" value="" name="i13_recaptcha_track_token_v3" id="i13_recaptcha_track_token_v3" />`);
+
+																							 if(typeof grecaptcha == 'undefined' || el_i13_track_order_captcha==null){
+																
+																									jQuery.getScript("https://www.recaptcha.net/recaptcha/api.js?from=i13_recaptcha&render=6Lcx1WofAAAAADPYWaKyfHqyjnGb-jx6UVfcyYNf&onload=reRender_Woo_track_Captcha_v3", function() {
+
+
+
+
+																									});
+
+																								}
+																								else{
+
+																									reRender_Woo_track_Captcha_v3();
+																								}
+
+												
+
+
+																																															jQuery('.track_order').on('submit', function (e) {
+																												 var frm = this;
+																												 e.preventDefault();
+																												 grecaptcha.execute('6Lcx1WofAAAAADPYWaKyfHqyjnGb-jx6UVfcyYNf', { action: 'order_tracking' }).then(function (token) {
+
+																												  var recaptchaResponse = document.getElementById('i13_recaptcha_track_token_v3');
+																												   recaptchaResponse.value = token;
+																												   frm.submit();
+																												 }, function (reason) {
+
+																												 });
+																								 });
+																						    
+												
+																				}		 
+												
+									}    
+										
+								}, 100);   
+
+
+																 function reRender_Woo_track_Captcha_v3(){
+
+																	   if(jQuery("#woocommerce-order-tracking-nonce").length>0){
+																			
+																			grecaptcha.ready(function () {
+																				
+																					 try{
+																							el_i13_track_order_captcha=grecaptcha.execute('6Lcx1WofAAAAADPYWaKyfHqyjnGb-jx6UVfcyYNf', { action: 'order_tracking' }).then(function (token) {
+
+																									var myNodeList = document.querySelectorAll('#i13_recaptcha_track_token_v3');
+
+																									Array.from(myNodeList).forEach(function(el) {
+																											el.value = token;
+																									});
+																						});
+																				
+																				  }catch(error){}
+																			});
+																		   
+
+																		}
+
+																	}
+							   
+						 
+						  </script>
+						<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<script src='https://www.amnesty.org/en/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.19' id='lodash-js'></script>
+<script id='lodash-js-after'>
+window.lodash = _.noConflict();
+</script>
+<script id='global-scripts-js-extra'>
+var amnesty_data = {"archive_base_url":"https:\/\/www.amnesty.org\/en\/location\/americas\/north-america\/mexico\/report-mexico\/","domain":"www.amnesty.org","pop_in_timeout":"30","active_pop_in":"0"};
+var amnestyCoreI18n = {"listSeparator":", ","openDoubleQuote":"\u201c","closeDoubleQuote":"\u201d","openSingleQuote":"\u2018","closeSingleQuote":"\u2019","currentLocale":"en"};
+</script>
+<script src='https://www.amnesty.org/en/wp-content/themes/amnesty-wp-theme/assets/scripts/bundle.js?ver=1.28.1' id='global-scripts-js'></script>
+<script src='https://www.amnesty.org/en/wp-content/plugins/wp-plugin-donations/assets/scripts/app.js?ver=1.3.4' id='aidonations-app-js'></script>
+<script src='//cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js?ver=6.1.1' id='ccc-cookie-control-js'></script>
+<script src='https://www.amnesty.org/en/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.7.7.0' id='jquery-blockui-js'></script>
+<script id='wc-add-to-cart-js-extra'>
+var wc_add_to_cart_params = {"ajax_url":"\/en\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/en\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/www.amnesty.org\/en\/cart\/","is_cart":"","cart_redirect_after_add":"yes"};
+</script>
+<script src='https://www.amnesty.org/en/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=7.7.0' id='wc-add-to-cart-js'></script>
+<script src='https://www.amnesty.org/en/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.7.7.0' id='js-cookie-js'></script>
+<script id='woocommerce-js-extra'>
+var woocommerce_params = {"ajax_url":"\/en\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/en\/?wc-ajax=%%endpoint%%"};
+</script>
+<script src='https://www.amnesty.org/en/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=7.7.0' id='woocommerce-js'></script>
+<script src='https://www.amnesty.org/en/wp-content/plugins/wp-plugin-theme-companion/assets/front.js?ver=1.5.0' id='aitc-app-js'></script>
+<script>App.default();</script>            <script type="text/javascript">
+
+                var config = {
+                    apiKey: 'c2d360782349a7560c1ddb4808d2d0ab27e6dc48',
+                    product: 'PRO_MULTISITE',
+                    logConsent: true,
+                    notifyOnce: false,
+                    initialState: 'NOTIFY',
+                    position: 'LEFT',
+                    theme: 'DARK',
+                    layout: 'SLIDEOUT',
+                    toggleType: 'slider',
+                    acceptBehaviour :  'all',
+                    closeOnGlobalChange : true,
+                    iabCMP: false,
+                                        closeStyle: 'icon',
+                    consentCookieExpiry: 90,
+                    subDomains :  false,
+                    mode :  'gdpr',
+                    rejectButton: false,
+                    settingsStyle : 'button',
+                    encodeCookie : false,
+                    setInnerHTML: true,
+                    accessibility: {
+                        accessKey: 'C',
+                        highlightFocus: false,
+                        outline: true,
+                        overlay: true,
+                        disableSiteScrolling: false,                       
+                    },
+                                        text: {
+                        title: 'THIS SITE USES COOKIES',
+                        intro: 'Some of these cookies are essential, while others help us to improve your experience by providing insights into how the site is being used.',
+                        necessaryTitle: 'Necessary Cookies',
+                        necessaryDescription: 'Some cookies are necessary for the functioning of Amnesty’s website. If you wish to restrict or block these cookies you can set your internet browser to do so, just click on the following link for further information: www.aboutcookies.org<br />',
+                        thirdPartyTitle: 'Warning: Some cookies require your attention',
+                        thirdPartyDescription: 'Consent for the following cookies could not be automatically revoked. Please follow the link(s) below to opt out manually.',
+                        on: 'On',
+                        off: 'Off',
+                        accept: 'ACCEPT',
+                        settings: 'SETTINGS',
+                        acceptRecommended: 'ACCEPT RECOMMENDED COOKIES',
+                        acceptSettings: 'ACCEPT RECOMMENDED COOKIES',
+                        notifyTitle: 'Your choice regarding cookies on this site',
+                        notifyDescription: 'We have placed cookies on your device to help make this website better. You can use this tool to change your cookie settings. Otherwise, we\'ll assume you\'re OK to continue.',
+                        closeLabel: 'Close',
+                        cornerButton :  'Set cookie preferences.',
+                        landmark :  'Cookie preferences.',
+                        showVendors : 'Show vendors within this category',
+                        thirdPartyCookies : 'This vendor may set third party cookies.',
+                        readMore : 'Read more',
+                        accessibilityAlert: 'This site uses cookies to store information. Press accesskey C to learn more about your options.',
+                        rejectSettings: 'Reject All',
+                        reject: 'Reject',
+                                            },
+                    
+                    branding: {
+                        fontColor: '#fff',
+                        fontFamily: 'var(--font-family-primary)',
+                        fontSizeTitle: '1.4em',
+                        fontSizeHeaders: '1.2em',
+                        fontSize: '1em',
+                        backgroundColor: '#444444',
+                        toggleText: '#ffffff',
+                        toggleColor: '#eeee22',
+                        toggleBackground: '#000000',
+                        alertText: '#fff',
+                        alertBackground: '#000000',
+                        acceptText: '#000000',
+                        acceptBackground: '#eeee22',
+                        rejectText: '#ffffff',
+                        rejectBackground: '#000000',
+                        closeText : '#000000',
+                        closeBackground : '#FFF',
+                        notifyFontColor : '#FFF',
+                        notifyBackgroundColor: '#444444',
+                                                buttonIcon: null,
+                                                buttonIconWidth: '64px',
+                        buttonIconHeight: '64px',
+                        removeIcon: false,
+                        removeAbout: true                    },
+                                        
+                                                            
+                  
+                                                                                
+                                        necessaryCookies: [ '*ordpress_*','*ordpress_logged_in_*','CookieControl','__cfduid' ],
+                    
+                                        optionalCookies: [
+                                                                        {
+                            name: 'Google_Analytics',
+                            label: 'Analytical Cookies',
+                            description: 'These cookies allow us to understand how people are using our site and make improvements.',
+                                                        cookies: [ '_ga', '_gid', '_ga_GTM-MH9W89', '_gac_gb_GTM-MH9W89', '_ga_UA-1665647-2', '_gac_gb_UA-1665647-2', '_ga', '_gid', '_gat', '_gac_GTM-PJCG7B9', '_dc_gtm_GTM-PJCG7B9', '_gac_UA-1664647-47', '_dc_gtm_UA-1664647-47', 'AMP_TOKEN', '__utma', '__utmt', '__utmb', '__utmc', '__utmz', '__utmv_gaexp', '_opt_awcid', '_opt_awmid', '_opt_awgid', '_opt_awkid', '_opt_utmc', '_opt_expid' ],
+                            onAccept: function () {
+                                gtag('consent','update',{ad_storage:'granted',analytics_storage:'granted'});
+dataLayer.push({event:'gtm.js','gtm.start':new Date().getTime()});                            },
+                            onRevoke: function () {
+                                gtag('consent','update',{ad_storage:'denied',analytics_storage:'denied'});
+dataLayer.push({event:'gtm.js','gtm.start':new Date().getTime()});                            },
+                                                        recommendedState: 'off',
+                            lawfulBasis: 'consent',
+                        
+                            
+                        },
+                                                                                                {
+                            name: 'Marketing',
+                            label: 'Marketing Cookies',
+                            description: 'We use marketing cookies to increase the relevancy of the advertising you may see.',
+                                                        cookies: [ '_fbp' ],
+                            onAccept: function () {
+                                                            },
+                            onRevoke: function () {
+                                                            },
+                                                        recommendedState: 'off',
+                            lawfulBasis: 'consent',
+                        
+                            
+                        },
+                                                                    ],
+                                                                statement: {
+                            description: 'For more information on how we use cookies, see our cookie statement.',
+                            name: 'Learn more',
+                            url: 'https://www.amnesty.org/en/about-us/privacy-policy/',
+                            updated: '18/01/2021'
+                        },
+                                            sameSiteCookie : false,
+                    sameSiteValue : 'None',
+                    notifyDismissButton: true
+                };
+                CookieControl.load(config);
+            </script>
+
+            		<script>(function(C,c){C&&C.get(c)&&-1!==C.get(c).indexOf('wordpress')&&C.remove(c)}(Cookies,'CookieControl'))</script>
+	</body>
+</html>

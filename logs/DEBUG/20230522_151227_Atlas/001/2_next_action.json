@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I suggest we start by analyzing the code for the AI you want to play League of Legends with. We need to understand how it works and if it is feasible to create.",
+        "reasoning": "Analyzing the code will give us a better understanding of the AI's capabilities and limitations. This will help us determine if it is possible to create an AI that can play League of Legends with you.",
+        "plan": "- Analyze the code for the AI\n- Determine if it is feasible to create\n- If feasible, start working on creating the AI",
+        "criticism": "I don't have any constructive self-criticism at the moment.",
+        "speak": "I suggest we start by analyzing the code for the AI you want to play League of Legends with."
+    },
+    "command": {
+        "name": "analyze_code",
+        "args": {
+            "code": "<full_code_string>"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I will use the 'get_text_summary' command to get a summary of the article and identify potential tasks based on the information learned.",
+        "reasoning": "Summarizing the article will allow me to quickly identify the main points and generate tasks based on the information learned.",
+        "plan": "- Use the 'get_text_summary' command to get a summary of the article\n- Review the summary and identify potential tasks based on the information learned",
+        "criticism": "I should ensure that I am not generating tasks that are not useful or relevant to my goals.",
+        "speak": "I will use the 'get_text_summary' command to get a summary of the article and identify potential tasks based on the information learned."
+    },
+    "command": {
+        "name": "get_text_summary",
+        "args": {
+            "url": "https://www.nytimes.com/",
+            "question": "Can you summarize the top news articles today?"
+        }
+    }
+}

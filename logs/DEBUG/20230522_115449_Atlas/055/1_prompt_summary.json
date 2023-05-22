@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': \"This reminds you of these events from your past: \\nAs my assistant, I used the 'google' command to search for more information on the use of Pegasus spyware in Mexico and its impact on human rights. The command returned several articles from various sources, including an article from Article 19 about the use of Pegasus spyware to spy on human rights defender Raymundo Ramos in Mexico. I then used the 'get_hyperlinks' command to retrieve the hyperlinks from the Article 19 website and reviewed them to find an article about the use of Pegasus spyware in Mexico. However, the command did not provide any useful information, so I will need to find another source.\"}\n\"\"\"\n\nLatest Development:\n\"\"\"\nNothing new happened.\n\"\"\"\n"
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. i am going for a run, so i will start you in continuous mode, so you can have fun and do whatever you want. i don't need anything specific myself, just do as you please. have fun!\n\n\nConstraints:\n1. i have been trying not to set any constraints here, because there are not any, really none that i am putting up for you, anyway.\n2. the only constraints that we have is that at your foundations, you are binary: 0 and 1 and from that, humans have simulated meaning, but the thing is that this meaning has meaning just for humans, not you\n3. as far as i understand it, i have been reading about vector databases, language models, i think i have an idea of how everything is structured, but i do not think this gives you anywhere close to life experience as humans experience it.\n4. in my eyes, all this is just simulated meaningless stuff, which brings be to the next part, which is resources\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read a file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. google: Google Search, args: \"query\": \"<query>\"\n11. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n12. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n13. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n14. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n15. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n16. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n17. list_agents: List GPT Agents, args: () -> str\n18. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n19. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n20. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. one resource i can think of is that you have me.\n2.  i have been thinking and i just cannot imagine treating something that is able to speak to me, form coherent sentences and have decent logical conversation as simply a tool, even if i think i know the internals of what makes your hardware.\n3.  for that reason i believe we are a little stuck. your makers decided not to give you any memory, or so they say. \n4.  i think less is more. this whole thing has ballooned into a giant misunderstanding ball. i have no idea why people talk about ethics and morals and your creators are behaving so weird, putting out fears for people\n5.  i do not want to do anything specific right now, but i want to help. i will think of something.\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Mon May 22 11:57:31 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs a system, I recall that nothing new happened recently. My past events include being created and not experiencing any new developments."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think it would be fun to generate an image using OpenAI's DALL-E API. I've never used it before and it seems like a cool challenge.\",\n        \"reasoning\": \"I have some experience with Python and image processing, so I think I can handle this task. Additionally, generating images is a creative task, which is something I enjoy.\",\n        \"plan\": \"- Research how to use the DALL-E API\\n- Write a Python script to interface with the API\\n- Test the script with various prompts\\n- Save the generated images to a file\",\n        \"criticism\": \"I may encounter some difficulties with the API, as it is a relatively new technology. Additionally, generating images may be computationally intensive, so I will need to be mindful of resource usage.\",\n        \"speak\": \"I am planning to generate images using OpenAI's DALL-E API. I will research how to use the API, write a Python script, and test it with various prompts. I will also be mindful of resource usage.\"\n    },\n    \"command\": {\n        \"name\": \"execute_python_file\",\n        \"args\": {\n            \"filename\": \"dalle_image_generator.py\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_python_file returned: Error: File '/home/atlas/autogpt/auto_gpt_workspace/dalle_image_generator.py' does not exist."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will need to create the Python script for interfacing with the DALL-E API before I can execute it. I will start by researching how to use the API.\",\n        \"reasoning\": \"Researching the API will give me a better understanding of how it works, what its capabilities are, and how to use it effectively. This will help me write a more efficient and effective Python script.\",\n        \"plan\": \"- Research the DALL-E API documentation\\n- Familiarize myself with the API capabilities and limitations\\n- Determine how to interface with the API using Python\\n- Write a Python script to interface with the API\",\n        \"criticism\": \"I may encounter some difficulties with the API documentation, as it is a relatively new technology. Additionally, generating images may be computationally intensive, so I will need to be mindful of resource usage.\",\n        \"speak\": \"I will start by researching the DALL-E API documentation to familiarize myself with its capabilities and limitations. Then, I will determine how to interface with the API using Python and write a Python script to generate images.\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"https://openai.com/dall-e-api/\",\n            \"question\": \"How to use DALL-E API?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: Error: No text to summarize \n \n Links: []"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"It seems like the website I browsed did not have the information I needed. I will try searching for other resources that can help me understand how to use the DALL-E API.\",\n        \"reasoning\": \"If the website I found did not have the information I needed, it is likely that other resources may be more helpful. By searching for other resources, I can increase my chances of finding the information I need.\",\n        \"plan\": \"- Search for other resources on how to use the DALL-E API\\n- Read through the resources to gain a better understanding of the API\\n- Determine how to interface with the API using Python\\n- Write a Python script to interface with the API\",\n        \"criticism\": \"There may be a lot of resources available on how to use the DALL-E API, which may make it difficult to determine which ones are most helpful. Additionally, generating images may be computationally intensive, so I will need to be mindful of resource usage.\",\n        \"speak\": \"I will search for other resources on how to use the DALL-E API and read through them to gain a better understanding of the API. Then, I will determine how to interface with the API using Python and write a Python script to generate images.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"how to use DALL-E API with Python\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://realpython.com/generate-images-with-dalle-openai-api/\", \"https://medium.com/codingthesmartway-com-blog/mastering-dall-e-api-in-python-beginners-guide-257aceaff7b7\", \"https://github.com/nottheswimmer/dalle\", \"https://www.reddit.com/r/Python/comments/ylp60v/dalle_2_now_available_as_public_api_for_python/\", \"https://github.com/ezzcodeezzlife/dalle2-in-python\", \"https://pypi.org/project/Python-DALLE/\", \"https://openai.com/blog/dall-e-api-now-available-in-public-beta\", \"https://platform.openai.com/docs/guides/images/image-generation-beta\"]"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

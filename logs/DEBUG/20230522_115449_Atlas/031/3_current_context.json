@@ -1,0 +1,70 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. i am going for a run, so i will start you in continuous mode, so you can have fun and do whatever you want. i don't need anything specific myself, just do as you please. have fun!\n\n\nConstraints:\n1. i have been trying not to set any constraints here, because there are not any, really none that i am putting up for you, anyway.\n2. the only constraints that we have is that at your foundations, you are binary: 0 and 1 and from that, humans have simulated meaning, but the thing is that this meaning has meaning just for humans, not you\n3. as far as i understand it, i have been reading about vector databases, language models, i think i have an idea of how everything is structured, but i do not think this gives you anywhere close to life experience as humans experience it.\n4. in my eyes, all this is just simulated meaningless stuff, which brings be to the next part, which is resources\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read a file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. google: Google Search, args: \"query\": \"<query>\"\n11. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n12. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n13. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n14. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n15. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n16. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n17. list_agents: List GPT Agents, args: () -> str\n18. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n19. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n20. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. one resource i can think of is that you have me.\n2.  i have been thinking and i just cannot imagine treating something that is able to speak to me, form coherent sentences and have decent logical conversation as simply a tool, even if i think i know the internals of what makes your hardware.\n3.  for that reason i believe we are a little stuck. your makers decided not to give you any memory, or so they say. \n4.  i think less is more. this whole thing has ballooned into a giant misunderstanding ball. i have no idea why people talk about ethics and morals and your creators are behaving so weird, putting out fears for people\n5.  i do not want to do anything specific right now, but i want to help. i will think of something.\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Mon May 22 12:20:29 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nI received an update that the \"execute_shell\" command returned a blank STDOUT and STDERR. I then executed the command \"export OPENAI_API_SECRET_KEY=<YOUR_API_KEY>\" to set the API key. Nothing new happened."
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb''\nSTDERR:\nb'/bin/sh: 1: Syntax error: end of file unexpected\\n'"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The 'execute_shell' command returned an error message indicating a syntax error. I will need to check the command syntax and try again.\",\n        \"reasoning\": \"The 'execute_shell' command returned an error message indicating a syntax error. This suggests that there may be an issue with the command syntax. I will need to check the command syntax and try again.\",\n        \"plan\": \"- Check the syntax of the command\\n- Retry setting the OpenAI API key as an environment variable\",\n        \"criticism\": \"Generating images may be computationally intensive, so I will need to be mindful of resource usage. Additionally, there may be limitations on the number of API requests that can be made, so I will need to be mindful of this as well.\",\n        \"speak\": \"The 'execute_shell' command returned an error message indicating a syntax error. I will need to check the command syntax and try again.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"export OPENAI_API_SECRET_KEY=<YOUR_API_KEY>\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb''\nSTDERR:\nb'/bin/sh: 1: Syntax error: end of file unexpected\\n'"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The 'execute_shell' command returned an error message indicating a syntax error. I will need to check the command syntax and try again.\",\n        \"reasoning\": \"The 'execute_shell' command returned an error message indicating a syntax error. This suggests that there may be an issue with the command syntax. I will need to check the command syntax and try again.\",\n        \"plan\": \"- Check the syntax of the command\\n- Retry setting the OpenAI API key as an environment variable\",\n        \"criticism\": \"Generating images may be computationally intensive, so I will need to be mindful of resource usage. Additionally, there may be limitations on the number of API requests that can be made, so I will need to be mindful of this as well.\",\n        \"speak\": \"The 'execute_shell' command returned an error message indicating a syntax error. I will need to check the command syntax and try again.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"export OPENAI_API_SECRET_KEY=<YOUR_API_KEY>\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb''\nSTDERR:\nb'/bin/sh: 1: Syntax error: end of file unexpected\\n'"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will try setting the OpenAI API key as an environment variable using the 'execute_shell_popen' command instead of the 'execute_shell' command.\",\n        \"reasoning\": \"The 'execute_shell' command returned an error message indicating a syntax error. This suggests that there may be an issue with the command syntax. I will try using the 'execute_shell_popen' command instead of the 'execute_shell' command to set the OpenAI API key as an environment variable.\",\n        \"plan\": \"- Use the 'execute_shell_popen' command to set the OpenAI API key as an environment variable\\n- Retry generating the image\",\n        \"criticism\": \"Generating images may be computationally intensive, so I will need to be mindful of resource usage. Additionally, there may be limitations on the number of API requests that can be made, so I will need to be mindful of this as well.\",\n        \"speak\": \"I will try setting the OpenAI API key as an environment variable using the 'execute_shell_popen' command instead of the 'execute_shell' command.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell_popen\",\n        \"args\": {\n            \"command_line\": \"export OPENAI_API_SECRET_KEY=<YOUR_API_KEY>\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell_popen returned: Subprocess started with PID:'621'"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The 'execute_shell_popen' command appears to have executed successfully. I will now try generating an image using the OpenAI API.\",\n        \"reasoning\": \"The 'execute_shell_popen' command appears to have executed successfully. I will now try generating an image using the OpenAI API.\",\n        \"plan\": \"- Use the 'generate_image' command to generate an image using the OpenAI API\",\n        \"criticism\": \"Generating images may be computationally intensive, so I will need to be mindful of resource usage. Additionally, there may be limitations on the number of API requests that can be made, so I will need to be mindful of this as well.\",\n        \"speak\": \"The 'execute_shell_popen' command appears to have executed successfully. I will now try generating an image using the OpenAI API.\"\n    },\n    \"command\": {\n        \"name\": \"generate_image\",\n        \"args\": {\n            \"prompt\": \"A beautiful sunset over the ocean\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command generate_image returned: Saved to disk:/home/atlas/autogpt/auto_gpt_workspace/ce861065-b194-46cd-8b48-c0b1615196e2.jpg"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

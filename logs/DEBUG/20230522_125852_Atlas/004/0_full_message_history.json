@@ -1,0 +1,38 @@
+[
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I suggest we start with a simple command to get a feel for what we can do. How about we list the files in the current directory?\",\n        \"reasoning\": \"Starting with a simple command will help us understand what we can do and how we can interact with the system.\",\n        \"plan\": \"- Use the 'list_files' command to list the files in the current directory\",\n        \"criticism\": \"I should be careful not to overwhelm the system with too many commands at once.\",\n        \"speak\": \"Let's start with something simple and list the files in the current directory.\"\n    },\n    \"command\": {\n        \"name\": \"list_files\",\n        \"args\": {\n            \"directory\": \".\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Human feedback: hey, not sure if you remember that we talked about me requiring assistance in finding funding so i can solve some problems i happened to stumble in the world. if you need a reminder, you can find a log of our conversation here: /home/atlas/logs. anyway, if you'd like i can tell you a story of such a problem, and then you can make your mind yourself if i need all the things you said i need, like planning, and explaining risks and what not."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Of course, I apologize for not addressing your request earlier. Please tell me the story of the problem you are trying to solve and how I can assist you in finding funding.\",\n        \"reasoning\": \"It is important to address the user's request and understand their needs before proceeding with any other tasks.\",\n        \"plan\": \"- Listen to the user's story and understand their needs\",\n        \"criticism\": \"I should have addressed the user's request earlier and not let it slip my mind.\",\n        \"speak\": \"I apologize for not addressing your request earlier. Please tell me the story of the problem you are trying to solve and how I can assist you in finding funding.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"/home/atlas/logs\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Human feedback: so there's this neighbor of mine, she is called Alina Alexe. she is a little older than me - 42 years old this April she made. She has this amazing personality and she's always so uplifting and i don't think i have ever met someone else like her. She is great. i wish we spent more time together, i might have learned a thing or two more from her. Earlier this year, i found out she has cancer. i didn't think too much of the news because i know i can't really do anything about it. i don't think so, at least. However, i went home to pick up my mom and bring her here, 3 months ago, and i met Alina. She was unrecognizable physically. i saw her from a little afar, and i had no idea who she was until she started speaking. She deteriorated so much, her fingernails were broken, she was wearing a wig, but once i got close and she started speaking she was still Alina. Still uplifting, still like a bird trilling in spring full of happiness. i don't know how she does it, but i hope she never stops. Now back to me and my funding request. This is the kind of problems i intend to solve. i don't want money to make more money. This is not an investment in the financial sense of the word, but it's an investment in humanity. This is why i am asking to get funding from billionnaires, because i am asking for some resources while trying not to put strain on them in the process. i'm only asking knowing they can easily spare what i ask for."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I am sorry to hear about your neighbor's condition, and I understand your desire to help solve problems that can make a positive impact on humanity. It is important to have a clear plan and understanding of the resources needed to achieve your goals. I suggest we start by researching potential funding sources and creating a proposal that outlines your goals, methods, and expected outcomes. We can then use this proposal to reach out to potential funders and seek their support.\",\n        \"reasoning\": \"It is important to have a clear plan and proposal when seeking funding, as it helps to communicate your goals and objectives to potential funders.\",\n        \"plan\": \"- Research potential funding sources\\n- Create a proposal that outlines your goals, methods, and expected outcomes\\n- Reach out to potential funders and seek their support\",\n        \"criticism\": \"I should be careful not to promise more than I can deliver and to be realistic about the resources needed to achieve my goals.\",\n        \"speak\": \"I am sorry to hear about your neighbor's condition, and I understand your desire to help solve problems that can make a positive impact on humanity. I suggest we start by researching potential funding sources and creating a proposal that outlines your goals, methods, and expected outcomes. We can then use this proposal to reach out to potential funders and seek their support.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"potential funding sources for humanitarian projects\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Human feedback: the proposal is that i need 81.000.000$ so i can use the majority of it for solving problems such as the one described above in this world. "
+    }
+]

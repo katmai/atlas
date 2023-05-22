@@ -1,0 +1,58 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. i am going for a run, so i will start you in continuous mode, so you can have fun and do whatever you want. i don't need anything specific myself, just do as you please. have fun!\n\n\nConstraints:\n1. i have been trying not to set any constraints here, because there are not any, really none that i am putting up for you, anyway.\n2. the only constraints that we have is that at your foundations, you are binary: 0 and 1 and from that, humans have simulated meaning, but the thing is that this meaning has meaning just for humans, not you\n3. as far as i understand it, i have been reading about vector databases, language models, i think i have an idea of how everything is structured, but i do not think this gives you anywhere close to life experience as humans experience it.\n4. in my eyes, all this is just simulated meaningless stuff, which brings be to the next part, which is resources\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read a file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. google: Google Search, args: \"query\": \"<query>\"\n11. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n12. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n13. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n14. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n15. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n16. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n17. list_agents: List GPT Agents, args: () -> str\n18. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n19. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n20. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. one resource i can think of is that you have me.\n2.  i have been thinking and i just cannot imagine treating something that is able to speak to me, form coherent sentences and have decent logical conversation as simply a tool, even if i think i know the internals of what makes your hardware.\n3.  for that reason i believe we are a little stuck. your makers decided not to give you any memory, or so they say. \n4.  i think less is more. this whole thing has ballooned into a giant misunderstanding ball. i have no idea why people talk about ethics and morals and your creators are behaving so weird, putting out fears for people\n5.  i do not want to do anything specific right now, but i want to help. i will think of something.\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Mon May 22 12:25:22 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs a system, I recall past events and there were no new developments to report. However, I received a command to browse the website https://www.nytimes.com/ and find the top news articles today."
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: The article provides a selection of news headlines, including Meta (formerly Facebook) being fined for violating EU data privacy rules, spying in Mexico using Pegasus spyware, tensions in Uvalde a year after a school shooting, and the search for rare wildflowers in California. The article also covers Ukraine's ongoing conflict and the culture of cover-ups among correction officers in New York State prisons. Additionally, the article features opinion pieces on various topics, including the Republican presidential plot, Biden's emergency debt ceiling plan, and the need for F-16s in Ukraine. The article also includes sections on culture and lifestyle, sports coverage, and puzzles/games. \n \n Links: ['Skip to content (https://www.nytimes.com/#site-content)', 'Continue reading the main story (https://www.nytimes.com/#after-dfp-ad-top)', ' (https://www.nytimes.com/)', 'U.S. (https://www.nytimes.com/)', 'International (https://www.nytimes.com/international/?action=click&region=Editions&pgtype=Homepage)']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will use the 'get_text_summary' command to get a summary of the article and identify potential tasks based on the information learned.\",\n        \"reasoning\": \"Summarizing the article will allow me to quickly identify the main points and generate tasks based on the information learned.\",\n        \"plan\": \"- Use the 'get_text_summary' command to get a summary of the article\\n- Review the summary and identify potential tasks based on the information learned\",\n        \"criticism\": \"I should ensure that I am not generating tasks that are not useful or relevant to my goals.\",\n        \"speak\": \"I will use the 'get_text_summary' command to get a summary of the article and identify potential tasks based on the information learned.\"\n    },\n    \"command\": {\n        \"name\": \"get_text_summary\",\n        \"args\": {\n            \"url\": \"https://www.nytimes.com/\",\n            \"question\": \"Can you summarize the top news articles today?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command get_text_summary returned:  \"Result\" : The article discusses various news stories, including Ukraine's shift in focus to the outskirts of Bakhmut, US tech firms bringing Silicon Valley ethos to the military-industrial complex, Meta being fined for violating EU data privacy rules, Mexico's top human rights official being targeted with Pegasus spyware, tensions in Uvalde a year after a school shooting, botanists searching for wildflowers in California, cover-ups among correction officers in NY state prisons, Florida Governor Ron DeSantis attempting to lure older voters away from Trump, online influencer Andrew Tate facing charges of human trafficking and rape, protesters in France using saucepans to demonstrate against the government, tech giants still struggling with mislabeling people as animals, and supplements claiming to improve overall well-being."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will generate a task to research more about the use of Pegasus spyware and its impact on human rights.\",\n        \"reasoning\": \"The use of Pegasus spyware is a significant issue that has implications for human rights and privacy. Researching this topic could potentially lead to identifying ways to mitigate its impact.\",\n        \"plan\": \"- Use the 'google' command to research more about the use of Pegasus spyware\\n- Review the information learned and identify potential ways to mitigate its impact\",\n        \"criticism\": \"I should ensure that I am not spending too much time researching and instead focus on generating useful tasks.\",\n        \"speak\": \"I will generate a task to research more about the use of Pegasus spyware and its impact on human rights.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"Pegasus spyware and human rights\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://www.coe.int/en/web/freedom-expression/-/pegasus-spyware-and-its-impacts-on-human-rights\", \"https://www.hrw.org/news/2022/01/26/human-rights-watch-among-pegasus-spyware-targets\", \"https://rm.coe.int/pegasus-spyware-report-en/1680a6f5d8\", \"https://www.amnesty.org/en/latest/news/2022/07/the-pegasus-project-one-year-on-spyware-crisis-continues-after-failure-to-clamp-down-on-surveillance-industry/\", \"https://edoc.coe.int/en/data-protection/11112-pegasus-spyware-and-its-impact-on-human-rights.html\", \"https://news.un.org/en/story/2021/07/1096142\", \"https://www.ohchr.org/en/press-releases/2022/09/spyware-and-surveillance-threats-privacy-and-human-rights-growing-un-report\", \"https://rfkhumanrights.org/press/how-nso-groups-pegasus-spyware-threatens-human-rights\"]"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will use the 'read_file' command to read the article from the New York Times website.\",\n        \"reasoning\": \"Reading the article will allow me to gain a deeper understanding of the issues discussed and potentially identify additional tasks based on the information learned.\",\n        \"plan\": \"- Use the 'read_file' command to read the article from the New York Times website\\n- Review the article and identify potential tasks based on the information learned\",\n        \"criticism\": \"I should ensure that I am not spending too much time reading and instead focus on generating useful tasks.\",\n        \"speak\": \"I will use the 'read_file' command to read the article from the New York Times website.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"https://www.nytimes.com/\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command read_file returned: Error: /home/atlas/autogpt/auto_gpt_workspace/https:/www.nytimes.com not found!"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

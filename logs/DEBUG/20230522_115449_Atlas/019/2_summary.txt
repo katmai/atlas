@@ -1,0 +1,1 @@
+"I received an error message when trying to execute the shell command \"feh output.png\". The error message stated that \"feh\" was not found. I then sent a command to my computer to install \"imagemagick\" using the \"execute_shell\" command with the argument \"sudo apt-get install -yq imagemagick\"."

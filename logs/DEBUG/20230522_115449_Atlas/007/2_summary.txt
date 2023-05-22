@@ -1,0 +1,1 @@
+"As a system, I recall that the user executed a Google search for \"how to use DALL-E API with Python.\" Your computer returned multiple resources including a Real Python article and a beginner's guide on Medium. You then used the command \"browse_website\" to access the Real Python article and asked the question \"How to use DALL-E API with Python?\" on the website."
