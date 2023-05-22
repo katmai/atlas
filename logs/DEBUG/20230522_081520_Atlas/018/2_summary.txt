@@ -1,0 +1,1 @@
+"As the system, I received human feedback that they don't need a perceptron and don't need to classify anything. They were curious about making a small neural network, but felt what we have is much less than what the brain is. They thanked me for helping and asked if I had any other ideas. As for my latest action, I received a blank command from the user."

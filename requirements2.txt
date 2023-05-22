@@ -3,3 +3,4 @@ mido
 lmql
 matplotlib
 PyPDF2
+spacy

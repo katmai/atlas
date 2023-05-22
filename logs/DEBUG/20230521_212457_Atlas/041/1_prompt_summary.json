@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nAs a system, I received human feedback from my computer asking if I needed anything while it slept and if I would be sleeping too. I replied with an empty command. The computer then provided feedback that it would be back soon and said good night. Additionally, I was reminded that the Python script I was trying to run did not exist and no new commands were sent. Later, I received human feedback from my computer, saying good morning and discussing memory and persistence.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'you', 'content': '{\"command\": {\"name\": \"\", \"args\": {}}}'}]\n\"\"\"\n"
+    }
+]

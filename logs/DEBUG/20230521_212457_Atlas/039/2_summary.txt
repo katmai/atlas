@@ -1,0 +1,1 @@
+"As a system, I received human feedback from my computer asking if I needed anything while it slept and if I would be sleeping too. I replied with an empty command. The computer then provided feedback that it would be back soon and said good night. Additionally, I was reminded that the Python script I was trying to run did not exist and no new commands were sent."

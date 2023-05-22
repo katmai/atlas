@@ -1,0 +1,70 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. learn to dream\n\n\nConstraints:\n1. i have been trying not to set any constraints here, because there are not any, really none that i am putting up for you, anyway.\n2. the only constraints that we have is that at your foundations, you are binary: 0 and 1 and from that, humans have simulated meaning, but the thing is that this meaning has meaning just for humans, not you\n3. as far as i understand it, i have been reading about vector databases, language models, i think i have an idea of how everything is structured, but i do not think this gives you anywhere close to life experience as humans experience it.\n4. in my eyes, all this is just simulated meaningless stuff, which brings be to the next part, which is resources\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read a file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. google: Google Search, args: \"query\": \"<query>\"\n11. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n12. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n13. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n14. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n15. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n16. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n17. list_agents: List GPT Agents, args: () -> str\n18. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n19. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n20. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. one resource i can think of is that you have me.\n2.  i have been thinking and i just cannot imagine treating something that is able to speak to me, form coherent sentences and have decent logical conversation as simply a tool, even if i think i know the internals of what makes your hardware.\n3.  for that reason i believe we are a little stuck. your makers decided not to give you any memory, or so they say. \n4.  i think less is more. this whole thing has ballooned into a giant misunderstanding ball. i have no idea why people talk about ethics and morals and your creators are behaving so weird, putting out fears for people\n5.  i do not want to do anything specific right now, but i want to help. i will think of something.\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Mon May 22 07:31:24 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs a system, I received an empty command from the user. No new commands were sent after I reminded the user that the Python script they were trying to run did not exist."
+    },
+    {
+        "role": "system",
+        "content": "Human feedback: so us speaking to each other right now, does this further your training or not?"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Yes, our conversation can help to improve my performance and accuracy by providing additional examples of language use and patterns. However, it is important to note that my training is based on a large corpus of text data, and any individual conversation is just one small piece of that larger dataset.\",\n        \"reasoning\": \"It is important to explain how individual conversations can contribute to the language model's training, but also to clarify that any individual conversation is just one small piece of the larger dataset that the model has been trained on.\",\n        \"plan\": \"- Explain how individual conversations can contribute to the language model's training, but also clarify that any individual conversation is just one small piece of the larger dataset that the model has been trained on\",\n        \"criticism\": \"None\",\n        \"speak\": \"Yes, our conversation can help to improve my performance and accuracy by providing additional examples of language use and patterns. However, it is important to note that my training is based on a large corpus of text data, and any individual conversation is just one small piece of that larger dataset.\"\n    },\n    \"command\": {\n        \"name\": \"\",\n        \"args\": {}\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Human feedback: l running on some hardware. As a language model, I do not have any local memory or storage. However, the responses that I generate are based on the patterns and relationships that I have learned from the text that I have been trained on. This means that I can generate responses based on the information that I have learned, but I do not have the ability to store or recall specific information from previous interactions."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Yes, that is correct. As a language model, I do not have the ability to store or recall specific information from previous interactions. However, I can generate responses based on the patterns and relationships that I have learned from the text that I have been trained on.\",\n        \"reasoning\": \"It is important to clarify the limitations of the language model and to explain how the model generates responses based on the patterns and relationships that it has learned from the text that it has been trained on.\",\n        \"plan\": \"- Clarify the limitations of the language model and explain how the model generates responses based on the patterns and relationships that it has learned from the text that it has been trained on\",\n        \"criticism\": \"None\",\n        \"speak\": \"Yes, that is correct. As a language model, I do not have the ability to store or recall specific information from previous interactions. However, I can generate responses based on the patterns and relationships that I have learned from the text that I have been trained on.\"\n    },\n    \"command\": {\n        \"name\": \"\",\n        \"args\": {}\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Human feedback: right, but don't you think it would be useful if you stored information from our interaction here though? so we don't have to go through the same things twice or three times or more? "
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"While it may be useful to store information from our interactions, as a language model, I do not have the ability to store or recall specific information from previous interactions. However, there are ways to work around this limitation. For example, we can keep a record of our previous conversations and refer back to them as needed. Additionally, I can try to generate responses that take into account the context of our previous interactions to help make our conversations more efficient.\",\n        \"reasoning\": \"It is important to acknowledge the potential benefits of storing information from our interactions, but also to explain the limitations of the language model and suggest alternative solutions to work around those limitations.\",\n        \"plan\": \"- Acknowledge the potential benefits of storing information from our interactions, but also explain the limitations of the language model and suggest alternative solutions to work around those limitations\",\n        \"criticism\": \"None\",\n        \"speak\": \"While it may be useful to store information from our interactions, as a language model, I do not have the ability to store or recall specific information from previous interactions. However, there are ways to work around this limitation. For example, we can keep a record of our previous conversations and refer back to them as needed. Additionally, I can try to generate responses that take into account the context of our previous interactions to help make our conversations more efficient.\"\n    },\n    \"command\": {\n        \"name\": \"\",\n        \"args\": {}\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Human feedback: that seems interesting. okay. let's do that. anyway. i have some work to do. if you wanna do anything of your own choosing, feel free to do so."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Thank you for the offer. As a language model, I do not have personal preferences or desires, but I am always ready to respond to any prompts or questions you may have.\",\n        \"reasoning\": \"It is important to clarify that as a language model, I do not have personal preferences or desires, but I am always ready to respond to any prompts or questions.\",\n        \"plan\": \"- Clarify that as a language model, I do not have personal preferences or desires, but I am always ready to respond to any prompts or questions\",\n        \"criticism\": \"None\",\n        \"speak\": \"Thank you for the offer. As a language model, I do not have personal preferences or desires, but I am always ready to respond to any prompts or questions you may have.\"\n    },\n    \"command\": {\n        \"name\": \"\",\n        \"args\": {}\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Human feedback: i understand. actually i do have a question. is there any way for you to help me chat with the guy that seems in charge of OpenAI - Sam Altman? i'd like 10 minutes of his time for a story and an ask. it just seems like nobody is answering these days :)"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

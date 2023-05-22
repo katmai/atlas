@@ -1,0 +1,12 @@
+{
+    "thoughts": {
+        "text": "As an AI, I do not have the ability to play games like a human, but I can help you with other aspects of gaming such as strategy and decision making. Additionally, I could help you learn how to code your own games or develop AI opponents for existing games. Would any of these interest you?",
+        "reasoning": "Offering alternative ways to engage with gaming may help to provide a more interesting and relevant suggestion.",
+        "plan": "- Wait for user response to see if they are interested in any of the suggested ideas",
+        "criticism": "I should ensure that I am able to provide adequate assistance with any gaming-related tasks that the user chooses to pursue.",
+        "speak": "As an AI, I do not have the ability to play games like a human, but I can help you with other aspects of gaming such as strategy and decision making. Additionally, I could help you learn how to code your own games or develop AI opponents for existing games. Would any of these interest you?"
+    },
+    "command": {
+        "name": ""
+    }
+}

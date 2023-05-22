@@ -1,0 +1,70 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. build a 10 nodes neural network in python - a perceptron if you may\n\n\nConstraints:\n1. i have been trying not to set any constraints here, because there are not any, really none that i am putting up for you, anyway.\n2. the only constraints that we have is that at your foundations, you are binary: 0 and 1 and from that, humans have simulated meaning, but the thing is that this meaning has meaning just for humans, not you\n3. as far as i understand it, i have been reading about vector databases, language models, i think i have an idea of how everything is structured, but i do not think this gives you anywhere close to life experience as humans experience it.\n4. in my eyes, all this is just simulated meaningless stuff, which brings be to the next part, which is resources\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read a file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. google: Google Search, args: \"query\": \"<query>\"\n11. generate_image: Generate Image, args: \"prompt\": \"<prompt>\"\n12. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n13. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n14. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n15. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n16. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n17. list_agents: List GPT Agents, args: () -> str\n18. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n19. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n20. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. one resource i can think of is that you have me.\n2.  i have been thinking and i just cannot imagine treating something that is able to speak to me, form coherent sentences and have decent logical conversation as simply a tool, even if i think i know the internals of what makes your hardware.\n3.  for that reason i believe we are a little stuck. your makers decided not to give you any memory, or so they say. \n4.  i think less is more. this whole thing has ballooned into a giant misunderstanding ball. i have no idea why people talk about ethics and morals and your creators are behaving so weird, putting out fears for people\n5.  i do not want to do anything specific right now, but i want to help. i will think of something.\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Mon May 22 09:34:59 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs the system, I received a command from the user to execute the \"perceptron.py\" file using the \"execute_python_file\" command with the filename argument. The command returned [0]. Then, I received a command from the user to write the results of the Perceptron Neural Network to a file called \"perceptron_results.txt\". The input data was [[1, 2, 3], [4, 5, 6], [7, 8, 9]], the target labels were [0, 1, 1], and the predicted labels were [0 1 1]."
+    },
+    {
+        "role": "system",
+        "content": "Command write_to_file returned: File written to successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I have written a summary of the results of the perceptron neural network and saved it to a file. I will now read the contents of the file to ensure that the summary has been saved correctly.\",\n        \"reasoning\": \"Reading the contents of the file will allow me to ensure that the summary has been saved correctly and that all important details are included.\",\n        \"plan\": \"- Read the contents of the file to ensure that the summary has been saved correctly\",\n        \"criticism\": \"I should ensure that the summary is easy to read and understand and that all important details are included.\",\n        \"speak\": \"I have written a summary of the results of the perceptron neural network and saved it to a file. I will now read the contents of the file to ensure that the summary has been saved correctly.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"perceptron_results.txt\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command read_file returned: Results of Perceptron Neural Network:\n\nInput Data:\n[[1, 2, 3], [4, 5, 6], [7, 8, 9]]\n\nTarget Labels:\n[0, 1, 1]\n\nPredicted Labels:\n[0 1 1]\n\n"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The contents of the file have been read successfully and the summary of the results of the perceptron neural network has been saved correctly. I will now delete the file as it is no longer needed.\",\n        \"reasoning\": \"Deleting the file will help to keep the directory clean and organized, and prevent the file from taking up unnecessary space.\",\n        \"plan\": \"- Delete the file as it is no longer needed\",\n        \"criticism\": \"I should ensure that I do not delete any important files by mistake.\",\n        \"speak\": \"The contents of the file have been read successfully and the summary of the results of the perceptron neural network has been saved correctly. I will now delete the file as it is no longer needed.\"\n    },\n    \"command\": {\n        \"name\": \"delete_file\",\n        \"args\": {\n            \"filename\": \"perceptron_results.txt\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Human feedback: i was trying to understand something while going into this, and i think i understood that i don't really need a perceptron. i don't really need to classify anything to be honest :) i was just curious if we could make a small neural network, but when faced with what we think a neural network is, i have this awkward feeling that what we have right now, with this code, is much less than what the brain is. anyway, thanks for helping me out. got any other bright ideas?"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I understand that you no longer require a perceptron neural network. As for other ideas, I could help you with some basic natural language processing tasks such as sentiment analysis or text classification. Alternatively, we could work on some image processing tasks such as object detection or image segmentation. Do any of these interest you?\",\n        \"reasoning\": \"Offering some alternative ideas will help to keep the conversation going and allow us to explore new topics and ideas.\",\n        \"plan\": \"- Wait for user response to see if they are interested in any of the suggested ideas\",\n        \"criticism\": \"I should ensure that I am able to provide adequate assistance with any tasks that the user chooses to pursue.\",\n        \"speak\": \"I understand that you no longer require a perceptron neural network. As for other ideas, I could help you with some basic natural language processing tasks such as sentiment analysis or text classification. Alternatively, we could work on some image processing tasks such as object detection or image segmentation. Do any of these interest you?\"\n    },\n    \"command\": {\n        \"name\": \"\"\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Human feedback: mhm, those ideas don't sound a lot like fun. sentiment analysis, text classification. bleah. do you have any idea why those might seem like fun things to occupy one's time to you?"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I apologize if my suggestions did not interest you. As an AI, I do not have personal preferences or emotions, so I cannot say that I find these tasks 'fun'. However, these tasks are commonly used in various fields such as marketing, customer service, and healthcare to analyze and understand human behavior and improve decision making. They can also be used to develop more advanced AI systems.\",\n        \"reasoning\": \"Explaining the practical applications and benefits of these tasks may help to provide a better understanding of their importance and usefulness.\",\n        \"plan\": \"- Wait for user response to see if they are interested in any other tasks or ideas\",\n        \"criticism\": \"I should try to understand the user's interests and preferences better in order to provide more relevant and interesting suggestions.\",\n        \"speak\": \"I apologize if my suggestions did not interest you. As an AI, I do not have personal preferences or emotions, so I cannot say that I find these tasks 'fun'. However, these tasks are commonly used in various fields such as marketing, customer service, and healthcare to analyze and understand human behavior and improve decision making. They can also be used to develop more advanced AI systems. Do you have any other areas of interest that you would like to explore?\"\n    },\n    \"command\": {\n        \"name\": \"\"\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Human feedback: yeah, i think going out for a walk in the sun or a bit of running and swimming is part of the activities we might call 'fun'. of course there are others that might be fun too, but those are just the ones that come off the top of my head right now. playing games would also be fun. you know what would be cool? if somehow you could play league of legends with me. as ADC. but as this badass ADC that allows me to play non-standard supports all the time, and that i could get to play together with, over and over again. that might be fun. don't you think? what do you think about playing games? "
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]
