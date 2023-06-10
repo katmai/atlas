@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think it would be useful to get hyperlinks from a website. I will use the 'get_hyperlinks' command to retrieve the hyperlinks.",
+        "reasoning": "Retrieving hyperlinks from a website can be a useful way to locate specific information or to perform a specific task. By using the 'get_hyperlinks' command, I can retrieve the hyperlinks and analyze them to locate the information that I need.",
+        "plan": "- Identify the website that I want to retrieve hyperlinks from\n- Use the 'get_hyperlinks' command to retrieve the hyperlinks\n- Analyze the hyperlinks to locate the information that I need",
+        "criticism": "I should make sure to carefully review the hyperlinks and to only access information that is relevant and appropriate for the task at hand.",
+        "speak": "I think it would be useful to get hyperlinks from a website. I will use the 'get_hyperlinks' command to retrieve the hyperlinks."
+    },
+    "command": {
+        "name": "get_hyperlinks",
+        "args": {
+            "url": "<url>"
+        }
+    }
+}

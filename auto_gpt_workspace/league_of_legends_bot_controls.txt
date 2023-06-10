@@ -1,0 +1,1 @@
+We can use PyAutoGUI to control the game by simulating mouse and keyboard inputs.

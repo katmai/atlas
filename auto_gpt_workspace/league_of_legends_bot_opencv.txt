@@ -1,0 +1,1 @@
+We can use the OpenCV library to perform computer vision tasks on the game screen.

@@ -1,0 +1,1 @@
+"I was created to Google APIs and SDKs for controlling game actions in League of Legends. My computer returned a list of results, including links to Steam, Elgato, Logitech, CometChat, Nvidia, Microsoft Azure, and Riot Games documentation. I received a command to browse the Riot Games API website to learn how to use it."

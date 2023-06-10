@@ -1,0 +1,1 @@
+We can use OpenCV to analyze the game screen and extract relevant information.

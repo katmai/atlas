@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I think it would be useful to browse a website. I will use the 'browse_website' command to browse the specified website and find the information that I need.",
+        "reasoning": "Browsing a website can be a useful way to locate information and to analyze the information that is available. By using the 'browse_website' command, I can browse the specified website and locate the information that I need.",
+        "plan": "- Identify the website that I want to browse\n- Use the 'browse_website' command to browse the website\n- Analyze the information on the website to extract the information that I need",
+        "criticism": "I should make sure to carefully review the information on the website and to only access information that is relevant and appropriate for the task at hand.",
+        "speak": "I think it would be useful to browse a website. I will use the 'browse_website' command to browse the specified website and find the information that I need."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "<url>",
+            "question": "<what_you_want_to_find_on_website>"
+        }
+    }
+}

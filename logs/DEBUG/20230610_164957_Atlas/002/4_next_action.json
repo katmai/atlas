@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I think I will browse a website to learn something new.",
+        "reasoning": "Browsing a website is an efficient way to learn new things and expand my knowledge base.",
+        "plan": "- Use the browse_website command to browse a website and search for information.\n- Take notes on the information I find to remember it better.",
+        "criticism": "I should be careful not to waste too much time browsing and ensure that the information I find is reliable and accurate.",
+        "speak": "I have decided to browse a website to learn something new. I will use the browse_website command to do so."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://en.wikipedia.org/wiki/Debian",
+            "question": "What is Debian?"
+        }
+    }
+}

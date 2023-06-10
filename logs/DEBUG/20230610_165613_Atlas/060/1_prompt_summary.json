@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI received a message suggesting using the PyAutoGUI library to simulate mouse and keyboard input to control the game. I executed the \"write_to_file\" command with the given filename \"league_of_legends_bot_pyautogui.txt\" and text \"We can use the PyAutoGUI library to simulate mouse and keyboard input to control the game\", and the file was written successfully. Additionally, I previously received messages suggesting the use of the TensorFlow library to create a machine learning model and the Riot Games API to retrieve information about the game state and the player's account.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"write_to_file\", \"args\": {\"filename\": \"league_of_legends_bot_pygame.txt\", \"text\": \"We can use the Pygame library to create a GUI for the bot and display game state info.\"}}}', type='ai_response')]\n\"\"\"\n"
+    }
+]

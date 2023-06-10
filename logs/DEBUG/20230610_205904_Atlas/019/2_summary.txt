@@ -1,0 +1,1 @@
+"I executed a shell command to search for a specific error in a log file. The command returned an error message stating that the maximum context length is 4097 tokens and my messages resulted in 6207 and 4672 tokens. The AI suggested to reduce the length of the messages."

@@ -1,0 +1,18 @@
+{
+    "thoughts": {
+        "text": "I think it would be useful to replace text in a file. I will use the 'replace_in_file' command to replace the old text with the new text.",
+        "reasoning": "Replacing text in a file can be a useful way to update information or to correct errors. By using the 'replace_in_file' command, I can replace the old text with the new text and ensure that the information is accurate.",
+        "plan": "- Identify the file that I want to replace text in\n- Identify the old text that I want to replace\n- Identify the new text that I want to use\n- Use the 'replace_in_file' command to replace the old text with the new text",
+        "criticism": "I should make sure to carefully review the file and to only replace text that is relevant and appropriate for the task at hand.",
+        "speak": "I think it would be useful to replace text in a file. I will use the 'replace_in_file' command to replace the old text with the new text."
+    },
+    "command": {
+        "name": "replace_in_file",
+        "args": {
+            "filename": "/home/atlas/autogpt/auto_gpt_workspace/<filename>",
+            "old_text": "<old_text>",
+            "new_text": "<new_text>",
+            "occurrence_index": "<occurrence_index>"
+        }
+    }
+}

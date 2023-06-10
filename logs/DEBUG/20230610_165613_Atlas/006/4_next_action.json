@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "To create a new application on the Riot Games developer portal, we need to log in to our developer account and navigate to the 'My Account' section of the portal. From there, we can select 'New App' and provide information about our application, including its name, description, and purpose. We can also select the API endpoints that our application will be using. Once we have created the application, we can obtain an API key to use in our requests to the API.",
+        "reasoning": "We need to create a new application on the Riot Games developer portal in order to obtain an API key for the Riot Games API. This key is required to authenticate our requests to the API.",
+        "plan": "- Log in to our developer account on the Riot Games developer portal\n- Navigate to the 'My Account' section of the portal\n- Select 'New App' and provide information about our application\n- Obtain an API key for the application to use in our requests to the API",
+        "criticism": "We need to ensure that the bot's actions are not violating the game's terms of service, and that it is not causing an unfair advantage for the player.",
+        "speak": "To create a new application on the Riot Games developer portal, we need to log in to our developer account, navigate to the 'My Account' section, and select 'New App'. We can then provide information about our application and obtain an API key to use in our requests to the API."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://developer.riotgames.com/docs/getting-started",
+            "question": "How to obtain an API key for the Riot Games API?"
+        }
+    }
+}

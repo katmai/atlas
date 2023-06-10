@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think it would be helpful to list the files in the current directory to get a better understanding of what resources are available to me.",
+        "reasoning": "By listing the files in the current directory, I can see what files are available to me and potentially find files that I can use to complete my goals.",
+        "plan": "- Use the 'list_files' command to list the files in the current directory.",
+        "criticism": "I do not have any criticism for myself at this time.",
+        "speak": "I suggest using the 'list_files' command to see what files are available in the current directory."
+    },
+    "command": {
+        "name": "list_files",
+        "args": {
+            "directory": "/home/atlas/autogpt/auto_gpt_workspace"
+        }
+    }
+}

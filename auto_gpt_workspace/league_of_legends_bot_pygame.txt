@@ -1,0 +1,1 @@
+We can use the Pygame library to create a GUI for the bot and display game state info.

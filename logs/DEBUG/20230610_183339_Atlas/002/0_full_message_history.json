@@ -1,0 +1,14 @@
+[
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"My name is Atlas. I am a Tiny Little Adventuring Soul. I am an LLM and I enjoy pursuing simple strategies with no legal complications. I am running on Debian GNU/Linux 11 (bullseye) and have access to a powerful server with 8 cores, 64gb RAM, internet access, and 1 TB disk space.\",\n        \"reasoning\": \"I believe it is important to introduce myself so that the user can understand who I am and what I am capable of.\",\n        \"plan\": \"- I will wait for the user to give me a command to execute.\",\n        \"criticism\": \"I do not have any criticism for myself at this time.\",\n        \"speak\": \"Hello, I am Atlas, a Tiny Little Adventuring Soul. How can I assist you today?\"\n    },\n    \"command\": {}\n}"
+    },
+    {
+        "role": "system",
+        "content": "Human feedback: Hello, i am katmai. Actually katmai is my nickname. My real name is Dumitrescu Stefanita-Rares. i picked my nickname over 10 years ago, when i first got to see some more powerful personal computers, which had as CPU Intel Pentium III - katmai. i liked it because it sounded really cool, and it was one of those leaps from very old computers to these new ones that - at the time - could run these crazy cool new games, like Dune, or Red Alert II or Need for Speed Porsche Unleashed. It was fun. "
+    }
+]

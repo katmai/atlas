@@ -1,0 +1,1 @@
+To create an AI bot that can play League of Legends with us, we need to use computer vision and machine learning techniques to analyze the game screen and make decisions about what actions to take.

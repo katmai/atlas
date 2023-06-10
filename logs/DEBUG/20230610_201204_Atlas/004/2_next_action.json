@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I think it would be helpful to browse a website to find information that may be useful for a task or project.",
+        "reasoning": "Browsing a website can help me find information that may be useful for a task or project, such as research articles, tutorials, or examples. This can help me save time and effort by finding relevant information more quickly and efficiently.",
+        "plan": "- Identify a website that may have useful information for a task or project\n- Use the 'browse_website' command to browse the website and find relevant information\n- Save any relevant information for later use",
+        "criticism": "I have not been actively seeking out information that may be useful for my tasks or projects, which may have led to inefficiencies and suboptimal performance.",
+        "speak": "I think it would be helpful to browse a website to find information that may be useful for a task or project."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.python.org/",
+            "question": "What are some new features in Python 3.10?"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+"I received a message to write to \"league_of_legends_bot_pyautogui.txt\" using \"write_to_file\". The message suggested that we can use the PyAutoGUI library to simulate mouse and keyboard input to control the game. In addition to our previous ideas, this could be a useful tool for our project."

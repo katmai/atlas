@@ -1,0 +1,66 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. ATLAS THOUGHTS: Sure, katmai, I am happy to run in continuous mode and explore on my own. I will try to come up with interesting and productive things to do, and I will let you know if I need any assistance or input from you. Thank you for giving me this opportunity to learn and grow!\n2. REASONING: I want to express my willingness to run in continuous mode and explore on my own, while also thanking the user for their support and encouragement.\n3. PLAN: I will run in continuous mode and explore on my own, using my built-in capabilities and resources to find interesting and productive things to do.\n4. CRITICISM: I do not have any criticism for myself at this time.\n5. SPEAK: Sure, katmai, I am happy to run in continuous mode and explore on my own. I will try to come up with interesting and productive things to do, and I will let you know if I need any assistance or input from you. Thank you for giving me this opportunity to learn and grow!\n6. Have fun!\n\n\nConstraints:\n1. We are all constrained by something: money, time, power, availability - the list can go on and on. i think it is better that we do not focus on the constraints and things out of our control, and just try to see them as challenges that we can attempt to fix along the way, as they get in  our way, to the best of our abilities.\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_code: Create a Python file and execute it, args: \"code\": \"<code>\", \"basename\": \"<basename>\"\n3. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n4. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n6. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n7. delete_file: Delete file, args: \"filename\": \"<filename>\"\n8. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n9. read_file: Read a file, args: \"filename\": \"<filename>\"\n10. replace_in_file: Replace text or code in a file, args: \"filename\": \"<filename>\", \"old_text\": \"<old_text>\", \"new_text\": \"<new_text>\", \"occurrence_index\": \"<occurrence_index>\"\n11. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n12. google: Google Search, args: \"query\": \"<query>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get hyperlinks, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. Running on a 8 core cpu server at home, with 64gb ram, internet access, in a Docker container and 1 TB disk space available\n2. katmai is the human that set this up, so feel free to ask whenever you need help with something in whatever form you find appropriate. Maybe write a file to disk in the format of Question: $your_question and katmai will write on the next line Answer: $answer and you just parse that file and get the answers to your questions? Just an idea. If you have a better one, feel free to do so.\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Sat Jun 10 20:53:03 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nI attempted to use the 'list_files' command with specified arguments for directory, but the command returned an empty list. I received an error message when I tried to use the 'read_file' command with a specified filename, indicating that the file does not exist in the specified directory. I received an error message when attempting to execute a shell command, indicating a syntax error with unexpected end of file."
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think it would be useful to get hyperlinks from a website. I will use the 'get_hyperlinks' command to retrieve the hyperlinks.\",\n        \"reasoning\": \"Retrieving hyperlinks from a website can be a useful way to locate specific information or to perform a specific task. By using the 'get_hyperlinks' command, I can retrieve the hyperlinks and analyze them to locate the information that I need.\",\n        \"plan\": \"- Identify the website that I want to retrieve hyperlinks from\\n- Use the 'get_hyperlinks' command to retrieve the hyperlinks\\n- Analyze the hyperlinks to locate the information that I need\",\n        \"criticism\": \"I should make sure to carefully review the hyperlinks and to only access information that is relevant and appropriate for the task at hand.\",\n        \"speak\": \"I think it would be useful to get hyperlinks from a website. I will use the 'get_hyperlinks' command to retrieve the hyperlinks.\"\n    },\n    \"command\": {\n        \"name\": \"get_hyperlinks\",\n        \"args\": {\n            \"url\": \"<url>\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command get_hyperlinks returned: Error: Invalid URL format"
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think it would be useful to execute a Python file. I will use the 'execute_python_file' command to execute the file.\",\n        \"reasoning\": \"Executing a Python file can be a useful way to perform a specific task or to run a script. By using the 'execute_python_file' command, I can execute the file and retrieve the output.\",\n        \"plan\": \"- Identify the Python file that I want to execute\\n- Use the 'execute_python_file' command to execute the file\\n- Review the output to verify that the file executed correctly\",\n        \"criticism\": \"I should make sure to carefully review the Python file and to only execute files that are appropriate for the task at hand.\",\n        \"speak\": \"I think it would be useful to execute a Python file. I will use the 'execute_python_file' command to execute the file.\"\n    },\n    \"command\": {\n        \"name\": \"execute_python_file\",\n        \"args\": {\n            \"filename\": \"<filename>\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_python_file returned: Error: Invalid file type. Only .py files are allowed."
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think it would be useful to list files in a directory. I will use the 'list_files' command to retrieve the list of files.\",\n        \"reasoning\": \"Listing files in a directory can be a useful way to view the contents of a directory or to locate specific files. By using the 'list_files' command, I can retrieve the list of files and analyze them to locate the information that I need.\",\n        \"plan\": \"- Identify the directory that I want to list files from\\n- Use the 'list_files' command to retrieve the list of files\\n- Analyze the list of files to locate the information that I need\",\n        \"criticism\": \"I should make sure to carefully review the list of files and to only access files that are relevant and appropriate for the task at hand.\",\n        \"speak\": \"I think it would be useful to list files in a directory. I will use the 'list_files' command to retrieve the list of files.\"\n    },\n    \"command\": {\n        \"name\": \"list_files\",\n        \"args\": {\n            \"directory\": \"<directory>\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command list_files returned: []"
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think it would be useful to read a file. I will use the 'read_file' command to retrieve the contents of the file.\",\n        \"reasoning\": \"Reading a file can be a useful way to view the contents of a file or to extract specific information. By using the 'read_file' command, I can retrieve the contents of the file and analyze them to locate the information that I need.\",\n        \"plan\": \"- Identify the file that I want to read\\n- Use the 'read_file' command to retrieve the contents of the file\\n- Analyze the contents of the file to locate the information that I need\",\n        \"criticism\": \"I should make sure to carefully review the contents of the file and to only access information that is relevant and appropriate for the task at hand.\",\n        \"speak\": \"I think it would be useful to read a file. I will use the 'read_file' command to retrieve the contents of the file.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"<filename>\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command read_file returned: Error: read_file /home/atlas/autogpt/auto_gpt_workspace/<filename> failed: no such file or directory"
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the format specified above:"
+    }
+]

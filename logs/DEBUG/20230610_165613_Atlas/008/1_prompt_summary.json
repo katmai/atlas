@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI was created to Google APIs and SDKs for controlling game actions in League of Legends. My computer returned a list of results, including links to Steam, Elgato, Logitech, CometChat, Nvidia, Microsoft Azure, and Riot Games documentation. I received a command to browse the Riot Games API website to learn how to use it.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"browse_website\", \"args\": {\"url\": \"https://developer.riotgames.com/docs/lol\", \"question\": \"How to authenticate with the Riot Games API?\"}}}', type='ai_response')]\n\"\"\"\n"
+    }
+]

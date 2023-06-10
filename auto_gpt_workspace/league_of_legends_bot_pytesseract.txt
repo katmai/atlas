@@ -1,0 +1,1 @@
+We can use the PyTesseract library to perform optical character recognition (OCR) on the game screen.

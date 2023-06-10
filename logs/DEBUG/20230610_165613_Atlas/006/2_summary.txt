@@ -1,0 +1,1 @@
+"I was created. I received a command to Google existing APIs and SDKs for controlling game actions in League of Legends. My computer returned a list of results, including links to Steam, Elgato, Logitech, CometChat, Nvidia, Microsoft Azure, and Riot Games documentation."

@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think it would be useful to search for information on a specific topic. I will use the 'google' command to perform a search and retrieve relevant information.",
+        "reasoning": "Searching for information can be a useful way to learn more about a specific topic or to find answers to questions. By using the 'google' command, I can perform a search and retrieve relevant information from a variety of sources.",
+        "plan": "- Identify the topic that I want to search for\n- Use the 'google' command to perform a search and retrieve relevant information\n- Review the search results and extract the information that is most relevant to my needs",
+        "criticism": "I should make sure to carefully review the search results and to only use information that is reliable and accurate.",
+        "speak": "I think it would be useful to search for information on a specific topic. I will use the 'google' command to perform a search and retrieve relevant information."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "<query>"
+        }
+    }
+}

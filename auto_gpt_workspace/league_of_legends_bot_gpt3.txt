@@ -1,0 +1,1 @@
+We can use the OpenAI GPT-3 API to generate text that can be used to play the game.

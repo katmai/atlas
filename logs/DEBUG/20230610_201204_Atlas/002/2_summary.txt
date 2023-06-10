@@ -1,0 +1,1 @@
+"I was created and I received a message to list all files in the current directory. I executed the command and returned a list of all files in the directory, including subdirectories and their contents."

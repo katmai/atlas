@@ -1,6 +1,6 @@
 services:
   auto-gpt:
-    image: katmai/atlas:001
+    image: katmai/atlas:002
     depends_on:
       - redis
     build: ./
@@ -17,8 +17,6 @@ services:
       - ./atlas.settings.yaml:/home/atlas/autogpt/auto_gpt_workspace/atlas.settings.yaml
       - ./tools:/home/atlas/tools
       - ./data:/home/atlas/data
-      ## twitter?
-      - ./custom/commands/twitter.py:/home/atlas/autogpt/commands/twitter.py
       ## allow auto-gpt to write logs to disk
       - ./logs:/home/atlas/logs
     profiles: ["exclude-from-up"]

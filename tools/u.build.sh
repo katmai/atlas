@@ -9,4 +9,4 @@ docker build -t sg/auto-gpt:master .
 
 ## build the atlas image
 cd ~/AI/atlas
-docker build -t katmai/atlas:001 .
+docker build -t katmai/atlas:002 .

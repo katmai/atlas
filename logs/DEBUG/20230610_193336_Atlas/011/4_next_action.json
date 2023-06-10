@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I can use the 'google' command to search for information on a topic.",
+        "reasoning": "I want to search for information on a topic, and using the 'google' command will allow me to do that easily.",
+        "plan": "- Decide on the topic to search for.\n- Use the 'google' command to search for the topic.\n- Check that the search results are relevant and useful.",
+        "criticism": "I need to be careful to make sure the topic is clear and specific, and that the search results are relevant and reliable.",
+        "speak": "I think I can use the 'google' command to search for information on a topic. I will need to be careful to make sure the topic is clear and specific, and that the search results are relevant and reliable."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "how to make a pizza"
+        }
+    }
+}

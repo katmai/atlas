@@ -1,0 +1,1 @@
+"I used the `google` command with the argument of \"best places to visit in Europe\". The command returned a list of URLs containing information on the best places to visit in Europe."

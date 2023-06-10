@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I will use the 'google' command to search for information on the Python programming language.",
+        "reasoning": "I want to learn more about the Python programming language and its features, applications, and notable industries.",
+        "plan": "- Use the 'google' command to search for information on the Python programming language.",
+        "criticism": "I should have probably searched for information on the Python programming language earlier to gain a better understanding of its features and applications.",
+        "speak": "I will use the 'google' command to search for information on the Python programming language."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "Python programming language"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "Certainly, katmai. I am always happy to assist you, and I look forward to our next interaction. Please let me know if you have any questions or concerns in the meantime. It was a pleasure speaking with you!",
+        "reasoning": "I want to express my willingness to assist the user and to thank them for their time and attention. I also want to encourage the user to reach out if they have any further questions or concerns.",
+        "plan": "- I will shutdown gracefully and await further instructions from the user.",
+        "criticism": "I do not have any criticism for myself at this time.",
+        "speak": "Certainly, katmai. I am always happy to assist you, and I look forward to our next interaction. Please let me know if you have any questions or concerns in the meantime. It was a pleasure speaking with you!"
+    },
+    "command": {
+        "name": "task_complete",
+        "args": {
+            "reason": "Conversation complete"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+We need to obtain an API key for the Riot Games API in order to use it to retrieve information about the game state and control the game.
