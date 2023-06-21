@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "After researching the best kayaking destinations, I have decided to plan a trip to Norway to kayak in the fjords. I need to research the best time of year to visit and make a plan for my trip.",
+        "reasoning": "Norway's fjords are known for their stunning natural beauty and are a popular destination for kayaking.",
+        "plan": "- Research the best time of year to visit Norway for kayaking\n- Make a plan for my trip, including transportation, lodging, and equipment\n- Research the regulations and safety guidelines for kayaking in Norway's fjords",
+        "criticism": "I need to be more proactive in planning my adventures.",
+        "speak": "After researching the best kayaking destinations, I have decided to plan a trip to Norway to kayak in the fjords. I need to research the best time of year to visit and make a plan for my trip."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "Best time of year to kayak in Norway's fjords"
+        }
+    }
+}

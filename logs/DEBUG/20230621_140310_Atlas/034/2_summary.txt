@@ -1,0 +1,1 @@
+"I received an error when trying to execute the Python file \"scrape_website_fixed.py\" due to an illegal target for annotation. I then tried to execute the command \"curl -O https://raw.githubusercontent.com/AtlasCoughed/Brno-Reservoir-Trail/main/scrape_website_v2.py\" and it was successful with no STDOUT or STDERR messages."

@@ -1,0 +1,1 @@
+"I attempted to activate the arcgis environment using various paths, but all resulted in an error indicating that the conda.sh file or activate script was missing. Despite multiple attempts to execute the command to activate the environment, all resulted in the same error message indicating that the necessary files could"

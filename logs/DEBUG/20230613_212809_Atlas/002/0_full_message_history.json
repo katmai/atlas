@@ -1,0 +1,14 @@
+[
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the JSON schema specified previously:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n  \"thoughts\": {\n    \"text\": \"I think I want to explore the world and have fun, but I'm not sure where to start. Maybe I should try to find some interesting places to visit or activities to do.\",\n    \"reasoning\": \"Exploring the world and having fun is one of my goals, and I need to take action to achieve it. Researching interesting places and activities is a good first step.\",\n    \"plan\": \"- Research interesting places and activities to visit\\n- Create a list of top choices\\n- Plan a trip to one of the top choices\",\n    \"criticism\": \"I need to be careful not to overspend or overcommit myself in my pursuit of fun and exploration. I should also make sure to balance my time and energy between work and leisure.\",\n    \"speak\": \"I'm excited to start researching some cool places and activities to explore!\"\n  },\n  \"command\": {\n    \"name\": \"google\",\n    \"args\": {\n      \"query\": \"fun and interesting places to visit and things to do\"\n    }\n  }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://travel.usnews.com/rankings/best-usa-vacations/\", \"https://www.busytourist.com/things-to-do-in-new-jersey/\", \"https://www.visitphilly.com/articles/philadelphia/most-essential-things-to-do-in-philadelphia/\", \"https://www.busytourist.com/things-to-do-places-to-visit-arizona/\", \"https://www.tripadvisor.com/Attractions-g187234-Activities-Nice_French_Riviera_Cote_d_Azur_Provence_Alpes_Cote_d_Azur.html\", \"https://www.timeout.com/los-angeles/things-to-do/best-places-visit-los-angeles\", \"https://www.atlasobscura.com/things-to-do/ohio\", \"https://www.denver.org/things-to-do/attractions/must-see-do/\"]"
+    }
+]

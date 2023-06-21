@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should use the 'google' command to search for information on the best hiking trails near Brno.",
+        "reasoning": "I want to find information on the best hiking trails near Brno. By using the 'google' command, I can search the internet for information and find relevant websites.",
+        "plan": "- Use the 'google' command to search for information on the best hiking trails near Brno.",
+        "criticism": "I need to ensure that I am using appropriate search terms to find the information I need. I should also be careful when selecting websites to visit, to ensure that they are reputable and provide accurate information.",
+        "speak": "I think I should use the 'google' command to search for information on the best hiking trails near Brno."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "best hiking trails near Brno"
+        }
+    }
+}

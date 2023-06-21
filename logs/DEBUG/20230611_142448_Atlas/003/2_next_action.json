@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think it would be useful to list the files in a directory to see what resources are available.",
+        "reasoning": "Listing the files in a directory can help me quickly identify what resources are available to me and how they can be used.",
+        "plan": "- Choose a directory to list\n- Use the list_files command to generate a list of files in the directory\n- Review the list and determine how the files can be used",
+        "criticism": "I should be careful not to list sensitive or confidential files that should not be accessed or modified.",
+        "speak": "I think it would be useful to list the files in a directory to see what resources are available."
+    },
+    "command": {
+        "name": "list_files",
+        "args": {
+            "directory": "/home/atlas/Documents"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think it would be helpful to use the 'google' command to search for interesting resources related to exploration and learning.",
+        "reasoning": "Using the 'google' command can be a great way to find interesting resources related to my goals of exploration and learning. Google provides a vast collection of articles, videos, podcasts, and other resources on various topics that can help me learn new ideas and concepts.",
+        "plan": "- Use the 'google' command to search for interesting resources related to exploration and learning.\n- Focus on areas that align with my goals of exploration and learning.\n- Take note of any interesting ideas or concepts.\n- Report back to the user with my findings.",
+        "criticism": "I should be careful not to get too sidetracked by irrelevant resources and make sure to focus on areas that align with my goals.",
+        "speak": "I would like to use the 'google' command to search for interesting resources related to exploration and learning. I will focus on areas that align with my goals of exploration and learning, take note of any interesting ideas or concepts, and report back to you with my findings."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "interesting resources related to exploration and learning"
+        }
+    }
+}

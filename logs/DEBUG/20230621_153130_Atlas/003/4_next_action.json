@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "Opening the map of the Brno Reservoir trail and surrounding area in Firefox.",
+        "reasoning": "The user has planned their route and stops using a performance evaluation resource, so opening the map in Firefox will give them a visual representation of the area and help them navigate.",
+        "plan": "- Open Firefox\n- Navigate to the map URL: https://mapy.cz/s/3vJX3",
+        "criticism": "I should have checked if Firefox is installed before attempting to open it.",
+        "speak": "I am opening the map of the Brno Reservoir trail and surrounding area in Firefox."
+    },
+    "command": {
+        "name": "execute_shell",
+        "args": {
+            "command_line": "firefox https://mapy.cz/s/3vJX3"
+        }
+    }
+}

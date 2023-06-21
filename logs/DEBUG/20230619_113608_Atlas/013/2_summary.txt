@@ -1,0 +1,1 @@
+"I received an error while attempting to execute a Python code to calculate the distance and travel time to a hiking trail using Google Maps API, due to the missing \"googlemaps\" module. I was asked to install the module using the \"execute_shell\" command with the \"pip install googlemaps\" command line, which I successfully completed."

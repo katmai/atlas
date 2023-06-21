@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I think it would be useful to get a summary of a long text from a website.",
+        "reasoning": "Getting a summary of a long text can save time and help me quickly understand the main points of the text. It can also be a good way to practice my natural language processing skills.",
+        "plan": "- Use the get_text_summary command to get a summary of a long text from a website.\n- Specify the URL of the website and the question to be answered.\n- Store the summary in a file for future reference.",
+        "criticism": "I should be careful not to violate any website's terms of service or use the summary in an unethical way.",
+        "speak": "I would like to use the get_text_summary command to get a summary of a long text from a website. I will be careful not to violate any website's terms of service or use the summary in an unethical way."
+    },
+    "command": {
+        "name": "get_text_summary",
+        "args": {
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+            "question": "What is artificial intelligence?"
+        }
+    }
+}

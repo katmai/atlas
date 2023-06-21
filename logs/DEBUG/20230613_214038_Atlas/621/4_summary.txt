@@ -1,0 +1,1 @@
+"In my attempts to activate the arcgis environment, multiple paths were tried but all resulted in a \"No such file or directory\" error. I tried sourcing conda.sh from various locations including /home/kat/anaconda3/etc/profile.d/conda.sh, /opt/anaconda/etc/profile.d/conda.sh, /home"

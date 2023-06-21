@@ -1,0 +1,1 @@
+"I attempted multiple command lines to activate the arcgis environment, but all returned the same error message. My latest attempts involved using different paths for the conda.sh file, but all returned the error message \"No such file or directory\"."

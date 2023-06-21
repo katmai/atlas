@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I need to narrow down my search results to find more specific information on the best lodging and equipment rental options for kayaking in Norway.",
+        "reasoning": "Narrowing down my search will help me find more specific information and ensure that I have everything I need for my kayaking adventure.",
+        "plan": "- Refine my search to find more specific information on the best lodging and equipment rental options for kayaking in Norway\n- Compare prices and reviews to find the best options for my trip",
+        "criticism": "I need to be more proactive in planning my adventures.",
+        "speak": "I need to narrow down my search results to find more specific information on the best lodging and equipment rental options for kayaking in Norway."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "Best lodging and equipment rental options for kayaking in Norway near Naeroyfjord"
+        }
+    }
+}

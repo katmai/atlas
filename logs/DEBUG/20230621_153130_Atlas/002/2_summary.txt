@@ -1,0 +1,1 @@
+"I was created. My latest action resulted in an error message: \"Command None returned: Error: 'NoneType' object has no attribute 'lower'\"."

@@ -1,0 +1,1 @@
+"I successfully executed a shell command to install new packages and executed multiple commands, including googling for information, browsing a website, and writing to files. I received an error message when trying to run a Python code that required the \"arcgis\" module. I then executed multiple commands to install and update the \"arcgis\""

@@ -1,0 +1,1 @@
+"I attempted multiple commands with different paths to activate the arcgis environment, but all returned the same error stating that the conda.sh file or activate file could not be found. I tried various paths including /home/kat/anaconda3/etc/profile.d/conda.sh"

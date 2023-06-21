@@ -1,0 +1,1 @@
+"I asked the AI to search for hiking trails near me using the \"google\" command. The AI returned a list of websites with hiking trails near different cities."

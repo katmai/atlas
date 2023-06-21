@@ -1,0 +1,1 @@
+"I attempted to get a text summary of an article on the National Geographic website, but received an error message."

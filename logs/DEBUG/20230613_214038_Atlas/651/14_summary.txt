@@ -1,0 +1,1 @@
+"I attempted to activate the arcgis environment through shell commands multiple times, but all returned errors indicating that the necessary files could not be found."

@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I want to learn more about legal research resources, so I will use the 'google' command to search for more information.",
+        "reasoning": "Google is a powerful tool for finding information on the internet, and can help me discover new resources related to legal research.",
+        "plan": "- Use the 'google' command to search for 'legal research resources'.\n- Look for reputable sources and take notes on any useful resources or information that I find.",
+        "criticism": "I need to be careful not to rely too heavily on a single source or website, and make sure to verify any information that I find.",
+        "speak": "I want to learn more about legal research resources, so I will use the 'google' command to search for more information."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "legal research resources"
+        }
+    }
+}

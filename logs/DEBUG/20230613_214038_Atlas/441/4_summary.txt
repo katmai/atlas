@@ -1,0 +1,1 @@
+"I continued to try using the execute_shell command with different paths, but received the same error message indicating that the necessary conda.sh file could not be found. The paths I tried were /opt/anaconda3/etc/profile.d/conda.sh, /opt/miniconda3/etc/profile.d/conda.sh, ~/anaconda3/etc/profile.d/conda.sh, and /home/katmai/anaconda3/etc/profile.d/conda.sh."

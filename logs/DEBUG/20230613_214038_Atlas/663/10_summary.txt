@@ -1,0 +1,1 @@
+"I tried multiple conda paths to activate the environment, but all resulted in \"No such file or directory\" errors. Specifically, I attempted to activate the arcgis environment using paths for /home/atlas/miniconda3 and /home/katmai/anaconda3. I also tried paths for /opt/miniconda3 and /opt/"

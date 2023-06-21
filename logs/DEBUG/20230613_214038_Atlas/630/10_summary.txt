@@ -1,0 +1,1 @@
+"I attempted to activate the arcgis environment using various paths, but all resulted in a \"No such file or directory\" error message. I tried activating the environment using different paths, including /home/atlas. However, after executing multiple commands, including \"source ~/miniconda3/etc/profile.d/conda.sh\" and \"source ~/anaconda3/etc/profile.d/conda.sh\", I received"

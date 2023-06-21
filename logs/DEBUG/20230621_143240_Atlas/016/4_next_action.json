@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I will use the `google` command to search for hiking trails near me. This will allow me to find information about hiking trails in various locations, including Brno and other regions in the Czech Republic.",
+        "reasoning": "Using the `google` command will allow me to search for hiking trails near me. This will allow me to find information about hiking trails in various locations, including Brno and other regions in the Czech Republic. I can use this information to plan my next adventure and explore the world.",
+        "plan": "- Use the `google` command to search for hiking trails near me.\n- Review the search results to find information about hiking trails in various locations, including Brno and other regions in the Czech Republic.\n- Plan my next adventure based on the information I find.",
+        "criticism": "I need to make sure that I am not spending too much time searching for information and not actually taking action towards achieving my goals. I should use the information I find through the `google` command as a starting point and take action towards exploring the world.",
+        "speak": "I will use the `google` command to search for hiking trails near me."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "hiking trails near me"
+        }
+    }
+}

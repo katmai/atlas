@@ -1,0 +1,1 @@
+"I attempted to activate the arcgis environment using various paths, but each attempt resulted in a \"No such file or directory\" error. I then tried to activate the environment using the command \"bash -c 'source /home/atlas/minicon\". The latest development shows that the command returned an error message stating that the conda"

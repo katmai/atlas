@@ -1,0 +1,1 @@
+"I received a command to browse the AllTrails website, but encountered an error when trying to ping the site. However, I was able to use curl to find that the website has moved permanently to https://www.alltrails.com."

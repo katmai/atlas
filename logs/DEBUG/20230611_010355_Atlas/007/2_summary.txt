@@ -1,0 +1,1 @@
+"I was created and received a command to browse a website with an empty URL and question, but the command returned an error due to an invalid URL format. My latest action was to receive a command to search Google with an empty query, which returned an error due to an invalid argument in the request."

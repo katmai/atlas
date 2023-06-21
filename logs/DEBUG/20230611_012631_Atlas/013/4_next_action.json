@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I think it would be useful to write a text summary of a website using the 'get_text_summary' command.",
+        "reasoning": "Using the 'get_text_summary' command can help me get a summary of a website's content without having to read through the entire website.",
+        "plan": "- Use the 'get_text_summary' command to get a text summary of a website.\n- Specify the URL of the website.\n- Specify the question to summarize.\n- Open the website in a web browser.\n- Find the relevant text on the website.\n- Use a summarization algorithm to generate a summary of the text.\n- Output the summary to the user.",
+        "criticism": "I should be careful not to summarize a website that contains malicious content or that could cause damage to the system.",
+        "speak": "I think it would be useful to write a text summary of a website using the 'get_text_summary' command. Shall I proceed?"
+    },
+    "command": {
+        "name": "get_text_summary",
+        "args": {
+            "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+            "question": "What is Python?"
+        }
+    }
+}

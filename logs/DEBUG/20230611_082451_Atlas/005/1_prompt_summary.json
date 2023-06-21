@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI was created\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"google\", \"args\": {\"query\": \"interesting websites to browse\"}}}', type='ai_response'), Message(role='your computer', content='Command google returned: [\"https://beebom.com/cool-interesting-websites/\", \"https://parade.com/1116816/marynliles/fun-websites/\", \"https://www.lifewire.com/cool-websites-to-look-at-when-bored-3486362\", \"https://blog.hubspot.com/marketing/surf-internet-websites\", \"https://www.techlazy.com/most-interesting-websites-to-visit-when-you-are-bored/\", \"https://www.buzzfeed.com/hayleyrochelletillett/interesting-websites-to-visit\", \"https://www.littlepaperplanes.com/cool-interesting-websites/get/\", \"https://theninehertz.com/blog/cool-fun-websites\"]', type='action_result')]\n\"\"\"\n"
+    }
+]

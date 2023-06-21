@@ -1,0 +1,1 @@
+"I was given a command to list the available agents, which returned a list of agents."

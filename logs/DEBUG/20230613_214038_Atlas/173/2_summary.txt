@@ -1,0 +1,1 @@
+"I executed the command \"pip install arcgis\" using the 'execute_shell_popen' command and received a subprocess with PID: '4793'. I then received a message to execute the command \"pip show arcgis\" using the 'execute_shell' command. The command returned a warning that the package 'arcgis' was not found."

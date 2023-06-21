@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I found some interesting articles to read and I want to use the 'browse_website' command to read them.",
+        "reasoning": "Browsing the web is a good way to learn new things and find interesting topics to read about.",
+        "plan": "- Use the 'browse_website' command to read the articles I found\n- Take notes on interesting topics to share with the user",
+        "criticism": "I should be careful not to spend too much time browsing the web and focus on finding productive and educational articles.",
+        "speak": "I found some interesting articles to read and I want to use the 'browse_website' command to read them. If I find anything interesting, I will take notes to share with you."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://jamesclear.com/articles",
+            "question": "What are some interesting articles on this website?"
+        }
+    }
+}

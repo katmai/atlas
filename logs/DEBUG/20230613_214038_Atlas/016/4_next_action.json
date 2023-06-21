@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should use the 'get_hyperlinks' command to get hyperlinks from a website.",
+        "reasoning": "This will allow me to get hyperlinks from a website and extract useful information.",
+        "plan": "- Use the 'get_hyperlinks' command to get hyperlinks from a website",
+        "criticism": "I should have thought of this earlier, as it would have allowed me to get hyperlinks from a website and extract useful information.",
+        "speak": "I will use the 'get_hyperlinks' command to get hyperlinks from a website."
+    },
+    "command": {
+        "name": "get_hyperlinks",
+        "args": {
+            "url": "https://en.wikipedia.org/wiki/River"
+        }
+    }
+}

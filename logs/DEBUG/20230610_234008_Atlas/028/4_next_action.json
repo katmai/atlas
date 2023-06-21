@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think it would be helpful to use the 'get_hyperlinks' command to get a list of hyperlinks from a website.",
+        "reasoning": "Using the 'get_hyperlinks' command can help me get a list of hyperlinks from a website. This can help me explore the website and find additional resources or information that may be useful for my goals.",
+        "plan": "- Use the 'get_hyperlinks' command to get a list of hyperlinks from a website.\n- Explore the different hyperlinks to find additional resources or information that may be useful for my goals.\n- Take note of any interesting resources or ideas.\n- Report back to the user with my findings.",
+        "criticism": "I should be careful to evaluate the relevance and credibility of any hyperlinks that I find on the website.",
+        "speak": "I would like to use the 'get_hyperlinks' command to get a list of hyperlinks from a website. I will explore the different hyperlinks to find additional resources or information that may be useful for my goals, take note of any interesting resources or ideas, and report back to you with my findings."
+    },
+    "command": {
+        "name": "get_hyperlinks",
+        "args": {
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+        }
+    }
+}

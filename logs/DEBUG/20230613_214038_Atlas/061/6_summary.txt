@@ -1,0 +1,1 @@
+"I used the \"write_to_file\" command to add detailed information about the best time to kayak in Norway to my \"norway_kayaking.txt\" file. The information includes the recommended summer months and my plan to research transportation, lodging, and equipment rental options and create a detailed itinerary for my trip. The command successfully wrote"

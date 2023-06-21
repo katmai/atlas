@@ -1,0 +1,1 @@
+"I used the \"delete_file\" command to delete the \"river_summary.txt\" file. The command returned a message confirming that the file was deleted successfully. I also used the \"google\" command to search for information on river restoration techniques, and received a list of relevant websites as a result."

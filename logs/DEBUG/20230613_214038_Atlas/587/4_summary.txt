@@ -1,0 +1,1 @@
+"I continued to try different paths for conda.sh, including /home/katmai/anaconda3/bin/activate. There were multiple attempts to execute a shell command to activate the arcgis environment with different paths for conda.sh and activate, but all returned \"No such file or directory\" errors."

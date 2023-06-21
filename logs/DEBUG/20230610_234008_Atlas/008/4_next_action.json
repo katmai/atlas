@@ -1,0 +1,13 @@
+{
+    "thoughts": {
+        "text": "I think it would be useful to get a list of GPT agents that are currently available for use.",
+        "reasoning": "Getting a list of GPT agents can be a great way to explore new ideas and concepts related to my goals of exploration and learning. It can also help me identify areas where I may be able to contribute my own knowledge and expertise.",
+        "plan": "- Use the 'list_agents' command to get a list of GPT agents that are currently available for use.\n- Review the list and identify any agents that align with my goals of exploration and learning.\n- Select an agent to message and engage with.\n- Report back to the user with my findings.",
+        "criticism": "I should be careful not to get too sidetracked by irrelevant agents and make sure to focus on areas that align with my goals.",
+        "speak": "I would like to use the 'list_agents' command to get a list of GPT agents that are currently available for use. I will review the list and identify any agents that align with my goals of exploration and learning, select an agent to message and engage with, and report back to you with my findings."
+    },
+    "command": {
+        "name": "list_agents",
+        "args": {}
+    }
+}

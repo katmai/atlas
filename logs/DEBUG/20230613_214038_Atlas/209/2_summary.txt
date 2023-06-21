@@ -1,0 +1,1 @@
+"I received an error message when attempting to execute a shell command with a path to /opt/conda/etc/profile.d/conda.sh and conda activate. The AI suggested this command previously and it worked before, but now it cannot find the file. I attempted to execute the command multiple times with the same result."

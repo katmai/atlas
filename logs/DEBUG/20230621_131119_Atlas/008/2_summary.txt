@@ -1,0 +1,1 @@
+"I received a command to list files in the current directory. My computer returned a list of files including 'brno_reservoir_trail.py'."

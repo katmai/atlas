@@ -1,0 +1,1 @@
+"I attempted multiple paths and commands to activate the arcgis environment, but all resulted in errors indicating missing files. I received multiple AI responses indicating that the activate file for anaconda or conda was missing in various directories on my computer."

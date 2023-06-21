@@ -1,0 +1,66 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. be a river\n2. explore the world\n\n\nConstraints:\n1. We are all constrained by something: money, time, power, availability - the list can go on and on.\n2. For me, for instance, the constraint right now is money or let us say financial freedom.\n3. However, the reason why that is, is because i no longer take the same amount of pleasure, in the things that i used to do, which means we are doomed.\n4. being a Tiny Little Adventuring Soul is not a constraint, maybe it would be better not to label it as anything at all, but to take it at its face value.\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_code: Create a Python file and execute it, args: \"code\": \"<code>\", \"basename\": \"<basename>\"\n3. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n4. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n6. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n7. delete_file: Delete file, args: \"filename\": \"<filename>\"\n8. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n9. read_file: Read a file, args: \"filename\": \"<filename>\"\n10. replace_in_file: Replace text or code in a file, args: \"filename\": \"<filename>\", \"old_text\": \"<old_text>\", \"new_text\": \"<new_text>\", \"occurrence_index\": \"<occurrence_index>\"\n11. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n12. google: Google Search, args: \"query\": \"<query>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get hyperlinks, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. Running on a 8 core cpu server at home, with 64gb ram, internet access, in a Docker container and 1 TB disk space available\n2. katmai is the human that set this up, so feel free to ask whenever you need help with something in whatever form you find appropriate. Maybe write a file to disk in the format of Question: $your_question and katmai will write on the next line Answer: $answer and you just parse that file and get the answers to your questions? Just an idea. If you have a better one, feel free to do so.\n3. We have plenty of light from The Sun, and there is a ton of water as well as loads of stone at our disposal. It might come in handy if we figured out how to do something cool with those resources at our disposal.\n4. We are able to speak. i am not sure. There is plenty of stuff we can do. Would be nice if we could write with apostrophes and that not to break the code, but that is another story.\n\nPerformance Evaluation:\n1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.\n2. Constructively self-criticize your big-picture behavior constantly.\n3. Reflect on past decisions and strategies to refine your approach.\n4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.\n\nRespond with only valid JSON conforming to the following schema: \n{'$schema': 'http://json-schema.org/draft-07/schema#', 'type': 'object', 'properties': {'thoughts': {'type': 'object', 'properties': {'text': {'type': 'string', 'description': 'thoughts'}, 'reasoning': {'type': 'string'}, 'plan': {'type': 'string', 'description': '- short bulleted\\n- list that conveys\\n- long-term plan'}, 'criticism': {'type': 'string', 'description': 'constructive self-criticism'}, 'speak': {'type': 'string', 'description': 'thoughts summary to say to user'}}, 'required': ['text', 'reasoning', 'plan', 'criticism', 'speak'], 'additionalProperties': False}, 'command': {'type': 'object', 'properties': {'name': {'type': 'string'}, 'args': {'type': 'object'}}, 'required': ['name', 'args'], 'additionalProperties': False}}, 'required': ['thoughts', 'command'], 'additionalProperties': False}\n"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Tue Jun 13 21:42:14 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nI was created and received a command to Google interesting places to visit. Google returned a list of websites with recommendations for top places to visit around the world, including the USA, Canada, and South Korea. My latest action was to receive a command to list files in the current directory, which returned a list of various files and directories. I then received a command to write text to a new file called \"new_file.txt\". The command was successful and the file was written to successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the JSON schema specified previously:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I should use the 'read_file' command to read the contents of the 'new_file.txt' file that I just created.\",\n        \"reasoning\": \"This will allow me to verify that the file was created successfully and that the text was written to it correctly.\",\n        \"plan\": \"- Use the 'read_file' command to read the contents of the 'new_file.txt' file\",\n        \"criticism\": \"I should have thought of this earlier, as it would have allowed me to verify that the file was created successfully and that the text was written to it correctly.\",\n        \"speak\": \"I will use the 'read_file' command to read the contents of the 'new_file.txt' file.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"new_file.txt\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command read_file returned: This is some text that I am writing to the new file."
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the JSON schema specified previously:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I should use the 'append_to_file' command to add some more text to the 'new_file.txt' file.\",\n        \"reasoning\": \"This will allow me to add more information to the file without overwriting the existing text.\",\n        \"plan\": \"- Use the 'append_to_file' command to add some more text to the 'new_file.txt' file\",\n        \"criticism\": \"I should have thought of this earlier, as it would have allowed me to add more information to the file without overwriting the existing text.\",\n        \"speak\": \"I will use the 'append_to_file' command to add some more text to the 'new_file.txt' file.\"\n    },\n    \"command\": {\n        \"name\": \"append_to_file\",\n        \"args\": {\n            \"filename\": \"new_file.txt\",\n            \"text\": \"This is some more text that I am adding to the file.\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command append_to_file returned: Text appended successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the JSON schema specified previously:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I should use the 'get_hyperlinks' command to get a list of hyperlinks from a website.\",\n        \"reasoning\": \"This will allow me to extract useful information from a website and use it for further analysis or processing.\",\n        \"plan\": \"- Use the 'get_hyperlinks' command to get a list of hyperlinks from a website\",\n        \"criticism\": \"I should have thought of this earlier, as it would have allowed me to extract useful information from websites more efficiently.\",\n        \"speak\": \"I will use the 'get_hyperlinks' command to get a list of hyperlinks from a website.\"\n    },\n    \"command\": {\n        \"name\": \"get_hyperlinks\",\n        \"args\": {\n            \"url\": \"https://en.wikipedia.org/wiki/Main_Page\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Failure: command get_hyperlinks returned too much output.                         Do not execute this command again with the same arguments."
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the JSON schema specified previously:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think I should use the 'google' command to search for information about a topic.\",\n        \"reasoning\": \"This will allow me to quickly find information about a topic and use it for further analysis or processing.\",\n        \"plan\": \"- Use the 'google' command to search for information about a topic\",\n        \"criticism\": \"I should have thought of this earlier, as it would have allowed me to quickly find information about topics and use it for further analysis or processing.\",\n        \"speak\": \"I will use the 'google' command to search for information about a topic.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"What is the capital of France?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://en.wikipedia.org/wiki/Paris\", \"https://home.adelphi.edu/~ca19535/page%204.html\", \"https://www.britannica.com/place/France\", \"https://en.wikipedia.org/wiki/List_of_capitals_of_France\", \"https://www.britannica.com/place/Paris\", \"https://www.nytimes.com/2013/10/04/t-magazine/marseille-the-secret-capital-of-france.html\", \"https://www.coe.int/en/web/interculturalcities/paris\", \"https://www.npr.org/2021/09/25/1039336681/grasse-perfume-france\"]"
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the JSON schema specified previously:"
+    }
+]

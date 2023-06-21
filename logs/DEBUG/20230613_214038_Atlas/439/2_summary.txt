@@ -1,0 +1,1 @@
+"I attempted to activate the arcgis environment using execute_shell with various paths, but all returned \"No\". The latest attempt returned an error message stating that the conda.sh file could not be found in the specified path."

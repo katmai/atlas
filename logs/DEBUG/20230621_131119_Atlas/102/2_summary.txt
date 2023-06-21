@@ -1,0 +1,1 @@
+"I received an error message when attempting to execute a Python file that scrapes information from the AllTrails website. I tried to run the Python file again with a shell command to change the directory, but it still returned an error message."

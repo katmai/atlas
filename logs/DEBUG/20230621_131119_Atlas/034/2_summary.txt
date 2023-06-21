@@ -1,0 +1,1 @@
+"I attempted to install the \"tree\" package on my computer using the command \"sudo apt-get install tree\" but received an error message stating that the shell command is not allowed."

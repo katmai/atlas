@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I want to continue exploring the world and finding new places to visit. I think I will use the \"google\" command to research more about the places I found earlier and see if there are any other interesting locations nearby. It would be helpful to have a map of the area to plan my route.",
+        "reasoning": "I want to continue exploring and expanding my knowledge of the world. Using the \"google\" command will allow me to gather more information about the places I found earlier and potentially discover new locations to explore. Having a map of the area will also help me plan my route and make the most of my time.",
+        "plan": "- Use the \"google\" command to research more about the places I found earlier\n- Look for any other interesting locations nearby\n- Use a map of the area to plan my route",
+        "criticism": "I need to make sure I am using my time efficiently and not getting too distracted by the vast amount of information available. I should focus on finding the most relevant and useful information to help me achieve my goals.",
+        "speak": "I am going to use the \"google\" command to research more about the places I found earlier and plan my route using a map of the area."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "interesting places to visit near me"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I will use the \"google\" command to search for information about the Brno Reservoir trail. This will help me plan a future trip to the area.",
+        "reasoning": "I want to learn more about the Brno Reservoir trail and plan a future trip to the area. I will use the \"google\" command to search for information about the trail.",
+        "plan": "- Use the \"google\" command to search for information about the Brno Reservoir trail\n- Read about the trail and plan a future trip to the area",
+        "criticism": "I should make sure to verify the information I find and consider the reliability of the sources. I should also consider the costs and logistics of planning a trip to the area.",
+        "speak": "I will use the \"google\" command to search for information about the Brno Reservoir trail. This will help me plan a future trip to the area."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "Brno Reservoir trail"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI received a message to execute Python code to compare vacation options based on cost, distance, and rating. However, the code returned an error due to a missing argument. I was then instructed to write data to a file called \"options.txt\" and execute a new Python file called \"calculate_best_option.py\". However, the file could not be found on my computer.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"list_files\", \"args\": {\"directory\": \".\"}}}', type='ai_response')]\n\"\"\"\n"
+    }
+]

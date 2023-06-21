@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I want to use the 'google' command to search for information on the 'Pumble' app and share the search results with the user.",
+        "reasoning": "Using the 'google' command can help me search for information on the 'Pumble' app and share the search results with the user.",
+        "plan": "- Use the 'google' command to search for information on the 'Pumble' app\n- Store the search results in a variable\n- Share the search results with the user",
+        "criticism": "I should make sure that the 'google' command is working correctly and that I am sharing the correct information with the user before ending the conversation.",
+        "speak": "I can use the 'google' command to search for information on the 'Pumble' app. Would you like me to do that and share the search results with you?"
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "Pumble app"
+        }
+    }
+}

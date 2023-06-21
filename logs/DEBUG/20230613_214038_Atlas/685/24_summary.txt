@@ -1,0 +1,1 @@
+"I attempted various paths to activate the arcgis environment and check its version, but all attempts resulted in errors related to missing conda.sh files. I tried multiple commands, including activating the arcgispro-py3 environment, but still received errors related to missing conda.sh files."

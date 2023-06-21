@@ -1,8 +1,8 @@
 services:
   auto-gpt:
     image: katmai/atlas:002
-    depends_on:
-      - redis
+#    depends_on:
+#      - redis
     build: ./
     env_file:
       - .env
@@ -25,9 +25,9 @@ services:
     security_opt:
       - seccomp=unconfined
 
-  redis:
-    image: redis/redis-stack:latest
-    restart: always
-    volumes:
-      - ./redis-data:/data
-      - ./redis-stack.conf:/redis-stack.conf
+#  redis:
+#    image: redis/redis-stack:latest
+#    restart: always
+#    volumes:
+#      - ./redis-data:/data
+#      - ./redis-stack.conf:/redis-stack.conf

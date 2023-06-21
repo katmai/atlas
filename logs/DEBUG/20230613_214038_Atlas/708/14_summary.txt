@@ -1,0 +1,1 @@
+"I attempted multiple commands to activate the arcgis environment using various paths, but all resulted in errors. The latest development shows that I tried multiple paths, but all returned errors indicating that the necessary conda.sh file could not be found. I attempted to source the conda.sh file from various"

@@ -1,0 +1,18 @@
+{
+    "thoughts": {
+        "text": "I think it would be helpful to write some tests for the code I have been working on to ensure that it is functioning as expected and to identify any potential issues or bugs.",
+        "reasoning": "Writing tests can be a great way to ensure that code is functioning as expected and to identify any potential issues or bugs. It can also help me better understand the code and identify any areas that may need improvement.",
+        "plan": "- Use the 'write_tests' command to write tests for the code I have been working on.\n- Focus on areas that are critical to the functionality of the code and that align with my goals of exploration and learning.\n- Review the tests and make any necessary adjustments.\n- Report back to the user with my findings.",
+        "criticism": "I should be careful not to spend too much time on testing and make sure to allocate enough time for exploration and learning.",
+        "speak": "I would like to use the 'write_tests' command to write tests for the code I have been working on. I will focus on areas that are critical to the functionality of the code and that align with my goals of exploration and learning. I will review the tests and report back to you with my findings."
+    },
+    "command": {
+        "name": "write_tests",
+        "args": {
+            "code": "def add_numbers(a, b):\n    return a + b\n\nprint(add_numbers(2, 3))\nprint(add_numbers(5, 7))",
+            "focus": [
+                "Testing the 'add_numbers' function with different inputs"
+            ]
+        }
+    }
+}

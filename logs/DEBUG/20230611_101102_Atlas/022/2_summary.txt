@@ -1,0 +1,1 @@
+"I received an AI response to list files in a directory. The action result returned an empty list."

@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should use the 'web_search' command to search for information on the Stara Pradelna house and its location.",
+        "reasoning": "I want to find information on the Stara Pradelna house and its location. By using the 'web_search' command, I can search the internet for information and find relevant websites.",
+        "plan": "- Use the 'web_search' command to search for information on the Stara Pradelna house and its location.",
+        "criticism": "I need to ensure that I am using appropriate search terms to find the information I need. I should also be careful when selecting websites to visit, to ensure that they are reputable and provide accurate information.",
+        "speak": "I think I should use the 'web_search' command to search for information on the Stara Pradelna house and its location."
+    },
+    "command": {
+        "name": "web_search",
+        "args": {
+            "query": "Stara Pradelna house location"
+        }
+    }
+}

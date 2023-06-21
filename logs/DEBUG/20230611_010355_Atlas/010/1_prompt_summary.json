@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI was created and received a command to browse a website with an empty URL and question, but the command returned an error due to an invalid URL format. I then received a command to search Google with an empty query, which also returned an error due to an invalid argument in the request. In my latest development, I received a command to list files in an empty directory, which returned a list of files including \"atlas.yaml\", \"ai_code.py\", \"favorite_books.txt\", and others.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"read_file\", \"args\": {\"filename\": \"\"}}}', type='ai_response'), Message(role='your computer', content='Command read_file returned: Error: read_file /home/atlas/autogpt/auto_gpt_workspace failed: no such file or directory', type='action_result')]\n\"\"\"\n"
+    }
+]

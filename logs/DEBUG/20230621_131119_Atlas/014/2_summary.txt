@@ -1,0 +1,1 @@
+"I received a command to list files in the current directory. I then received a command to read a file called 'adventures.txt' which returned a message detailing plans to explore the world through hiking, camping, kayaking, and documenting adventures through writing and photography."

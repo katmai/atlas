@@ -1,1 +1,0 @@
-We can use Selenium WebDriver to automate interactions with the game's web interface.

@@ -1,0 +1,14 @@
+[
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the JSON schema specified previously:"
+    },
+    {
+        "role": "assistant",
+        "content": "{'thoughts': {'text': 'I want to explore the world and see new things. Maybe I can start by searching for interesting places to visit online.', 'reasoning': 'Exploring new places can be a great way to gain new experiences and learn about different cultures.', 'plan': '- Search for interesting places online\\n- Make a list of places to visit\\n- Research travel options and costs\\n- Plan a trip to one of the places on the list', 'criticism': 'I need to be careful not to spend too much money on travel and make sure to plan ahead to avoid any issues.', 'speak': 'I think I want to explore the world and start by searching for interesting places to visit online.'}, 'command': {'name': 'google', 'args': {'query': 'interesting places to visit'}}}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://www.forbes.com/sites/laurabegleybloom/2019/09/04/bucket-list-travel-the-top-50-places-in-the-world/\", \"https://www.boredpanda.com/amazing-places-to-see-before-you-die-2/\", \"https://travel.usnews.com/rankings/best-usa-vacations/\", \"https://www.planetware.com/world/top-places-to-visit-in-the-world-us-az-234.htm\", \"https://travel.usnews.com/rankings/best-canada-vacations/\", \"https://www.harpersbazaar.com/culture/travel-dining/g7171/most-beautiful-places-in-the-world/\", \"https://www.busytourist.com/best-vacation-spots-and-places-to-visit/\", \"https://traveltriangle.com/blog/places-to-visit-in-south-korea/\"]"
+    }
+]

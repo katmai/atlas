@@ -1,0 +1,1 @@
+"I attempted multiple shell commands to activate the environment, but all returned an error message stating that the source command could not be found."

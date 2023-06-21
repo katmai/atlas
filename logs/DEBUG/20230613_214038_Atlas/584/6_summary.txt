@@ -1,0 +1,1 @@
+"I attempted multiple command lines to activate the arcgis environment, but all attempts failed due to missing files. I tried various paths including /opt/anaconda3/bin/activate, /opt/ana. The latest development shows that I"

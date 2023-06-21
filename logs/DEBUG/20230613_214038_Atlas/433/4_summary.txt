@@ -1,0 +1,1 @@
+"I attempted to activate the arcgis environment using execute_shell with various paths, but all returned \"No such file or directory\" errors. I made multiple attempts with different paths, including ~/anaconda3 and /opt/miniconda3. The latest development shows that all attempts returned the same error message, indicating that the necessary file or directory is missing."

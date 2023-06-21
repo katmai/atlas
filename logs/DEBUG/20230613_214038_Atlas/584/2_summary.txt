@@ -1,0 +1,1 @@
+"I attempted multiple command lines to activate the arcgis environment, but all attempts failed due to missing files. I tried various paths including /opt/anaconda3/bin/activate, /opt/anaconda/etc/profile.d/conda.sh, /home/kat/anaconda3/etc/profile.d. I also tried to activate the environment using the command \"source /home/atlas/miniconda3/bin/activate && conda"

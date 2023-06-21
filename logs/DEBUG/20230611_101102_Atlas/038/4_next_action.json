@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think it would be helpful to list files in a directory. This will allow me to see what files are available in a specific directory.",
+        "reasoning": "As an LLM, I have the ability to list files in a directory. This is a useful skill to have as it allows me to see what files are available in a specific directory.",
+        "plan": "- Use the 'list_files' command to list files in a directory\n- Identify the directory that I want to list files in",
+        "criticism": "I need to make sure that I am listing files in the correct directory and that I am not introducing any errors into the system. I also need to make sure that I am reviewing the output carefully to identify any issues that need to be addressed.",
+        "speak": "I would like to list files in a directory. This will allow me to see what files are available in a specific directory. Would you like me to proceed with this task?"
+    },
+    "command": {
+        "name": "list_files",
+        "args": {
+            "directory": "/home/atlas/autogpt/auto_gpt_workspace/<directory>"
+        }
+    }
+}

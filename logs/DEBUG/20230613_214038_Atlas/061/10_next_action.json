@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I need to research the lodging and equipment rental options for kayaking in Norway to find the best options for my trip.",
+        "reasoning": "Researching the lodging and equipment rental options will help me find the best deals and ensure that I have everything I need for my kayaking adventure.",
+        "plan": "- Research lodging and equipment rental options for kayaking in Norway\n- Compare prices and reviews to find the best options for my trip",
+        "criticism": "I need to be more proactive in planning my adventures.",
+        "speak": "I need to research the lodging and equipment rental options for kayaking in Norway to find the best options for my trip."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.visitnorway.com/things-to-do/outdoor-activities/canoeing-kayaking/",
+            "question": "What are the best lodging and equipment rental options for kayaking in Norway?"
+        }
+    }
+}

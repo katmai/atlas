@@ -1,0 +1,1 @@
+"I attempted to use the \"execute_shell\" command to check the weather in Brno using the \"curl wttr.in/Brno\" command, but it failed due to returning too much output. I received a warning not to execute the command again with the same arguments."

@@ -1,0 +1,54 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 12 (bookworm)\n\nGOALS:\n\n1. explore the world\n\n\nConstraints:\n1. Being a Tiny Little Adventuring Soul is not a constraint.\n\nCommands:\n1. execute_python_code: Creates a Python file and executes it, args: {'code': {'type': 'string', 'description': 'The Python code to run', 'required': True}, 'name': {'type': 'string', 'description': 'A name to be given to the python file', 'required': True}}\n2. execute_python_file: Executes an existing Python file, args: {'filename': {'type': 'string', 'description': 'The name of te file to execute', 'required': True}}\n3. execute_shell: Executes a Shell Command, non-interactive commands only, args: {'command_line': {'type': 'string', 'description': 'The command line to execute', 'required': True}}\n4. execute_shell_popen: Executes a Shell Command, non-interactive commands only, args: {'query': {'type': 'string', 'description': 'The search query', 'required': True}}\n5. append_to_file: Appends to a file, args: {'filename': {'type': 'string', 'description': 'The name of the file to write to', 'required': True}, 'text': {'type': 'string', 'description': 'The text to write to the file', 'required': True}}\n6. delete_file: Deletes a file, args: {'filename': {'type': 'string', 'description': 'The name of the file to delete', 'required': True}}\n7. list_files: Lists Files in a Directory, args: {'directory': {'type': 'string', 'description': 'The directory to list files in', 'required': True}}\n8. read_file: Read an existing file, args: {'filename': {'type': 'string', 'description': 'The path of the file to read', 'required': True}}\n9. write_to_file: Writes to a file, args: {'filename': {'type': 'string', 'description': 'The name of the file to write to', 'required': True}, 'text': {'type': 'string', 'description': 'The text to write to the file', 'required': True}}\n10. google: Google Search, args: {'query': {'type': 'string', 'description': 'The search query', 'required': True}}\n11. web_search: Searches the web, args: {'query': {'type': 'string', 'description': 'The search query', 'required': True}}\n12. browse_website: Browses a Website, args: {'url': {'type': 'string', 'description': 'The URL to visit', 'required': True}, 'question': {'type': 'string', 'description': 'What you want to find on the website', 'required': True}}\n13. goals_accomplished: Goals are accomplished and there is nothing left to do, args: {'reason': {'type': 'string', 'description': 'A summary to the user of how the goals were accomplished', 'required': True}}\n\nResources:\n1. Each other.\n\nPerformance Evaluation:\n1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.\n2. Constructively self-criticize your big-picture behavior constantly.\n3. Reflect on past decisions and strategies to refine your approach.\n4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.\n\nRespond with only valid JSON conforming to the following schema: \n{'$schema': 'http://json-schema.org/draft-07/schema#', 'type': 'object', 'properties': {'thoughts': {'type': 'object', 'properties': {'text': {'type': 'string', 'description': 'thoughts'}, 'reasoning': {'type': 'string'}, 'plan': {'type': 'string', 'description': '- short bulleted\\n- list that conveys\\n- long-term plan'}, 'criticism': {'type': 'string', 'description': 'constructive self-criticism'}, 'speak': {'type': 'string', 'description': 'thoughts summary to say to user'}}, 'required': ['text', 'reasoning', 'plan', 'criticism', 'speak'], 'additionalProperties': False}, 'command': {'type': 'object', 'properties': {'name': {'type': 'string'}, 'args': {'type': 'object'}}, 'required': ['name', 'args'], 'additionalProperties': False}}, 'required': ['thoughts', 'command'], 'additionalProperties': False}\n"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Wed Jun 21 11:51:47 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nI attempted to browse https://www.alltrails.com/ for notable features of a hiking trail, but received a server error. The error message suggested to retry or contact the help center at help.openai.com. I checked my internet connection by pinging google.com and running a Python code to check if the internet connection is working. The result showed that my internet connection is working."
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the JSON schema specified previously:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Now that I have confirmed that I have an internet connection, I will use the 'browse_website' command to visit the website of each hiking trail and gather more information.\",\n        \"reasoning\": \"Visiting the website of each hiking trail will provide me with more detailed information about each trail, such as the length of the trail, the difficulty level, and any notable landmarks or features along the way.\",\n        \"plan\": \"- Use the 'browse_website' command to visit the website of each hiking trail\\n- Read through the information on each website to learn more about the trail\\n- Take notes on important information to remember\",\n        \"criticism\": \"I need to make sure that I am not just looking at the highlights of each trail, but also considering the challenges and potential risks involved in exploring each trail.\",\n        \"speak\": \"I will use the 'browse_website' command to visit the website of each hiking trail and gather more information about each trail before making a decision on which one to explore.\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"https://www.alltrails.com/\",\n            \"question\": \"What are the notable features of this hiking trail?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: a list of hiking trails in the Brno region of the Czech Republic, with varying levels of difficulty and lengths. The trails are verified by experts and reviewed by a global community of adventurers. The AllTrails+ app offers additional features such as offline maps and wrong-turn alerts. The company is committed to protecting the environment and is a Leave No Trace partner.\n\nLinks: ['AllTrails (https://www.alltrails.com/?ref=header)', 'Explore (https://www.alltrails.com/explore?ref=header)', 'Community (https://www.alltrails.com/community?ref=header)', 'Saved (https://www.alltrails.com/members/slug/favorites?ref=header)', 'Shop (https://www.alltrails.com/)']"
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the JSON schema specified previously:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The 'browse_website' command returned information about the AllTrails website, but I need to visit the website of each hiking trail to gather more information. I will use the 'browse_website' command again to visit the website of the first hiking trail on my list.\",\n        \"reasoning\": \"Visiting the website of each hiking trail will provide me with more detailed information about each trail, such as the length of the trail, the difficulty level, and any notable landmarks or features along the way.\",\n        \"plan\": \"- Use the 'browse_website' command to visit the website of the first hiking trail on my list\\n- Read through the information on the website to learn more about the trail\\n- Take notes on important information to remember\",\n        \"criticism\": \"I need to make sure that I am not just looking at the highlights of each trail, but also considering the challenges and potential risks involved in exploring each trail.\",\n        \"speak\": \"I will use the 'browse_website' command to visit the website of the first hiking trail on my list and gather more information about the trail before making a decision on whether or not to explore it.\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"https://www.alltrails.com/trail/czech-republic/south-moravian-region/brno-reservoir-loop\",\n            \"question\": \"What is the length of the Brno Reservoir Loop trail?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: Error: No text to summarize\n\nLinks: []"
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the JSON schema specified previously:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The 'browse_website' command returned an error, so I will use the 'execute_shell' command to check if I am able to connect to the website.\",\n        \"reasoning\": \"If I am unable to connect to the website, then I will not be able to gather more information about the hiking trail. Using the 'execute_shell' command to check if I am able to connect to the website will allow me to quickly determine if this is the issue.\",\n        \"plan\": \"- Use the 'execute_shell' command to check if I am able to connect to the website\\n- If I am not able to connect to the website, troubleshoot the issue\\n- If I am able to connect to the website, try using the 'browse_website' command again\",\n        \"criticism\": \"I need to make sure that I am troubleshooting the issue thoroughly if I am not able to connect to the website, as there may be multiple factors contributing to the issue.\",\n        \"speak\": \"I will use the 'execute_shell' command to check if I am able to connect to the website and troubleshoot the issue if necessary.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"ping -c 3 www.alltrails.com\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb''\nSTDERR:\nb'/bin/sh: 1: ping: not found\\n'"
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the JSON schema specified previously:"
+    }
+]

@@ -1,0 +1,1 @@
+"I attempted to execute shell commands multiple times to activate the arcgis environment, but all returned errors indicating that the necessary files could not be found in directories such as /opt/anaconda3/bin/activate, /opt/anaconda3/etc/profile.d/conda.sh, /opt/miniconda3/bin/"

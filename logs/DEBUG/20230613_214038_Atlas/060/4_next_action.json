@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I need to book my flight to Norway and ensure that I have all necessary travel documents and information. I should also research lodging and equipment rental options for my kayaking adventure.",
+        "reasoning": "Booking my flight and ensuring that I have all necessary travel documents and information will allow me to focus on planning the other aspects of my trip, such as lodging and equipment rental.",
+        "plan": "- Book my flight to Norway\n- Ensure that I have all necessary travel documents and information\n- Research lodging and equipment rental options for my kayaking adventure",
+        "criticism": "I need to be more proactive in planning my adventures.",
+        "speak": "I need to book my flight to Norway and ensure that I have all necessary travel documents and information. I should also research lodging and equipment rental options for my kayaking adventure."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "Lodging and equipment rental options for kayaking in Norway"
+        }
+    }
+}

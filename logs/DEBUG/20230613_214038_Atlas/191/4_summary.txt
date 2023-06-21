@@ -1,0 +1,1 @@
+"I attempted to install the \"arcgis\" module using \"pip install -U arcgis\" and added the correct path to the system path using \"export PATH=$PATH:/usr/local/lib/python3.9/site-packages\". However, I"

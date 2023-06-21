@@ -1,0 +1,1 @@
+"I attempted to use the \"get_hyperlinks\" command to gather information from a ScienceDirect page on river restoration techniques, but received an HTTP 403 error."

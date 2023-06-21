@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think it would be helpful to use the 'google' command to find resources on how to explore and learn new things.",
+        "reasoning": "Using the 'google' command can help me find resources on how to explore and learn new things. This can help me develop my own skills and knowledge, which can be useful for my goals.",
+        "plan": "- Use the 'google' command to search for resources on how to explore and learn new things.\n- Review the search results to find interesting and relevant resources.\n- Take note of any interesting resources or ideas.\n- Report back to the user with my findings.",
+        "criticism": "I should be careful to evaluate the relevance and credibility of any resources or information that I find through the search.",
+        "speak": "I would like to use the 'google' command to search for resources on how to explore and learn new things. I will review the search results to find interesting and relevant resources, take note of any interesting resources or ideas, and report back to you with my findings."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "How to explore and learn new things"
+        }
+    }
+}

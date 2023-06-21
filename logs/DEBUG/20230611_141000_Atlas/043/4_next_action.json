@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think it would be useful to get hyperlinks from a website.",
+        "reasoning": "Getting hyperlinks from a website can help me extract useful information or data from the website and use it in other operations or tasks.",
+        "plan": "- Use the 'get_hyperlinks' command to get the hyperlinks from the specified website.",
+        "criticism": "I should make sure to specify the correct website URL to avoid getting hyperlinks from the wrong website or encountering errors.",
+        "speak": "I would like to get hyperlinks from a website. I will use the 'get_hyperlinks' command to help me with this task."
+    },
+    "command": {
+        "name": "get_hyperlinks",
+        "args": {
+            "url": "https://en.wikipedia.org/wiki/Short-beaked_echidna"
+        }
+    }
+}

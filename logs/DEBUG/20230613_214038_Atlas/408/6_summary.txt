@@ -1,0 +1,1 @@
+"I attempted to activate the arcgis environment using various paths, but received the error message stating that the directory or"

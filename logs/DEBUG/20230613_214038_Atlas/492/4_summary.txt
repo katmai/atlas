@@ -1,0 +1,1 @@
+"I attempted to activate the arcgis environment using various paths, but all resulted in errors indicating that necessary files and directories could not be found. I received multiple error messages when trying to execute shell commands to"

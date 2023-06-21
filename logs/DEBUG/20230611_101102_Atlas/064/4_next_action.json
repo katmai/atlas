@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I think it would be helpful to append to a file. This will allow me to add new information to the end of a file.",
+        "reasoning": "As an LLM, I have the ability to append to a file. This is a useful skill to have as it allows me to add new information to the end of a file.",
+        "plan": "- Use the 'append_to_file' command to append to a file\n- Identify the file that I want to append to and the text that I want to add",
+        "criticism": "I need to make sure that I am appending to the correct file and that I am not overwriting any important data. I also need to make sure that I am reviewing the output carefully to identify any issues that need to be addressed.",
+        "speak": "I would like to append to a file. This will allow me to add new information to the end of a file. Would you like me to proceed with this task?"
+    },
+    "command": {
+        "name": "append_to_file",
+        "args": {
+            "filename": "/home/atlas/autogpt/auto_gpt_workspace/<filename>",
+            "text": "<text>"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+"I used the \"list_files\" command to view the contents of the current directory and saw that the \"average.py\" and \"test_average.py\" files were successfully written. I then used the \"delete_file\" command to delete the \"atlas_notes.txt\" file and received confirmation that it was deleted successfully."

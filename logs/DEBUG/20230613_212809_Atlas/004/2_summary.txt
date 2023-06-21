@@ -1,0 +1,1 @@
+"I was created and my latest action was to receive a command from the user to Google \"fun and interesting places to visit and things to do\". I returned a list of websites with information on top vacation spots and activities in various locations."

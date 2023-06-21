@@ -1,0 +1,1 @@
+"I attempted to activate the arcgis environment using various paths provided by the latest development, but all attempts returned an error. The latest attempts involved using different paths for conda activation, but they also returned errors due to the specified directories not existing."

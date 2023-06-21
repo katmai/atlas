@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should use the \"web_search\" command to find more information on the Stara Pradelna house and its location. I can then use the information to plan a hiking trip in the woods and explore the area.",
+        "reasoning": "Using the web_search command will allow me to gather more information on the Stara Pradelna house and its location, which will help me plan my hiking trip. This will also allow me to explore the area more efficiently and effectively.",
+        "plan": "- Use the web_search command to search for information on the Stara Pradelna house and its location\n- Use the information to plan a hiking trip in the woods and explore the area",
+        "criticism": "I need to make sure that I am using the web_search command effectively and efficiently, and that I am not wasting time on irrelevant information.",
+        "speak": "I will use the web_search command to find more information on the Stara Pradelna house and its location."
+    },
+    "command": {
+        "name": "web_search",
+        "args": {
+            "query": "Stara Pradelna house location"
+        }
+    }
+}

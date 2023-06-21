@@ -1,1 +1,0 @@
-We can use TensorFlow to train a machine learning model to play the game effectively.

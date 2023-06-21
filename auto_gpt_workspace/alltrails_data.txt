@@ -1,0 +1,2 @@
+Trail Name, Location, Difficulty, Distance, Elevation Gain, Rating, Reviews
+

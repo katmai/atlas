@@ -1,0 +1,1 @@
+"I successfully ran the brno_reservoir_trail.py file using the execute_python_file command. I also used the execute_shell command to install beautifulsoup4 and requests using pip. The command returned a message with information on the installation process, including a warning about running pip as the 'root' user and a notice about a new release of pip."

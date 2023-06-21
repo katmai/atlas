@@ -1,0 +1,1 @@
+"I attempted multiple command lines to activate the arcgis environment, but all attempts failed due to the \"No such file\" error. I tried activating with different paths, including /home/atlas"

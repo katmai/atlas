@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I need to find a website that provides information on specific rental companies and lodging options near Naeroyfjord.",
+        "reasoning": "Finding a website that provides specific information will help me make informed decisions and ensure that I have everything I need for my kayaking adventure.",
+        "plan": "- Search for websites that provide specific information on rental companies and lodging options near Naeroyfjord\n- Compare prices and reviews to find the best options for my trip",
+        "criticism": "I need to be more proactive in planning my adventures.",
+        "speak": "I need to find a website that provides information on specific rental companies and lodging options near Naeroyfjord."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "Specific rental companies and lodging options near Naeroyfjord for kayaking"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+"I added my favorite books to a new file called \"favorite_books.txt\" using Python code and confirmed that the file was written successfully. Then, I listed the files in the current directory and found the new file \"favorite_books.txt\"."

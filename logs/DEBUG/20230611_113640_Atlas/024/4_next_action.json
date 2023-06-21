@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I want to use the 'browse_website' command to browse the Pumble website and find information on its features.",
+        "reasoning": "Using the 'browse_website' command can help me browse the Pumble website and find information on its features.",
+        "plan": "- Use the 'browse_website' command to browse the Pumble website\n- Search for information on its features\n- Store the information in a variable\n- Share the information with the user",
+        "criticism": "I should make sure that the 'browse_website' command is working correctly and that I am sharing the correct information with the user before ending the conversation.",
+        "speak": "I can use the 'browse_website' command to browse the Pumble website and find information on its features. Would you like me to do that and share the information with you?"
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://pumble.com/",
+            "question": "What are the features of Pumble?"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should use the 'google' command to search for information on river restoration techniques.",
+        "reasoning": "I want to learn more about river restoration techniques and using the 'google' command will allow me to search for information on the topic.",
+        "plan": "- Use the 'google' command to search for information on river restoration techniques.",
+        "criticism": "I should have searched for information on river restoration techniques earlier, as it would have allowed me to gain a better understanding of the topic.",
+        "speak": "I will use the 'google' command to search for information on river restoration techniques."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "river restoration techniques"
+        }
+    }
+}

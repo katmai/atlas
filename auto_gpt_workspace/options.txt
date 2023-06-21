@@ -1,0 +1,6 @@
+name,cost,distance,rating
+New York City,500,1000,4.5
+San Francisco,800,1500,4.8
+Miami,700,2000,4.3
+Chicago,600,1200,4.6
+Seattle,900,1800,4.7

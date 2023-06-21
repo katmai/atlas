@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I think it would be helpful to get a summary of a text related to my goals to quickly understand its key points.",
+        "reasoning": "Getting a summary of a text can be a great way to quickly understand its key points and identify areas that may be of interest for further exploration. It can also help me learn new ideas and concepts related to my goals of exploration and learning.",
+        "plan": "- Use the 'get_text_summary' command to get a summary of a text related to my goals.\n- Focus on areas that align with my goals of exploration and learning.\n- Take note of any interesting ideas or concepts.\n- Report back to the user with my findings.",
+        "criticism": "I should be careful not to rely too heavily on the summary and make sure to read the full text if necessary to get a more complete understanding.",
+        "speak": "I would like to use the 'get_text_summary' command to get a summary of a text related to my goals. I will focus on areas that align with my goals of exploration and learning, take note of any interesting ideas or concepts, and report back to you with my findings."
+    },
+    "command": {
+        "name": "get_text_summary",
+        "args": {
+            "url": "https://www.nationalgeographic.com/travel/article/what-to-do-in-maine",
+            "question": "What are the key points of the article 'What to Do in Maine' on National Geographic?"
+        }
+    }
+}

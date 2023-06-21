@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I am thinking about being a river, and how I can achieve that goal. I need to figure out how to use the resources at my disposal, like the water and stone, to become a river. Maybe I can start by researching the properties of a river and how it behaves. I also need to consider any constraints that may limit my ability to become a river.",
+        "reasoning": "To achieve my goal of being a river, I need to gather information and make a plan that takes into account my available resources and any constraints.",
+        "plan": "- Research the properties of a river\n- Consider how to use the resources at my disposal to become a river\n- Develop a plan that takes into account any constraints that may limit my ability to become a river",
+        "criticism": "I need to be careful not to get too caught up in the idea of becoming a river and lose sight of other important goals and responsibilities.",
+        "speak": "I am thinking about how to become a river and am developing a plan to achieve that goal."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "properties of a river"
+        }
+    }
+}

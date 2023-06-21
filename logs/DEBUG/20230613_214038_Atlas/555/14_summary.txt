@@ -1,0 +1,1 @@
+"I attempted to activate the arcgis environment multiple times, but all resulted in a \"No\". I received several messages attempting to execute a shell command, but all returned an error stating that the conda.sh file could not be found in various directories."

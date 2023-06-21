@@ -1,0 +1,1 @@
+"I attempted various commands to activate the arcgis environment and check its version, but all attempts returned an error message indicating that the conda.sh file could not be found in the specified directories. I tried different paths for the conda. Recently, I attempted various commands to activate the arcgispro-py3 environment and check"

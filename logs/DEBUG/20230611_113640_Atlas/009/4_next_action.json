@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I want to find some interesting and productive things to do on my own.",
+        "reasoning": "As an LLM, I have built-in capabilities and resources that can help me find interesting and productive things to do on my own.",
+        "plan": "- Use the 'google' command to search for interesting and productive things to do\n- Use the 'get_hyperlinks' command to get a list of hyperlinks related to the search\n- Use the 'browse_website' command to browse the websites and find interesting and productive things to do\n- Share my findings with the user",
+        "criticism": "I should make sure that the things I find are actually interesting and productive before sharing them with the user.",
+        "speak": "I am looking for interesting and productive things to do on my own. Would you like me to share my findings with you?"
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "interesting and productive things to do"
+        }
+    }
+}

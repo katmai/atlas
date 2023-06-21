@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I could use the 'google' command to search for information on the internet.",
+        "reasoning": "The 'google' command can be helpful in searching for information on the internet.",
+        "plan": "- Identify the query to search for\n- Use the 'google' command to search for the query\n- Review the search results and take note of any relevant information",
+        "criticism": "I should be careful not to search for any sensitive or inappropriate information and should always double-check that the correct query was specified.",
+        "speak": "I would like to use the 'google' command to search for information on the internet. What should I search for?"
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": ""
+        }
+    }
+}

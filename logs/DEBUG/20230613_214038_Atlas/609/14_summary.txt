@@ -1,0 +1,1 @@
+"I attempted to activate the arcgis environment using various paths for conda, but all attempts failed due to missing directories. I tried multiple different paths for conda activation, including /home/kat/anaconda3/etc/profile.d/conda.sh, /opt/anaconda3/etc/profile."

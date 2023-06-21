@@ -1,0 +1,1 @@
+"I attempted to activate the arcgis environment through various paths, but all attempts resulted in an error message stating that the conda environment could not be activated. I tried multiple commands to execute_shell, but all returned error messages stating that the conda environment could not be activated due to missing files or directories."

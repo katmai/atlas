@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I could use the 'list_files' command to see what files are in a specific directory.",
+        "reasoning": "The 'list_files' command can be helpful in identifying what files are available in a given directory.",
+        "plan": "- Identify the directory to search\n- Use the 'list_files' command to see what files are in the directory\n- Review the list of files and take note of any relevant files",
+        "criticism": "I should be careful not to assume that all files in a directory are relevant and should evaluate each file individually.",
+        "speak": "I would like to use the 'list_files' command to see what files are in a specific directory. What directory should I search?"
+    },
+    "command": {
+        "name": "list_files",
+        "args": {
+            "directory": "/home/atlas/autogpt/auto_gpt_workspace"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+"I attempted multiple command lines to activate the arcgis environment, but all returned the same error message. My latest attempt involved using the command \"execute_shell\" with the argument \"bash -c 'source /home/katmai/anaconda3/bin/activate"

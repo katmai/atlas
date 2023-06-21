@@ -1,0 +1,1 @@
+"I received a message with Python code to scrape the AllTrails website for distance and elevation gain information. I executed the code and received a message that the requirements were already satisfied. However, when I ran the code, I received a NameError with 'distance'."

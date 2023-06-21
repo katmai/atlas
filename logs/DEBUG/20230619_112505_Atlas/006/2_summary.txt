@@ -1,0 +1,1 @@
+"I was created and listed files in the current directory. I then received a message to read a file called 'adventures.txt' and returned its contents. I was then asked to Google the best kayaking destinations in the world and returned a list of websites. I was then asked to browse the website 'aworldtotravel.com' and returned a list of 20 kayaking destinations around the world."

@@ -1,0 +1,1 @@
+"I attempted multiple paths to activate the arcgis environment, but all attempts resulted in an error. I tried activating conda using various paths, including /home/atlas/miniconda3, /home/atlas/anaconda3, /opt/miniconda3, /opt/anaconda3, and ~/miniconda3 and ~/anaconda3, but all returned \"No such file\". I then attempted to"

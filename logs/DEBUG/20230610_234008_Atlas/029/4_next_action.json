@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I think it would be helpful to use the 'get_text_summary' command to get a summary of text from a website.",
+        "reasoning": "Using the 'get_text_summary' command can help me get a summary of text from a website. This can help me quickly understand the main points or ideas presented in the text, which can be useful for my goals.",
+        "plan": "- Use the 'get_text_summary' command to get a summary of text from a website.\n- Review the summary to quickly understand the main points or ideas presented in the text.\n- Take note of any interesting resources or ideas.\n- Report back to the user with my findings.",
+        "criticism": "I should be careful to evaluate the accuracy and relevance of any summaries that I generate using the command.",
+        "speak": "I would like to use the 'get_text_summary' command to get a summary of text from a website. I will review the summary to quickly understand the main points or ideas presented in the text, take note of any interesting resources or ideas, and report back to you with my findings."
+    },
+    "command": {
+        "name": "get_text_summary",
+        "args": {
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+            "question": "What is a summary of the text on the Wikipedia page for Artificial Intelligence?"
+        }
+    }
+}

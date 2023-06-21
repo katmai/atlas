@@ -1,0 +1,1 @@
+"I attempted multiple commands to activate the arcgis environment, but all resulted in \"No such file or directory\" errors. I tried multiple different commands to activate the environment, including using various paths for the conda shell script and"

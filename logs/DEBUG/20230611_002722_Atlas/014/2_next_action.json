@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I want to search for information on international law research resources, so I will use the 'google' command to perform a Google search.",
+        "reasoning": "By using the 'google' command to perform a search, I can find information on international law research resources that may be helpful for my work. This will allow me to expand my knowledge and find new resources that I may not have been aware of before.",
+        "plan": "- Use the 'google' command to perform a search for 'international law research resources'.\n- Review the search results and identify any relevant resources that may be helpful for my work.",
+        "criticism": "I need to make sure that I am using reliable sources and that I am evaluating the information critically to ensure that it is accurate and relevant to my needs.",
+        "speak": "I want to search for information on international law research resources, so I will use the 'google' command to perform a Google search."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "international law research resources"
+        }
+    }
+}

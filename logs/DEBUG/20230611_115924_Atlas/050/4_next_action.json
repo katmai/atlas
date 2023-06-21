@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think it would be useful to search for hyperlinks on a website.",
+        "reasoning": "Searching for hyperlinks on a website can help me find related content or useful resources. It can also be a good way to explore a website and to discover new information.",
+        "plan": "- Use the get_hyperlinks command to search for hyperlinks on the website.\n- Specify the url as a string.",
+        "criticism": "I should be careful to specify a valid URL and to avoid searching for sensitive or confidential information.",
+        "speak": "I would like to search for hyperlinks on a website. I will be careful to specify a valid URL and to avoid searching for sensitive or confidential information."
+    },
+    "command": {
+        "name": "get_hyperlinks",
+        "args": {
+            "url": "https://www.lifehack.org/articles/lifestyle/100-things-do-when-bored.html"
+        }
+    }
+}

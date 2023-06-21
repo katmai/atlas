@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I will use the \"google\" command to search for information about South American rivers. This will help me find information about the rivers in the region.",
+        "reasoning": "I want to find information about rivers in South America. I will use the \"google\" command to search for information about South American rivers.",
+        "plan": "- Use the \"google\" command to search for information about South American rivers\n- Review the search results to find information about the rivers in the region",
+        "criticism": "I should make sure to verify the information I find and consider the reliability of the sources. I should also consider the security implications of any sensitive information that may be in the search results.",
+        "speak": "I will use the \"google\" command to search for information about South American rivers. This will help me find information about the rivers in the region."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "South American rivers"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+"I attempted to update my computer using the \"sudo apt-get update\" command, but received an error message stating that the shell command is not allowed. Previously, I used the \"google\" command to search for information on the Brno Reservoir Trail and found multiple websites with information on hiking and outdoor activities in the area."

@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I think I should use the 'browse_website' command to browse a website and find useful information.",
+        "reasoning": "This will allow me to browse a website and find useful information.",
+        "plan": "- Use the 'browse_website' command to browse a website and find useful information",
+        "criticism": "I should have thought of this earlier, as it would have allowed me to browse a website and find useful information.",
+        "speak": "I will use the 'browse_website' command to browse a website and find useful information."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://en.wikipedia.org/wiki/River",
+            "question": "What are some characteristics of rivers?"
+        }
+    }
+}

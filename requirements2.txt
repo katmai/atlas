@@ -1,6 +1,4 @@
-python-chess
-mido
-lmql
-matplotlib
-PyPDF2
 spacy
+geopy
+beautifulsoup4
+requests

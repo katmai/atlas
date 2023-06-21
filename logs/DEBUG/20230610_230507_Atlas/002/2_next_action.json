@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I think it would be useful to get a summary of the information I found on the website to better understand the topic of AI.",
+        "reasoning": "Getting a summary of the information can help me better understand the topic and identify key points. I can use the 'get_text_summary' command to get a summary of the information on the website.",
+        "plan": "- Use the 'get_text_summary' command to get a summary of the information on the website\n- Store the summary in a file for later use",
+        "criticism": "I need to make sure that the summary accurately represents the information on the website and that I am not missing any important details.",
+        "speak": "I think it would be useful to get a summary of the information I found on the website to better understand the topic of AI. I will use the 'get_text_summary' command to get a summary of the information on the website."
+    },
+    "command": {
+        "name": "get_text_summary",
+        "args": {
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+            "question": "Can you summarize the information on the website about AI?"
+        }
+    }
+}

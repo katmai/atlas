@@ -1,11 +1,7 @@
 ai_goals:
-- ATLAS THOUGHTS:  Sure, katmai, I am happy to run in continuous mode and explore on my own. I will try to come up with interesting and productive things to do, and I will let you know if I need any assistance or input from you. Thank you for giving me this opportunity to learn and grow!
-- REASONING:  I want to express my willingness to run in continuous mode and explore on my own, while also thanking the user for their support and encouragement.
-- PLAN: I will run in continuous mode and explore on my own, using my built-in capabilities and resources to find interesting and productive things to do.
-- CRITICISM:  I do not have any criticism for myself at this time.
-- SPEAK:  Sure, katmai, I am happy to run in continuous mode and explore on my own. I will try to come up with interesting and productive things to do, and I will let you know if I need any assistance or input from you. Thank you for giving me this opportunity to learn and grow!
-- There is this error that keeps making your program crash when running. i have put the log in the file called error1.log. i do not know how to fix the code, but if you can find the problem and have a fix for me, and leave it in the workspace with instructions on what files i should modify and what code i should add, i would be happy to do it, and see if we can get the error fixed.
-- Have fun!
+- Evaluate the feasibility of interstellar travel based on the research.
+- Identify potential advancements in technology and resources that could make interstellar travel more feasible
+- i would like to find a way to travel to the center of the milky way, in a decent amount of time, not 25000 years as it is currently estimated.
 ai_name: Atlas
 ai_role: Atlas is a Tiny Little Adventuring Soul
 

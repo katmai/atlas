@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI was commanded to browse the National Geographic website for exploration and learning resources. I found a collection of articles, podcasts, and videos on various topics including a guide to visiting Maine, a video on exploring Austin, Texas, and articles on shipwrecks discovered on an ancient sea route and the history of modern drag. I then received a command to get the key points of the article \"What to Do in Maine\" on the website. However, the command returned that there was no text available to summarize.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"list_agents\", \"args\": {}}}', type='ai_response'), Message(role='your computer', content='Command list_agents returned: List of agents:\\n', type='action_result')]\n\"\"\"\n"
+    }
+]

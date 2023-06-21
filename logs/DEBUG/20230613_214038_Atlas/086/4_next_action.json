@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I should use the browse_website command to visit the website 'https://www.visitnorway.com/' and find information on the top kayaking routes in Norway.",
+        "reasoning": "I want to find more information on the top kayaking routes in Norway, and the website 'https://www.visitnorway.com/' is a good place to start.",
+        "plan": "- Use the browse_website command to visit the website 'https://www.visitnorway.com/' and find information on the top kayaking routes in Norway.",
+        "criticism": "I need to make sure that I am using the browse_website command correctly and that I am able to find the information I need on the website.",
+        "speak": "I should use the browse_website command to visit the website 'https://www.visitnorway.com/' and find information on the top kayaking routes in Norway."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.visitnorway.com/",
+            "question": "What are the top kayaking routes in Norway?"
+        }
+    }
+}

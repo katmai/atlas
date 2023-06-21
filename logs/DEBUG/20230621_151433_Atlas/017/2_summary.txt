@@ -1,0 +1,1 @@
+"I attempted to scrape hiking trail information from the AllTrails website using Python code, but received an error message stating that the 'find_all' attribute could not be found."

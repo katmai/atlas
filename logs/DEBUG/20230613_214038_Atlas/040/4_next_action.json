@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should use the 'execute_shell' command to clone a git repository containing data on rivers.",
+        "reasoning": "I want to clone a git repository containing data on rivers and using the 'execute_shell' command will allow me to execute a shell command to clone the repository.",
+        "plan": "- Use the 'execute_shell' command to clone a git repository containing data on rivers.",
+        "criticism": "I should have cloned the git repository earlier, as it would have allowed me to access the data related to rivers that I need.",
+        "speak": "I will use the 'execute_shell' command to clone a git repository containing data on rivers."
+    },
+    "command": {
+        "name": "execute_shell",
+        "args": {
+            "command_line": "git clone https://github.com/river_data.git"
+        }
+    }
+}

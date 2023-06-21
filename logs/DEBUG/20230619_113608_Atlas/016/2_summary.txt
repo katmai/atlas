@@ -1,0 +1,1 @@
+"I received an error while attempting to obtain a valid Google Maps API key due to the Google Cloud Console failing to load JavaScript sources from www.gstatic.com. No information was provided on how to obtain a valid API key."

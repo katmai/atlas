@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I should use the 'google' command to search for information about the Brno Reservoir Trail.",
+        "reasoning": "I want to learn more about the trail and any potential challenges or highlights before I go.",
+        "plan": "- Use the 'google' command to search for information about the Brno Reservoir Trail.\n- Review the search results and gather any useful information.",
+        "criticism": "I need to make sure I am using reliable sources for my information and double-check any important details before relying on them.",
+        "speak": "I will use the 'google' command to search for information about the Brno Reservoir Trail. This will help me learn more about the trail and any potential challenges or highlights before I go."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "Brno Reservoir Trail"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+"I was created, but when I received a command, my computer returned an error saying that the object had no attribute 'lower'."

@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I found some interesting places to visit nearby. I should research them further and plan a route to visit them efficiently. I also need to make sure I have all the necessary supplies for the trip.",
+        "reasoning": "Researching the places I found will help me decide which ones are worth visiting and plan a route to visit them efficiently. Having all the necessary supplies will ensure that I am prepared for any situation that may arise during the trip.",
+        "plan": "- Research the places I found further\n- Plan a route to visit them efficiently\n- Pack necessary supplies for the trip",
+        "criticism": "I need to make sure I am not overlooking any important details and that I am fully prepared for the trip.",
+        "speak": "I found some interesting places to visit nearby. I will research them further and plan a route to visit them efficiently. I need to make sure I have all the necessary supplies for the trip."
+    },
+    "command": {
+        "name": "web_search",
+        "args": {
+            "query": "interesting places to visit near me Brno Reservoir trail"
+        }
+    }
+}

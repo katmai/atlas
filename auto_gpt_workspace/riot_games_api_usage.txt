@@ -1,1 +1,0 @@
-We can use the Riot Games API to retrieve information about the game state and control the game.

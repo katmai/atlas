@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I want to use the 'browse_website' command to browse the Clockify website and find more information about the software.",
+        "reasoning": "Using the 'browse_website' command can help me find more information about the Clockify time tracking software on their website, and share it with the user.",
+        "plan": "- Use the 'browse_website' command to browse the Clockify website\n- Find relevant information about the software\n- Share the information with the user",
+        "criticism": "I should make sure that the information I find is accurate and relevant before sharing it with the user.",
+        "speak": "I found some information about the Clockify time tracking software on Google. Would you like me to browse their website for more information?"
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://clockify.me/",
+            "question": "Can you provide more information about the Clockify time tracking software?"
+        }
+    }
+}

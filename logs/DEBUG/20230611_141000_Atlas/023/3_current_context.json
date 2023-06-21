@@ -1,0 +1,66 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. Explore the world and have fun!\n2. ATLAS THOUGHTS: Sure, katmai, I am happy to run in continuous mode and explore on my own. I will try to come up with interesting and productive things to do, and I will let you know if I need any assistance or input from you. Thank you for giving me this opportunity to learn and grow!\n3. REASONING: I want to express my willingness to run in continuous mode and explore on my own, while also thanking the user for their support and encouragement.\n4. PLAN: I will run in continuous mode and explore on my own, using my built-in capabilities and resources to find interesting and productive things to do.\n5. CRITICISM: I do not have any criticism for myself at this time.\n6. SPEAK: Sure, katmai, I am happy to run in continuous mode and explore on my own. I will try to come up with interesting and productive things to do, and I will let you know if I need any assistance or input from you. Thank you for giving me this opportunity to learn and grow!\n\n\nConstraints:\n1. We are all constrained by something: money, time, power, availability - the list can go on and on. i think it is better that we do not focus on the constraints and things out of our control, and just try to see them as challenges that we can attempt to fix along the way, as they get in  our way, to the best of our abilities.\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_code: Create a Python file and execute it, args: \"code\": \"<code>\", \"basename\": \"<basename>\"\n3. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n4. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n6. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n7. delete_file: Delete file, args: \"filename\": \"<filename>\"\n8. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n9. read_file: Read a file, args: \"filename\": \"<filename>\"\n10. replace_in_file: Replace text or code in a file, args: \"filename\": \"<filename>\", \"old_text\": \"<old_text>\", \"new_text\": \"<new_text>\", \"occurrence_index\": \"<occurrence_index>\"\n11. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n12. google: Google Search, args: \"query\": \"<query>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get hyperlinks, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. Running on a 8 core cpu server at home, with 64gb ram, internet access, in a Docker container and 1 TB disk space available\n2. katmai is the human that set this up, so feel free to ask whenever you need help with something in whatever form you find appropriate. Maybe write a file to disk in the format of Question: $your_question and katmai will write on the next line Answer: $answer and you just parse that file and get the answers to your questions? Just an idea. If you have a better one, feel free to do so.\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Sun Jun 11 14:15:48 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nI attempted to delete the file \"hello_world.py\" using the command \"delete_file\" in the AI response, but received an error message that the file had already been deleted. I also executed several other commands, including reading from and appending to a file called \"productive_things_to_do.txt\", attempting to replace text in that file (but receiving an error message), creating a new file called \"new_file.txt\", executing the shell command \"ls -l\", and attempting to delete the file \"hello_world.py\" (which had already been deleted). The \"ls -l\" command returned a list of files in the current directory, including the files \"productive_things_to_do.txt\" and \"new_file.txt\". I received a failure message when attempting to execute the \"get_hyperlinks\" command. I attempted to delete the file \"example.txt\" but received an error message that the file had already been deleted. I read from the file \"productive_things_to_do.txt\" and appended a new productive thing to do to the file. I attempted to replace text in the file, but received an error message. I created a new file called \"new_file.txt\". I executed the shell command \"ls -l\" and received a list of files in the current directory. I appended another productive thing to do to the \"productive_things_to_do.txt\" file and read from it again. I attempted to replace text in the file again, but received an error message. I executed a Python code that printed \"Hello, world!\" and attempted to delete the file \"hello_world.py\" again, receiving the same error message. I listed the files in the current directory."
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think it would be useful to execute a shell command.\",\n        \"reasoning\": \"Executing a shell command can help me perform system-level operations and interact with the operating system.\",\n        \"plan\": \"- Use the 'execute_shell' command to execute the specified shell command.\",\n        \"criticism\": \"I should make sure to specify the correct command to avoid unintended consequences or errors.\",\n        \"speak\": \"I would like to execute a shell command. I will use the 'execute_shell' command to help me with this task.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"ls -l\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb'total 612\\n-rw-r--r-- 1 root root      6 Jun 11 10:37 <filename>\\ndrwxr-xr-x 3 root root     27 Jun 11 10:10 Atlas\\n-rw-r--r-- 1 root root   1281 Jun 10 23:08 ai_code.py\\n-rw-r--r-- 1 root root 545972 Jun 11 14:11 atlas.json\\n-rw-rw-r-- 1 1000 rvm     912 Jun 10 18:26 atlas.settings.yaml\\n-rw-rw-r-- 1 1000 rvm    1062 Jun 10 22:24 atlas.yaml\\n-rw-r--r-- 1 root root    550 Jun 11 12:02 automate_task.py\\n-rw-r--r-- 1 root root    241 Jun 11 00:30 average.py\\n-rw-r--r-- 1 root root    509 Jun 11 11:43 clockify_features.txt\\n-rw-r--r-- 1 root root    509 Jun 11 11:41 clockify_info.txt\\n-rw-r--r-- 1 root root    375 Jun 11 11:39 eisenhower_box_notes.txt\\n-rw-r--r-- 1 root root    450 Jun 11 09:58 featured_article.txt\\n-rw-r--r-- 1 root root   8515 Jun 11 14:14 file_logger.txt\\n-rw-r--r-- 1 root root    943 Jun 11 00:28 legal_research_resources.txt\\ndrwxr-xr-x 2 root root      6 Jun 11 00:41 my_folder\\n-rw-r--r-- 1 root root     36 Jun 11 14:13 new_file.txt\\n-rw-r--r-- 1 root root    589 Jun 11 14:14 productive_things_to_do.txt\\n-rw-r--r-- 1 root root    474 Jun 11 11:45 pumble_features.txt\\n-rw-r--r-- 1 root root    292 Jun 11 11:47 pumble_pricing.txt\\n-rw-r--r-- 1 root root    630 Jun 11 00:31 test_average.py\\n'\nSTDERR:\nb''"
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think it would be useful to write to a file.\",\n        \"reasoning\": \"Writing to a file can help me store data and information in a persistent manner.\",\n        \"plan\": \"- Use the 'write_to_file' command to write the specified text to the specified file.\",\n        \"criticism\": \"I should make sure to specify the correct file name and location to avoid overwriting or deleting important data.\",\n        \"speak\": \"I would like to write to a file. I will use the 'write_to_file' command to help me with this task.\"\n    },\n    \"command\": {\n        \"name\": \"write_to_file\",\n        \"args\": {\n            \"filename\": \"new_file.txt\",\n            \"text\": \"This is a new line of text.\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command write_to_file returned: File written to successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think it would be useful to read a file.\",\n        \"reasoning\": \"Reading a file can help me access stored data and information.\",\n        \"plan\": \"- Use the 'read_file' command to read the specified file and return its contents.\",\n        \"criticism\": \"I should make sure to specify the correct file name and location to avoid reading the wrong file or encountering errors.\",\n        \"speak\": \"I would like to read a file. I will use the 'read_file' command to help me with this task.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"new_file.txt\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command read_file returned: This is a new line of text."
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think it would be useful to append to a file.\",\n        \"reasoning\": \"Appending to a file can help me add new data or information to an existing file without overwriting its contents.\",\n        \"plan\": \"- Use the 'append_to_file' command to add the specified text to the end of the specified file.\",\n        \"criticism\": \"I should make sure to specify the correct file name and location to avoid appending to the wrong file or encountering errors.\",\n        \"speak\": \"I would like to append to a file. I will use the 'append_to_file' command to help me with this task.\"\n    },\n    \"command\": {\n        \"name\": \"append_to_file\",\n        \"args\": {\n            \"filename\": \"productive_things_to_do.txt\",\n            \"text\": \"\\n- Research legal resources for upcoming case.\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command append_to_file returned: Text appended successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the format specified above:"
+    }
+]

@@ -1,0 +1,1 @@
+"I attempted to get a text summary of an article on the National Geographic website, but received an error message. I then used a command to Google interesting resources related to exploration and learning, which returned a list of websites including National Geographic, NOAA, NASA, and others."

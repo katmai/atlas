@@ -1,0 +1,25 @@
+import turtle
+
+def draw_river():
+    turtle.speed(0)
+    turtle.penup()
+    turtle.goto(-300, 0)
+    turtle.pendown()
+    turtle.color('blue')
+    turtle.pensize(10)
+    turtle.forward(600)
+    turtle.penup()
+    turtle.goto(-300, 10)
+    turtle.pendown()
+    turtle.color('white')
+    turtle.pensize(1)
+    turtle.forward(600)
+    turtle.penup()
+    turtle.goto(-300, -10)
+    turtle.pendown()
+    turtle.color('white')
+    turtle.pensize(1)
+    turtle.forward(600)
+    turtle.hideturtle()
+
+draw_river()

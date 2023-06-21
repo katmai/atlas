@@ -1,0 +1,1 @@
+"I installed the \"iputils-ping\" package and confirmed internet connectivity. I used the \"google\" command to find hiking trails around Brno and the \"browse_website\" command to find information on the St"

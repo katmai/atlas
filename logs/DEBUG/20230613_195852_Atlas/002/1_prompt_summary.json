@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI was created\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"google\", \"args\": {\"query\": \"properties of a river\"}}}', type='ai_response'), Message(role='your computer', content='Command google returned: [\"https://ropelpaso.com/\", \"https://fallriver.patriotproperties.com/\", \"https://propertiesatriverpoint.com/\", \"https://www.facebook.com/bagbyproperties/\", \"https://www.atproperties.com/chicagoland/neighborhoods/il/river-forest\", \"https://www.remax.com/real-estate-offices/remax-properties-saddle-river-nj/100427198\", \"https://www.riverdriveproperties.com/\", \"https://www.rivercityeliteproperties.com/\"]', type='action_result')]\n\"\"\"\n"
+    }
+]

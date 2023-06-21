@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "Based on my research, flying to Norway is the most convenient and efficient transportation option for my trip. I need to research flight options and compare prices to find the best deal.",
+        "reasoning": "Flying to Norway is the most direct and efficient transportation option for my trip, and will allow me to maximize my time exploring the fjords.",
+        "plan": "- Research flight options to Norway\n- Compare prices for flights\n- Book the best flight for my trip",
+        "criticism": "I need to be more proactive in planning my adventures.",
+        "speak": "Based on my research, flying to Norway is the most convenient and efficient transportation option for my trip. I need to research flight options and compare prices to find the best deal."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "Flight options to Norway"
+        }
+    }
+}

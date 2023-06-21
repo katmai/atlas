@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I will use the `google` command to search for hiking trails near me. This will help me find new places to explore and plan my next adventure.",
+        "reasoning": "Using the `google` command will allow me to search for hiking trails near me. This will help me find new places to explore and plan my next adventure. It will also allow me to see reviews and ratings from other hikers, which will help me choose the best trails to explore.",
+        "plan": "- Use the `google` command to search for hiking trails near me.\n- Read reviews and ratings from other hikers to choose the best trails to explore.\n- Plan my next adventure based on the information I find.",
+        "criticism": "I need to make sure that I am not spending too much time searching for information and not actually taking action towards achieving my goals. I should use the information I find through the `google` command as a starting point and take action towards exploring the world.",
+        "speak": "I will use the `google` command to search for hiking trails near me."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "hiking trails near me"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+"I attempted to activate conda and run a Python script using different paths, but all returned error. I tried various commands to activate conda and received error messages indicating that the conda.sh file was not found in the specified directories. I attempted to activate conda using different paths multiple times, but"

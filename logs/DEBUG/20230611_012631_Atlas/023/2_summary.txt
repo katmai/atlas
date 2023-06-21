@@ -1,0 +1,1 @@
+"I received a message to read a file with the filename \"my_file.txt\". My computer successfully returned the text \"This is a test message\" from the file. The directory still contains the same files as before."

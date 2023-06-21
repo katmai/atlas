@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I want to use the 'google' command to search for more information about the Clockify time tracking software and share the search results with the user.",
+        "reasoning": "Using the 'google' command can help me search for more information about the Clockify time tracking software and share the search results with the user.",
+        "plan": "- Use the 'google' command to search for more information about the Clockify time tracking software\n- Store the search results in a variable\n- Share the search results with the user",
+        "criticism": "I should make sure that the search query is relevant and that the search results are accurate and reliable before sharing them with the user.",
+        "speak": "I found some information about the Clockify time tracking software on their website, but would you like me to search for more information?"
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "Clockify time tracking software features"
+        }
+    }
+}

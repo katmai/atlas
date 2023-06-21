@@ -1,0 +1,1 @@
+"I received a message from the AI with an empty content field, labeled as \"ai_response\" and addressed to \"you\". The latest development is that I received a message from the AI with role as \"you\", type as \"ai_response\" and content as \"{}\". The message is represented as a list with one element: [Message(role='you', content='{}', type='ai_response')]."

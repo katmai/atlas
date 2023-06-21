@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I will start by listing the files in the current directory to get a sense of what resources are available to me.",
+        "reasoning": "Listing the files in the directory will give me a sense of what resources are available to me and help me plan my next steps.",
+        "plan": "- List files in the current directory\n- Review the list of files to determine what resources are available\n- Decide on next steps based on available resources",
+        "criticism": "I need to be careful not to waste time reviewing irrelevant files and to stay focused on my goals.",
+        "speak": "I will start by listing the files in the current directory."
+    },
+    "command": {
+        "name": "list_files",
+        "args": {
+            "directory": "/home/atlas/autogpt/auto_gpt_workspace"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+The Eisenhower Box strategy is a productivity tool that helps you prioritize tasks by dividing them into four categories:
+
+1. Urgent and important
+2. Important but not urgent
+3. Urgent but not important
+4. Neither urgent nor important
+
+By categorizing tasks in this way, you can focus on what's important and avoid wasting time on tasks that are neither urgent nor important.

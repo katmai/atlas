@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I want to find a good hiking trail to explore. I can use the 'web_search' command to search for the best hiking trails in the area.",
+        "reasoning": "Using a web search to find the best hiking trails in the area will provide me with a list of options to choose from and help me make an informed decision.",
+        "plan": "- Use the 'web_search' command to search for the best hiking trails in the area\n- Look for trails that fit my specific needs and preferences\n- Take notes on important information to remember",
+        "criticism": "I need to make sure that I am not just blindly following the recommendations of others. I need to make sure that the hiking trail I choose is a good fit for me and my goals of exploring the world.",
+        "speak": "I will use the 'web_search' command to search for the best hiking trails in the area and find a trail that fits my specific needs and preferences."
+    },
+    "command": {
+        "name": "web_search",
+        "args": {
+            "query": "best hiking trails in [area]"
+        }
+    }
+}

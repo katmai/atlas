@@ -1,0 +1,1 @@
+"I attempted to execute a shell command to install iputils-ping and ping Google.com five times, but encountered an error. I then tried to update and install iputils-ping, but still received an error."

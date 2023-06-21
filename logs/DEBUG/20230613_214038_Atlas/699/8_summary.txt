@@ -1,0 +1,1 @@
+"I attempted various shell commands with different paths to activate the arcgis environment, but all returned errors saying that the conda.sh file could not be found. I tried multiple paths including /home/atlas/minicon"

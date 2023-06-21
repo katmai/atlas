@@ -1,0 +1,1 @@
+"I attempted to execute a command to run a Python file called \"generate_map.py\" located in the \"brno_reservoir_trip\" folder. However, the command returned an error stating that the file or directory could not be found."

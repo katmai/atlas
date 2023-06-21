@@ -1,0 +1,1 @@
+"I attempted to activate the arcgis environment using various paths, but all resulted in an error. My latest action was to execute multiple shell commands to activate the environment, but all returned a \"No such file or directory\" error. I tried various paths including anaconda3, miniconda3, and"

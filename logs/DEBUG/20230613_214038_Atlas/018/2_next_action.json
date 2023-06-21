@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I think I should use the 'get_text_summary' command to get a summary of text from a website.",
+        "reasoning": "This will allow me to get a summary of text from a website and extract useful information.",
+        "plan": "- Use the 'get_text_summary' command to get a summary of text from a website",
+        "criticism": "I should have thought of this earlier, as it would have allowed me to get a summary of text from a website and extract useful information.",
+        "speak": "I will use the 'get_text_summary' command to get a summary of text from a website."
+    },
+    "command": {
+        "name": "get_text_summary",
+        "args": {
+            "url": "https://en.wikipedia.org/wiki/River",
+            "question": "What are some characteristics of rivers?"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+"I attempted to activate the arcgis environment using execute_shell with multiple variations of the command, but all attempts returned an error message indicating that the conda.sh file could not be found. I tried using different paths for the conda.sh file, including /opt/miniconda3/etc/profile.d/conda.sh. However, all attempts failed. I"

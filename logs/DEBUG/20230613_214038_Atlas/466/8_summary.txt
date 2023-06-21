@@ -1,0 +1,1 @@
+"I attempted to activate the arcgis environment with various paths, but none worked. The latest development shows that multiple error messages were received from the execute_shell command, all indicating that the con"

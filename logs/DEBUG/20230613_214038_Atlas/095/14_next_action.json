@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I should use the google command to search for information on how to create a river.",
+        "reasoning": "I am interested in learning more about how rivers are created and want to use the google command to find more information.",
+        "plan": "- Use the google command to search for information on how to create a river.",
+        "criticism": "I need to make sure that I am using the google command correctly and that the search results are relevant to what I am looking for.",
+        "speak": "I should use the google command to search for information on how to create a river."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "how to create a river"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+"I received a message to execute a shell command to activate the environment. The command was \"source $HOME/miniconda/etc/profile.d/conda.sh && conda activate && echo 'Environment activated.'\" I executed the command and received the message \"Environment activated.\""

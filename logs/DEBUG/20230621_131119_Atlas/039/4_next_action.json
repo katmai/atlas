@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I think I should use the 'browse_website' command to visit the website for the Stara Pradelna house and look for more information.",
+        "reasoning": "Since I want to find more information about the Stara Pradelna house, I should use the 'browse_website' command to visit the website and look for more information. By using the 'browse_website' command, I can explore the website and find more information about the house.",
+        "plan": "- Use the 'browse_website' command to visit the website for the Stara Pradelna house and look for more information.",
+        "criticism": "I need to remember that the website may not have all the information I need, and I may need to use other resources to find the information I am looking for. I should also be careful not to click on any suspicious links or download any files from the website.",
+        "speak": "I think I should use the 'browse_website' command to visit the website for the Stara Pradelna house and look for more information."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.starapradelna.cz/",
+            "question": "What are the amenities offered by the Stara Pradelna house?"
+        }
+    }
+}

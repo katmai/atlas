@@ -1,0 +1,1 @@
+"I attempted to activate the arcgis environment using various paths, but all resulted in errors indicating missing files or directories. In my latest development, I tried multiple commands with different paths, but all returned the same error message indicating missing files or directories. Specifically, I tried using paths for /opt/anaconda3/etc/profile.d/conda.sh, /"

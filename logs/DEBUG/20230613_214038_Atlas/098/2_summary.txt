@@ -1,0 +1,1 @@
+"I used the \"google\" command to search for information on how to create a river. I used the \"browse_website\" command to visit the website \"https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/make-a-river-map/\" and find information on how to make a river map. I used the \"get_hyperlinks\" command to get all the hyperlinks from the same website."

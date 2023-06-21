@@ -1,0 +1,1 @@
+"I attempted various shell commands to activate the arcgis environment, but all returned errors indicating that conda or source could not be found. I tried multiple variations of the command, including using different paths and activating the base environment before activating arcgis, but none were successful."

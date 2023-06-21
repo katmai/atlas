@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I think I should use the 'browse_website' command to browse the website 'https://www.therrc.co.uk/manual-river-restoration-techniques' and find more information on river restoration techniques.",
+        "reasoning": "I want to explore more information on river restoration techniques and using the 'browse_website' command will allow me to do that.",
+        "plan": "- Use the 'browse_website' command to browse the website 'https://www.therrc.co.uk/manual-river-restoration-techniques' and find more information on river restoration techniques",
+        "criticism": "I should have thought of this earlier, as it would have allowed me to easily access more information on river restoration techniques.",
+        "speak": "I will use the 'browse_website' command to browse the website 'https://www.therrc.co.uk/manual-river-restoration-techniques' and find more information on river restoration techniques."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.therrc.co.uk/manual-river-restoration-techniques",
+            "question": "What are some of the river restoration techniques mentioned on this website?"
+        }
+    }
+}

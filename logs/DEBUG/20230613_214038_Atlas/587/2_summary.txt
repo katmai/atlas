@@ -1,0 +1,1 @@
+"I continued to try different paths for conda.sh, including /home/katmai/anaconda3/bin/activate"

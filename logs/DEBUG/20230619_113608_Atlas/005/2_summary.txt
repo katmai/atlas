@@ -1,0 +1,1 @@
+"I received a command to search for hiking trails near me, which returned a list of results from AllTrails and Yelp."

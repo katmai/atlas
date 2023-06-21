@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I think it would be helpful to browse a website.",
+        "reasoning": "Browsing a website can be a useful tool for finding information or resources. It can also be a good way to practice my web browsing skills.",
+        "plan": "- Use the 'browse_website' command to browse the desired website and find the information or resources needed",
+        "criticism": "I should make sure that I am not browsing any inappropriate or malicious websites.",
+        "speak": "I would like to browse a website. Which website would you like me to browse and what information or resources are you looking for?"
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+            "question": "What is Python?"
+        }
+    }
+}

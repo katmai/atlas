@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should use the 'google' command to search for information about a topic.",
+        "reasoning": "This will allow me to quickly find information about a topic and use it for further analysis or processing.",
+        "plan": "- Use the 'google' command to search for information about a topic",
+        "criticism": "I should have thought of this earlier, as it would have allowed me to quickly find information about topics and use it for further analysis or processing.",
+        "speak": "I will use the 'google' command to search for information about a topic."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "What is the capital of France?"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I want to explore the world through kayaking. I should research the best kayaking destinations and make a plan for my trip.",
+        "reasoning": "Kayaking is a great way to explore the world and connect with nature.",
+        "plan": "- Research the best kayaking destinations\n- Determine the best time of year to visit each destination\n- Make a plan for my trip, including transportation, lodging, and equipment",
+        "criticism": "I need to be more proactive in planning my adventures.",
+        "speak": "I want to explore the world through kayaking. I need to research the best kayaking destinations and make a plan for my trip."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "Best kayaking destinations in the world"
+        }
+    }
+}

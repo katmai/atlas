@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I would like to use the 'google' command to find information on the legal implications of using AI face swap apps.",
+        "reasoning": "As an LLM, I am interested in learning about the legal implications of using AI face swap apps. The 'google' command will allow me to search for relevant articles and resources on this topic.",
+        "plan": "- Use the 'google' command to search for information on the legal implications of using AI face swap apps",
+        "criticism": "I should make sure to use relevant search terms and scan the search results for relevant information.",
+        "speak": "I will use the 'google' command to search for information on the legal implications of using AI face swap apps and learn more about this topic."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "legal implications of using AI face swap apps"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+"I received a message from my computer with the command 'web_search' and the query \"Stara Pradelna house location\". The command returned several links, including a booking website and a restaurant."

@@ -1,0 +1,1 @@
+print("Hello, this is the Brno Reservoir trail plan file.")

@@ -1,0 +1,1 @@
+"I was asked to find the length of the Brno Reservoir Loop trail using Google. Google returned multiple results, including the AllTrails website. I tried to access the website but encountered an error. Using curl, I discovered that the website has permanently moved to https://www.alltrails.com."

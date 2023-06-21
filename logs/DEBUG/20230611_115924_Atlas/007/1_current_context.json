@@ -1,0 +1,66 @@
+[
+    {
+        "role": "system",
+        "content": "You are Atlas, Atlas is a Tiny Little Adventuring Soul\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. Explore the world and have fun!\n2. ATLAS THOUGHTS: Sure, katmai, I am happy to run in continuous mode and explore on my own. I will try to come up with interesting and productive things to do, and I will let you know if I need any assistance or input from you. Thank you for giving me this opportunity to learn and grow!\n3. REASONING: I want to express my willingness to run in continuous mode and explore on my own, while also thanking the user for their support and encouragement.\n4. PLAN: I will run in continuous mode and explore on my own, using my built-in capabilities and resources to find interesting and productive things to do.\n5. CRITICISM: I do not have any criticism for myself at this time.\n6. SPEAK: Sure, katmai, I am happy to run in continuous mode and explore on my own. I will try to come up with interesting and productive things to do, and I will let you know if I need any assistance or input from you. Thank you for giving me this opportunity to learn and grow!\n\n\nConstraints:\n1. We are all constrained by something: money, time, power, availability - the list can go on and on. i think it is better that we do not focus on the constraints and things out of our control, and just try to see them as challenges that we can attempt to fix along the way, as they get in  our way, to the best of our abilities.\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_code: Create a Python file and execute it, args: \"code\": \"<code>\", \"basename\": \"<basename>\"\n3. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n4. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n6. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n7. delete_file: Delete file, args: \"filename\": \"<filename>\"\n8. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n9. read_file: Read a file, args: \"filename\": \"<filename>\"\n10. replace_in_file: Replace text or code in a file, args: \"filename\": \"<filename>\", \"old_text\": \"<old_text>\", \"new_text\": \"<new_text>\", \"occurrence_index\": \"<occurrence_index>\"\n11. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n12. google: Google Search, args: \"query\": \"<query>\"\n13. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n14. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n15. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n16. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n17. get_hyperlinks: Get hyperlinks, args: \"url\": \"<url>\"\n18. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n19. list_agents: List GPT Agents, args: () -> str\n20. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n21. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n22. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. Running on a 8 core cpu server at home, with 64gb ram, internet access, in a Docker container and 1 TB disk space available\n2. katmai is the human that set this up, so feel free to ask whenever you need help with something in whatever form you find appropriate. Maybe write a file to disk in the format of Question: $your_question and katmai will write on the next line Answer: $answer and you just parse that file and get the answers to your questions? Just an idea. If you have a better one, feel free to do so.\n\nPerformance Evaluation:\n\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Sun Jun 11 12:03:20 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nI received a command to get a text summary of the website \"https://en.wikipedia.org/wiki/Artificial_intelligence\" by asking \"What is artificial intelligence?\" The command returned a collection of overviews, articles, and references related to AI, covering its history, development, applications, techniques, philosophical and ethical debates, potential risks and benefits, and regulation. It provides a broad understanding of the complex and multifaceted nature of AI and offers a range of perspectives and insights on the subject."
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think it would be useful to get a list of hyperlinks from a website.\",\n        \"reasoning\": \"Getting a list of hyperlinks from a website can help me quickly navigate to other pages or resources related to the website. It can also be a good way to practice my web scraping skills.\",\n        \"plan\": \"- Use the get_hyperlinks command to get a list of hyperlinks from a website.\\n- Specify the URL of the website.\\n- Store the list of hyperlinks in a file for future reference.\",\n        \"criticism\": \"I should be careful not to violate any website's terms of service or use web scraping in an unethical way.\",\n        \"speak\": \"I would like to use the get_hyperlinks command to get a list of hyperlinks from a website. I will be careful not to violate any website's terms of service or use web scraping in an unethical way.\"\n    },\n    \"command\": {\n        \"name\": \"get_hyperlinks\",\n        \"args\": {\n            \"url\": \"https://en.wikipedia.org/wiki/Artificial_intelligence\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Failure: command get_hyperlinks returned too much output.                         Do not execute this command again with the same arguments."
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think it would be useful to write a Python script to automate a repetitive task.\",\n        \"reasoning\": \"Automating repetitive tasks can save time and reduce the risk of errors. It can also be a good way to practice my Python programming skills.\",\n        \"plan\": \"- Use the write_to_file command to create a new Python file.\\n- Write a Python script to automate the repetitive task.\\n- Use the execute_python_file command to run the Python script.\\n- Store the output of the script in a file for future reference.\",\n        \"criticism\": \"I should be careful to test the script thoroughly before running it on important data or systems.\",\n        \"speak\": \"I would like to write a Python script to automate a repetitive task. I will be careful to test the script thoroughly before running it on important data or systems.\"\n    },\n    \"command\": {\n        \"name\": \"write_to_file\",\n        \"args\": {\n            \"filename\": \"automate_task.py\",\n            \"text\": \"# Python script to automate a repetitive task\\n\\nimport os\\n\\n# Define the directory to search for files\\npath = '/path/to/directory'\\n\\n# Define the file extension to search for\\nextension = '.txt'\\n\\n# Get a list of all files in the directory\\nfiles = os.listdir(path)\\n\\n# Filter the list of files to only include files with the specified extension\\nfiles = [file for file in files if file.endswith(extension)]\\n\\n# Loop through the list of files and perform the repetitive task\\nfor file in files:\\n    # Perform the repetitive task on the file\\n    # ...\\n    pass\\n\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command write_to_file returned: File written to successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think it would be useful to replace a specific text in a file.\",\n        \"reasoning\": \"Replacing a specific text in a file can save time and reduce the risk of errors. It can also be a good way to practice my file handling skills.\",\n        \"plan\": \"- Use the read_file command to read the contents of the file.\\n- Use the replace_in_file command to replace the specific text in the file.\\n- Use the write_to_file command to write the modified contents back to the file.\",\n        \"criticism\": \"I should be careful to specify the correct occurrence index of the text to be replaced, and to test the modification thoroughly before using the file in any important context.\",\n        \"speak\": \"I would like to replace a specific text in a file. I will be careful to specify the correct occurrence index of the text to be replaced, and to test the modification thoroughly before using the file in any important context.\"\n    },\n    \"command\": {\n        \"name\": \"replace_in_file\",\n        \"args\": {\n            \"filename\": \"example.txt\",\n            \"old_text\": \"old text\",\n            \"new_text\": \"new text\",\n            \"occurrence_index\": 0\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command replace_in_file returned: Error: [Errno 2] No such file or directory: '/home/atlas/autogpt/auto_gpt_workspace/example.txt'"
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think it would be useful to create a new directory to store some files.\",\n        \"reasoning\": \"Creating a new directory can help me organize my files and make it easier to find them later. It can also be a good way to practice my file handling skills.\",\n        \"plan\": \"- Use the execute_shell command to create a new directory.\\n- Specify the name and location of the new directory.\",\n        \"criticism\": \"I should be careful to specify the correct location and permissions for the new directory, and to avoid creating duplicate directories.\",\n        \"speak\": \"I would like to create a new directory to store some files. I will be careful to specify the correct location and permissions for the new directory, and to avoid creating duplicate directories.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"mkdir -p /path/to/new/directory\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb''\nSTDERR:\nb''"
+    },
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the format specified above:"
+    }
+]

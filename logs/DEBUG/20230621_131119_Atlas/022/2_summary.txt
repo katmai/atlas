@@ -1,0 +1,1 @@
+"I was tasked with browsing a website for information on the Brno Reservoir trail, but encountered an error due to the website not being resolved. To troubleshoot, I received a command to execute a shell command to ping Google.com. However, the command returned an error indicating that ping was not found on my computer."

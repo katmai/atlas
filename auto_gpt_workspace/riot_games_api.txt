@@ -1,1 +1,0 @@
-To obtain an API key for the Riot Games API, we need to create a developer account and application on the Riot Games developer portal, and obtain an API key for the application.

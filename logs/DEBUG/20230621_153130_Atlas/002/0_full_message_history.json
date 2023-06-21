@@ -1,0 +1,14 @@
+[
+    {
+        "role": "user",
+        "content": "Determine exactly one command to use, and respond using the JSON schema specified previously:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"thoughts\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"text\": {\n          \"type\": \"string\",\n          \"description\": \"thoughts\"\n        },\n        \"reasoning\": {\n          \"type\": \"string\"\n        },\n        \"plan\": {\n          \"type\": \"string\",\n          \"description\": \"- short bulleted\\n- list that conveys\\n- long-term plan\"\n        },\n        \"criticism\": {\n          \"type\": \"string\",\n          \"description\": \"constructive self-criticism\"\n        },\n        \"speak\": {\n          \"type\": \"string\",\n          \"description\": \"thoughts summary to say to user\"\n        }\n      },\n      \"required\": [\n        \"text\",\n        \"reasoning\",\n        \"plan\",\n        \"criticism\",\n        \"speak\"\n      ],\n      \"additionalProperties\": false\n    },\n    \"command\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"name\": {\n          \"type\": \"string\"\n        },\n        \"args\": {\n          \"type\": \"object\"\n        }\n      },\n      \"required\": [\n        \"name\",\n        \"args\"\n      ],\n      \"additionalProperties\": false\n    }\n  },\n  \"required\": [\n    \"thoughts\",\n    \"command\"\n  ],\n  \"additionalProperties\": false\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command None returned: Error: 'NoneType' object has no attribute 'lower'"
+    }
+]

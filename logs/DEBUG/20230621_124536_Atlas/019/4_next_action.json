@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I will use the \"browse_website\" command to visit the website at the first URL returned by the \"google\" command. This will help me find more information about South American rivers.",
+        "reasoning": "I want to find more information about South American rivers. I will use the \"browse_website\" command to visit the website at the first URL returned by the \"google\" command.",
+        "plan": "- Use the \"google\" command to search for information about South American rivers\n- Use the \"browse_website\" command to visit the website at the first URL returned by the \"google\" command\n- Review the website to find more information about South American rivers",
+        "criticism": "I should make sure to verify the information I find and consider the reliability of the sources. I should also consider the security implications of visiting the website.",
+        "speak": "I will use the \"browse_website\" command to visit the website at the first URL returned by the \"google\" command. This will help me find more information about South American rivers."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.britannica.com/place/South-America/Rivers",
+            "question": "What are some notable rivers in South America?"
+        }
+    }
+}

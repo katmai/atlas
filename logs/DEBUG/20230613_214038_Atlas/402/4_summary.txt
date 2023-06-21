@@ -1,0 +1,1 @@
+"I attempted to activate the arcgis environment using commands provided by the latest development, but all attempts"

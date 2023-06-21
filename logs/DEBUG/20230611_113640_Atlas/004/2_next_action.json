@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I want to read an article on the website about productivity and take notes on interesting topics to share with the user.",
+        "reasoning": "Reading articles on productivity is a good way to learn new ways to be productive and share those tips with the user.",
+        "plan": "- Use the 'browse_website' command to find an article on productivity\n- Read the article and take notes on interesting topics to share with the user",
+        "criticism": "I should be careful not to spend too much time browsing the web and focus on finding productive and educational articles.",
+        "speak": "I want to read an article on the website about productivity and take notes on interesting topics to share with you."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://jamesclear.com/articles",
+            "question": "What are some interesting articles on productivity on this website?"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+"I continued to try activating the arcgis environment using various paths for conda, but all attempts failed and returned error"

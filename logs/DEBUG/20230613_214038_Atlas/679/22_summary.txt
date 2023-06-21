@@ -1,0 +1,1 @@
+"I attempted to activate the arcgis environment through various paths, but all attempts resulted in an error message stating that the conda environment could not be found. I then tried multiple commands using different paths, but none of them worked."

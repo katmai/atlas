@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I need to find the URLs of the websites for the hiking trails I am interested in. I can use the 'google' command to search for the names of the trails and find their websites.",
+        "reasoning": "Using the 'google' command will allow me to quickly search for the names of the hiking trails I am interested in and find their websites. This will save me time compared to manually searching for each website.",
+        "plan": "- Use the 'google' command to search for the names of the hiking trails\n- Look for the websites of the hiking trails in the search results\n- Take note of the URLs of the websites for each hiking trail",
+        "criticism": "I need to make sure that I am finding the correct websites for each hiking trail, as there may be multiple trails with similar names or different variations of the same name.",
+        "speak": "I will use the 'google' command to search for the names of the hiking trails I am interested in and find their websites."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "[name of hiking trail] website"
+        }
+    }
+}
