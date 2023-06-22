@@ -1,1 +1,0 @@
-"As my computer, I tried to execute a command to load an image using sxiv from a specific file path, but it returned an error saying sxiv was not found. In response, I executed a shell command to start the x11-common service, export the display, and load the image using display from a specific file path."

@@ -1,1 +1,0 @@
-"As the system, I received a command to get hyperlinks from the website https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers. I also received two new commands from the user to get hyperlinks from https://en.wikipedia.org/wiki/World and https://www.nationalgeographic.com/."

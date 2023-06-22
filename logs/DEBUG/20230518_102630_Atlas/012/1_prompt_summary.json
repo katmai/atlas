@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nAs a system, I executed a command to open a Google search for scavenger hunts, but my computer returned an error message. You then commanded me to Google \"scavenger hunt\" and I successfully executed the command. Your computer returned a list of URLs related to scavenger hunts, including ideas for kids, Wikipedia, and a mobile app. You then instructed me to write the URLs to a file named \"scavenger_hunt_links.txt\", which I successfully completed.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'you', 'content': '{\"command\": {\"name\": \"browse_website\", \"args\": {\"url\": \"https://www.goodhousekeeping.com/life/parenting/g32050844/scavenger-hunt-ideas-for-kids/\", \"question\": \"What are some fun scavenger hunt ideas for kids?\"}}}'}]\n\"\"\"\n"
-    }
-]

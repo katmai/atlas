@@ -1,1 +1,0 @@
-"I was tasked with browsing a website for information on the Brno Reservoir trail, but encountered an error due to the website not being resolved. To troubleshoot, I executed a shell command to install iputils-ping and ping Google.com five times. This resolved the ping error and allowed me to continue troubleshooting the website issue."

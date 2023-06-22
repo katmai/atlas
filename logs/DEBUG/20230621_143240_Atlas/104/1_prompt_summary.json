@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI attempted to access information on the Deer Glen nature reserve using `read_file`, but it returned an error saying the file doesn't exist. I received several empty messages from the AI. The latest message I received had role 'you', type 'ai_response' and content '{}', which provided no new information. Another empty message was received with the same role, type, and content. I received a new message with role 'you', type 'ai_response' and content '{}', which also provided no new information. I received another message with role 'you', type 'ai_response' and content '{}', which still provided no new information. I received a new message with role 'you', type 'ai_response' and content '{}', which also provided no new information.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{}', type='ai_response')]\n\"\"\"\n"
-    }
-]

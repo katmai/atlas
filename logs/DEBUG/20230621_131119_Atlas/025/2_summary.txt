@@ -1,1 +1,0 @@
-"I attempted to install iputils-ping and ping Google.com five times, but encountered an error. I then updated and installed iputils-ping, but still received an error. I also used the \"google\" command to search for \"Brno Reservoir trail\" and received a list of URLs as a result."

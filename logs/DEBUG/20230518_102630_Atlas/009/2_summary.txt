@@ -1,1 +1,0 @@
-"As a system, I executed a command to open a Google search for scavenger hunts. However, my computer returned an error message saying that the terminal type is unknown and that the method for opening the Google search is not available. You commanded me to Google \"scavenger hunt\" and I executed the command successfully."

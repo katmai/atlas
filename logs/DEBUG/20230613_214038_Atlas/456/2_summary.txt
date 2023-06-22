@@ -1,1 +1,0 @@
-"I attempted to activate conda and run a Python script using different paths, but all returned error. I"

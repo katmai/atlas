@@ -1,1 +1,0 @@
-"As a system, there was nothing new to report until I received a command to execute a shell command to run the \"river_simulation.py\" file using Python 3."

@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI was asked to find the length of the Brno Reservoir Loop trail using Google. Google returned multiple results, including the AllTrails website. I tried to access the website but encountered an error. Using curl, I discovered that the website has permanently moved to https://www.alltrails.com.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"browse_website\", \"args\": {\"url\": \"https://www.alltrails.com/trail/czech-republic/south-moravian/stezka-brnenska-prehrada\", \"question\": \"What is the difficulty level of the Brno Reservoir Loop trail?\"}}}', type='ai_response')]\n\"\"\"\n"
-    }
-]

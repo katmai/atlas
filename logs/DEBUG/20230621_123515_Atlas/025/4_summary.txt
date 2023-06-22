@@ -1,1 +1,0 @@
-"I used the \"google\" command to search for \"Brno Reservoir Trail hiking\". I attempted to run a Python script to gather information on the trail distance and difficulty, but encountered an error due to missing file. I then created the missing file and successfully ran the script, but received an error due to a missing attribute in the response."

@@ -1,1 +1,0 @@
-"I attempted various execute_shell commands to activate the arcgis environment, but all attempts resulted"

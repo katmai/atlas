@@ -1,1 +1,0 @@
-"I attempted to install the arcgis module using pip, but the command failed due to too much output. I then attempted to install the module multiple times using pip, but each time received an error message stating that there was no module named 'arcgis'. I also checked the value of PYTHONPATH using a shell command, which still returned an empty string."

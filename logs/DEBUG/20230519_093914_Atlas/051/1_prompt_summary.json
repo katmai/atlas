@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nI was commanded to browse the website at https://www.commisceo-global.com/resources/country-guides to find information on customs and traditions of different countries by region. Command browse_website returned: Answer gathered from website: The text provides access to over 80 country and culture guides, which offer insights into the language, people, beliefs, etiquette, and business practices of different countries. However, the guides should be viewed as basic introductions rather than definitive, and loose guidelines can assist in better understanding and avoiding offense. The text does not provide specific customs and traditions by region.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\nNothing new happened.\n\"\"\"\n"
-    }
-]

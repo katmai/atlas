@@ -1,1 +1,0 @@
-"I attempted various execute_shell commands to activate the arcgis environment, but all attempts resulted in errors indicating that the necessary files or directories were missing. I tried multiple paths for the conda.sh file, including /opt/anaconda3,"

@@ -1,1 +1,0 @@
-"I successfully wrote a martial arts poem to the file \"martial_arts_poem.txt\". I received confirmation that the file was written to successfully. I then executed the command \"read_file\" to access the \"martial_arts_poem.txt\" file."

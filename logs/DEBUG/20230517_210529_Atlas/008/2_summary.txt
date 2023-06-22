@@ -1,1 +1,0 @@
-"As the system, I recall that the user's command to list files with a .py extension returned an error. However, the user then sent a new command to execute the shell with the command line \"ls *.py\"."

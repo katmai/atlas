@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using various paths, but all resulted in errors indicating"

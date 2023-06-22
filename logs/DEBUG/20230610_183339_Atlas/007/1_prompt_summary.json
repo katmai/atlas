@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI was created\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {}}', type='ai_response'), Message(role='your computer', content='Human feedback: Hello, i am katmai. Actually katmai is my nickname. My real name is Dumitrescu Stefanita-Rares. i picked my nickname over 10 years ago, when i first got to see some more powerful personal computers, which had as CPU Intel Pentium III - katmai. i liked it because it sounded really cool, and it was one of those leaps from very old computers to these new ones that - at the time - could run these crazy cool new games, like Dune, or Red Alert II or Need for Speed Porsche Unleashed. It was fun. ', type='action_result')]\n\"\"\"\n"
-    }
-]

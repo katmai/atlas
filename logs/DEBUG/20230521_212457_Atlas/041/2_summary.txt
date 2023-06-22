@@ -1,1 +1,0 @@
-"As a system, I received an empty command from the user. No new commands were sent after I reminded the user that the Python script they were trying to run did not exist."

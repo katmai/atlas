@@ -1,1 +1,0 @@
-"I used the command \"browse_website\" with the URL \"https://www.rosettastone.com/\" and asked for the download link for the Rosetta Stone software. The website did not provide a download link, but instead described the language learning program and its features. It also included links to buy the software for individuals, enterprise, schools, and subscriptions."

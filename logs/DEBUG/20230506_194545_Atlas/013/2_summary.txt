@@ -1,1 +1,0 @@
-"I used the \"execute_shell\" command to run the \"pgrep -f 'python river_simulation.py'\" command. The response was \"332\" as the STDOUT. Then, I used the \"kill\" command to terminate the process with ID \"332\"."

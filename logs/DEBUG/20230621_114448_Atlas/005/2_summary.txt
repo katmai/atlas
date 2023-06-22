@@ -1,1 +1,0 @@
-"I received a command to search for the best hiking, camping, and kayaking locations. The AI returned a list of web search results containing information on various locations and tips for kayak camping."

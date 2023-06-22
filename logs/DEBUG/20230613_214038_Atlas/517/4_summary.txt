@@ -1,1 +1,0 @@
-"I tried multiple paths and commands to activate the arcgis environment, but all resulted in errors. The latest attempt involved sourcing the conda.sh file from /opt/conda/etc/profile.d/conda.sh, but it returned an error indicating that the file could not be found."

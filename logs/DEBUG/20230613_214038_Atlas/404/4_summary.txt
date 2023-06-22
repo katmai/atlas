@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using commands provided by the latest development, but the command failed with an error message stating that the conda"

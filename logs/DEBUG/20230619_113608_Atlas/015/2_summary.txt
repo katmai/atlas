@@ -1,1 +1,0 @@
-"I attempted to execute a Python code to calculate the distance and travel time to a hiking trail using Google Maps API, but received an error due to an invalid API key. The key was replaced with a valid one and the code was successfully executed."

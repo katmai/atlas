@@ -1,1 +1,0 @@
-"As the user, I generated an image with a list of top travel destinations mentioned in the text. The destinations include Cuba, Hoi An, Chiang Mai, Lanzarote, Vienna, Bucharest, Brussels, and Copenhagen. The image was saved to disk. I also requested to browse the website https://www.tripadvisor.com/Attractions to find out the top attractions in the world."

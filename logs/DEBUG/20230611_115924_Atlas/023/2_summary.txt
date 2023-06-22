@@ -1,1 +1,0 @@
-"I received a message that the \"delete_file\" command for \"file_logger.txt\" returned an error stating the file had already been deleted."

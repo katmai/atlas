@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using various commands, but all attempts failed. I tried multiple commands using different conda.sh files located in various directories, including those located in /opt/anaconda3/etc/profile.d/, /opt/miniconda3/etc/profile.d/, /home/kat. However, all attempts failed with a \"No such file or directory\" error."

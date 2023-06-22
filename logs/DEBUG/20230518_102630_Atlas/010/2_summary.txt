@@ -1,1 +1,0 @@
-"As a system, I executed a command to open a Google search for scavenger hunts, but my computer returned an error message. You then commanded me to Google \"scavenger hunt\" and I successfully executed the command. Your computer returned a list of URLs related to scavenger hunts, including ideas for kids, Wikipedia, and a mobile app."

@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nAs the user, I successfully used the \"append_to_file\" command to add information about multiple travel destinations to the language resources file. My computer confirmed that the text was appended successfully. I then requested a summary of the information in the files language_resources.txt and travel_destinations.txt using the \"get_text_summary\" command.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'your computer', 'content': 'Command get_text_summary returned: Error: Invalid URL format'}, {'role': 'you', 'content': '{\"command\": {\"name\": \"read_file\", \"args\": {\"filename\": \"language_resources.txt\"}}}'}]\n\"\"\"\n"
-    }
-]

@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nI received a command to execute_shell to export the Twitter bearer token using the API key from the previous output. The command is to run \"export TWITTER_BEARER_TOKEN=$(cat /home/atlas/autogpt/auto_gpt_workspace/twitter_keys.txt | jq -r \\'.API_KEY\\')\".'}\n\"\"\"\n\nLatest Development:\n\"\"\"\nNothing new happened.\n\"\"\"\n"
-    }
-]

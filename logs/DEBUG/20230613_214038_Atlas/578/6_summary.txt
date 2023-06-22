@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using various command lines and paths, but all attempts returned errors indicating that the necessary files were not found. My latest attempt involved using the command line \"bash -c 'source /home/atlas/miniconda3/etc/profile.d/conda.sh && conda activate arcgis && python"

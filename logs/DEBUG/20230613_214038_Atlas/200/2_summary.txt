@@ -1,1 +1,0 @@
-"I attempted to activate the environment using the command \". /root/miniconda3/bin/activate && conda activate && echo 'Environment activated.'\" but received an error message stating that the source command could not be found. The command returned STDOUT: b'' and STDERR: b'/bin/sh: 1: .: cannot open /root/miniconda3/bin/activate: No such file\\n'."

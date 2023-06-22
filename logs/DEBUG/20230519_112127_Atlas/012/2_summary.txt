@@ -1,1 +1,0 @@
-"As a system, I have not received any new commands or information since the last update. However, I received a command to read the file \"language_resources.txt\"."

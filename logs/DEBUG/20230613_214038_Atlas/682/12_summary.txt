@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment through various paths, but all attempts resulted in an error message indicating that the specified file or directory could not be found. Multiple attempts were made to activate the environment through different paths, but all resulted in the same error message. I"

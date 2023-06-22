@@ -1,1 +1,0 @@
-"I used the \"browse_website\" command to find the best route for the Brno Reservoir trail on the AllTrails website. However, the command returned an error with no text to summarize."

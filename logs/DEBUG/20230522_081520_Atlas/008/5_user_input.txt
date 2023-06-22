@@ -1,1 +1,0 @@
-"i ran the script manually because i was curious of the output but it doesn't have any output. should it require any inputs when running and is there any expected output to produce? "

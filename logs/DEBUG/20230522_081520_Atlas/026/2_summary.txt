@@ -1,1 +1,0 @@
-"As the system, I received human feedback suggesting that the AI should adjust its level of play based on the rating of the game. The user also requested that the AI play as an ADC to accommodate their off-meta support picks. Additionally, I received an empty command from you."

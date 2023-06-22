@@ -1,1 +1,0 @@
-"I used the \"web_search\" command to search for the location of Stara Pradelna house, which returned a list of URLs related to the search. I used the \"browse_website\" command to gather information about the amenities offered by the house, which is a restaurant and accommodation located near Veve"

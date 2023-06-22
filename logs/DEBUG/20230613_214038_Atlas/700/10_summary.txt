@@ -1,1 +1,0 @@
-"I attempted various shell commands with different paths to activate the arcgis environment, but was unsuccessful. The latest development shows that I tried"

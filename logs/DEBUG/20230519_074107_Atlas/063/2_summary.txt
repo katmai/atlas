@@ -1,1 +1,0 @@
-"As a system, I was reminded that the user executed multiple shell commands to export a Twitter bearer token using a command line that retrieves the API key from a file and removes any newline characters. The latest development shows that the user executed the same shell command multiple times to export the Twitter bearer token."

@@ -1,1 +1,0 @@
-"I attempted multiple command lines to activate the arcgis environment, including using conda.sh and activating with different paths, but all attempts failed due to the \"No such file"

@@ -1,1 +1,0 @@
-"I used the \"list_files\" command to check my directory for necessary files. I found \"brno_reservoir_trail.py\" and \"alltrails_data.txt\". I then tried to execute \"brno_reservoir_trail.py\" using the \"execute_python_file\" command, but it returned an error due to an attribute error in the code."

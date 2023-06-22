@@ -1,1 +1,0 @@
-"As the system, I received a command to search for \"Using Google Translate API with Python\". The command returned a list of websites related to the API, including codelabs.developers.google.com and stackabuse.com."

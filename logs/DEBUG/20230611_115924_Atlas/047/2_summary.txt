@@ -1,1 +1,0 @@
-"I received a list of files in the current directory from the computer. The list includes \"new_file.txt\"."

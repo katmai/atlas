@@ -1,1 +1,0 @@
-"I attempted multiple paths and commands to activate the arcgis environment, but all resulted in errors indicating missing files. In my latest attempt, I executed the command to activate arcgis using the path /home/atlas/miniconda3/etc/profile.d/conda.sh but received an error message indicating that the file or directory does not exist. I then attempted multiple other paths and"

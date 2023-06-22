@@ -1,1 +1,0 @@
-"I executed a command to create a directory and a text file called \"brno_reservoir_trail_info.txt\" with the trail information. The command returned a message with no errors."

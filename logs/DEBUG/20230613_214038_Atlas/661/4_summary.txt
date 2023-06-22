@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using various conda paths, but all resulted in failure. I tried multiple paths including /home/atlas/miniconda3, /opt/miniconda"

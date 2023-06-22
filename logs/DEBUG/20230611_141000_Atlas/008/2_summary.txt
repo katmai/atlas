@@ -1,1 +1,0 @@
-"I attempted to use an AI command to get a text summary of an article from a BBC news website, but the command returned an error message indicating that the requested webpage or resource cannot be found. Therefore, the main topic of the article cannot be determined as there is no article provided."

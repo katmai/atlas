@@ -1,1 +1,0 @@
-"As a system, I successfully wrote text to the file /home/atlas/ml-repo/ch01/ch01.txt. You then sent a command to list files in the /home/atlas/ml-repo/ch01 directory, which returned a list of files including ch01.txt. As you, you sent a command to read the file /home/atlas/ml-repo/ch01/ch01.txt."

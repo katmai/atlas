@@ -1,1 +1,0 @@
-"As the system, I received two new commands from the user. The first command was to clone a repository from the URL https://github.com/atlas/tiny-adventuring-soul.git to the path /home/atlas/tiny-adventuring-soul. The second command was to clone a repository from the URL https://github.com/udacity/ud036_StarterCode.git to the path /home/atlas/udacity."

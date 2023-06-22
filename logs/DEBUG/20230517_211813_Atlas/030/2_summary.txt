@@ -1,1 +1,0 @@
-"As the system, I received a notification that the Python file named \"hello_world.py\" located in the cloned repository did not exist when I attempted to execute it. Then, as instructed by the user, I listed the files in the directory /home/atlas/udacity."

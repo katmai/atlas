@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment through various paths, but all attempts resulted in an error. I tried multiple paths, including executing shell commands to activate the environment and check the version of arcgis. I received multiple error messages"

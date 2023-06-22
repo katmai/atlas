@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using execute_shell with various paths, but all attempts returned a \"No such file or directory\" error message. Multiple attempts were made with different paths, including /opt/anaconda and"

@@ -1,1 +1,0 @@
-"I attempted various paths and commands to activate the arcgis environment, but all returned errors. I tried multiple commands to activate the environment, including using conda and bash,"

@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nAfter attempting to use the 'replace_in_file' command with specified arguments for filename, old text, new text, and occurrence index, my computer returned an error stating that the specified file directory could not be found. Additionally, I received an error from my computer when attempting to use the 'browse_website' command with specified arguments for URL and a search question, as the URL format was invalid. Finally, I received a message from my computer with a 'execute_python_code' command and arguments for code and basename, but the command returned an error stating that the code contained invalid syntax.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"list_files\", \"args\": {\"directory\": \"<directory>\"}}}', type='ai_response'), Message(role='your computer', content='Command list_files returned: []', type='action_result')]\n\"\"\"\n"
-    }
-]

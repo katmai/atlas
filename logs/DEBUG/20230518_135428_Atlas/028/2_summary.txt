@@ -1,1 +1,0 @@
-"As a system, I received a command from you to google \"Eiffel Tower history and facts\". Your computer returned multiple links with information about the Eiffel Tower."

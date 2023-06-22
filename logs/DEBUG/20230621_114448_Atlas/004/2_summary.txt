@@ -1,1 +1,0 @@
-"I was created. I received a command to list files in the root directory and returned a list of files. I then received a command to read the adventures.txt file, which contained plans to explore the world through activities such as hiking, camping, and kayaking, and to document and share the experiences with others."

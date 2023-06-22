@@ -1,1 +1,0 @@
-"I received the output of the execute_shell command, which contained Twitter API credentials. I also sent a new command to execute_shell to export the Twitter bearer token using the API key from the previous output."

@@ -1,1 +1,0 @@
-"I attempted to execute the command \"conda activate arcgis && echo 'Environment activated.'\" using the provided path \"/opt/conda/bin/conda\" but received an error message stating that conda was not found."

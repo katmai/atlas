@@ -1,1 +1,0 @@
-"As a system, I recall receiving a command to Google language learning resources and travel destinations. My latest development is that the command returned a list of URLs with language learning and travel tips. You then used the command \"get_text_summary\" on one of the URLs."

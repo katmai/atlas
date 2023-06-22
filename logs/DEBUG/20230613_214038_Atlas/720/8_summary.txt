@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using various paths and execute_shell command, but all returned errors stating that the path did not exist"

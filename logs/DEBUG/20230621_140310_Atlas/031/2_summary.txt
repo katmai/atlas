@@ -1,1 +1,0 @@
-"I was instructed to execute the command \"curl -O https://raw.githubusercontent.com/AtlasCoughed/Brno-Reservoir-Trail/main/scrape_website.py\". My computer returned a message with STDOUT and STDERR information, but the command was successful and the file was downloaded."

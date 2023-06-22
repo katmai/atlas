@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using various shell commands but encountered errors indicating that the necessary files could not be found. All AI suggested commands failed with the same error message. An AI response suggested to execute a shell command to activate the environment, but all attempts returned"

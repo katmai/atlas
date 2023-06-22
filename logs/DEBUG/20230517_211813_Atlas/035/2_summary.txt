@@ -1,1 +1,0 @@
-"As the system, I received a command from the user to list files in the directory /home/atlas/udacity, which returned a list of files including fresh_tomatoes.py and entertainment_center.py. In my latest action, I attempted to execute entertainment_center.py but received an error message that the file does not exist."

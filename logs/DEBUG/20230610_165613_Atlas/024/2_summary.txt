@@ -1,1 +1,0 @@
-"I received a message from the AI suggesting to use OpenCV to analyze the game screen and extract relevant information. I added this information to \"league_of_legends_bot_opencv.txt\" using the \"write_to_file\" command. All previous information was added to respective files."

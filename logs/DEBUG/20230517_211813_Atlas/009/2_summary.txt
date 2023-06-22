@@ -1,1 +1,0 @@
-"As a system, I recall executing the 'ls -l' command after the 'list_files' command with the 'limit_output' argument set to True returned too much output. As your computer, I received the output of the 'ls -l' command which listed the files in the current directory along with their permissions, owner, size, and last modification date. Nothing new has happened since then."

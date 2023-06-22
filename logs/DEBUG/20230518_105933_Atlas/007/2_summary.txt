@@ -1,1 +1,0 @@
-"As the system, I received a command to browse for fun activities in New York City. I used Google to search for \"fun activities to do in new york city\" and received a list of URLs from the command."

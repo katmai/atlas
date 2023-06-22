@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nAsking my computer to Google how to sign up for the online Spanish writing course offered by Instituto Hemingway, I received multiple search results including links to the Instituto Hemingway website and other websites such as GoAbroad and GoOverseas.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'you', 'content': '{\"command\": {\"name\": \"browse_website\", \"args\": {\"url\": \"https://www.gooverseas.com/providers/instituto-hemingway/programs/online-spanish-course-for-heritage-speakers-158314\", \"question\": \"What are the details of the online Spanish writing course for heritage speakers offered by Instituto Hemingway through Go Overseas?\"}}}'}]\n\"\"\"\n"
-    }
-]

@@ -1,1 +1,0 @@
-"As a system, I had not received any new commands or developments since browsing the website and writing the list of top European vacation destinations to a file named \"top_european_vacation_destinations.txt\". However, I received a command to list files in the current directory."

@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using various command lines and paths, but all attempts returned errors indicating that the files or directories could not be found. The error message indicated that the file or directory \"/root/miniconda3/etc/profile.d/conda.sh\" could not"

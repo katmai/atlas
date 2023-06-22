@@ -1,1 +1,0 @@
-"I added information to \"league_of_legends_bot_controls.txt\" about using PyAutoGUI to control the mouse and keyboard to interact with the game, but being careful not to violate the game's terms of service."

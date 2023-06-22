@@ -1,1 +1,0 @@
-"I received a suggestion from my assistant to use the 'google' command to search for information on the best way to learn Python. I used the command and received a list of websites with relevant information, including tutorials, courses, and beginner tips."

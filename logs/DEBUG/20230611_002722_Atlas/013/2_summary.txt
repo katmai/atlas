@@ -1,1 +1,0 @@
-"I used the \"google\" command to search for international law research resources and received a list of links. I then used the \"write_to_file\" command to save a function for calculating the average of a list of numbers to a file named \"average.py\". The function was tested using the \"test_average.py\" file and returned the message \"The average of the numbers is: 3.0\"."

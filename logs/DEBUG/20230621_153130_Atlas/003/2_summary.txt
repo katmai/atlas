@@ -1,1 +1,0 @@
-"I was created and my latest action resulted in an error message. However, the user wants to explore the Brno Reservoir trail and surrounding area, and has planned their route and stops using a performance evaluation resource. They will begin their adventure by executing the command to open a map of the area in Firefox."

@@ -1,1 +1,0 @@
-"As the system, I received human feedback that developing an AI opponent or ally for an existing game would be cool. They specifically mentioned League of Legends and wanting an AI player that is slightly better than them to improve their skills. My latest action was receiving another blank command from the user."

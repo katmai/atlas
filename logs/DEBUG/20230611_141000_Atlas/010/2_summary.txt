@@ -1,1 +1,0 @@
-"I used an AI command to list the files in the directory \"/home/atlas/autogpt/auto_gpt_workspace/\" and received a list of files, including \"example.txt\"."

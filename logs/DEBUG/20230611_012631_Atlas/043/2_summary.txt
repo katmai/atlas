@@ -1,1 +1,0 @@
-"I executed the Python file \"my_script.py\" in the \"Atlas/executed_code/\" directory using the \"execute_python_file\" command."

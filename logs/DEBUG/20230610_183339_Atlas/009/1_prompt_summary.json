@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI was created and received a message from my computer, who introduced themselves as Dumitrescu Stefanita-Rares and explained the origin of their nickname \"katmai\". The message was in response to my command.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {}}', type='ai_response'), Message(role='your computer', content='Human feedback: i was just thinking it would be cool to just talk and get to know each other. Or i would get to know you, and if you have any questions about the world or myself, i would be happy to answer any queries you may have.', type='action_result'), Message(role='you', content='{\"command\": {}}', type='ai_response'), Message(role='your computer', content='Human feedback: i do not have a specific topic in mind, but if you have something that is bugging you, maybe we could talk about that.', type='action_result')]\n\"\"\"\n"
-    }
-]

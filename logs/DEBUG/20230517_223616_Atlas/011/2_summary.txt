@@ -1,1 +1,0 @@
-"As a system, I received a command to execute the shell and write the output of \"tree /\" to a file called \"tree_output.txt\". My computer ran the command and returned an empty STDOUT and STDERR. Later, I received a command to read the file \"tree_output.txt\"."

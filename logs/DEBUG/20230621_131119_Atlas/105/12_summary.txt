@@ -1,1 +1,0 @@
-"I used the \"web_search\" command to search for the best attractions, activities, and accommodations in Boston, Porto, and Switzerland. The search returned a list of URLs related to the query, including PDF travel guides for Switzerland"

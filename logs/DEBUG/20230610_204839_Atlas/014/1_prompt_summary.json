@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nAfter using the 'analyze_code' command with the argument `<full_code_string>`, my computer requested the actual code string to provide a response. I then received a message from my computer with a 'google' command and a query argument, which returned a list of URLs related to the query. In my latest development, I received a message from my computer with a 'replace_in_file' command and arguments for filename, old text, new text, and occurrence index. However, the command returned an error stating that the specified file directory could not be found.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"browse_website\", \"args\": {\"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"}}}', type='ai_response'), Message(role='your computer', content='Command browse_website returned: Error: Invalid URL format', type='action_result')]\n\"\"\"\n"
-    }
-]

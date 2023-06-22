@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using various paths provided by the latest development, but all attempts resulted in the same error message stating that the specified paths do not exist on my computer."

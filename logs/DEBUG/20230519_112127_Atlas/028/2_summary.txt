@@ -1,1 +1,0 @@
-"As the system, I received a command to append text to a file called \"notes.txt\". The command was successful. As the user, I executed a command to search for the best ways to learn a new language. My computer returned a list of resources, and I executed a command to write them to a file called \"language_resources.txt\"."

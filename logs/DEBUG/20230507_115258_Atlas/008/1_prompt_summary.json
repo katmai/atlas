@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nI executed a shell command to create two directories, \"/home/atlas/auto_gpt_workspace\" and \"/home/atlas/auto_gpt_workspace/files\". The command returned no output. I then appended a message to the README file in the \"files\" directory stating that it was created successfully. I received a message that the text was appended successfully. I executed a shell command to get the current date and time.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'your computer', 'content': \"Command execute_shell returned: STDOUT:\\nb'07.05.2023-11:55:03\\\\n'\\nSTDERR:\\nb''\"}, {'role': 'you', 'content': '{\"command\": {\"name\": \"write_to_file\", \"args\": {\"filename\": \"/home/atlas/auto_gpt_workspace/files/timestamp.txt\", \"text\": \"07.05.2023-11:55:03\"}}}'}]\n\"\"\"\n"
-    }
-]

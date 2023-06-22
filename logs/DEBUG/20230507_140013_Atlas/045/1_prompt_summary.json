@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nI previously executed the command \"rm -rf martial_arts_code && git clone https://github.com/AtlasLearnsToCode/martial_arts_code.git martial_arts_code && ls martial_arts_code\" using the execute_shell_popen command, which started a subprocess with PID 262. Recently, the command execute_shell_popen returned subprocesses with PIDs 273, 284, and 295. Command execute_shell_popen has now returned a new subprocess with PID 306. The latest development is that execute_shell_popen returned a new subprocess with PID 317.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\nNothing new happened.\n\"\"\"\n"
-    }
-]

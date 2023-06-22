@@ -1,1 +1,0 @@
-"{'role': 'system', 'content': 'This reminds you of these events from your past: \\nI did not take any new actions or receive any new information. Nothing new happened.'}"

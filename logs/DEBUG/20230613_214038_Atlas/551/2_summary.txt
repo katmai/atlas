@@ -1,1 +1,0 @@
-"I received two messages with specific shell commands to activate the arcgis environment and check the version using Python. The commands were successfully executed."

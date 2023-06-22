@@ -37,3 +37,6 @@ write: /home/atlas/autogpt/auto_gpt_workspace/potential_hiking_trails.txt #ce3a4
 write: /home/atlas/autogpt/auto_gpt_workspace/deer_glen_info.txt #2ee6e55e9ce4411c05a8738b41bddd4f
 write: /home/atlas/autogpt/auto_gpt_workspace/alltrails_data.txt #a7547e161ae5f7e0900605b31e5403d0
 write: /home/atlas/autogpt/auto_gpt_workspace/requirements.txt #b8cd40879daa90a88029130483ad171c
+write: /home/atlas/autogpt/auto_gpt_workspace/nasa_info.py #b78190c7fc6869d4d4f0fbb10aea031a
+append: /home/atlas/autogpt/auto_gpt_workspace/nasa_info.txt #db20eaf2fff0ff5abb5616896d60c1bf
+write: /home/atlas/autogpt/auto_gpt_workspace/nuclear_thermal_propulsion.txt #f3ae311b98a41f9fbf4964a28cdcafb2

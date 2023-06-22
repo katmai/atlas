@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI received a message to write to \"league_of_legends_bot_tensorflow.txt\" using \"write_to_file\". I added that we can use the TensorFlow library to create a machine learning model that can learn to play the game based on input data. Additionally, I previously mentioned that we can use the OpenCV library to process and analyze images from the game.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"write_to_file\", \"args\": {\"filename\": \"league_of_legends_bot_selenium.txt\", \"text\": \"We can use the Selenium WebDriver library to automate interactions with the game\\'s web interface.\"}}}', type='ai_response')]\n\"\"\"\n"
-    }
-]

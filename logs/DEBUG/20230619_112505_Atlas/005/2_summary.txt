@@ -1,1 +1,0 @@
-"I was created. I received a message to list files in the current directory and returned a list of files including 'atlas.yaml', 'atlas.settings.yaml', 'file_logger.txt', and many others."

@@ -1,1 +1,0 @@
-"I used the \"get_hyperlinks\" command to search for hyperlinks of the \"calculate_best_option.py\" download page on Google search results. The command returned links to Google's login page, cookie policy, privacy policy, terms of service, and additional options page. No direct download link was found."

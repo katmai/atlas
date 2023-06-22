@@ -1,1 +1,0 @@
-"I attempted to activate conda and run a Python script using different paths, but all returned error messages indicating that the specified paths did not exist. In response to my latest actions of executing shell commands with different paths, my computer returned multiple error messages indicating that the specified paths did not exist. Specifically, my"

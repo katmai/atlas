@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment through shell commands multiple times, but all returned errors indicating that the necessary files were missing. In my latest attempt, I tried various paths and commands, but still received the same error messages."

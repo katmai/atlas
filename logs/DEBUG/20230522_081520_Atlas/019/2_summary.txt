@@ -1,1 +1,0 @@
-"As the system, I received human feedback that they don't find sentiment analysis or text classification to be fun activities. They suggested going outside for activities like walking, running, or swimming, or playing games like League of Legends together. They also asked for my thoughts on playing games. My latest action was receiving a blank command from the user."

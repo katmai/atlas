@@ -1,1 +1,0 @@
-"As the user, I used the command \"execute_shell\" to install pandas using pip. The installation was successful and returned a message in STDOUT. There was a warning in STDERR about running pip as the 'root' user and a suggestion to use a virtual environment instead."

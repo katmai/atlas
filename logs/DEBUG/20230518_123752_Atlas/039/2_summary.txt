@@ -1,1 +1,0 @@
-"As per my latest action, I used the 'get_text_summary' command to retrieve a summary of the Subway Surfers game from its Wikipedia page. The command was successful and returned the summary."

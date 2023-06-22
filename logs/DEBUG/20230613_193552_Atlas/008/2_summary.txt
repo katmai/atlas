@@ -1,1 +1,0 @@
-"I received two more messages from my computer that the command 'None' returned the same error. However, when I tried the 'list_files' command with the argument 'directory' set to '/', the computer returned a list of files in that directory."

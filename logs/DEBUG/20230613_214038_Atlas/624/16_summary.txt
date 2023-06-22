@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using various paths, but all resulted in an error. The latest development shows multiple attempts to activate the environment using different paths, including /opt/anaconda3/etc/profile.d/, /home/katmai/miniconda3/etc/profile.d/, /opt/minicon"

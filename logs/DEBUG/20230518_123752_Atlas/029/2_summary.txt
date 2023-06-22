@@ -1,1 +1,0 @@
-"As per my latest action, I tried to open the website CrazyGames to play Shell Shockers by executing a command. However, the terminal initialization failed and the website couldn't be opened. Previously, I found that CrazyGames offers over 7000 fun games in every genre, including Shell Shockers, Bullet Force, Uno Online, Drift Hunters, and Moto X3M."

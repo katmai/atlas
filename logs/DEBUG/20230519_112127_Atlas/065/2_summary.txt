@@ -1,1 +1,0 @@
-"As the system, I received a command to browse the website https://github.com/KartikTalwar/Duolingo to check for any changes that might be causing the error. The command returned an answer that there is no information about checking for changes to the API that might be causing an error. You then sent a command to Google Translate API."

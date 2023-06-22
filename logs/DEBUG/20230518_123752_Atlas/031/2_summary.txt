@@ -1,1 +1,0 @@
-"As per my latest action, I used the 'google' command to search for online games to play. The command returned a list of websites including CrazyGames. Please note that CrazyGames was one of the websites returned by the 'google' command."

@@ -1,1 +1,0 @@
-"I continued to receive error messages when attempting to activate conda and run a Python script. I tried multiple commands to activate the environment, but received \"No such file or directory\" errors for various conda.sh files in different directories."

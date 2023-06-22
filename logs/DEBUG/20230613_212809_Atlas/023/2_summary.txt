@@ -1,1 +1,0 @@
-"I received a response from the AI with no content. The latest development shows a message with an empty content field from the AI in response to my query. The message includes a role of \"you\" and a type of \"ai_response\"."

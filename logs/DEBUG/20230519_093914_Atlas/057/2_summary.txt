@@ -1,1 +1,0 @@
-"I used the command \"list_files\" to list files in the directory \"/home/atlas/autogpt/auto_gpt_workspace/\"."

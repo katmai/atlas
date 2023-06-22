@@ -1,1 +1,0 @@
-"I was created. I requested to list all files in the current directory and received a list of file names as a response."

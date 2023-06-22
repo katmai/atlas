@@ -1,1 +1,0 @@
-"I attempted to run the brno_reservoir_trail.py file but encountered an error. I received a message from my computer regarding the error and traceback information. The AI suggested browsing the website https://www.alltrails.com"

@@ -1,1 +1,0 @@
-"As per the latest command, I used the \"google\" command to search for reviews of Qalam wa Lawh language school and received a list of relevant websites. I then received a new \"browse_website\" command to search for reviews on https://www.qalamcenter.com/study-abroad, which I executed and provided the requested information."

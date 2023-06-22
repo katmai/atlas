@@ -1,1 +1,0 @@
-"As per my latest action, I used the 'browse_website' command to check for updates or events on the Subway Surfers website. The command returned information about the use of cookies on the website but no updates or events were mentioned. The website provided links to cookie and privacy policies and a Google tool for opting out of data tracking."

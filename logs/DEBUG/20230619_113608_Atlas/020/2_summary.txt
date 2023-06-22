@@ -1,1 +1,0 @@
-"I executed the command \"curl https://developers.google.com/maps/gmp-get-started | grep -A 5 \\\\\"Obtain an API key\\\\\"\"\" but received no output. I then tried to calculate the distance using a command that includes obtaining an API key, but the result returned an error message stating that an invalid API key was provided."

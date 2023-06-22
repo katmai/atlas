@@ -1,1 +1,0 @@
-"As a system, I received a command to read the file \"language_resources.txt\" and your computer returned a list of language learning resources."

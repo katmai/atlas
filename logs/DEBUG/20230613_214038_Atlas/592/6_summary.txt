@@ -1,1 +1,0 @@
-"I attempted multiple commands to activate the arcgis environment using different paths for conda.sh and activate, but all resulted"

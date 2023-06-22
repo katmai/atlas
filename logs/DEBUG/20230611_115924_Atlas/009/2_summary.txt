@@ -1,1 +1,0 @@
-"I received a command to write a Python script to automate a repetitive task and save it to a file named \"automate_task.py\". The script involves searching for files with a specific extension in a directory and performing a repetitive task on each file. The command was successful and the file was written to successfully."

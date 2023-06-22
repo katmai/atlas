@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment multiple times, but all resulted in a \"No\". I tried various command lines with different sources and directories, but none were successful."

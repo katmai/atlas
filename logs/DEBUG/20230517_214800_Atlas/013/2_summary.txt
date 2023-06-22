@@ -1,1 +1,0 @@
-"As a system, I received a command to read the README.md file in the /home/atlas/ml-repo directory, which returned information about the Python Machine Learning (3rd Ed.) Code Repository. The repository was cloned to /home/atlas/ml-repo. Nothing new happened."

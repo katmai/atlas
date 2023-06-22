@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using various paths, but all resulted in \"No such file or directory\" errors. I tried to activate the environment using the path \"/home/kat/anaconda3"

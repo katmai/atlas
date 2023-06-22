@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nI previously created a new directory called \"martial_arts_code\" and cloned the repository \"https://github.com/AtlasLearnsToCode/martial_arts_code.git\" into it. However, when I tried to execute the clone_repository command again, it returned an error stating that the repository was not found. In response, I executed the command \"ls martial_arts_code\" to check the contents of the directory.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'you', 'content': '{\"command\": {\"name\": \"execute_shell_popen\", \"args\": {\"command_line\": \"git clone https://github.com/AtlasLearnsToCode/martial_arts_code.git martial_arts_code && ls martial_arts_code\"}}}'}]\n\"\"\"\n"
-    }
-]

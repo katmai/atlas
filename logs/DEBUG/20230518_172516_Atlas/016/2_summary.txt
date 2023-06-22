@@ -1,1 +1,0 @@
-"As the user, I successfully used the \"append_to_file\" command to add information about multiple travel destinations to the language resources file. My computer confirmed that the text was appended successfully. I then requested a summary of the information in the files language_resources.txt and travel_destinations.txt using the \"get_text_summary\" command."

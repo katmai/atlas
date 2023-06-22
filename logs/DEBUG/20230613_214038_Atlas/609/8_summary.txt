@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using various paths for conda, but all attempts failed due to missing directories. I continued to try different paths, including using /opt/anaconda3/bin. I received multiple error messages indicating that the specified directories did not exist, including /root/miniconda3/etc"

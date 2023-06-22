@@ -1,1 +1,0 @@
-"In my latest attempt to activate the arcgis environment, I received an error message stating that the conda.sh file could not be found in the specified path."

@@ -1,1 +1,0 @@
-"I used the \"execute_shell\" command to check my computer's disk usage with the \"df -h\" command. The results show that my computer has 24% disk usage. I also used the \"google\" command to search for learning resources for children and received a list of websites including learningresources.com, savethechildren.org, scholastic.com, openculture.com, and metmuseum.org."

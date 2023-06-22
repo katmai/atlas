@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using various paths, but all resulted in errors indicating missing files or directories. In my latest development, I tried multiple different paths to activate the environment, but all returned errors indicating missing files or directories. The specific paths I tried included /home"

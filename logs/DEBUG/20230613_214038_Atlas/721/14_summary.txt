@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using various paths and execute_shell command, but all returned errors stating \"No such file or directory\". I tried multiple paths and commands. The latest development shows that I continued to try different paths and commands, but all returned the same error message of \"No such file or directory\"."

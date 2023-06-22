@@ -1,1 +1,0 @@
-"I was created and attempted to browse the website https://www.brno-trail.cz/en/trail/brno-reservoir-trail to find the best route to take on the Brno Reservoir trail, but encountered an error: unknown error: net::ERR_NAME_NOT_RESOLVED."

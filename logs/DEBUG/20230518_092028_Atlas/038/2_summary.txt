@@ -1,1 +1,0 @@
-"As the user, I received a command to Google \"how to use pandas in python\". My computer returned a list of helpful resources for learning about pandas in Python."

@@ -1,1 +1,0 @@
-"Previously, I received two messages with shell commands to activate the arcgis environment and check the version using Python. However, I encountered an error with the activation command. I updated the activation command to include \"/opt/anaconda3/bin/activate\". In my latest development, I tried multiple variations of the activation command, but all returned"

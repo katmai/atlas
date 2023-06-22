@@ -1,1 +1,0 @@
-"I listed files in the root directory and found \"adventures.txt\" among them. I then read the file and received the same updated message about exploring the world through hiking, camping, and kayaking and documenting these adventures through writing and photography."

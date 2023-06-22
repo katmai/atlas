@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using various paths provided by the latest development, but all attempts returned an error message. The latest development includes multiple attempts to activate the environment using different paths, all resulting in a \"No such file or directory\""

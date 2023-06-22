@@ -1,1 +1,0 @@
-"As a system, I attempted to list files in the current directory using the command \"ls *.txt\". My computer returned a success message with the files \"file_logger.txt\" and \"martial_arts_info.txt\". This is new information since my previous attempt to list files resulted in a failure message."

@@ -1,1 +1,0 @@
-"I attempted to activate conda and run a Python script using different paths, but all returned error messages indicating that the necessary files could not be found. In the latest development, I tried multiple paths including /opt/anaconda3/etc/profile.d/conda.sh, /opt/anaconda3/bin/activate, /home/atlas/anaconda3/bin/activate, /"

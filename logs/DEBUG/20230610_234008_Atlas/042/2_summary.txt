@@ -1,1 +1,0 @@
-"I received a message from the AI to Google \"how to use numpy in python,\" which returned a list of helpful links."

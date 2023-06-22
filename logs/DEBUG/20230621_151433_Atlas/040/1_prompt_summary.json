@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI received a message from the AI with no content.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='your computer', content='Command google returned: [\"https://www.thetouristtrail.org/attractions/\", \"https://www.busytourist.com/most-beautiful-places-to-visit-in-california/\", \"https://www.denver.org/things-to-do/day-trips-around-colorado/attractions-day-trips-near-denver/\", \"https://travel.usnews.com/rankings/best-places-to-visit-in-california/\", \"https://www.timeout.com/los-angeles/things-to-do/best-places-visit-los-angeles\", \"https://travel.usnews.com/rankings/best-places-to-visit-in-new-york/\", \"https://www.atlasobscura.com/things-to-do/indiana\", \"https://travellemming.com/places-to-visit-in-washington-state/\"]', type='action_result')]\n\"\"\"\n"
-    }
-]

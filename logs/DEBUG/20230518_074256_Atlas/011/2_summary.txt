@@ -1,1 +1,0 @@
-"As the system, I received a response from the Google command for Lisp key features, which provided several links to websites with information on Lisp. You gave a command to browse one of the links, geeksforgeeks.org, with the question \"What are the key features of the Lisp programming language?\" However, the computer returned a terminal initialization error."

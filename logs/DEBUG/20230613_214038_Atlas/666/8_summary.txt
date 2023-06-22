@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using execute_shell with multiple variations of the command, but all attempts returned an error message indicating that the conda.sh file was not found. Multiple attempts were made with various directories, including ~/ana"

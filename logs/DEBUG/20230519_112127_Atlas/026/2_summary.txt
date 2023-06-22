@@ -1,1 +1,0 @@
-"As the system, I was given a command by the user to list the files in the directory \"/home/atlas/autogpt/auto_gpt_workspace/\"."

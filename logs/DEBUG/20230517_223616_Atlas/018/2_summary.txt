@@ -1,1 +1,0 @@
-"As a system, I previously used the \"ls\" command to list all files in the \"/home/atlas\" directory and received an empty STDOUT and STDERR. In the latest development, I received a list of files in the directory from the \"execute_shell\" command, including \"atlas.yaml\"."

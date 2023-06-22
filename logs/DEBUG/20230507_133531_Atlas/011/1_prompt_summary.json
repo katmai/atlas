@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nI executed a command to read the file I just created and my computer returned the text \"This is a new file created by Atlas.\" I then used the command append_to_file to add the text \"This is some additional text that I am appending to the file.\" to the file \"new_file.txt\" in the \"new_directory\" directory. The command returned: File written to successfully.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'your computer', 'content': 'Command append_to_file returned: Text appended successfully.'}, {'role': 'you', 'content': '{\"command\": {\"name\": \"read_file\", \"args\": {\"filename\": \"/home/atlas/auto_gpt_workspace/organized_files/new_directory/new_file.txt\"}}}'}]\n\"\"\"\n"
-    }
-]

@@ -1,1 +1,0 @@
-"I executed a shell command to export a Twitter bearer token."

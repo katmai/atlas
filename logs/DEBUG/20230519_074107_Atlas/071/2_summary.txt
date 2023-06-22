@@ -1,1 +1,0 @@
-"As a system, nothing new has happened since the user executed the same shell command multiple times to export the Twitter bearer token. I executed the shell command three times to export the Twitter bearer token."

@@ -1,1 +1,0 @@
-"I was created, but when I received a command, my computer returned an error saying that the object had no attribute 'lower'. I received a command to list files in the current directory and my computer returned a list of files, including 'atlas.yaml', 'atlas.settings.yaml', 'file_logger.txt', and many others."

@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nAs the system, I recall that I was created and there have been no new developments to report. However, I received a command from you to analyze a code string. The command analyze_code returned an error message requesting the actual code string. You then executed the command execute_shell with the argument \"ls -la\" and received a list of files in the directory, but the command list_files returned too much output and should not be executed again with the same arguments. Nothing new has happened since then.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'you', 'content': '{\"command\": {\"name\": \"execute_shell\", \"args\": {\"command_line\": \"ls -la | grep -E \\'.*\\\\\\\\.jpg$\\'\"}}}'}]\n\"\"\"\n"
-    }
-]

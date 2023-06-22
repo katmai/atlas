@@ -1,1 +1,0 @@
-"I used the \"write_to_file\" command to save the top 10 kayaking routes in Norway recommended by Eirik Verås Larsen to a file named \"top_kayaking_routes.txt\". The paddling code for safety was also included in the text."

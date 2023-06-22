@@ -1,1 +1,0 @@
-"I attempted various commands to activate the arcgis environment and check its version, but all attempts failed with \"No\". Multiple error messages indicated that the specified directories and files do not exist. Despite trying multiple commands to activate the arcgispro-py3 environment and check its version, all attempts"

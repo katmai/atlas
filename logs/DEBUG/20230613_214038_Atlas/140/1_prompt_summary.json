@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI received a message to execute a Python code to generate a river map using the \"arcgis\" module. The command was executed and returned a subprocess with PID 3877. I connected to ArcGIS Online, created a new web map, added a feature layer to the map, and saved the web map with the title \"River Map\" and snippet \"A map of rivers in the USA\". The web map included a feature layer from a URL.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"execute_shell\", \"args\": {\"command_line\": \"pip show arcgis\"}}}', type='ai_response'), Message(role='your computer', content=\"Command execute_shell returned: STDOUT:\\nb''\\nSTDERR:\\nb'WARNING: Package(s) not found: arcgis\\\\n'\", type='action_result')]\n\"\"\"\n"
-    }
-]

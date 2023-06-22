@@ -1,1 +1,0 @@
-"I attempted multiple commands to activate the arcgis environment, but all failed with \"No such file or directory\" errors. I continued to try various commands to activate the environment, including using different paths for con. I received multiple AI responses and action results, all indicating that the conda.sh file could not be found in the specified paths."

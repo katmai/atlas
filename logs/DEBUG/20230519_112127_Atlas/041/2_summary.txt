@@ -1,1 +1,0 @@
-"As myself, I executed a command to install the Duolingo package using pip. The installation was successful and returned a message with information about the installed package and a warning about running pip as the root user."

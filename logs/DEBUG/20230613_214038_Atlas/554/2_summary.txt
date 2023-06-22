@@ -1,1 +1,0 @@
-"I previously received two messages with shell commands to activate the arcgis environment and check the version using Python. Recently, I received multiple messages containing the same shell commands, but encountered an error with the activation command. I updated the activation command to include \""

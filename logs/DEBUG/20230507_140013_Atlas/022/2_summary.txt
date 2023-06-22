@@ -1,1 +1,0 @@
-"I executed the shell command \"mkdir martial_arts_code\" to create a new directory called \"martial_arts_code\"."

@@ -1,1 +1,0 @@
-"As a system, I received a command from you to execute a shell command to echo a message about finding online communities and forums for language learning resource recommendations. The command returned a message with the list of communities and a request for suggestions on which one to join."

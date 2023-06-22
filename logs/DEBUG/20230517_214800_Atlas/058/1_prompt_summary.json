@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nI executed multiple shell commands to list all files containing \"ch01.ipynb\" in the root directory. The commands were \"cd / && ls\", \"cd / && cd root && ls\", \"cd /root && ls | grep ch01.ipynb\", \"cd / && ls | grep ch01.ipynb\", and \"cd /root && ls | grep ch01.ipynb\".'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'you', 'content': '{\"command\": {\"name\": \"execute_shell\", \"args\": {\"command_line\": \"cd /root && ls\"}}}'}]\n\"\"\"\n"
-    }
-]

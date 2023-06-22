@@ -1,1 +1,0 @@
-"I received a message from the AI and added the information to \"riot_games_api_usage.txt\" and \"league_of_legends_bot_development.txt\". The AI also suggested using PyAutoGUI to control the game, which I added to \"league_of_legends_bot_controls.txt\" using the \"write_to_file\" command."

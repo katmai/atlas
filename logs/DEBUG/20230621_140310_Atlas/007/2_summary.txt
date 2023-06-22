@@ -1,1 +1,0 @@
-"I received a browse_website command to find information about the Brno Reservoir Trail on AllTrails, but the command returned an error. Then, I received a google command to search for \"Brno Reservoir Trail information\" and it returned several links, including AllTrails, Great Runs, Hiking is Good, and Outdoor Active."

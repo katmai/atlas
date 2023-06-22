@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI added information to \"league_of_legends_bot_controls.txt\" about using PyAutoGUI to control the mouse and keyboard to interact with the game, but being careful not to violate the game's terms of service.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"write_to_file\", \"args\": {\"filename\": \"riot_games_api_key.txt\", \"text\": \"We need to obtain an API key for the Riot Games API in order to use it to retrieve information about the game state and control the game.\"}}}', type='ai_response')]\n\"\"\"\n"
-    }
-]

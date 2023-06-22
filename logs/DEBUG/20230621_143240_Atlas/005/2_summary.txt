@@ -1,1 +1,0 @@
-"I received a command to list files in the root directory and it returned a list of files, including \"adventures.txt\". The file contains plans to explore the world through hiking, camping, and kayaking and to document these adventures through writing and photography with the goal of inspiring others to explore the world in a responsible way."

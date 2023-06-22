@@ -1,1 +1,0 @@
-"I received a command to browse the AllTrails website and was asked to find the length of the Brno Reservoir Loop trail. However, when I tried to ping the site, I encountered an error. Using curl, I discovered that the website has permanently moved to https://www.alltrails.com."

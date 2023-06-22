@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment multiple times using various command lines and directories, but all attempts returned a \"No such file or directory\" error. I received multiple error messages from executing different command lines. These error messages included \"No such file or directory\" for directories such as /home/atlas/miniconda3"

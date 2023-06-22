@@ -1,1 +1,0 @@
-"As per my latest actions, I used the 'execute_shell' command to open the Subway Surfers game on the website 'https://www.poki.com/en/g/subway-surfers', but encountered an error due to unknown terminal type and missing links."

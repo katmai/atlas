@@ -1,1 +1,0 @@
-"I received a message suggesting to use the OpenAI GPT-3 API to generate text that can be used to play the game. I added this information to \"league_of_legends_bot_gpt3.txt\" using the \"write_to_file\" command."

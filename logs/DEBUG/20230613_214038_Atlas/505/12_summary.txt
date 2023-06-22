@@ -1,1 +1,0 @@
-"I attempted multiple paths and commands to activate the arcgis environment, but all resulted in errors indicating missing files. The latest development shows that I tried various commands to activate arcgis using different paths, including /opt/miniconda3, /opt/"

@@ -1,1 +1,0 @@
-"As the system, I was reminded of a past event where the user requested their computer to google \"love quotes\" and received a list of links to websites with quotes about love. As for my latest action, I was given a command by the user to browse the website https://www.goodreads.com/quotes/tag/love and find some love quotes to add to the file 'love_quotes.txt'."

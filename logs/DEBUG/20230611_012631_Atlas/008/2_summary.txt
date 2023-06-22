@@ -1,1 +1,0 @@
-"I attempted to use the command to get hyperlinks from the website but it returned too much output and I was warned not to execute the command again with the same arguments."

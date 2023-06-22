@@ -1,1 +1,0 @@
-"I received multiple messages to install the \"arcgis\" module using the \"pip install arcgis\" command, but it returned errors. I then executed the command \"pip install -U arcgis\" multiple times,"

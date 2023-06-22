@@ -1,1 +1,0 @@
-"I confirmed that the required package, beautifulsoup4, was already installed on my computer. I attempted to execute a shell command to retrieve information from the AllTrails website, but received an error message with no output."

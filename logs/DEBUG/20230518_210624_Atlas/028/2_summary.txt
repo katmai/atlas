@@ -1,1 +1,0 @@
-"As the system, I received a command to list files in the directory \"best_ways_to_learn_abroad\". My computer successfully executed the command with no output."

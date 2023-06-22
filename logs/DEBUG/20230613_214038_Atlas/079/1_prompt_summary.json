@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI used the \"browse_website\" command to search for specific rental companies and lodging options near Naeroyfjord for kayaking and found a list of options, including guided tours and self-guided options. The links provided include Google policies and support.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"write_to_file\", \"args\": {\"filename\": \"rental_lodging_options.txt\", \"text\": \"List of rental companies and lodging options near Naeroyfjord for kayaking:\\\\n- Company A\\\\n- Company B\\\\n- Company C\\\\n- Lodge A\\\\n- Lodge B\\\\n- Lodge C\"}}}', type='ai_response'), Message(role='your computer', content='Command write_to_file returned: File written to successfully.', type='action_result')]\n\"\"\"\n"
-    }
-]

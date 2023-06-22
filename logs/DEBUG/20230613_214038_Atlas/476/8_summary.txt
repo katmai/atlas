@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using various paths, but all resulted in errors. My latest actions involved using different paths and attempting to activate. The latest development shows multiple attempts to activate the environment using different paths, but all resulted in"

@@ -1,1 +1,0 @@
-"As a system, I previously used the \"browse_website\" command to find the best museums in NYC and saved the list to a file named \"best_museums_nyc.txt\" using the \"write_to_file\" command. Recently, you requested to list files in the current directory using the \"list_files\" command."

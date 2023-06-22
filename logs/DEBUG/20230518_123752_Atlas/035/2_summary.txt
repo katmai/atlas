@@ -1,1 +1,0 @@
-"As per my latest action, I used the 'execute_shell' command to open Subway Surfers via the Poki website. However, when I tried to use the same command to open the website link, I received an error message saying that the terminal initialization failed and the method was not available for opening the link."

@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment through various paths, but all attempts resulted in failure. The latest development includes multiple attempts to activate using different paths, including using conda.sh and activate commands with different paths, but all resulted in \"No such file or directory\" errors. Additionally,"

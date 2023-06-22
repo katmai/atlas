@@ -1,1 +1,0 @@
-"I attempted multiple command lines to activate the arcgis environment, but all attempts failed due to missing files/directories. My latest attempts included sourcing various paths for conda.sh and activating arcgis, but all returned errors of missing files/directories. I tried multiple paths for conda.sh"

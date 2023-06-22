@@ -1,1 +1,0 @@
-"I received an error when trying to execute the \"river_simulation.py\" python file. I then executed the command to read the \"river_simulation_output.txt\" file. The river is flowing south at a speed of 9 units per second, which I used as a prompt to generate an image that was saved to disk."

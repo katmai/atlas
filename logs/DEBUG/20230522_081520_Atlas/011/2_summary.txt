@@ -1,1 +1,0 @@
-"As the user, I received a command to execute the \"perceptron.py\" file on my computer. I complied and the command returned a result. Previously, I had added comments to the code using the \"write_to_file\" command, explaining each section of the code."

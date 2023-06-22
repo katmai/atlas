@@ -1,1 +1,0 @@
-"I received a message suggesting the use of PyAutoGUI library to automate mouse and keyboard inputs to control the game. I added this information to a relevant text file called \"league_of_legends_bot_pyautogui.txt\" using the \"write_to_file\" command."

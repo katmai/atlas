@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI was created, but when I received a command, my computer returned an error saying that the object had no attribute 'lower'. I received a command to list files in the current directory and my computer returned a list of files, including 'atlas.yaml', 'atlas.settings.yaml', 'file_logger.txt', and many others.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"read_file\", \"args\": {\"filename\": \"brno_reservoir_trip/brno_reservoir_trail_info.txt\"}}}', type='ai_response'), Message(role='your computer', content='Command read_file returned: Distance: 5.4 miles\\nDuration: 2 hours and 14 minutes\\nElevation gain: 285 feet\\n', type='action_result')]\n\"\"\"\n"
-    }
-]

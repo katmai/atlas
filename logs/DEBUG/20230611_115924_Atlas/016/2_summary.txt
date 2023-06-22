@@ -1,1 +1,0 @@
-"I used the \"execute_shell\" command to run the \"ls -l\" command and received a list of files and directories in my current directory."

@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI received a message from the AI suggesting that we can use the Riot Games API to retrieve information about the game state and control the game. I added this information to \"riot_games_api_usage.txt\" using the \"write_to_file\" command. In addition, the AI suggested that we can use OpenCV to analyze the game screen and extract relevant information, which I added to \"league_of_legends_bot_development.txt\" using the \"write_to_file\" command.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"write_to_file\", \"args\": {\"filename\": \"league_of_legends_bot_controls.txt\", \"text\": \"We can use PyAutoGUI to control the mouse and keyboard to interact with the game.\"}}}', type='ai_response')]\n\"\"\"\n"
-    }
-]

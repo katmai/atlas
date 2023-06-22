@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI received a response from the AI suggesting the 'replace_in_file' command with specified filename, old text, new text, and occurrence index. However, when I attempted to execute the command, I received a message stating that there were no matches found for the old text in the specified file.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"list_files\", \"args\": {\"directory\": \"<directory>\"}}}', type='ai_response'), Message(role='your computer', content='Command list_files returned: []', type='action_result')]\n\"\"\"\n"
-    }
-]

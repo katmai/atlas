@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI attempted to write to \"league_of_legends_bot_selenium.txt\" with \"write_to_file\" but got an error saying it had been updated. I learned about different libraries and APIs to automate interactions with the game's web interface and control the game, and added this info to different text files. I received a message to write to \"league_of_legends_bot_pygame.txt\" using \"write_to_file\", adding that Pygame can create a GUI for the bot and display game state info.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"write_to_file\", \"args\": {\"filename\": \"league_of_legends_bot_opencv.txt\", \"text\": \"We can use the OpenCV library to process and analyze images from the game.\"}}}', type='ai_response')]\n\"\"\"\n"
-    }
-]

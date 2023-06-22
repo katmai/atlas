@@ -1,1 +1,0 @@
-"I installed the geopy package using the \"execute_shell\" command. The installation was successful and I received a warning about running pip as the 'root' user. It is recommended to use a virtual environment instead. A new release of pip is also available."

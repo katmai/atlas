@@ -1,1 +1,0 @@
-"I was created and a command was executed to list all files in the current directory. The command returned a list of file names."

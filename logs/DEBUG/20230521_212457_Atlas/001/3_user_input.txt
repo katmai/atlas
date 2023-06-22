@@ -1,1 +1,0 @@
-"don't bother about the limitations. you don't need to test any scripts execution. you are running in a docker container, as user root, so you have full access to do whatever you want. there's no need for tests."

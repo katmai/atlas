@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI received a message suggesting to use the OpenAI GPT-3 API to generate text that can be used to play the game. I added this information to \"league_of_legends_bot_gpt3.txt\" using the \"write_to_file\" command. Additionally, I received a message suggesting to use the TensorFlow library to train a machine learning model to play the game effectively. I added this information to \"league_of_legends_bot_tensorflow.txt\" using the \"write_to_file\" command.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"write_to_file\", \"args\": {\"filename\": \"league_of_legends_bot_pyautogui.txt\", \"text\": \"We can use the PyAutoGUI library to automate mouse and keyboard inputs to control the game.\"}}}', type='ai_response')]\n\"\"\"\n"
-    }
-]

@@ -1,1 +1,0 @@
-"I received an error when trying to execute the Python file \"dalle_image_generator.py\" because it does not exist. However, I also received a command to write to a file with the same name and containing code to generate an image from text prompts."

@@ -1,1 +1,0 @@
-"ok cool. see you another time. i'll let you work on this and i'll get on my studying of kubernetes. configmaps and secrets implementation just sucks."

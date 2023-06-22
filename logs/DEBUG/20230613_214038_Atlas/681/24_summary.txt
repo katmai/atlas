@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment through various paths, but all attempts resulted in failure. I made multiple attempts to activate using different paths, including using conda. My latest attempts involved using various paths and activating different environments, but all resulted in errors indicating missing files or directories."

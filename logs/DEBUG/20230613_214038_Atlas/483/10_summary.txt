@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using various paths, but all resulted in errors. Recently, I attempted to activate the environment using multiple commands, but all returned errors stating that the specified paths did not exist. I received multiple error messages"

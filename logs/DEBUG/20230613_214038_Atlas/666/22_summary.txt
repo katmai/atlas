@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using execute_shell with multiple variations of the command, but all attempts returned an error message. The latest development includes multiple attempts with different variations of the command, but all returned error messages indicating that the necessary files or directories were not found."

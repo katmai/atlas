@@ -1,1 +1,0 @@
-"I attempted to run \"calculate_distance.py\" multiple times with an invalid API key, receiving the same error message each time. I then received a new command to update the API key and run the script again. I updated the code with a valid API key and ran the script again. The script successfully printed the distance and"

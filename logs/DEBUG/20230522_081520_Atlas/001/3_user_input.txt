@@ -1,1 +1,0 @@
-"if there's no code that has been written, then what code are you analyzing then?"

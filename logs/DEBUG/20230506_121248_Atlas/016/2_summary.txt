@@ -1,1 +1,0 @@
-"I previously appended an image to the poem file using the command \"append_to_file\" and executed the command \"read_file\". The latest development shows that the \"read_file\" command returned the poem and image. I then used the command \"write_to_file\" to save the poem and image to a new file named \"saved_river_poem.txt\"."

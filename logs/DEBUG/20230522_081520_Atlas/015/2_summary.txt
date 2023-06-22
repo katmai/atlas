@@ -1,1 +1,0 @@
-"As the system, I received a command from the user to execute the \"perceptron.py\" file. The user used the \"execute_python_file\" command with the filename argument."

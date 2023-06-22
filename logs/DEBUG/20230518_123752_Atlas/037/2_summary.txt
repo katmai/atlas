@@ -1,1 +1,0 @@
-"As per my latest action, I received an error message saying that an unknown command was returned. However, I then used the 'google' command to search for interesting facts about Subway Surfers game. The command returned several links with information about the game."

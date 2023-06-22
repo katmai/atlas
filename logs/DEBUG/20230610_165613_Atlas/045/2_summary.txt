@@ -1,1 +1,0 @@
-"I successfully wrote to \"league_of_legends_bot_pygame.txt\" using \"write_to_file\". I added the suggestion to use the Pygame library to create a GUI for the bot and display game state info. The command was successful."

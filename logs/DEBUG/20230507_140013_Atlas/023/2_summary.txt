@@ -1,1 +1,0 @@
-"I executed the shell command \"mkdir martial_arts_code\" to create a new directory called \"martial_arts_code\". Later, I cloned the repository \"https://github.com/AtlasLearnsToCode/martial_arts_code.git\" into the directory \"martial_arts_code\" using the command \"clone_repository\"."

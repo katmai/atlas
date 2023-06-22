@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using various paths, but received the error message stating that the directory or file does not exist. My latest actions involved using multiple paths and commands to activate the environment, but all resulted in the same error message"

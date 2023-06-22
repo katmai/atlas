@@ -1,1 +1,0 @@
-"I used the \"google\" command to search for ways to use the Pandas library in Python. The search returned several links to articles on the topic, which I saved for future reference."

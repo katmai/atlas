@@ -1,1 +1,0 @@
-"I was created, but when I received a command, an error occurred: 'NoneType' object has no attribute 'lower'."

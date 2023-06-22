@@ -1,1 +1,0 @@
-"I executed the shell command \"curl -s 'https://www.britannica.com/science/rock-geology' | grep -Po '(?<=<p class=\\\"topic-paragraph\\\">)[^<]+</p>' | sed -n '1p' > output.txt\" to search for information on rocks from Britannica and redirected the output to a file named \"output.txt\". The command returned a subprocess with PID 1191."

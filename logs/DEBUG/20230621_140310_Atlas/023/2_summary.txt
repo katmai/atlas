@@ -1,1 +1,0 @@
-"I received an error when trying to open the AllTrails link due to a shell command error. However, I was able to confirm that I already had the required package, beautifulsoup4, installed on my computer."

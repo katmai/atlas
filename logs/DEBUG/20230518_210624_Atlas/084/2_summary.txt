@@ -1,1 +1,0 @@
-"As my computer, I tried to execute a shell command to load an image of Spain but encountered an error related to the display. Then, I executed another shell command to start the x11-common service and load the image of Spain, which was successful. Recently, my computer encountered an error related to the display while attempting to execute a shell command."

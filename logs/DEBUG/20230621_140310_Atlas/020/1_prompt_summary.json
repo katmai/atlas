@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI received an AI response to Google the distance and elevation gain of the Brno Reservoir Trail, which returned multiple links. The links included a trail on AllTrails and a hiking route on OutdoorActive. The website provided information on running routes in the area, offering approximately 8 km of decent running with rolling hills, but no loop trail around the entire reservoir. The top end of the reservoir around U Sirky beach is a good area to start, and there is bus access available.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"execute_shell\", \"args\": {\"command_line\": \"xdg-open https://www.alltrails.com/trail/czech-republic/south-moravian/stezka-brnenska-prehrada\"}}}', type='ai_response'), Message(role='your computer', content='Command execute_shell returned: Error: This Shell Command is not allowed.', type='action_result')]\n\"\"\"\n"
-    }
-]

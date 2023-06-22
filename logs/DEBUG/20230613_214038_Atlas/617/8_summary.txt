@@ -1,1 +1,0 @@
-"I attempted multiple commands to activate the arcgis environment using various paths for conda, but all attempts returned an error message stating that the specified path did not exist. I then attempted to activate arcgis using the command \"bash -c 'source /home/atlas/miniconda3/etc/profile.d/conda.sh"

@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment using various paths, but received the error message \"No such file or directory\". In my latest attempt, I used multiple commands to activate the environment, including using conda.sh and anaconda3/bin, but all returned the same error message"

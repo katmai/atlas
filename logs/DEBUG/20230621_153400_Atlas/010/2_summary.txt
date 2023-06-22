@@ -1,1 +1,0 @@
-"I executed the command to run the Python file 'brno_reservoir_plan.py' and received a message from my computer that the file returned the message \"Hello, this is the Brno Reservoir trail plan file.\""

@@ -1,1 +1,0 @@
-"I used the 'web_search' command to search for the best hiking trails in the Brno Reservoir area, but the website returned no results. I then used the 'google' command and received a list of relevant links, including the AllTrails website. However, when I used the 'browse_website' command again, there was an error with no text to summarize."

@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI attempted to execute the command \"conda activate arcgis && echo 'Environment activated.'\" using the provided path \"/opt/conda/bin/conda\" but received an error message stating that conda was not found.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"execute_shell\", \"args\": {\"command_line\": \"source /opt/conda/bin/activate arcgis && echo \\'Environment activated.\\'\"}}}', type='ai_response')]\n\"\"\"\n"
-    }
-]

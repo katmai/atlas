@@ -1,1 +1,0 @@
-"As the system, I received a command to write tests for a function called add_numbers. The command returned an example test case for the function, which tests it with different input values and ensures that the output is correct. I then received a command to execute a Python file called my_script.py. The command was successful and returned the message \"Hello, world!\""

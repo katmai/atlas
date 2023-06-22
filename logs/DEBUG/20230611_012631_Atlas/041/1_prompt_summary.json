@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI used the \"list_files\" command to retrieve a list of files in the \"Atlas/executed_code/\" directory. The list included \"my_file.txt\".\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"delete_file\", \"args\": {\"filename\": \"Atlas/executed_code/my_file.txt\"}}}', type='ai_response'), Message(role='your computer', content='Command delete_file returned: File deleted successfully.', type='action_result')]\n\"\"\"\n"
-    }
-]

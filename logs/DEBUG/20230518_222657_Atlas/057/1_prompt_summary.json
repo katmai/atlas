@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nAs per my latest command, I browsed the website for Middlebury Language Schools to find Arabic language programs for beginners. The website provided information about an 8-week immersion program in Modern Standard Arabic with optional classes in colloquial dialects such as Moroccan, Egyptian, and Syrian.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'you', 'content': '{\"command\": {\"name\": \"write_to_file\", \"args\": {\"filename\": \"/home/atlas/arabic_program_goals.txt\", \"text\": \"Arabic Language Program Goals:\\\\n- Improve my Arabic language proficiency\\\\n- Practice regularly\\\\n- Seek feedback to improve my skills\"}}}'}]\n\"\"\"\n"
-    }
-]

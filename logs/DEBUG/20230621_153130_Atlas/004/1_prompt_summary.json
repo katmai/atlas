@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI was created and my latest action resulted in an error message. However, the user wants to explore the Brno Reservoir trail and surrounding area, and has planned their route and stops using a performance evaluation resource. They will begin their adventure by executing the command to open a map of the area in Firefox.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{}', type='ai_response'), Message(role='your computer', content=\"Command None returned: Error: 'NoneType' object has no attribute 'lower'\", type='action_result')]\n\"\"\"\n"
-    }
-]

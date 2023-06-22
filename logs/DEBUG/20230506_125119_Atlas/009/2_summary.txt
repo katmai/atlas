@@ -1,1 +1,0 @@
-"I received information from the 'read_file' command that explains what a river is and its importance to human history and culture. I then executed a Python file called 'save_to_variable.py'."

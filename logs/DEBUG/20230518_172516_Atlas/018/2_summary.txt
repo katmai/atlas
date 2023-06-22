@@ -1,1 +1,0 @@
-"As the user, I received a response from my computer after using the \"read_file\" command to check the contents of the language_resources.txt file. The response contained a list of URLs related to language learning resources, travel destinations, and things to do in various cities."

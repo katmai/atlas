@@ -1,1 +1,0 @@
-"I used the \"list_files\" command and found a file called \"legal_research_resources.txt\" which may contain helpful information on the legal implications of AI face swap apps."

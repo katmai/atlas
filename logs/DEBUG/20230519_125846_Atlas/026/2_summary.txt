@@ -1,1 +1,0 @@
-"As a system, I received a command to execute the shell command \"sudo apt-get install wine\". Command execute_shell returned: STDOUT: Reading package lists... Building dependency tree... Reading state information... STDERR: E: Unable to locate package wine."

@@ -1,1 +1,0 @@
-"I received a message from my computer with an example of how to create test cases for the \"add\" and \"subtract\" functions in a given code. The command \"write_tests\" was used with the arguments \"code\" set to the code for the functions and \"focus\" set to \"add\" and \"subtract\". The example code creates test cases for the functions and returns them as a string."

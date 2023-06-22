@@ -1,1 +1,0 @@
-"As a system, I received a command to browse a website about language learning and travel resources. The website is https://www.anacorteswa.gov/232/Language-Learning-Travel and it offers resources such as Rosetta Stone, Mango Languages, and Duolingo for language learning, as well as travel guides and cultural resources."

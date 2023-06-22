@@ -1,1 +1,0 @@
-"I attempted to activate the arcgis environment and check its version using various paths for the conda, but encountered errors indicating that the necessary files or directories were not found. Despite trying multiple commands, I still received the same error messages. I tried multiple paths for the conda, including /home/kat/anaconda3, /opt/ana"

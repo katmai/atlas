@@ -1,6 +1,0 @@
-[
-    {
-        "role": "user",
-        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\nI attempted to write to a file called \"league_of_legends_bot_selenium.txt\" using the \"write_to_file\" command, but received an error message saying the file had already been updated. However, I received new information about using various libraries and APIs such as Selenium WebDriver, Riot Games API, Pygame, OpenAI GPT-3 API, TensorFlow, and PyAutoGUI to automate interactions with the game's web interface and control the game. This information was added to different text files with corresponding names.\n\"\"\"\n\nLatest Development:\n\"\"\"\n[Message(role='you', content='{\"command\": {\"name\": \"write_to_file\", \"args\": {\"filename\": \"league_of_legends_bot_pygame.txt\", \"text\": \"We can use the Pygame library to create a graphical user interface for the bot and display information about the game state.\"}}}', type='ai_response')]\n\"\"\"\n"
-    }
-]
