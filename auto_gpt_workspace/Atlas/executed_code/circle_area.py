@@ -1,5 +1,6 @@
 import math
 
-radius = float(input('Enter the radius of the circle: '))
+radius = 5
 area = math.pi * radius ** 2
-print('The area of the circle is:', area)
+
+print(f'The area of a circle with radius {radius} is {area:.2f}')

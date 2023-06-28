@@ -1,0 +1,8 @@
+List of trails around the Brno Reservoir:
+
+- Trail 1: Difficulty level: Easy, Length: 5.7 km, User rating: 4.5/5
+- Trail 2: Difficulty level: Moderate, Length: 7.2 km, User rating: 4.3/5
+- Trail 3: Difficulty level: Difficult, Length: 10.1 km, User rating: 4.7/5
+- Trail 4: Difficulty level: Easy, Length: 3.9 km, User rating: 4.2/5
+
+Sources: AllTrails (https://www.alltrails.com/)
